@@ -22,10 +22,10 @@ const industryLinks = [
 export default function Footer() {
   return (
     <HoverGlow as="footer" className="bg-ink-inverse px-4 pb-6 pt-10 sm:px-6 lg:px-10">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-4 gap-y-8 border-b border-ink-inverse-alt pb-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-4 gap-y-8 border-b border-ink-inverse-alt pb-8 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1fr]">
         <div>
           <Image src={Logo} alt="VectorWave Technologies" className="mb-3.5 h-25 w-auto" />
-          <p className="max-w-[260px] text-sm leading-relaxed text-on-inverse-muted">
+          <p className="max-w-[380px] text-sm leading-relaxed text-on-inverse-muted">
             A business transformation and enterprise technology company, with
             a dashboard and reporting practice backed by financial and data
             analysts. Zoho is our flagship platform; we also implement

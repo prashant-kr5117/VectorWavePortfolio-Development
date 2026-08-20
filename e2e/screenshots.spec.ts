@@ -17,12 +17,16 @@ import { viewports } from "./lib/viewports";
  * ai-optimization/testing/README.md for the re-capture convention.
  */
 
+// Defaults to the canonical "baseline" set. Override with SCREENSHOT_DIR=<name> to
+// capture a comparison set elsewhere without touching the original baseline — e.g.
+// `SCREENSHOT_DIR=workstream-01 npx playwright test e2e/screenshots.spec.ts`. See
+// ai-optimization/testing/README.md's re-capture convention.
 const SCREENSHOT_ROOT = path.resolve(
   __dirname,
   "..",
   "ai-optimization",
   "screenshots",
-  "baseline"
+  process.env.SCREENSHOT_DIR || "baseline"
 );
 
 for (const category of ["desktop", "tablet", "mobile"] as const) {

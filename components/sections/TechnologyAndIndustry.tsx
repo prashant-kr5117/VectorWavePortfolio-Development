@@ -1,59 +1,8 @@
-"use client";
-
-import { useState } from "react";
-import Link from "next/link";
-import { ArrowRight, ChevronRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import HoverGlow from "@/components/HoverGlow";
-import { industries } from "@/lib/industries";
-
-const techPlatforms = [
-  {
-    id: "tech-zoho",
-    name: "Zoho",
-    badge: "Flagship",
-    tagline: "Flagship ecosystem",
-    coverage: ["ERP", "CRM", "Finance", "Inventory", "HR", "Analytics"],
-    fit: "Best for teams that want one connected suite instead of stitching together point tools.",
-    href: null,
-  },
-  {
-    id: "tech-dynamics",
-    name: "Microsoft Dynamics 365",
-    badge: null,
-    tagline: "Enterprise business applications",
-    coverage: ["Finance", "Supply Chain", "Sales", "Customer Service"],
-    fit: "Best for larger enterprises already invested in the Microsoft ecosystem.",
-    href: "/services",
-  },
-  {
-    id: "tech-salesforce",
-    name: "Salesforce",
-    badge: null,
-    tagline: "Enterprise CRM & customer experience",
-    coverage: ["Sales Cloud", "Service Cloud", "Marketing Cloud"],
-    fit: "Best for complex, high-volume sales organizations that need deep customization.",
-    href: null,
-  },
-  {
-    id: "tech-odoo",
-    name: "Odoo",
-    badge: null,
-    tagline: "Flexible modular ERP",
-    coverage: ["Sales", "Inventory", "Manufacturing", "Accounting"],
-    fit: "Best for growing businesses that want an affordable, modular open-source ERP.",
-    href: "/services",
-  },
-  {
-    id: "tech-ai",
-    name: "AI & Custom Technology",
-    badge: null,
-    tagline: "Agents · Automation · Web · Mobile · APIs",
-    coverage: ["Custom agents", "Workflow automation", "Web & mobile apps", "API integrations"],
-    fit: "Best for businesses that need something no off-the-shelf platform covers.",
-    href: "/services",
-  },
-];
+import TechPlatformTabs from "./TechPlatformTabs";
+import IndustryTabs from "./IndustryTabs";
 
 const ecosystem = [
   "Zoho",
@@ -74,173 +23,23 @@ const visibilityQuestions = [
   "Which sales channels are performing?",
 ];
 
+/**
+ * Server component — no "use client" here. Only the two tab-switchers
+ * (TechPlatformTabs, IndustryTabs) are genuinely interactive; everything else in this
+ * section (the closing statement, ecosystem marquee, and visibility-questions list) is
+ * static and now renders as plain server HTML instead of shipping inside the same
+ * client bundle purely because two `useState` calls lived in the same file. HoverGlow
+ * and Reveal remain client leaf components (as they already were), receiving this
+ * static content as server-rendered children. See
+ * ai-optimization/reports/WORKSTREAM-01-RESULT.md for why this was split.
+ */
 export default function TechnologyAndIndustry() {
-  const [activeTech, setActiveTech] = useState(0);
-  const activePlatform = techPlatforms[activeTech];
-  const [activeIndustry, setActiveIndustry] = useState(0);
-  const active = industries[activeIndustry];
-
   return (
     <HoverGlow as="section" className="bg-ink-inverse px-4 py-20 sm:px-6 lg:px-10 lg:py-28">
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-14 lg:grid-cols-2 lg:gap-16">
-          <Reveal>
-            <span className="inline-flex items-center gap-2 rounded-full border border-on-inverse-border bg-white/5 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-accent">
-              Technology
-            </span>
-            <h2 className="mt-4 text-xl font-bold leading-snug text-on-inverse sm:text-2xl">
-              Technology should fit the business.
-              <br />
-              <span className="text-on-inverse-muted">Not the other way around.</span>
-            </h2>
-
-            <div className="mt-7 rounded-xl border border-accent/40 bg-gradient-to-br from-accent/15 to-primary/10 p-6">
-              <div key={activeTech} className="animate-[fade-in-up_0.4s_ease-out_backwards]">
-                {activePlatform.badge && (
-                  <span className="inline-block rounded-full bg-accent px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-on-inverse">
-                    {activePlatform.badge}
-                  </span>
-                )}
-                <div className="mt-3 text-lg font-bold text-on-inverse">{activePlatform.name}</div>
-                <p className="mt-1 text-sm text-on-inverse-muted">{activePlatform.tagline}</p>
-
-                <div className="mt-4 flex flex-wrap gap-1.5">
-                  {activePlatform.coverage.map((c) => (
-                    <span
-                      key={c}
-                      className="whitespace-nowrap rounded-md bg-white/10 px-2.5 py-1 text-[11px] font-bold text-on-inverse"
-                    >
-                      {c}
-                    </span>
-                  ))}
-                </div>
-
-                <p className="mt-4 text-xs leading-relaxed text-on-inverse-muted">{activePlatform.fit}</p>
-
-                {activePlatform.href && (
-                  <Link
-                    href={activePlatform.href}
-                    className="mt-4 inline-flex items-center gap-1 text-xs font-bold text-accent hover:underline"
-                  >
-                    View related services
-                    <ArrowRight size={12} />
-                  </Link>
-                )}
-              </div>
-            </div>
-
-            <div role="tablist" aria-label="Technology platforms" className="mt-2 flex flex-col">
-              {techPlatforms.map((t, i) => {
-                const isActive = i === activeTech;
-                return (
-                  <button
-                    key={t.id}
-                    id={t.id}
-                    type="button"
-                    role="tab"
-                    aria-selected={isActive}
-                    onClick={() => setActiveTech(i)}
-                    onMouseEnter={() => setActiveTech(i)}
-                    onFocus={() => setActiveTech(i)}
-                    className="group block w-full scroll-mt-24 border-t border-on-inverse-border py-4 text-left last:border-b"
-                  >
-                    <div className="flex items-center justify-between gap-2">
-                      <span
-                        className={`text-sm font-bold transition-colors duration-200 ${
-                          isActive ? "text-on-inverse" : "text-on-inverse-muted group-hover:text-on-inverse"
-                        }`}
-                      >
-                        {t.name}
-                      </span>
-                      <ChevronRight
-                        size={15}
-                        className={`shrink-0 transition-all duration-200 ${
-                          isActive ? "translate-x-0.5 text-accent" : "text-on-inverse-faint"
-                        }`}
-                      />
-                    </div>
-                    <span className="text-xs text-on-inverse-muted">{t.tagline}</span>
-                  </button>
-                );
-              })}
-            </div>
-            <p className="mt-6 text-xs italic leading-relaxed text-on-inverse-faint">
-              We recommend the platform based on business requirements, not
-              on which one we&apos;d rather sell.
-            </p>
-          </Reveal>
-
-          <Reveal delay={100}>
-            <span className="inline-flex items-center gap-2 rounded-full border border-on-inverse-border bg-white/5 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-accent">
-              Industry experience
-            </span>
-            <h2 className="mt-4 text-xl font-bold leading-snug text-on-inverse sm:text-2xl">
-              Different industries.
-              <br />
-              <span className="text-on-inverse-muted">Different processes.</span>
-            </h2>
-
-            <div role="tablist" aria-label="Industries" className="mt-6 flex flex-col">
-              {industries.map((ind, i) => {
-                const isActive = i === activeIndustry;
-                return (
-                  <button
-                    key={ind.slug}
-                    type="button"
-                    role="tab"
-                    aria-selected={isActive}
-                    onClick={() => setActiveIndustry(i)}
-                    onMouseEnter={() => setActiveIndustry(i)}
-                    onFocus={() => setActiveIndustry(i)}
-                    className={`flex items-center gap-2.5 border-t border-on-inverse-border py-3 text-left text-[13.5px] font-bold transition-colors duration-200 last:border-b ${
-                      isActive ? "text-on-inverse" : "text-on-inverse-muted hover:text-on-inverse"
-                    }`}
-                  >
-                    <ind.icon size={14} className={isActive ? "text-accent" : "text-on-inverse-faint"} />
-                    {ind.title}
-                  </button>
-                );
-              })}
-            </div>
-
-            <div className="mt-6 rounded-xl border border-on-inverse-border bg-white/5 p-5">
-              <div key={activeIndustry} className="animate-[fade-in-up_0.4s_ease-out_backwards]">
-                <p className="text-sm leading-relaxed text-on-inverse">{active.model}</p>
-
-                <div className="mt-4 text-[10.5px] font-bold uppercase tracking-wide text-accent">
-                  Key processes
-                </div>
-                <p className="mt-1.5 text-xs leading-relaxed text-on-inverse-muted">
-                  {active.caps.join(" · ")}
-                </p>
-
-                <div className="mt-4 text-[10.5px] font-bold uppercase tracking-wide text-accent">
-                  Management visibility
-                </div>
-                <p className="mt-1.5 text-xs leading-relaxed text-on-inverse-muted">
-                  {active.visibility}
-                </p>
-
-                {active.flow && (
-                  <>
-                    <div className="mt-4 text-[10.5px] font-bold uppercase tracking-wide text-accent">
-                      Signature process
-                    </div>
-                    <div className="mt-2 flex flex-wrap items-center gap-x-1.5 gap-y-1.5">
-                      {active.flow.map((step, si) => (
-                        <span key={step} className="flex items-center gap-1.5">
-                          {si > 0 && <ArrowRight size={10} className="shrink-0 text-on-inverse-faint" />}
-                          <span className="whitespace-nowrap rounded-md bg-white/10 px-2 py-1 text-[11px] font-bold text-on-inverse">
-                            {step}
-                          </span>
-                        </span>
-                      ))}
-                    </div>
-                  </>
-                )}
-              </div>
-            </div>
-          </Reveal>
+          <TechPlatformTabs />
+          <IndustryTabs />
         </div>
 
         <Reveal className="mt-16 border-t border-on-inverse-border pt-10 lg:mt-20">

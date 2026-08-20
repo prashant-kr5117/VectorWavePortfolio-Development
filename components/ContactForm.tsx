@@ -105,10 +105,11 @@ export default function ContactForm() {
           </div>
 
           <div>
-            <label className="mb-1 block text-xs font-bold text-ink-soft">
+            <label htmlFor="leadSource" className="mb-1 block text-xs font-bold text-ink-soft">
               How did you hear about us
             </label>
             <select
+              id="leadSource"
               name="leadSource"
               defaultValue="Website"
               className="w-full rounded-lg border border-border bg-surface px-3 py-2.5 text-sm text-ink outline-none transition-colors duration-200 focus:border-primary"

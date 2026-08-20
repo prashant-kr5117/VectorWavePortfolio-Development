@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Footer from "@/components/Footer";
 import ServiceJsonLd from "@/components/ServiceJsonLd";
 import { getServiceBySlug } from "@/lib/services";
+import { buildMetadata } from "@/lib/seo";
 import { inter } from "./_components/fonts";
 import { Hero } from "./_components/Hero";
 import { PageNav } from "./_components/PageNav";
@@ -21,11 +22,12 @@ import { SolutionsSection } from "./_components/SolutionsSection";
 import { WhySection, DifferentiatorSection, PlatformCredibilitySection } from "./_components/WhySection";
 import { ZohoCTA } from "./_components/ZohoCTA";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Zoho Implementation & Consulting | VectorWave Technologies",
   description:
     "VectorWave designs Zoho as one connected business system — CRM, Finance, Inventory, Operations, Automation and Management Reporting — architected around how your business actually works.",
-};
+  path: "/services/zoho-bundled-suite",
+});
 
 const zohoBundledSuiteService = getServiceBySlug("zoho-bundled-suite")!;
 

@@ -8,6 +8,7 @@ import BlogIcon from "@/components/BlogIcon";
 import HoverGlow from "@/components/HoverGlow";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
 import { getPostBySlug, getRelatedPosts, posts } from "@/lib/posts";
+import { buildMetadata } from "@/lib/seo";
 import { ArrowLeft, Calendar, Clock, User } from "lucide-react";
 
 export function generateStaticParams() {
@@ -20,10 +21,14 @@ export async function generateMetadata(props: {
   const { slug } = await props.params;
   const post = getPostBySlug(slug);
   if (!post) return {};
-  return {
+  return buildMetadata({
     title: `${post.title} | VectorWave Technologies`,
     description: post.excerpt,
-  };
+    path: `/blog/${post.slug}`,
+    type: "article",
+    publishedTime: post.dateValue,
+    modifiedTime: post.dateModifiedValue ?? post.dateValue,
+  });
 }
 
 export default async function BlogPostPage(props: {

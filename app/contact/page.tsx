@@ -4,14 +4,15 @@ import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
 import ContactForm from "@/components/ContactForm";
 import JsonLd from "@/components/JsonLd";
-import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema } from "@/lib/seo";
+import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema, buildMetadata } from "@/lib/seo";
 import { MessageCircle, Mail, Phone, MapPin } from "lucide-react";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Contact VectorWave Technologies | Get in Touch",
   description:
     "Reach our team via live chat, email, or phone - Monday to Friday, 9:30 AM to 6:30 PM IST for tailored digital solutions.",
-};
+  path: "/contact",
+});
 
 const contactJsonLd = {
   "@context": "https://schema.org",

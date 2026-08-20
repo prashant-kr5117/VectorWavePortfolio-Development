@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-19T20:00:10.086Z",
+  "timestamp": "2026-08-20T08:55:28.796Z",
   "url": "http://localhost:3100/about",
   "toolOptions": {
     "runOnly": {
@@ -2866,7 +2866,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<span aria-hidden=\"true\"><span>Engineering ERP systems that drive</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
+          "html": "<span aria-hidden=\"true\"><span>Engineering ERP systems that drive busine</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
           "target": [
             "h1 > span > span:nth-child(1)"
           ]
@@ -5243,38 +5243,6 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"Odoo\"][height=\"480\"][width=\"480\"]:nth-child(2)"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
           "html": "<img alt=\"Microsoft Dynamics 365\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
           "target": [
             "img[alt=\"Microsoft Dynamics 365\"][width=\"1017\"][height=\"355\"]:nth-child(3)"
@@ -6525,6 +6493,56 @@
           "html": "<a href=\"tel:+918791810555\" class=\"transition-colors duration-200 hover:text-on-inverse\">+91-8791810555</a>",
           "target": [
             ".hover\\:text-on-inverse[href=\"tel:+918791810555\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7c86a3",
+                "bgColor": "#0b1b33",
+                "contrastRatio": 4.75,
+                "fontSize": "10.5pt (14px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.75"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"text-sm text-on-inverse-faint\">© 2026 VectorWave Technologies. All rights reserved.</span>",
+          "target": [
+            ".text-on-inverse-faint:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#7c86a3",
+                "bgColor": "#0b1b33",
+                "contrastRatio": 4.75,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 4.75"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Salesforce · Odoo</span>",
+          "target": [
+            ".text-on-inverse-faint:nth-child(2)"
           ]
         },
         {
@@ -8767,7 +8785,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span>Engineering ERP systems that drive</span>",
+          "html": "<span>Engineering ERP systems that drive busine</span>",
           "target": [
             "span > span:nth-child(1) > span:nth-child(1)"
           ],
@@ -8808,95 +8826,5 @@
       ]
     }
   ],
-  "violations": [
-    {
-      "id": "color-contrast",
-      "impact": "serious",
-      "tags": [
-        "cat.color",
-        "wcag2aa",
-        "wcag143",
-        "TTv5",
-        "TT13.c",
-        "EN-301-549",
-        "EN-9.1.4.3",
-        "ACT",
-        "RGAAv4",
-        "RGAA-3.2.1"
-      ],
-      "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-      "help": "Elements must meet minimum color contrast ratio thresholds",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/color-contrast?application=playwright",
-      "nodes": [
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#6b7690",
-                "bgColor": "#0b1b33",
-                "contrastRatio": 3.78,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "messageKey": null,
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [
-                {
-                  "html": "<footer class=\"group relative overflow-hidden bg-ink-inverse px-4 pb-6 pt-10 sm:px-6 lg:px-10\">",
-                  "target": [
-                    "footer"
-                  ]
-                }
-              ],
-              "impact": "serious",
-              "message": "Element has insufficient color contrast of 3.78 (foreground color: #6b7690, background color: #0b1b33, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "serious",
-          "html": "<span class=\"text-sm text-on-inverse-faint\">© 2026 VectorWave Technologies. All rights reserved.</span>",
-          "target": [
-            ".text-on-inverse-faint:nth-child(1)"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.78 (foreground color: #6b7690, background color: #0b1b33, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#6b7690",
-                "bgColor": "#0b1b33",
-                "contrastRatio": 3.78,
-                "fontSize": "9.0pt (12px)",
-                "fontWeight": "normal",
-                "messageKey": null,
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [
-                {
-                  "html": "<footer class=\"group relative overflow-hidden bg-ink-inverse px-4 pb-6 pt-10 sm:px-6 lg:px-10\">",
-                  "target": [
-                    "footer"
-                  ]
-                }
-              ],
-              "impact": "serious",
-              "message": "Element has insufficient color contrast of 3.78 (foreground color: #6b7690, background color: #0b1b33, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "serious",
-          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Salesforce · Odoo</span>",
-          "target": [
-            ".text-on-inverse-faint:nth-child(2)"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.78 (foreground color: #6b7690, background color: #0b1b33, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
-        }
-      ]
-    }
-  ]
+  "violations": []
 }

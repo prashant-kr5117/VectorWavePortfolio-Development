@@ -23,7 +23,7 @@
   --color-ink-inverse-alt: #23324f;
   --color-on-inverse: #ffffff;
   --color-on-inverse-muted: #93a0bd;
-  --color-on-inverse-faint: #6b7690;
+  --color-on-inverse-faint: #7c86a3; /* WCAG AA fix: was #6b7690 (3.79:1 on --color-ink-inverse), now 4.76:1 */
   --color-on-inverse-border: #33405c;
 
   /* brand accent */
@@ -66,7 +66,7 @@ html {
 body {
   background: var(--color-surface);
   color: var(--color-ink);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 

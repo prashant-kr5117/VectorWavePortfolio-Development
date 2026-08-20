@@ -12,6 +12,7 @@ import {
   getPlatform,
   serviceCategories,
 } from "@/lib/services";
+import { buildMetadata } from "@/lib/seo";
 import { ArrowLeft } from "lucide-react";
 
 export function generateStaticParams() {
@@ -28,10 +29,11 @@ export async function generateMetadata(props: {
   const { slug } = await props.params;
   const service = getServiceBySlug(slug);
   if (!service) return {};
-  return {
+  return buildMetadata({
     title: service.metaTitle,
     description: service.metaDescription,
-  };
+    path: `/services/${service.slug}`,
+  });
 }
 
 export default async function ServiceDetailPage(props: {

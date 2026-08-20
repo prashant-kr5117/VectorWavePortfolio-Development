@@ -4,8 +4,8 @@
     "path": "/",
     "status": "measured",
     "scores": {
-      "performance": 0.33,
-      "accessibility": 0.97,
+      "performance": 0.29,
+      "accessibility": 1,
       "seo": 1,
       "bestPractices": 0.77
     }
@@ -15,8 +15,8 @@
     "path": "/about",
     "status": "measured",
     "scores": {
-      "performance": 0.37,
-      "accessibility": 0.96,
+      "performance": 0.4,
+      "accessibility": 1,
       "seo": 1,
       "bestPractices": 0.77
     }
@@ -26,8 +26,8 @@
     "path": "/services",
     "status": "measured",
     "scores": {
-      "performance": 0.45,
-      "accessibility": 0.96,
+      "performance": 0.41,
+      "accessibility": 1,
       "seo": 1,
       "bestPractices": 0.77
     }
@@ -37,7 +37,7 @@
     "path": "/services/zoho-bundled-suite",
     "status": "measured",
     "scores": {
-      "performance": 0.31,
+      "performance": 0.33,
       "accessibility": 0.95,
       "seo": 1,
       "bestPractices": 0.77
@@ -48,8 +48,8 @@
     "path": "/services/sales",
     "status": "measured",
     "scores": {
-      "performance": 0.41,
-      "accessibility": 0.96,
+      "performance": 0.34,
+      "accessibility": 1,
       "seo": 1,
       "bestPractices": 0.77
     }
@@ -59,8 +59,8 @@
     "path": "/blog",
     "status": "measured",
     "scores": {
-      "performance": 0.47,
-      "accessibility": 0.97,
+      "performance": 0.36,
+      "accessibility": 1,
       "seo": 1,
       "bestPractices": 0.77
     }
@@ -70,8 +70,8 @@
     "path": "/blog/5-signs-your-business-has-outgrown-spreadsheets",
     "status": "measured",
     "scores": {
-      "performance": 0.48,
-      "accessibility": 0.96,
+      "performance": 0.41,
+      "accessibility": 1,
       "seo": 1,
       "bestPractices": 0.77
     }
@@ -81,8 +81,8 @@
     "path": "/contact",
     "status": "measured",
     "scores": {
-      "performance": 0.49,
-      "accessibility": 0.92,
+      "performance": 0.39,
+      "accessibility": 1,
       "seo": 1,
       "bestPractices": 0.77
     }

@@ -4,13 +4,14 @@ import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
 import BlogGrid from "@/components/BlogGrid";
 import JsonLd from "@/components/JsonLd";
-import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema } from "@/lib/seo";
+import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema, buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "Blog | VectorWave Technologies",
   description:
     "Stay updated with VectorWave's blog on Zoho tools, ERP strategy, and digital transformation for growing businesses.",
-};
+  path: "/blog",
+});
 
 const blogJsonLd = {
   "@context": "https://schema.org",

@@ -23,6 +23,15 @@ export default function Typewriter({
   const [count, setCount] = useState(0);
 
   useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      // Respect the user's motion preference: show the full text immediately
+      // instead of animating it in character by character. Synchronous by
+      // necessity — this reacts to a browser-only API unavailable at render time.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setCount(fullText.length);
+      return;
+    }
+
     let interval: ReturnType<typeof setInterval>;
     const timeout = setTimeout(() => {
       interval = setInterval(() => {

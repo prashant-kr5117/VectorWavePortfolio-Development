@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import JsonLd from "@/components/JsonLd";
-import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema } from "@/lib/seo";
+import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema, buildMetadata } from "@/lib/seo";
 import Footer from "@/components/Footer";
 import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
@@ -26,11 +26,12 @@ import {
   BrainCircuit,
 } from "lucide-react";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "About VectorWave Technologies",
   description:
     "Meet the VectorWave team: certified Zoho consultants, CRM specialists, finance pros, web developers, and AI engineers helping businesses bring sales, finance, HR, and operations together in one system.",
-};
+  path: "/about",
+});
 
 const whatWeDo = [
   { icon: Boxes, label: "Zoho Services" },
@@ -154,7 +155,7 @@ export default function AboutPage() {
             src={TeamImage}
             alt=""
             fill
-            preload
+            priority
             sizes="100vw"
             className="object-cover"
           />

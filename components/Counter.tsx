@@ -20,6 +20,15 @@ export default function Counter({
     const el = ref.current;
     if (!el || value <= 1) return;
 
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      // Respect the user's motion preference: show the final number immediately
+      // instead of counting up to it. Synchronous by necessity — this reacts to
+      // a browser-only API unavailable at render time.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setDisplay(value);
+      return;
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (!entry.isIntersecting) return;

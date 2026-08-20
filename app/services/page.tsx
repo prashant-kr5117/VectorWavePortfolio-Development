@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import JsonLd from "@/components/JsonLd";
-import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema } from "@/lib/seo";
+import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema, buildMetadata } from "@/lib/seo";
 import Footer from "@/components/Footer";
 import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
@@ -14,11 +14,12 @@ import ZohoLogo from "@/src/zoho.png";
 import OdooLogo from "@/src/odoo_logo.png";
 import { Network, Users, ShieldCheck, Code2 } from "lucide-react";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = buildMetadata({
   title: "ERP, CRM & Cloud Solutions | VectorWave Services",
   description:
     "Tailored ERP, CRM, Zoho, and Odoo solutions helping businesses streamline operations and grow with the right technology.",
-};
+  path: "/services",
+});
 
 const coreServices = [
   {

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { ConsultationModalProvider } from "@/components/ConsultationModal";
 import { SITE_URL, buildMetadata } from "@/lib/seo";
 import "./globals.css";
@@ -40,9 +41,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        {/* Footer is now rendered once, here, instead of individually by every page
+            (was a confirmed landmine — a new page that forgot the line would silently
+            ship with no footer; see ai-optimization/reports/PRIORITY-MATRIX.md P2-4). */}
         <ConsultationModalProvider>
           <Header />
           {children}
+          <Footer />
         </ConsultationModalProvider>
         <Script
           id="ga4-lib"

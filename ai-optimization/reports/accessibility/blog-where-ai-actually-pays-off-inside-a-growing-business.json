@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T08:57:33.632Z",
+  "timestamp": "2026-08-20T09:50:15.957Z",
   "url": "http://localhost:3100/blog/where-ai-actually-pays-off-inside-a-growing-business",
   "toolOptions": {
     "runOnly": {
@@ -810,7 +810,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -850,7 +850,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -930,7 +930,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -970,7 +970,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -1346,7 +1346,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -1364,7 +1364,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -1400,7 +1400,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -1418,7 +1418,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -1694,7 +1694,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<body class=\"min-h-full flex flex-col\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+          "html": "<body class=\"min-h-full flex flex-col\">",
           "target": [
             "body"
           ]
@@ -1748,7 +1748,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-phone[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -1780,7 +1780,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-mail[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -1812,7 +1812,7 @@
           "impact": null,
           "html": "<svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM7 8.48H3V21h4V8.48Zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48Z\"></path></svg>",
           "target": [
-            "a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
+            "a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
           ]
         },
         {
@@ -1844,7 +1844,7 @@
           "impact": null,
           "html": "<svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">",
           "target": [
-            "a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
+            "a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
           ]
         },
         {
@@ -2676,7 +2676,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(1) > .text-ink-muted.w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(1) > .text-ink-muted.w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2708,7 +2708,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(2) > .text-ink-muted.w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(2) > .text-ink-muted.w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2740,7 +2740,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(3) > .text-ink-muted.w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(3) > .text-ink-muted.w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2772,7 +2772,71 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(4) > .text-ink-muted.w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(4) > .text-ink-muted.w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -2804,7 +2868,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
           "target": [
-            ".border-t.pt-3.mt-2 > .relative > .active\\:scale-90.text-ink[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
+            ".border-t.pt-3.mt-2:nth-child(7) > .relative > .active\\:scale-90.text-ink[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -2836,7 +2900,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".border-t.pt-3.mt-2 > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
+            ".border-t.pt-3.mt-2:nth-child(7) > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
           ]
         },
         {
@@ -3124,7 +3188,7 @@
           "impact": null,
           "html": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM7 8.48H3V21h4V8.48Zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48Z\"></path></svg>",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
+            ".h-8.w-8.rounded-full:nth-child(1) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -3156,7 +3220,7 @@
           "impact": null,
           "html": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
+            ".h-8.w-8.rounded-full:nth-child(2) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
           ]
         }
       ]
@@ -3192,7 +3256,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -3210,7 +3274,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -3246,7 +3310,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -3264,7 +3328,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -3740,7 +3804,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -3772,7 +3836,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -3836,7 +3900,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -3868,7 +3932,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -4131,7 +4195,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -4149,7 +4213,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -4185,7 +4249,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -4203,7 +4267,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -4379,41 +4443,9 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<body class=\"min-h-full flex flex-col\" style=\"position: relative; min-height: 100%; top: 0px;\">",
-          "target": [
-            "body"
           ]
         },
         {
@@ -4630,9 +4662,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".btn-shine.inline-flex.px-6"
+            ".btn--md"
           ]
         }
       ]
@@ -4697,7 +4729,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -4943,9 +4975,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"inline-block rounded-full bg-surface-chip px-4 py-1.5 text-[11px] font-bold text-primary\">AI</span>",
+          "html": "<span class=\"section-eyebrow section-eyebrow--light\">AI</span>",
           "target": [
-            ".bg-surface-chip"
+            ".section-eyebrow"
           ]
         },
         {
@@ -5195,7 +5227,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Platforms</div>",
           "target": [
-            "div:nth-child(2) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(2) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -5320,7 +5352,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Industries</div>",
           "target": [
-            "div:nth-child(3) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(3) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -5445,7 +5477,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Get in touch</div>",
           "target": [
-            "div:nth-child(4) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(4) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -5545,7 +5577,7 @@
           "impact": null,
           "html": "<span class=\"text-sm text-on-inverse-faint\">© 2026 VectorWave Technologies. All rights reserved.</span>",
           "target": [
-            ".text-on-inverse-faint.text-sm"
+            ".text-on-inverse-faint:nth-child(1)"
           ]
         },
         {
@@ -5571,126 +5603,6 @@
           "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Salesforce · Odoo</span>",
           "target": [
             ".text-on-inverse-faint:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<select class=\"goog-te-combo\" aria-label=\"Language Translate Widget\"><option value=\"\">Select Language</option><option value=\"nl\">Dutch</option></select>",
-          "target": [
-            "select"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input type=\"text\" name=\"sl\" id=\"goog-gt-votingInputSrcLang\">",
-          "target": [
-            "#goog-gt-votingInputSrcLang"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input type=\"text\" name=\"tl\" id=\"goog-gt-votingInputTrgLang\">",
-          "target": [
-            "#goog-gt-votingInputTrgLang"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input type=\"text\" name=\"query\" id=\"goog-gt-votingInputSrcText\">",
-          "target": [
-            "#goog-gt-votingInputSrcText"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input type=\"text\" name=\"gtrans\" id=\"goog-gt-votingInputTrgText\">",
-          "target": [
-            "#goog-gt-votingInputTrgText"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input type=\"text\" name=\"vote\" id=\"goog-gt-votingInputVote\">",
-          "target": [
-            "#goog-gt-votingInputVote"
           ]
         },
         {
@@ -5777,7 +5689,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -5816,7 +5728,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -5855,7 +5767,7 @@
             }
           ],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -6036,7 +5948,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -6062,7 +5974,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -6242,9 +6154,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".px-5"
+            ".gap-4.lg\\:flex.hidden > .btn--sm.btn.btn-primary"
           ]
         },
         {
@@ -6556,7 +6468,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -6582,7 +6494,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         }
       ]
@@ -6979,9 +6891,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".btn-shine.inline-flex.px-6"
+            ".btn--md"
           ]
         },
         {
@@ -7143,9 +7055,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+                  "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
                   "target": [
-                    ".px-5"
+                    ".gap-4.lg\\:flex.hidden > .btn--sm.btn.btn-primary"
                   ]
                 }
               ],
@@ -7156,9 +7068,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".px-5"
+            ".gap-4.lg\\:flex.hidden > .btn--sm.btn.btn-primary"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
         }

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Footer from "@/components/Footer";
 import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
 import ContactForm from "@/components/ContactForm";
 import JsonLd from "@/components/JsonLd";
+import { Card, CardIcon } from "@/components/ui/Card";
 import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema, buildMetadata } from "@/lib/seo";
 import { MessageCircle, Mail, Phone, MapPin } from "lucide-react";
 
@@ -65,9 +65,7 @@ export default function ContactPage() {
       <main className="flex-1">
         <section className="bg-surface-alt px-4 py-14 text-center sm:px-6 sm:py-16">
           <Reveal>
-            <span className="inline-block rounded-full bg-surface-chip px-4 py-1.5 text-[11px] font-bold text-primary">
-              Contact us
-            </span>
+            <span className="section-eyebrow section-eyebrow--light">Contact us</span>
             <h1 className="mx-auto mt-5 max-w-xl text-[26px] font-bold leading-tight text-ink sm:text-3xl">
               Powering intelligent business flow
             </h1>
@@ -83,23 +81,19 @@ export default function ContactPage() {
             <div className="mb-10 grid grid-cols-1 gap-4 sm:grid-cols-3">
               {contactMethods.map((m, i) => (
                 <Reveal key={m.title} delay={i * 60}>
-                  <div className="group h-full rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg">
-                    <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-surface-chip text-primary transition-transform duration-300 group-hover:scale-110">
+                  <Card align="center">
+                    <CardIcon>
                       <m.icon size={20} />
-                    </div>
-                    <div className="mb-1 text-sm font-bold text-ink">
-                      {m.title}
-                    </div>
-                    <p className="mb-3 text-xs leading-relaxed text-ink-muted">
-                      {m.desc}
-                    </p>
+                    </CardIcon>
+                    <div className="mb-1 text-sm font-bold text-ink">{m.title}</div>
+                    <p className="mb-3 text-xs leading-relaxed text-ink-muted">{m.desc}</p>
                     <a
                       href={m.href ?? "#"}
                       className="text-xs font-bold text-primary transition-colors duration-200 hover:text-link-deep"
                     >
                       {m.action} &rarr;
                     </a>
-                  </div>
+                  </Card>
                 </Reveal>
               ))}
             </div>
@@ -109,7 +103,7 @@ export default function ContactPage() {
                 <ContactForm />
               </Reveal>
               <Reveal delay={100}>
-                <div className="h-full rounded-xl border border-border bg-surface-alt p-6 sm:p-8">
+                <div className="card h-full bg-surface-alt p-6 sm:p-8">
                   <h2 className="mb-4 text-sm font-bold text-ink">
                     Our office location
                   </h2>
@@ -147,7 +141,6 @@ export default function ContactPage() {
 
         <CTA />
       </main>
-      <Footer />
     </>
   );
 }

@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T08:55:42.642Z",
+  "timestamp": "2026-08-20T09:48:46.779Z",
   "url": "http://localhost:3100/blog",
   "toolOptions": {
     "runOnly": {
@@ -266,23 +266,6 @@
       "description": "Ensure <dt> and <dd> elements are contained by a <dl>",
       "help": "<dt> and <dd> elements must be contained by a <dl>",
       "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/dlitem?application=playwright",
-      "nodes": []
-    },
-    {
-      "id": "duplicate-id-aria",
-      "impact": null,
-      "tags": [
-        "cat.parsing",
-        "wcag2a",
-        "wcag412",
-        "EN-301-549",
-        "EN-9.4.1.2",
-        "RGAAv4",
-        "RGAA-8.2.1"
-      ],
-      "description": "Ensure every id attribute value used in ARIA and in labels is unique",
-      "help": "IDs used in ARIA and labels must be unique",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/duplicate-id-aria?application=playwright",
       "nodes": []
     },
     {
@@ -849,7 +832,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9 > .relative > .active\\:scale-90[aria-label=\"Change language\"][type=\"button\"]"
+            ".h-9 > .relative > .active\\:scale-90.transition-all[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -1341,7 +1324,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9 > .relative > .active\\:scale-90[aria-label=\"Change language\"][type=\"button\"]"
+            ".h-9 > .relative > .active\\:scale-90.transition-all[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -1707,7 +1690,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-phone[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -1739,7 +1722,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-mail[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -2507,7 +2490,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
           "target": [
-            ".h-9 > .relative > .active\\:scale-90[aria-label=\"Change language\"][type=\"button\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
+            ".h-9 > .relative > .active\\:scale-90.transition-all[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -2761,9 +2744,73 @@
           ],
           "none": [],
           "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
           "target": [
-            ".mt-2.border-t.pt-3 > .relative > .active\\:scale-90[aria-label=\"Change language\"][type=\"button\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
+            ".mt-2.border-t.pt-3:nth-child(7) > .relative > .active\\:scale-90.transition-all[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -2795,7 +2842,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".mt-2.border-t.pt-3 > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check[height=\"14\"][width=\"14\"]"
+            ".mt-2.border-t.pt-3:nth-child(7) > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -3051,7 +3098,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1) > .lucide-user[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1) > .lucide-user[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3083,7 +3130,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calendar\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2) > .lucide-calendar[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2) > .lucide-calendar[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3115,7 +3162,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-clock\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3) > .lucide-clock[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3) > .lucide-clock[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3179,7 +3226,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1) > .lucide-user[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1) > .lucide-user[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3211,7 +3258,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calendar\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2) > .lucide-calendar[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2) > .lucide-calendar[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3243,7 +3290,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-clock\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3) > .lucide-clock[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3) > .lucide-clock[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3307,7 +3354,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1) > .lucide-user[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1) > .lucide-user[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3339,7 +3386,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calendar\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2) > .lucide-calendar[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2) > .lucide-calendar[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3371,7 +3418,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-clock\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3) > .lucide-clock[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3) > .lucide-clock[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3435,7 +3482,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1) > .lucide-user[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1) > .lucide-user[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3467,7 +3514,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calendar\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2) > .lucide-calendar[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2) > .lucide-calendar[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3499,7 +3546,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-clock\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3) > .lucide-clock[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3) > .lucide-clock[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3563,7 +3610,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1) > .lucide-user[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1) > .lucide-user[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3595,7 +3642,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calendar\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2) > .lucide-calendar[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2) > .lucide-calendar[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3627,7 +3674,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-clock\" aria-hidden=\"true\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3) > .lucide-clock[width=\"12\"][height=\"12\"]"
+            ".card-interactive.p-4.\\!p-0:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3) > .lucide-clock[width=\"12\"][height=\"12\"]"
           ]
         },
         {
@@ -3859,7 +3906,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9 > .relative > .active\\:scale-90[aria-label=\"Change language\"][type=\"button\"]"
+            ".h-9 > .relative > .active\\:scale-90.transition-all[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -4435,7 +4482,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9 > .relative > .active\\:scale-90[aria-label=\"Change language\"][type=\"button\"]"
+            ".h-9 > .relative > .active\\:scale-90.transition-all[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -4798,7 +4845,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9 > .relative > .active\\:scale-90[aria-label=\"Change language\"][type=\"button\"]"
+            ".h-9 > .relative > .active\\:scale-90.transition-all[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -5245,7 +5292,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9 > .relative > .active\\:scale-90[aria-label=\"Change language\"][type=\"button\"]"
+            ".h-9 > .relative > .active\\:scale-90.transition-all[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -5369,9 +5416,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".inline-flex"
+            ".btn--md"
           ]
         }
       ]
@@ -5417,31 +5464,31 @@
                 {
                   "html": "<h3 class=\"mb-2 text-sm font-bold leading-snug text-ink\">Zoho CRM automation: where most teams leave value on the table</h3>",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1) > .p-5.flex-1.flex-col > h3"
+                    ".card-interactive.p-4.\\!p-0:nth-child(1) > .p-5.flex-1.flex-col > h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"mb-2 text-sm font-bold leading-snug text-ink\">Where AI actually pays off inside a growing business</h3>",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2) > .p-5.flex-1.flex-col > h3"
+                    ".card-interactive.p-4.\\!p-0:nth-child(2) > .p-5.flex-1.flex-col > h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"mb-2 text-sm font-bold leading-snug text-ink\">What makes a business website actually convert</h3>",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3) > .p-5.flex-1.flex-col > h3"
+                    ".card-interactive.p-4.\\!p-0:nth-child(3) > .p-5.flex-1.flex-col > h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"mb-2 text-sm font-bold leading-snug text-ink\">Getting your chart of accounts audit-ready with Zoho Books</h3>",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4) > .p-5.flex-1.flex-col > h3"
+                    ".card-interactive.p-4.\\!p-0:nth-child(4) > .p-5.flex-1.flex-col > h3"
                   ]
                 },
                 {
                   "html": "<h3 class=\"mb-2 text-sm font-bold leading-snug text-ink\">Zoho vs Odoo: choosing the right ERP foundation</h3>",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5) > .p-5.flex-1.flex-col > h3"
+                    ".card-interactive.p-4.\\!p-0:nth-child(5) > .p-5.flex-1.flex-col > h3"
                   ]
                 },
                 {
@@ -5695,7 +5742,7 @@
           "impact": null,
           "html": "<span class=\"inline-block rounded-full bg-surface-chip px-4 py-1.5 text-[11px] font-bold text-primary\">Blog</span>",
           "target": [
-            ".text-\\[11px\\].py-1\\.5.inline-block"
+            ".text-\\[11px\\].inline-block.py-1\\.5"
           ]
         },
         {
@@ -5768,9 +5815,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<input type=\"text\" placeholder=\"Search articles\" class=\"w-full rounded-full border border-border py-2.5 pl-10 pr-4 text-sm outline-none transition-colors duration-200 focus:border-primary\" value=\"\">",
+          "html": "<input id=\"blog-search\" type=\"text\" placeholder=\"Search articles\" class=\"form-control rounded-full pl-10\" value=\"\">",
           "target": [
-            ".pl-10"
+            "#blog-search"
           ]
         },
         {
@@ -6045,7 +6092,7 @@
           "impact": null,
           "html": "<span class=\"mb-2 inline-block w-fit rounded-full bg-surface-chip px-3 py-1 text-[10px] font-bold text-primary\">CRM</span>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1) > .p-5.flex-1.flex-col > .w-fit.px-3.inline-block"
+            ".card-interactive.p-4.\\!p-0:nth-child(1) > .p-5.flex-1.flex-col > .w-fit.px-3.inline-block"
           ]
         },
         {
@@ -6070,7 +6117,7 @@
           "impact": null,
           "html": "<h3 class=\"mb-2 text-sm font-bold leading-snug text-ink\">Zoho CRM automation: where most teams leave value on the table</h3>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1) > .p-5.flex-1.flex-col > h3"
+            ".card-interactive.p-4.\\!p-0:nth-child(1) > .p-5.flex-1.flex-col > h3"
           ]
         },
         {
@@ -6095,7 +6142,7 @@
           "impact": null,
           "html": "<p class=\"mb-4 line-clamp-3 flex-1 text-xs leading-relaxed text-ink-muted\">The follow-up sequences, lead scoring rules, and pipeline automations most CRM setups skip.</p>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1) > .p-5.flex-1.flex-col > .line-clamp-3.mb-4.leading-relaxed"
+            ".card-interactive.p-4.\\!p-0:nth-child(1) > .p-5.flex-1.flex-col > .line-clamp-3.mb-4.leading-relaxed"
           ]
         },
         {
@@ -6120,7 +6167,7 @@
           "impact": null,
           "html": "<span class=\"mb-2 inline-block w-fit rounded-full bg-surface-chip px-3 py-1 text-[10px] font-bold text-primary\">AI</span>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2) > .p-5.flex-1.flex-col > .w-fit.px-3.inline-block"
+            ".card-interactive.p-4.\\!p-0:nth-child(2) > .p-5.flex-1.flex-col > .w-fit.px-3.inline-block"
           ]
         },
         {
@@ -6145,7 +6192,7 @@
           "impact": null,
           "html": "<h3 class=\"mb-2 text-sm font-bold leading-snug text-ink\">Where AI actually pays off inside a growing business</h3>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2) > .p-5.flex-1.flex-col > h3"
+            ".card-interactive.p-4.\\!p-0:nth-child(2) > .p-5.flex-1.flex-col > h3"
           ]
         },
         {
@@ -6170,7 +6217,7 @@
           "impact": null,
           "html": "<p class=\"mb-4 line-clamp-3 flex-1 text-xs leading-relaxed text-ink-muted\">Practical automation use cases we're deploying inside CRM and finance systems today.</p>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2) > .p-5.flex-1.flex-col > .line-clamp-3.mb-4.leading-relaxed"
+            ".card-interactive.p-4.\\!p-0:nth-child(2) > .p-5.flex-1.flex-col > .line-clamp-3.mb-4.leading-relaxed"
           ]
         },
         {
@@ -6195,7 +6242,7 @@
           "impact": null,
           "html": "<span class=\"mb-2 inline-block w-fit rounded-full bg-surface-chip px-3 py-1 text-[10px] font-bold text-primary\">Web Dev</span>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3) > .p-5.flex-1.flex-col > .w-fit.px-3.inline-block"
+            ".card-interactive.p-4.\\!p-0:nth-child(3) > .p-5.flex-1.flex-col > .w-fit.px-3.inline-block"
           ]
         },
         {
@@ -6220,7 +6267,7 @@
           "impact": null,
           "html": "<h3 class=\"mb-2 text-sm font-bold leading-snug text-ink\">What makes a business website actually convert</h3>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3) > .p-5.flex-1.flex-col > h3"
+            ".card-interactive.p-4.\\!p-0:nth-child(3) > .p-5.flex-1.flex-col > h3"
           ]
         },
         {
@@ -6245,7 +6292,7 @@
           "impact": null,
           "html": "<p class=\"mb-4 line-clamp-3 flex-1 text-xs leading-relaxed text-ink-muted\">Speed, clarity, and trust signals: the fundamentals that matter more than trends.</p>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3) > .p-5.flex-1.flex-col > .line-clamp-3.mb-4.leading-relaxed"
+            ".card-interactive.p-4.\\!p-0:nth-child(3) > .p-5.flex-1.flex-col > .line-clamp-3.mb-4.leading-relaxed"
           ]
         },
         {
@@ -6270,7 +6317,7 @@
           "impact": null,
           "html": "<span class=\"mb-2 inline-block w-fit rounded-full bg-surface-chip px-3 py-1 text-[10px] font-bold text-primary\">Finance</span>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4) > .p-5.flex-1.flex-col > .w-fit.px-3.inline-block"
+            ".card-interactive.p-4.\\!p-0:nth-child(4) > .p-5.flex-1.flex-col > .w-fit.px-3.inline-block"
           ]
         },
         {
@@ -6295,7 +6342,7 @@
           "impact": null,
           "html": "<h3 class=\"mb-2 text-sm font-bold leading-snug text-ink\">Getting your chart of accounts audit-ready with Zoho Books</h3>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4) > .p-5.flex-1.flex-col > h3"
+            ".card-interactive.p-4.\\!p-0:nth-child(4) > .p-5.flex-1.flex-col > h3"
           ]
         },
         {
@@ -6320,7 +6367,7 @@
           "impact": null,
           "html": "<p class=\"mb-4 line-clamp-3 flex-1 text-xs leading-relaxed text-ink-muted\">A practical checklist for structuring finance data so reporting holds up under scrutiny.</p>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4) > .p-5.flex-1.flex-col > .line-clamp-3.mb-4.leading-relaxed"
+            ".card-interactive.p-4.\\!p-0:nth-child(4) > .p-5.flex-1.flex-col > .line-clamp-3.mb-4.leading-relaxed"
           ]
         },
         {
@@ -6345,7 +6392,7 @@
           "impact": null,
           "html": "<span class=\"mb-2 inline-block w-fit rounded-full bg-surface-chip px-3 py-1 text-[10px] font-bold text-primary\">ERP</span>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5) > .p-5.flex-1.flex-col > .w-fit.px-3.inline-block"
+            ".card-interactive.p-4.\\!p-0:nth-child(5) > .p-5.flex-1.flex-col > .w-fit.px-3.inline-block"
           ]
         },
         {
@@ -6370,7 +6417,7 @@
           "impact": null,
           "html": "<h3 class=\"mb-2 text-sm font-bold leading-snug text-ink\">Zoho vs Odoo: choosing the right ERP foundation</h3>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5) > .p-5.flex-1.flex-col > h3"
+            ".card-interactive.p-4.\\!p-0:nth-child(5) > .p-5.flex-1.flex-col > h3"
           ]
         },
         {
@@ -6395,7 +6442,7 @@
           "impact": null,
           "html": "<p class=\"mb-4 line-clamp-3 flex-1 text-xs leading-relaxed text-ink-muted\">A side-by-side look at where each platform fits best, based on real implementations.</p>",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5) > .p-5.flex-1.flex-col > .line-clamp-3.mb-4.leading-relaxed"
+            ".card-interactive.p-4.\\!p-0:nth-child(5) > .p-5.flex-1.flex-col > .line-clamp-3.mb-4.leading-relaxed"
           ]
         },
         {
@@ -6445,7 +6492,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Platforms</div>",
           "target": [
-            "div:nth-child(2) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(2) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -6570,7 +6617,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Industries</div>",
           "target": [
-            "div:nth-child(3) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(3) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -6695,7 +6742,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Get in touch</div>",
           "target": [
-            "div:nth-child(4) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(4) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -7035,6 +7082,42 @@
       ]
     },
     {
+      "id": "duplicate-id-aria",
+      "impact": null,
+      "tags": [
+        "cat.parsing",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-8.2.1"
+      ],
+      "description": "Ensure every id attribute value used in ARIA and in labels is unique",
+      "help": "IDs used in ARIA and labels must be unique",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/duplicate-id-aria?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "duplicate-id-aria",
+              "data": "blog-search",
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Document has no elements referenced with ARIA or labels that share the same id attribute"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input id=\"blog-search\" type=\"text\" placeholder=\"Search articles\" class=\"form-control rounded-full pl-10\" value=\"\">",
+          "target": [
+            "#blog-search"
+          ]
+        }
+      ]
+    },
+    {
       "id": "form-field-multiple-labels",
       "impact": null,
       "tags": [
@@ -7059,15 +7142,22 @@
             {
               "id": "multiple-label",
               "data": null,
-              "relatedNodes": [],
+              "relatedNodes": [
+                {
+                  "html": "<label for=\"blog-search\" class=\"sr-only\">Search articles</label>",
+                  "target": [
+                    "label"
+                  ]
+                }
+              ],
               "impact": "moderate",
               "message": "Form field does not have multiple label elements"
             }
           ],
           "impact": null,
-          "html": "<input type=\"text\" placeholder=\"Search articles\" class=\"w-full rounded-full border border-border py-2.5 pl-10 pr-4 text-sm outline-none transition-colors duration-200 focus:border-primary\" value=\"\">",
+          "html": "<input id=\"blog-search\" type=\"text\" placeholder=\"Search articles\" class=\"form-control rounded-full pl-10\" value=\"\">",
           "target": [
-            ".pl-10"
+            "#blog-search"
           ]
         }
       ]
@@ -7250,6 +7340,20 @@
         {
           "any": [
             {
+              "id": "explicit-label",
+              "data": null,
+              "relatedNodes": [
+                {
+                  "html": "<label for=\"blog-search\" class=\"sr-only\">Search articles</label>",
+                  "target": [
+                    "label"
+                  ]
+                }
+              ],
+              "impact": "critical",
+              "message": "Element has an explicit <label>"
+            },
+            {
               "id": "non-empty-placeholder",
               "data": null,
               "relatedNodes": [],
@@ -7268,9 +7372,9 @@
             }
           ],
           "impact": null,
-          "html": "<input type=\"text\" placeholder=\"Search articles\" class=\"w-full rounded-full border border-border py-2.5 pl-10 pr-4 text-sm outline-none transition-colors duration-200 focus:border-primary\" value=\"\">",
+          "html": "<input id=\"blog-search\" type=\"text\" placeholder=\"Search articles\" class=\"form-control rounded-full pl-10\" value=\"\">",
           "target": [
-            ".pl-10"
+            "#blog-search"
           ]
         }
       ]
@@ -7579,9 +7683,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".px-5"
+            ".gap-4.lg\\:flex.hidden > .btn--sm.btn.btn-primary"
           ]
         },
         {
@@ -7607,7 +7711,7 @@
           "impact": null,
           "html": "<a class=\"group mb-10 flex flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg sm:flex-row\" href=\"/blog/5-signs-your-business-has-outgrown-spreadsheets\">",
           "target": [
-            ".mb-10.sm\\:flex-row.rounded-xl"
+            ".rounded-xl"
           ]
         },
         {
@@ -7631,9 +7735,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/zoho-crm-automation-where-teams-leave-value-on-the-table\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/zoho-crm-automation-where-teams-leave-value-on-the-table\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1)"
+            ".card-interactive.p-4.\\!p-0:nth-child(1)"
           ]
         },
         {
@@ -7657,9 +7761,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/where-ai-actually-pays-off-inside-a-growing-business\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/where-ai-actually-pays-off-inside-a-growing-business\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2)"
+            ".card-interactive.p-4.\\!p-0:nth-child(2)"
           ]
         },
         {
@@ -7683,9 +7787,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/what-makes-a-business-website-actually-convert\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/what-makes-a-business-website-actually-convert\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3)"
+            ".card-interactive.p-4.\\!p-0:nth-child(3)"
           ]
         },
         {
@@ -7709,9 +7813,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/getting-your-chart-of-accounts-audit-ready-with-zoho-books\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/getting-your-chart-of-accounts-audit-ready-with-zoho-books\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4)"
+            ".card-interactive.p-4.\\!p-0:nth-child(4)"
           ]
         },
         {
@@ -7735,9 +7839,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/zoho-vs-odoo-choosing-the-right-erp-foundation\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/zoho-vs-odoo-choosing-the-right-erp-foundation\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5)"
+            ".card-interactive.p-4.\\!p-0:nth-child(5)"
           ]
         },
         {
@@ -8430,7 +8534,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9 > .relative > .active\\:scale-90[aria-label=\"Change language\"][type=\"button\"]"
+            ".h-9 > .relative > .active\\:scale-90.transition-all[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -8554,9 +8658,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".inline-flex"
+            ".btn--md"
           ]
         },
         {
@@ -8718,9 +8822,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+                  "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
                   "target": [
-                    ".px-5"
+                    ".gap-4.lg\\:flex.hidden > .btn--sm.btn.btn-primary"
                   ]
                 }
               ],
@@ -8731,9 +8835,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".px-5"
+            ".gap-4.lg\\:flex.hidden > .btn--sm.btn.btn-primary"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
         }
@@ -8777,7 +8881,7 @@
                 {
                   "html": "<a class=\"group mb-10 flex flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg sm:flex-row\" href=\"/blog/5-signs-your-business-has-outgrown-spreadsheets\">",
                   "target": [
-                    ".mb-10.sm\\:flex-row.rounded-xl"
+                    ".rounded-xl"
                   ]
                 }
               ],
@@ -8811,7 +8915,7 @@
                 {
                   "html": "<a class=\"group mb-10 flex flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg sm:flex-row\" href=\"/blog/5-signs-your-business-has-outgrown-spreadsheets\">",
                   "target": [
-                    ".mb-10.sm\\:flex-row.rounded-xl"
+                    ".rounded-xl"
                   ]
                 }
               ],
@@ -8845,7 +8949,7 @@
                 {
                   "html": "<a class=\"group mb-10 flex flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg sm:flex-row\" href=\"/blog/5-signs-your-business-has-outgrown-spreadsheets\">",
                   "target": [
-                    ".mb-10.sm\\:flex-row.rounded-xl"
+                    ".rounded-xl"
                   ]
                 }
               ],
@@ -8877,9 +8981,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/zoho-crm-automation-where-teams-leave-value-on-the-table\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/zoho-crm-automation-where-teams-leave-value-on-the-table\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(1)"
                   ]
                 }
               ],
@@ -8892,7 +8996,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1)"
+            ".card-interactive.p-4.\\!p-0:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -8911,9 +9015,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/zoho-crm-automation-where-teams-leave-value-on-the-table\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/zoho-crm-automation-where-teams-leave-value-on-the-table\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(1)"
                   ]
                 }
               ],
@@ -8926,7 +9030,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2)"
+            ".card-interactive.p-4.\\!p-0:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -8945,9 +9049,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/zoho-crm-automation-where-teams-leave-value-on-the-table\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/zoho-crm-automation-where-teams-leave-value-on-the-table\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(1)"
                   ]
                 }
               ],
@@ -8960,7 +9064,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3)"
+            ".card-interactive.p-4.\\!p-0:nth-child(1) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -8979,9 +9083,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/where-ai-actually-pays-off-inside-a-growing-business\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/where-ai-actually-pays-off-inside-a-growing-business\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(2)"
                   ]
                 }
               ],
@@ -8994,7 +9098,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1)"
+            ".card-interactive.p-4.\\!p-0:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -9013,9 +9117,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/where-ai-actually-pays-off-inside-a-growing-business\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/where-ai-actually-pays-off-inside-a-growing-business\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(2)"
                   ]
                 }
               ],
@@ -9028,7 +9132,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2)"
+            ".card-interactive.p-4.\\!p-0:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -9047,9 +9151,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/where-ai-actually-pays-off-inside-a-growing-business\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/where-ai-actually-pays-off-inside-a-growing-business\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(2)"
                   ]
                 }
               ],
@@ -9062,7 +9166,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3)"
+            ".card-interactive.p-4.\\!p-0:nth-child(2) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -9081,9 +9185,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/what-makes-a-business-website-actually-convert\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/what-makes-a-business-website-actually-convert\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(3)"
                   ]
                 }
               ],
@@ -9096,7 +9200,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1)"
+            ".card-interactive.p-4.\\!p-0:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -9115,9 +9219,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/what-makes-a-business-website-actually-convert\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/what-makes-a-business-website-actually-convert\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(3)"
                   ]
                 }
               ],
@@ -9130,7 +9234,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2)"
+            ".card-interactive.p-4.\\!p-0:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -9149,9 +9253,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/what-makes-a-business-website-actually-convert\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/what-makes-a-business-website-actually-convert\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(3)"
                   ]
                 }
               ],
@@ -9164,7 +9268,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3)"
+            ".card-interactive.p-4.\\!p-0:nth-child(3) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -9183,9 +9287,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/getting-your-chart-of-accounts-audit-ready-with-zoho-books\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/getting-your-chart-of-accounts-audit-ready-with-zoho-books\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(4)"
                   ]
                 }
               ],
@@ -9198,7 +9302,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1)"
+            ".card-interactive.p-4.\\!p-0:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -9217,9 +9321,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/getting-your-chart-of-accounts-audit-ready-with-zoho-books\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/getting-your-chart-of-accounts-audit-ready-with-zoho-books\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(4)"
                   ]
                 }
               ],
@@ -9232,7 +9336,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2)"
+            ".card-interactive.p-4.\\!p-0:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -9251,9 +9355,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/getting-your-chart-of-accounts-audit-ready-with-zoho-books\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/getting-your-chart-of-accounts-audit-ready-with-zoho-books\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(4)"
                   ]
                 }
               ],
@@ -9266,7 +9370,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3)"
+            ".card-interactive.p-4.\\!p-0:nth-child(4) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -9285,9 +9389,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/zoho-vs-odoo-choosing-the-right-erp-foundation\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/zoho-vs-odoo-choosing-the-right-erp-foundation\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(5)"
                   ]
                 }
               ],
@@ -9300,7 +9404,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1)"
+            ".card-interactive.p-4.\\!p-0:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(1)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -9319,9 +9423,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/zoho-vs-odoo-choosing-the-right-erp-foundation\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/zoho-vs-odoo-choosing-the-right-erp-foundation\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(5)"
                   ]
                 }
               ],
@@ -9334,7 +9438,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2)"
+            ".card-interactive.p-4.\\!p-0:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(2)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         },
@@ -9353,9 +9457,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/blog/zoho-vs-odoo-choosing-the-right-erp-foundation\">",
+                  "html": "<a class=\"group flex h-full flex-col card-interactive p-4  overflow-hidden !p-0\" href=\"/blog/zoho-vs-odoo-choosing-the-right-erp-foundation\">",
                   "target": [
-                    ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5)"
+                    ".card-interactive.p-4.\\!p-0:nth-child(5)"
                   ]
                 }
               ],
@@ -9368,7 +9472,7 @@
           "impact": "serious",
           "html": "<span class=\"flex items-center gap-1\">",
           "target": [
-            ".h-full.rounded-xl.hover\\:-translate-y-1:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3)"
+            ".card-interactive.p-4.\\!p-0:nth-child(5) > .p-5.flex-1.flex-col > .mt-auto.flex-wrap.gap-3 > .gap-1:nth-child(3)"
           ],
           "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.07 (foreground color: #8a93a8, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
         }

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import Footer from "@/components/Footer";
 import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
 import ServiceIcon from "@/components/ServiceIcon";
 import ServiceJsonLd from "@/components/ServiceJsonLd";
+import { Card, CardIcon } from "@/components/ui/Card";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 import {
   getServiceBySlug,
   getServicesByPlatform,
@@ -64,7 +65,7 @@ export default async function ServiceDetailPage(props: {
               <ServiceIcon icon={service.icon} size={26} />
             </div>
             {platform && (
-              <span className="mb-3 inline-block rounded-full bg-surface-chip px-3 py-1 text-[11px] font-bold text-primary">
+              <span className="section-eyebrow section-eyebrow--light mb-3">
                 {platform.name}
               </span>
             )}
@@ -79,22 +80,16 @@ export default async function ServiceDetailPage(props: {
 
         <section className="px-4 py-14 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-5xl">
-            <Reveal className="mb-8 text-center">
-              <h2 className="text-xl font-bold text-ink sm:text-2xl">
-                What&apos;s included
-              </h2>
+            <Reveal className="mb-8">
+              <SectionHeading heading="What's included" align="center" />
             </Reveal>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {service.tools.map((tool, i) => (
                 <Reveal key={tool.name} delay={i * 60}>
-                  <div className="h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg">
-                    <div className="mb-1 text-sm font-bold text-ink">
-                      {tool.name}
-                    </div>
-                    <p className="text-sm leading-relaxed text-ink-muted">
-                      {tool.desc}
-                    </p>
-                  </div>
+                  <Card>
+                    <div className="mb-1 text-sm font-bold text-ink">{tool.name}</div>
+                    <p className="text-sm leading-relaxed text-ink-muted">{tool.desc}</p>
+                  </Card>
                 </Reveal>
               ))}
             </div>
@@ -111,17 +106,12 @@ export default async function ServiceDetailPage(props: {
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {otherServices.map((s, i) => (
                 <Reveal key={s.slug} delay={i * 60}>
-                  <Link
-                    href={`/services/${s.slug}`}
-                    className="group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg"
-                  >
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-surface-chip text-primary transition-transform duration-300 group-hover:scale-110">
+                  <Card href={`/services/${s.slug}`} align="center">
+                    <CardIcon>
                       <ServiceIcon icon={s.icon} size={20} />
-                    </div>
-                    <span className="text-sm font-bold text-ink">
-                      {s.title}
-                    </span>
-                  </Link>
+                    </CardIcon>
+                    <span className="text-sm font-bold text-ink">{s.title}</span>
+                  </Card>
                 </Reveal>
               ))}
             </div>
@@ -130,7 +120,6 @@ export default async function ServiceDetailPage(props: {
 
         <CTA />
       </main>
-      <Footer />
     </>
   );
 }

@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T08:55:56.020Z",
+  "timestamp": "2026-08-20T09:48:55.336Z",
   "url": "http://localhost:3100/services/zoho-bundled-suite",
   "toolOptions": {
     "runOnly": {
@@ -2676,7 +2676,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-phone[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.transition-colors[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -2708,7 +2708,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-mail[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.transition-colors:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -3572,7 +3572,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-chevron-down[height=\"16\"][width=\"16\"]"
+            ".lucide-chevron-down[width=\"16\"][height=\"16\"]"
           ]
         },
         {
@@ -3730,6 +3730,70 @@
           ],
           "none": [],
           "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.transition-colors[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.transition-colors:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
           "target": [
             ".mt-2.justify-between.pt-3 > .relative > .active\\:scale-90.text-ink[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
@@ -3828,7 +3892,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-mail[height=\"16\"][width=\"16\"]"
+            ".lucide-mail[width=\"16\"][height=\"16\"]"
           ]
         },
         {
@@ -3860,7 +3924,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-phone[height=\"16\"][width=\"16\"]"
+            ".lucide-phone[width=\"16\"][height=\"16\"]"
           ]
         },
         {
@@ -6525,7 +6589,7 @@
           "impact": null,
           "html": "<div class=\"manrope_c2c5a9d-module__SPJgmW__className mx-auto inline-block rounded-lg px-6 py-3 text-[13px] font-extrabold tracking-[0.03em] text-[#F2F1EA]\" style=\"background:linear-gradient(120deg, rgba(25,29,35,0.95), rgba(32,196,217,0.85))\">ZOHO CRM</div>",
           "target": [
-            ".tracking-\\[0\\.03em\\]"
+            ".inline-block"
           ]
         },
         {
@@ -7496,7 +7560,7 @@
           "impact": null,
           "html": "<a href=\"tel:+918791810555\" class=\"flex items-center gap-2 transition-colors duration-200 hover:text-accent\">",
           "target": [
-            ".hover\\:text-accent[href=\"tel:+918791810555\"]"
+            ".hover\\:text-accent.transition-colors[href=\"tel:+918791810555\"]"
           ]
         },
         {
@@ -7521,7 +7585,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"flex items-center gap-2 transition-colors duration-200 hover:text-accent\">",
           "target": [
-            ".hover\\:text-accent:nth-child(2)"
+            ".hover\\:text-accent.transition-colors:nth-child(2)"
           ]
         },
         {
@@ -7546,7 +7610,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/\">Home</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href=\"/\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href=\"/\"]"
           ]
         },
         {
@@ -7571,7 +7635,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/about\">About Us</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"about\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"about\"]"
           ]
         },
         {
@@ -7621,7 +7685,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/blog\">Blog</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"blog\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"blog\"]"
           ]
         },
         {
@@ -7646,7 +7710,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/contact\">Contact</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full.after\\:w-0:nth-child(5)"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"contact\"]"
           ]
         },
         {
@@ -9796,7 +9860,7 @@
           "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#laptop-manufacturing-refurbishment\">Laptop Refurbishment</a>",
           "target": [
-            "div:nth-child(3) > .space-y-2\\.5 > li:nth-child(3) > .hover\\:text-on-inverse"
+            "div:nth-child(3) > .space-y-2\\.5 > li:nth-child(3) > .hover\\:text-on-inverse.transition-colors"
           ]
         },
         {
@@ -9896,7 +9960,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"transition-colors duration-200 hover:text-on-inverse\">admin@vectorwavetechnologies.com</a>",
           "target": [
-            "div:nth-child(4) > .space-y-2\\.5 > li:nth-child(2) > .hover\\:text-on-inverse"
+            "div:nth-child(4) > .space-y-2\\.5 > li:nth-child(2) > .hover\\:text-on-inverse.transition-colors"
           ]
         },
         {
@@ -9921,7 +9985,7 @@
           "impact": null,
           "html": "<a href=\"tel:+918791810555\" class=\"transition-colors duration-200 hover:text-on-inverse\">+91-8791810555</a>",
           "target": [
-            ".hover\\:text-on-inverse[href=\"tel:+918791810555\"]"
+            ".hover\\:text-on-inverse.transition-colors[href=\"tel:+918791810555\"]"
           ]
         },
         {
@@ -10411,7 +10475,7 @@
           "impact": null,
           "html": "<a href=\"tel:+918791810555\" class=\"flex items-center gap-2 transition-colors duration-200 hover:text-accent\">",
           "target": [
-            ".hover\\:text-accent[href=\"tel:+918791810555\"]"
+            ".hover\\:text-accent.transition-colors[href=\"tel:+918791810555\"]"
           ]
         },
         {
@@ -10437,7 +10501,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"flex items-center gap-2 transition-colors duration-200 hover:text-accent\">",
           "target": [
-            ".hover\\:text-accent:nth-child(2)"
+            ".hover\\:text-accent.transition-colors:nth-child(2)"
           ]
         },
         {
@@ -10541,7 +10605,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/\">Home</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href=\"/\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href=\"/\"]"
           ]
         },
         {
@@ -10567,7 +10631,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/about\">About Us</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"about\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"about\"]"
           ]
         },
         {
@@ -10619,7 +10683,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/blog\">Blog</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"blog\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"blog\"]"
           ]
         },
         {
@@ -10645,7 +10709,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/contact\">Contact</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full.after\\:w-0:nth-child(5)"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"contact\"]"
           ]
         },
         {
@@ -10669,9 +10733,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".btn-shine"
+            ".lg\\:flex.hidden.gap-4 > .btn.btn-primary.btn--sm"
           ]
         },
         {
@@ -11477,7 +11541,7 @@
           "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#laptop-manufacturing-refurbishment\">Laptop Refurbishment</a>",
           "target": [
-            "div:nth-child(3) > .space-y-2\\.5 > li:nth-child(3) > .hover\\:text-on-inverse"
+            "div:nth-child(3) > .space-y-2\\.5 > li:nth-child(3) > .hover\\:text-on-inverse.transition-colors"
           ]
         },
         {
@@ -11529,7 +11593,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"transition-colors duration-200 hover:text-on-inverse\">admin@vectorwavetechnologies.com</a>",
           "target": [
-            "div:nth-child(4) > .space-y-2\\.5 > li:nth-child(2) > .hover\\:text-on-inverse"
+            "div:nth-child(4) > .space-y-2\\.5 > li:nth-child(2) > .hover\\:text-on-inverse.transition-colors"
           ]
         },
         {
@@ -11555,7 +11619,7 @@
           "impact": null,
           "html": "<a href=\"tel:+918791810555\" class=\"transition-colors duration-200 hover:text-on-inverse\">+91-8791810555</a>",
           "target": [
-            ".hover\\:text-on-inverse[href=\"tel:+918791810555\"]"
+            ".hover\\:text-on-inverse.transition-colors[href=\"tel:+918791810555\"]"
           ]
         },
         {
@@ -12852,9 +12916,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+                  "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
                   "target": [
-                    ".btn-shine"
+                    ".lg\\:flex.hidden.gap-4 > .btn.btn-primary.btn--sm"
                   ]
                 }
               ],
@@ -12865,9 +12929,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".btn-shine"
+            ".lg\\:flex.hidden.gap-4 > .btn.btn-primary.btn--sm"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
         },
@@ -14158,7 +14222,7 @@
                 {
                   "html": "<div class=\"manrope_c2c5a9d-module__SPJgmW__className mx-auto inline-block rounded-lg px-6 py-3 text-[13px] font-extrabold tracking-[0.03em] text-[#F2F1EA]\" style=\"background:linear-gradient(120deg, rgba(25,29,35,0.95), rgba(32,196,217,0.85))\">ZOHO CRM</div>",
                   "target": [
-                    ".tracking-\\[0\\.03em\\]"
+                    ".inline-block"
                   ]
                 }
               ],
@@ -14171,7 +14235,7 @@
           "impact": "serious",
           "html": "<div class=\"manrope_c2c5a9d-module__SPJgmW__className mx-auto inline-block rounded-lg px-6 py-3 text-[13px] font-extrabold tracking-[0.03em] text-[#F2F1EA]\" style=\"background:linear-gradient(120deg, rgba(25,29,35,0.95), rgba(32,196,217,0.85))\">ZOHO CRM</div>",
           "target": [
-            ".tracking-\\[0\\.03em\\]"
+            ".inline-block"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
         },

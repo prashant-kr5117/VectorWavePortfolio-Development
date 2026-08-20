@@ -10,13 +10,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216290821&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1765653817.1787216291&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787216290&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2F&dt=VectorWave%20Technologies%20Zoho%20%26%20ERP%20Solutions%20for%20Growth&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=656",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219436982&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=288127669.1787219437&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120385422~120412526&sid=1787219437&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2F&dt=VectorWave%20Technologies%20Zoho%20%26%20ERP%20Solutions%20for%20Growth&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1177",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
-    "h1Text": "Powering Intelligent BusinPowering Intelligent Business Flow, without the overhead.",
-    "bodyTextLength": 85845
+    "h1Text": "Powering Intelligent Business FlPowering Intelligent Business Flow, without the overhead.",
+    "bodyTextLength": 82911
   },
   {
     "routeId": "about",
@@ -29,13 +29,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216294163&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=626150689.1787216294&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787216294&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fabout&dt=About%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=661",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1h1v9254525573za200zd9254525573&_p=1787219441530&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1467962494.1787219442&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787219441&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fabout&dt=About%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=945",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
-    "h1Text": "Engineering ERP systems thEngineering ERP systems that drive business performance",
-    "bodyTextLength": 76192
+    "h1Text": "Engineering ERP systems that drive busineEngineering ERP systems that drive business performance",
+    "bodyTextLength": 72771
   },
   {
     "routeId": "services-index",
@@ -48,13 +48,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216297061&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=153829418.1787216297&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787216297&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices&dt=ERP%2C%20CRM%20%26%20Cloud%20Solutions%20%7C%20VectorWave%20Services&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=581",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1h1v9254525573za200zd9254525573&_p=1787219445961&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=610148665.1787219446&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787219446&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices&dt=ERP%2C%20CRM%20%26%20Cloud%20Solutions%20%7C%20VectorWave%20Services&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=863",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "We provide a wide range of services",
-    "bodyTextLength": 81664
+    "bodyTextLength": 72937
   },
   {
     "routeId": "blog-index",
@@ -67,13 +67,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216299865&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1639900111.1787216300&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787216300&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog&dt=Blog%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=528",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219449308&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=84345745.1787219449&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787219449&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog&dt=Blog%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=674",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Insights on ERP, CRM, AI and business automation",
-    "bodyTextLength": 27501
+    "bodyTextLength": 26487
   },
   {
     "routeId": "contact",
@@ -86,13 +86,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216302666&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1488521077.1787216303&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787216302&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fcontact&dt=Contact%20VectorWave%20Technologies%20%7C%20Get%20in%20Touch&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=721",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0h2v9254525573za200zd9254525573&_p=1787219452678&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=882005522.1787219453&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787219452&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fcontact&dt=Contact%20VectorWave%20Technologies%20%7C%20Get%20in%20Touch&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=765",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Powering intelligent business flow",
-    "bodyTextLength": 33057
+    "bodyTextLength": 31206
   },
   {
     "routeId": "service-zoho-bundled-suite",
@@ -105,13 +105,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216306422&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=830886381.1787216307&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787216306&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fzoho-bundled-suite&dt=Zoho%20Implementation%20%26%20Consulting%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=709",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219455977&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1648765941.1787219456&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787219456&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fzoho-bundled-suite&dt=Zoho%20Implementation%20%26%20Consulting%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=907",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Zoho, designedaround your business.",
-    "bodyTextLength": 169428
+    "bodyTextLength": 168646
   },
   {
     "routeId": "service-sales",
@@ -124,13 +124,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216310102&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1200913846.1787216310&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787216310&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fsales&dt=Zoho%20Sales%20Tools%20%7C%20Capture%20Leads%20%26%20Close%20Deals%20Faster&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=853",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219458772&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1170609662.1787219459&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787219458&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fsales&dt=Zoho%20Sales%20Tools%20%7C%20Capture%20Leads%20%26%20Close%20Deals%20Faster&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=545",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Sales",
-    "bodyTextLength": 38744
+    "bodyTextLength": 36626
   },
   {
     "routeId": "service-it-support",
@@ -143,13 +143,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216312960&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1086324609.1787216313&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787216313&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fit-support&dt=Zoho%20IT%20%26%20Support%20%7C%20Helpdesk%20%26%20Remote%20Support%20Tools&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=528",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219461381&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=2084947440.1787219462&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787219461&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fit-support&dt=Zoho%20IT%20%26%20Support%20%7C%20Helpdesk%20%26%20Remote%20Support%20Tools&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=603",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "IT & Support",
-    "bodyTextLength": 37897
+    "bodyTextLength": 35863
   },
   {
     "routeId": "service-zoho-finance",
@@ -162,13 +162,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216315926&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1005947403.1787216316&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787216316&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fzoho-finance&dt=Zoho%20Finance%20Solutions%20%7C%20Accounting%2C%20Billing%20%26%20Inventory&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=555",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0h2v9254525573za200zd9254525573&_p=1787219463961&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1694959369.1787219464&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787219464&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fzoho-finance&dt=Zoho%20Finance%20Solutions%20%7C%20Accounting%2C%20Billing%20%26%20Inventory&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=542",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Zoho Finance",
-    "bodyTextLength": 40095
+    "bodyTextLength": 37835
   },
   {
     "routeId": "service-human-resources",
@@ -181,13 +181,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216319484&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1717092440.1787216320&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787216319&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fhuman-resources&dt=Zoho%20HR%20Solutions%20%7C%20People%2C%20Recruit%20%26%20Payroll&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=963",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1h1v9254525573za200zd9254525573&_p=1787219466781&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1955053573.1787219467&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787219466&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fhuman-resources&dt=Zoho%20HR%20Solutions%20%7C%20People%2C%20Recruit%20%26%20Payroll&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=646",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Human Resources",
-    "bodyTextLength": 37574
+    "bodyTextLength": 35572
   },
   {
     "routeId": "service-odoo-business-suite",
@@ -200,13 +200,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0h2v9254525573za200zd9254525573&_p=1787216323263&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1694735789.1787216324&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119367802~119367810~120385423~120412528&sid=1787216323&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-business-suite&dt=Odoo%20Business%20Suite%20%7C%20Odoo%20ERP%20Implementation%20Services&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=947",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219469400&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=762762972.1787219470&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787219469&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-business-suite&dt=Odoo%20Business%20Suite%20%7C%20Odoo%20ERP%20Implementation%20Services&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=526",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Odoo Business Suite",
-    "bodyTextLength": 38789
+    "bodyTextLength": 36684
   },
   {
     "routeId": "service-odoo-sales-ecommerce",
@@ -219,13 +219,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216326977&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1530015005.1787216327&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787216327&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-sales-ecommerce&dt=Odoo%20Sales%20%26%20eCommerce%20%7C%20CRM%2C%20Storefront%20%26%20Subscriptions&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=737",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219471868&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1492952495.1787219472&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119367802~119367810~120315470~120385422~120412527&sid=1787219471&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-sales-ecommerce&dt=Odoo%20Sales%20%26%20eCommerce%20%7C%20CRM%2C%20Storefront%20%26%20Subscriptions&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=525",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Sales & eCommerce",
-    "bodyTextLength": 38260
+    "bodyTextLength": 36226
   },
   {
     "routeId": "service-odoo-inventory-operations",
@@ -238,17 +238,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216330089&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=312701494.1787216330&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787216330&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-inventory-operations&dt=Odoo%20Inventory%20%26%20Operations%20%7C%20Stock%2C%20Manufacturing%20%26%20Purchase&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=717",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219474267&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1253629700.1787219474&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787219474&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-inventory-operations&dt=Odoo%20Inventory%20%26%20Operations%20%7C%20Stock%2C%20Manufacturing%20%26%20Purchase&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=522",
         "failure": "net::ERR_ABORTED"
-      },
-      {
-        "url": "https://www.google.com/sorry/index?continue=https://translate.google.com/translate_a/element.js%3Fcb%3DgoogleTranslateElementInit&q=EgRn_wM2GMiDm9QGIjBsY72NOEQo5GBpNSbd-pYITZjGKVEAFqZwtF68NsbYCBPMIVqs3CwtWktyCCDQxlAyAnJSWgFD",
-        "failure": "net::ERR_BLOCKED_BY_ORB"
       }
     ],
     "hasH1": true,
     "h1Text": "Inventory & Operations",
-    "bodyTextLength": 38818
+    "bodyTextLength": 36794
   },
   {
     "routeId": "service-odoo-accounting",
@@ -261,13 +257,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1h1v9254525573za200zd9254525573&_p=1787216332904&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=898637337.1787216333&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118012009~118897920~118897930~119367802~119367810~120385422&sid=1787216333&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-accounting&dt=Odoo%20Accounting%20%7C%20Invoicing%2C%20Reconciliation%20%26%20Reporting&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=643",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219476790&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1347885246.1787219477&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787219476&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-accounting&dt=Odoo%20Accounting%20%7C%20Invoicing%2C%20Reconciliation%20%26%20Reporting&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=563",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Odoo Accounting",
-    "bodyTextLength": 38589
+    "bodyTextLength": 36471
   },
   {
     "routeId": "service-odoo-workforce-hr",
@@ -280,13 +276,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216336121&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=657948365.1787216336&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787216336&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-workforce-hr&dt=Odoo%20Workforce%20%26%20HR%20%7C%20Employees%2C%20Recruitment%20%26%20Time%20Off&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=700",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0h2v9254525573za200zd9254525573&_p=1787219479339&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1089058135.1787219479&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787219479&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-workforce-hr&dt=Odoo%20Workforce%20%26%20HR%20%7C%20Employees%2C%20Recruitment%20%26%20Time%20Off&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=555",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Workforce & HR",
-    "bodyTextLength": 38607
+    "bodyTextLength": 36476
   },
   {
     "routeId": "service-microsoft-365-dynamics-suite",
@@ -299,13 +295,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216339210&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1635165038.1787216339&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787216339&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmicrosoft-365-dynamics-suite&dt=Microsoft%20365%20%26%20Dynamics%20Suite%20%7C%20Connected%20Business%20Platform&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=630",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219481976&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1360675111.1787219482&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787219482&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmicrosoft-365-dynamics-suite&dt=Microsoft%20365%20%26%20Dynamics%20Suite%20%7C%20Connected%20Business%20Platform&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=567",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Microsoft 365 & Dynamics Suite",
-    "bodyTextLength": 39303
+    "bodyTextLength": 37185
   },
   {
     "routeId": "service-dynamics-365-sales",
@@ -318,13 +314,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0h2v9254525573za200zd9254525573&_p=1787216342164&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=541105843.1787216342&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787216342&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fdynamics-365-sales&dt=Dynamics%20365%20Sales%20%7C%20CRM%20Inside%20Outlook%20%26%20Teams&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=606",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1h1v9254525573za200zd9254525573&_p=1787219484702&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=733901454.1787219485&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787219484&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fdynamics-365-sales&dt=Dynamics%20365%20Sales%20%7C%20CRM%20Inside%20Outlook%20%26%20Teams&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=589",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Dynamics 365 Sales",
-    "bodyTextLength": 38760
+    "bodyTextLength": 36668
   },
   {
     "routeId": "service-microsoft-security-device-management",
@@ -337,13 +333,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216345436&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1228441942.1787216346&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~119381664~120385423&sid=1787216345&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmicrosoft-security-device-management&dt=Microsoft%20Security%20%26%20Device%20Management%20%7C%20Intune%2C%20Entra%2C%20Defender&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=727",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0h2v9254525573za200zd9254525573&_p=1787219487363&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=768514886.1787219488&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385423~120420414&sid=1787219487&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmicrosoft-security-device-management&dt=Microsoft%20Security%20%26%20Device%20Management%20%7C%20Intune%2C%20Entra%2C%20Defender&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=609",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Security & Device Management",
-    "bodyTextLength": 38699
+    "bodyTextLength": 36665
   },
   {
     "routeId": "service-business-central-finance",
@@ -356,13 +352,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216349376&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=440088102.1787216350&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787216349&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fbusiness-central-finance&dt=Business%20Central%20Finance%20%7C%20Dynamics%20365%20Accounting%20%26%20Reporting&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=573",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0h2v9254525573za200zd9254525573&_p=1787219490003&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=64687616.1787219490&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787219490&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fbusiness-central-finance&dt=Business%20Central%20Finance%20%7C%20Dynamics%20365%20Accounting%20%26%20Reporting&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=546",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Business Central Finance",
-    "bodyTextLength": 39042
+    "bodyTextLength": 36872
   },
   {
     "routeId": "service-dynamics-365-hr",
@@ -375,13 +371,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1h1v9254525573za200zd9254525573&_p=1787216352225&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1586550540.1787216352&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119367802~119367810~119381664~120385422&sid=1787216352&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fdynamics-365-hr&dt=Dynamics%20365%20HR%20%7C%20Recruitment%2C%20Leave%20%26%20Performance&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=559",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0h2v9254525573za200zd9254525573&_p=1787219492578&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=49006933.1787219493&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~120385423~120412528&sid=1787219492&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fdynamics-365-hr&dt=Dynamics%20365%20HR%20%7C%20Recruitment%2C%20Leave%20%26%20Performance&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=532",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Dynamics 365 HR",
-    "bodyTextLength": 38689
+    "bodyTextLength": 36545
   },
   {
     "routeId": "service-mobile-app-development",
@@ -394,13 +390,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1h1v9254525573za200zd9254525573&_p=1787216354910&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1801535917.1787216355&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787216355&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmobile-app-development&dt=Mobile%20App%20Development%20%7C%20iOS%20%26%20Android%20Apps&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=525",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219495045&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=776638379.1787219495&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787219495&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmobile-app-development&dt=Mobile%20App%20Development%20%7C%20iOS%20%26%20Android%20Apps&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=548",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Mobile App Development",
-    "bodyTextLength": 36466
+    "bodyTextLength": 34570
   },
   {
     "routeId": "service-web-development",
@@ -413,13 +409,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216357837&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=267700575.1787216358&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787216358&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fweb-development&dt=Web%20Development%20%7C%20Business%20Websites%20%26%20E-Commerce&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=733",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219497506&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1488641813.1787219498&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787219497&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fweb-development&dt=Web%20Development%20%7C%20Business%20Websites%20%26%20E-Commerce&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=510",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Web Development",
-    "bodyTextLength": 36110
+    "bodyTextLength": 34253
   },
   {
     "routeId": "service-ai-integration",
@@ -432,13 +428,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216360895&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=666946629.1787216361&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787216361&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fai-integration&dt=AI%20Integration%20%7C%20Practical%20AI%20for%20Business%20Systems&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=639",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219500084&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=715502438.1787219500&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787219500&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fai-integration&dt=AI%20Integration%20%7C%20Practical%20AI%20for%20Business%20Systems&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=533",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "AI Integration",
-    "bodyTextLength": 36120
+    "bodyTextLength": 34237
   },
   {
     "routeId": "service-whatsapp-automation",
@@ -451,13 +447,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216363971&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1635729624.1787216364&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787216364&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fwhatsapp-automation&dt=WhatsApp%20Automation%20%7C%20Business%20API%20%26%20Chat%20Flows&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=609",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219502622&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=192261199.1787219503&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787219502&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fwhatsapp-automation&dt=WhatsApp%20Automation%20%7C%20Business%20API%20%26%20Chat%20Flows&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=558",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "WhatsApp Automation",
-    "bodyTextLength": 36110
+    "bodyTextLength": 34240
   },
   {
     "routeId": "blog-5-signs-your-business-has-outgrown-spreadsheets",
@@ -470,13 +466,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216366936&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=161541818.1787216367&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938468~118012009~118897920~118897930~119367802~119367810~120385423&sid=1787216367&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2F5-signs-your-business-has-outgrown-spreadsheets&dt=5%20signs%20your%20business%20has%20outgrown%20spreadsheets%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=553",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219505137&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=600284606.1787219505&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787219505&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2F5-signs-your-business-has-outgrown-spreadsheets&dt=5%20signs%20your%20business%20has%20outgrown%20spreadsheets%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=539",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "5 signs your business has outgrown spreadsheets",
-    "bodyTextLength": 36417
+    "bodyTextLength": 35422
   },
   {
     "routeId": "blog-zoho-crm-automation-where-teams-leave-value-on-the-table",
@@ -489,13 +485,17 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216369410&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=617720095.1787216370&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787216369&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fzoho-crm-automation-where-teams-leave-value-on-the-table&dt=Zoho%20CRM%20automation%3A%20where%20most%20teams%20leave%20value%20on%20the%20table%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=519",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219507612&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=259638335.1787219508&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787219507&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fzoho-crm-automation-where-teams-leave-value-on-the-table&dt=Zoho%20CRM%20automation%3A%20where%20most%20teams%20leave%20value%20on%20the%20table%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=578",
         "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/sorry/index?continue=https://translate.google.com/translate_a/element.js%3Fcb%3DgoogleTranslateElementInit&q=EgRn_wM2GLKcm9QGIjDmg6M-6-07q9m2O5GlbbxJ38nYM1OFkhIS5C874PW10Ma77zw_TPEYTUtSAjRSad0yAnJSWgFD",
+        "failure": "net::ERR_BLOCKED_BY_ORB"
       }
     ],
     "hasH1": true,
     "h1Text": "Zoho CRM automation: where most teams leave value on the table",
-    "bodyTextLength": 33167
+    "bodyTextLength": 32144
   },
   {
     "routeId": "blog-where-ai-actually-pays-off-inside-a-growing-business",
@@ -508,13 +508,17 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0h2v9254525573za200zd9254525573&_p=1787216371937&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1788471975.1787216372&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787216372&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fwhere-ai-actually-pays-off-inside-a-growing-business&dt=Where%20AI%20actually%20pays%20off%20inside%20a%20growing%20business%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=542",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219510177&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=47151590.1787219510&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120385423&sid=1787219510&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fwhere-ai-actually-pays-off-inside-a-growing-business&dt=Where%20AI%20actually%20pays%20off%20inside%20a%20growing%20business%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=560",
         "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/sorry/index?continue=https://translate.google.com/translate_a/element.js%3Fcb%3DgoogleTranslateElementInit&q=EgRn_wM2GLWcm9QGIjBfzGTTKsG_h6k-Oh3sjaHRFjyCY-w5QK950WVkmuK0V2-gCy0x1iGW7mVQoBZCJBUyAnJSWgFD",
+        "failure": "net::ERR_BLOCKED_BY_ORB"
       }
     ],
     "hasH1": true,
     "h1Text": "Where AI actually pays off inside a growing business",
-    "bodyTextLength": 32666
+    "bodyTextLength": 31630
   },
   {
     "routeId": "blog-what-makes-a-business-website-actually-convert",
@@ -527,13 +531,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216374440&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=578193019.1787216375&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~119791749~120385423&sid=1787216374&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fwhat-makes-a-business-website-actually-convert&dt=What%20makes%20a%20business%20website%20actually%20convert%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=516",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219512873&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=944814611.1787219513&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120385422&sid=1787219512&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fwhat-makes-a-business-website-actually-convert&dt=What%20makes%20a%20business%20website%20actually%20convert%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=595",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "What makes a business website actually convert",
-    "bodyTextLength": 32035
+    "bodyTextLength": 31132
   },
   {
     "routeId": "blog-getting-your-chart-of-accounts-audit-ready-with-zoho-books",
@@ -546,13 +550,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216376851&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=327254868.1787216377&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120385422&sid=1787216377&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fgetting-your-chart-of-accounts-audit-ready-with-zoho-books&dt=Getting%20your%20chart%20of%20accounts%20audit-ready%20with%20Zoho%20Books%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=589",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787219515482&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1216585725.1787219516&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787219515&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fgetting-your-chart-of-accounts-audit-ready-with-zoho-books&dt=Getting%20your%20chart%20of%20accounts%20audit-ready%20with%20Zoho%20Books%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=509",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Getting your chart of accounts audit-ready with Zoho Books",
-    "bodyTextLength": 32599
+    "bodyTextLength": 31683
   },
   {
     "routeId": "blog-zoho-vs-odoo-choosing-the-right-erp-foundation",
@@ -565,13 +569,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1v9254525573za200zd9254525573&_p=1787216379890&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=694662086.1787216380&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~120385423&sid=1787216380&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fzoho-vs-odoo-choosing-the-right-erp-foundation&dt=Zoho%20vs%20Odoo%3A%20choosing%20the%20right%20ERP%20foundation%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=553",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68i1h1v9254525573za200zd9254525573&_p=1787219517922&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1578649858.1787219518&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787219518&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fzoho-vs-odoo-choosing-the-right-erp-foundation&dt=Zoho%20vs%20Odoo%3A%20choosing%20the%20right%20ERP%20foundation%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=534",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Zoho vs Odoo: choosing the right ERP foundation",
-    "bodyTextLength": 34537
+    "bodyTextLength": 33516
   },
   {
     "routeId": "redirect-team",

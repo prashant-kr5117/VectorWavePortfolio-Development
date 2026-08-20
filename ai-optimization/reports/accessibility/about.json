@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T08:55:28.796Z",
+  "timestamp": "2026-08-20T09:48:36.832Z",
   "url": "http://localhost:3100/about",
   "toolOptions": {
     "runOnly": {
@@ -1748,7 +1748,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-phone[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -1780,7 +1780,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-mail[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -1876,7 +1876,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"services\"] > .lucide-chevron-down[width=\"14\"][height=\"14\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"services\"] > .lucide-chevron-down[width=\"14\"][height=\"14\"]"
           ]
         },
         {
@@ -2802,9 +2802,73 @@
           ],
           "none": [],
           "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
           "target": [
-            ".pt-3.border-t.mt-2 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
+            ".pt-3.border-t.mt-2:nth-child(7) > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -2836,7 +2900,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".pt-3.border-t.mt-2 > .relative > .z-30.w-40.-translate-y-1 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check[width=\"14\"][height=\"14\"]"
+            ".pt-3.border-t.mt-2:nth-child(7) > .relative > .z-30.w-40.-translate-y-1 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check[width=\"14\"][height=\"14\"]"
           ]
         },
         {
@@ -2932,7 +2996,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-code-xml\" aria-hidden=\"true\">",
           "target": [
-            ".h-10.w-10.bg-surface-chip > .lucide-code-xml[width=\"20\"][height=\"20\"]"
+            ".p-5.text-center.card-interactive > .card-icon.mb-3 > .lucide-code-xml[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3028,7 +3092,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users\" aria-hidden=\"true\">",
           "target": [
-            ".h-10.w-10.bg-surface-chip > .lucide-users[width=\"20\"][height=\"20\"]"
+            ".p-5.text-center.card-interactive > .card-icon.mb-3 > .lucide-users[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3092,7 +3156,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-round\" aria-hidden=\"true\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(1) > .hover\\:border-primary\\/30.p-5.h-full > .h-14.w-14.mb-3 > .h-14.w-14.rounded-full > .lucide-user-round[width=\"24\"][height=\"24\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(1) > .p-5.card-interactive.h-full > .h-14.w-14.relative > .group-hover\\:scale-110.bg-surface-chip.h-14 > .lucide-user-round[width=\"24\"][height=\"24\"]"
           ]
         },
         {
@@ -3156,7 +3220,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-round\" aria-hidden=\"true\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(2) > .hover\\:border-primary\\/30.p-5.h-full > .h-14.w-14.mb-3 > .h-14.w-14.rounded-full > .lucide-user-round[width=\"24\"][height=\"24\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(2) > .p-5.card-interactive.h-full > .h-14.w-14.relative > .group-hover\\:scale-110.bg-surface-chip.h-14 > .lucide-user-round[width=\"24\"][height=\"24\"]"
           ]
         },
         {
@@ -3220,7 +3284,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-round\" aria-hidden=\"true\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(3) > .hover\\:border-primary\\/30.p-5.h-full > .h-14.w-14.mb-3 > .h-14.w-14.rounded-full > .lucide-user-round[width=\"24\"][height=\"24\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(3) > .p-5.card-interactive.h-full > .h-14.w-14.relative > .group-hover\\:scale-110.bg-surface-chip.h-14 > .lucide-user-round[width=\"24\"][height=\"24\"]"
           ]
         },
         {
@@ -3284,7 +3348,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-round\" aria-hidden=\"true\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(4) > .hover\\:border-primary\\/30.p-5.h-full > .h-14.w-14.mb-3 > .h-14.w-14.rounded-full > .lucide-user-round[width=\"24\"][height=\"24\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(4) > .p-5.card-interactive.h-full > .h-14.w-14.relative > .group-hover\\:scale-110.bg-surface-chip.h-14 > .lucide-user-round[width=\"24\"][height=\"24\"]"
           ]
         },
         {
@@ -3380,7 +3444,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users\" aria-hidden=\"true\">",
           "target": [
-            ".h-11.w-11.bg-ink-inverse > .lucide-users[width=\"20\"][height=\"20\"]"
+            ".card-icon--inverse.card-icon.mb-3 > .lucide-users[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3444,7 +3508,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-code-xml\" aria-hidden=\"true\">",
           "target": [
-            ".h-11.w-11.bg-ink-inverse > .lucide-code-xml[width=\"20\"][height=\"20\"]"
+            ".card-icon--inverse.card-icon.mb-3 > .lucide-code-xml[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3508,7 +3572,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check shrink-0 text-primary\" aria-hidden=\"true\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(1) > .border-ink-inverse-alt.hover\\:border-primary.py-3 > .lucide-circle-check[width=\"18\"][height=\"18\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(1) > .gap-3.border-ink-inverse-alt.hover\\:border-primary > .lucide-circle-check[width=\"18\"][height=\"18\"]"
           ]
         },
         {
@@ -3540,7 +3604,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check shrink-0 text-primary\" aria-hidden=\"true\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(2) > .border-ink-inverse-alt.hover\\:border-primary.py-3 > .lucide-circle-check[width=\"18\"][height=\"18\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(2) > .gap-3.border-ink-inverse-alt.hover\\:border-primary > .lucide-circle-check[width=\"18\"][height=\"18\"]"
           ]
         },
         {
@@ -3572,7 +3636,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check shrink-0 text-primary\" aria-hidden=\"true\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(3) > .border-ink-inverse-alt.hover\\:border-primary.py-3 > .lucide-circle-check[width=\"18\"][height=\"18\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(3) > .gap-3.border-ink-inverse-alt.hover\\:border-primary > .lucide-circle-check[width=\"18\"][height=\"18\"]"
           ]
         },
         {
@@ -3604,7 +3668,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check shrink-0 text-primary\" aria-hidden=\"true\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(4) > .border-ink-inverse-alt.hover\\:border-primary.py-3 > .lucide-circle-check[width=\"18\"][height=\"18\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(4) > .gap-3.border-ink-inverse-alt.hover\\:border-primary > .lucide-circle-check[width=\"18\"][height=\"18\"]"
           ]
         },
         {
@@ -3636,7 +3700,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check shrink-0 text-primary\" aria-hidden=\"true\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(5) > .border-ink-inverse-alt.hover\\:border-primary.py-3 > .lucide-circle-check[width=\"18\"][height=\"18\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(5) > .gap-3.border-ink-inverse-alt.hover\\:border-primary > .lucide-circle-check[width=\"18\"][height=\"18\"]"
           ]
         },
         {
@@ -3668,7 +3732,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-circle-check shrink-0 text-primary\" aria-hidden=\"true\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(6) > .border-ink-inverse-alt.hover\\:border-primary.py-3 > .lucide-circle-check[width=\"18\"][height=\"18\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(6) > .gap-3.border-ink-inverse-alt.hover\\:border-primary > .lucide-circle-check[width=\"18\"][height=\"18\"]"
           ]
         },
         {
@@ -5654,9 +5718,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".inline-flex"
+            ".btn--md"
           ]
         }
       ]
@@ -5706,9 +5770,9 @@
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">What we Provide</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-ink\">What we Provide</h2>",
                   "target": [
-                    ".bg-surface-alt.py-14:nth-child(4) > .max-w-5xl.mx-auto > .mb-8.text-center.translate-y-6 > .text-xl.sm\\:text-2xl"
+                    ".bg-surface-alt.py-14:nth-child(4) > .max-w-5xl.mx-auto > .mb-8.translate-y-6.duration-700 > .text-center > .section-heading.mt-4"
                   ]
                 },
                 {
@@ -5724,21 +5788,21 @@
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">Meet the team</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-ink\">Meet the team</h2>",
                   "target": [
-                    ".max-w-6xl > .mb-8.text-center.translate-y-6 > .text-xl.sm\\:text-2xl"
+                    ".max-w-6xl > .mb-8.translate-y-6.duration-700 > .text-center > .section-heading.mt-4"
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">Our 6-D process</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-ink\">Our 6-D process</h2>",
                   "target": [
-                    ".py-14:nth-child(7) > .max-w-5xl.mx-auto > .mb-8.text-center.translate-y-6 > .text-xl.sm\\:text-2xl"
+                    ".py-14:nth-child(7) > .max-w-5xl.mx-auto > .mb-8.translate-y-6.duration-700 > .text-center > .section-heading.mt-4"
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-xl font-bold text-on-inverse sm:text-2xl\">Why choose us</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-on-inverse\">Why choose us</h2>",
                   "target": [
-                    ".relative > .max-w-5xl.mx-auto > .mb-8.text-center.translate-y-6 > .text-xl.sm\\:text-2xl"
+                    ".relative > .max-w-5xl.mx-auto > .mb-8.translate-y-6.duration-700 > .text-center > .section-heading.mt-4"
                   ]
                 },
                 {
@@ -5867,7 +5931,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/\">Home</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href=\"/\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href=\"/\"]"
           ]
         },
         {
@@ -5917,7 +5981,7 @@
           "impact": null,
           "html": "<a class=\"relative flex items-center gap-1 py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/services\">",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"services\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"services\"]"
           ]
         },
         {
@@ -5942,7 +6006,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/blog\">Blog</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"blog\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"blog\"]"
           ]
         },
         {
@@ -5967,7 +6031,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/contact\">Contact</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full.after\\:w-0:nth-child(5)"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"contact\"]"
           ]
         },
         {
@@ -5990,9 +6054,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"inline-block rounded-full bg-surface-chip px-4 py-1.5 text-[11px] font-bold text-primary\">About Us</span>",
+          "html": "<span class=\"section-eyebrow section-eyebrow--light\">About Us</span>",
           "target": [
-            ".py-1\\.5"
+            ".section-eyebrow"
           ]
         },
         {
@@ -6167,7 +6231,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Platforms</div>",
           "target": [
-            "div:nth-child(2) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(2) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -6292,7 +6356,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Industries</div>",
           "target": [
-            "div:nth-child(3) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(3) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -6417,7 +6481,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Get in touch</div>",
           "target": [
-            "div:nth-child(4) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(4) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -7485,7 +7549,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/\">Home</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href=\"/\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href=\"/\"]"
           ]
         },
         {
@@ -7537,7 +7601,7 @@
           "impact": null,
           "html": "<a class=\"relative flex items-center gap-1 py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/services\">",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"services\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"services\"]"
           ]
         },
         {
@@ -7563,7 +7627,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/blog\">Blog</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"blog\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"blog\"]"
           ]
         },
         {
@@ -7589,7 +7653,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/contact\">Contact</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full.after\\:w-0:nth-child(5)"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"contact\"]"
           ]
         },
         {
@@ -7613,9 +7677,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".px-5"
+            ".lg\\:flex.hidden.gap-4 > .btn--sm.btn.btn-primary"
           ]
         },
         {
@@ -8576,9 +8640,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".inline-flex"
+            ".btn--md"
           ]
         },
         {
@@ -8740,9 +8804,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+                  "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
                   "target": [
-                    ".px-5"
+                    ".lg\\:flex.hidden.gap-4 > .btn--sm.btn.btn-primary"
                   ]
                 }
               ],
@@ -8753,9 +8817,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".px-5"
+            ".lg\\:flex.hidden.gap-4 > .btn--sm.btn.btn-primary"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
         },
@@ -8819,7 +8883,7 @@
           "impact": "serious",
           "html": "<p class=\"mx-auto mt-4 max-w-xl text-sm text-on-inverse-muted sm:text-base\">We specialize in ERP implementation and CRM automation, with deep hands-on expertise in Zoho and Odoo, helping growing businesses bring sales, finance, HR, and operations together into one system.</p>",
           "target": [
-            ".mt-4"
+            ".max-w-xl"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
         }

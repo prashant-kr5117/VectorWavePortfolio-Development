@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import {
   Boxes,
@@ -12,6 +11,8 @@ import {
   Smartphone,
 } from "lucide-react";
 import Reveal from "@/components/Reveal";
+import { Card, CardIcon } from "@/components/ui/Card";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 import WebCodingImage from "@/src/Web Coding.png";
 
 const services = [
@@ -80,49 +81,32 @@ export default function Services() {
   return (
     <section className="px-4 py-20 sm:px-6 lg:px-10 lg:py-28">
       <div className="mx-auto max-w-7xl">
-        <Reveal className="mb-8 text-center">
-          <h2 className="text-xl font-bold text-ink sm:text-2xl">
-            Services we provide
-          </h2>
-          <p className="mt-1 text-sm text-ink-muted">
-            One connected system in place of scattered spreadsheets and tools.
-          </p>
+        <Reveal className="mb-8">
+          <SectionHeading
+            heading="Services we provide"
+            description="One connected system in place of scattered spreadsheets and tools."
+            align="center"
+          />
         </Reveal>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((s, i) => {
-            const cardClasses =
-              "group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg";
-            const content = (
-              <>
+          {services.map((s, i) => (
+            <Reveal key={s.title} delay={i * 60}>
+              <Card href={s.slug ? `/services/${s.slug}` : undefined}>
                 {s.logo ? (
                   <div className="mb-3 h-12 w-12 shrink-0 overflow-hidden rounded-full transition-transform duration-300 group-hover:scale-110">
                     <Image src={s.logo} alt="" className="h-full w-full object-cover" />
                   </div>
                 ) : (
-                  <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-surface-chip text-primary transition-transform duration-300 group-hover:scale-110">
+                  <CardIcon>
                     <s.icon size={18} />
-                  </div>
+                  </CardIcon>
                 )}
-                <div className="mb-1 text-sm font-bold text-ink">
-                  {s.title}
-                </div>
+                <div className="mb-1 text-sm font-bold text-ink">{s.title}</div>
                 <p className="text-sm text-ink-muted">{s.desc}</p>
-              </>
-            );
-
-            return (
-              <Reveal key={s.title} delay={i * 60}>
-                {s.slug ? (
-                  <Link href={`/services/${s.slug}`} className={`block ${cardClasses}`}>
-                    {content}
-                  </Link>
-                ) : (
-                  <div className={cardClasses}>{content}</div>
-                )}
-              </Reveal>
-            );
-          })}
+              </Card>
+            </Reveal>
+          ))}
         </div>
       </div>
     </section>

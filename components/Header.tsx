@@ -35,14 +35,12 @@ export default function Header() {
   const [openPlatform, setOpenPlatform] = useState<string | null>(null);
   const pathname = usePathname();
 
-  const isHome = pathname === "/";
-
   return (
-    <header
-      className={`z-50 border-b border-border bg-surface/95 backdrop-blur transition-colors duration-300 ${
-        isHome ? "fixed left-0 right-0 top-0" : "sticky top-0"
-      }`}
-    >
+    // One consistent behavior sitewide (was `fixed` on the homepage only, `sticky`
+    // everywhere else — a confirmed inconsistency, see
+    // ai-optimization/reports/STAGE-2-BASELINE-REVIEW.md). `sticky` is used everywhere
+    // now, matching the majority of the site's prior behavior.
+    <header className="sticky top-0 z-50 border-b border-border bg-surface/95 backdrop-blur transition-colors duration-300">
       <div className="hidden items-center justify-between bg-ink-inverse px-4 py-3 text-on-inverse-muted sm:px-6 lg:flex lg:px-10">
         <div className="flex items-center gap-6 text-[13px] font-semibold text-[#ffffff]">
           <a
@@ -101,10 +99,14 @@ export default function Header() {
                   className="relative"
                   onMouseEnter={() => setServicesOpen(true)}
                   onMouseLeave={() => setServicesOpen(false)}
+                  onFocus={() => setServicesOpen(true)}
                   onBlur={(e) => {
                     if (!e.currentTarget.contains(e.relatedTarget as Node)) {
                       setServicesOpen(false);
                     }
+                  }}
+                  onKeyDown={(e) => {
+                    if (e.key === "Escape") setServicesOpen(false);
                   }}
                 >
                   <Link
@@ -222,10 +224,7 @@ export default function Header() {
           <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-surface-alt text-ink">
             <LanguageSwitcher colorClassName="text-ink" />
           </span>
-          <Link
-            href="/contact"
-            className="btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0"
-          >
+          <Link href="/contact" className="btn btn-primary btn--sm">
             Book a call
           </Link>
         </div>
@@ -360,13 +359,32 @@ export default function Header() {
                 </Link>
               );
             })}
+            {/* Phone/email were previously only in the desktop-only top bar (hidden
+                below lg:) and never reachable from the mobile menu — a confirmed mobile
+                UX gap (ai-optimization/reports/PRIORITY-MATRIX.md P2-8). */}
+            <div className="mt-2 flex flex-col gap-2 border-t border-border pt-3 text-sm font-semibold text-ink-soft">
+              <a
+                href="tel:+918791810555"
+                className="flex items-center gap-2 transition-colors duration-200 hover:text-primary"
+              >
+                <Phone size={15} />
+                +91-8791810555
+              </a>
+              <a
+                href="mailto:admin@vectorwavetechnologies.com"
+                className="flex items-center gap-2 transition-colors duration-200 hover:text-primary"
+              >
+                <Mail size={15} />
+                admin@vectorwavetechnologies.com
+              </a>
+            </div>
             <div className="mt-2 flex items-center justify-between border-t border-border pt-3">
               <span className="text-sm font-bold text-ink-soft">Language</span>
               <LanguageSwitcher />
             </div>
             <Link
               href="/contact"
-              className="mt-2 rounded-lg bg-accent px-4 py-2.5 text-center text-sm font-bold text-on-inverse transition-colors duration-200 hover:bg-accent-hover"
+              className="btn btn-primary btn--sm mt-2"
               onClick={() => setOpen(false)}
             >
               Book a call

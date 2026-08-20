@@ -13,7 +13,6 @@ import Innovation from "@/components/sections/Innovation";
 import Testimonial from "@/components/sections/Testimonial";
 import VideoTestimonial from "@/components/sections/VideoTestimonial";
 import CTA from "@/components/sections/CTA";
-import Footer from "@/components/Footer";
 
 const homeJsonLd = {
   "@context": "https://schema.org",
@@ -59,7 +58,6 @@ export default function Home() {
         />
         <CTA />
       </main>
-      <Footer />
     </>
   );
 }

@@ -6,6 +6,7 @@ import { Calendar, Clock, User, Search, ArrowRight } from "lucide-react";
 import { getSortedPosts } from "@/lib/posts";
 import BlogIcon from "@/components/BlogIcon";
 import HoverGlow from "@/components/HoverGlow";
+import { Card } from "@/components/ui/Card";
 
 const categories = ["All", "ERP", "CRM", "AI", "Web Dev", "Finance"];
 
@@ -31,16 +32,21 @@ export default function BlogGrid() {
     <div>
       <div className="mb-6 flex justify-center">
         <div className="relative w-full max-w-md">
+          <label htmlFor="blog-search" className="sr-only">
+            Search articles
+          </label>
           <Search
             size={16}
+            aria-hidden="true"
             className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-ink-faint"
           />
           <input
+            id="blog-search"
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search articles"
-            className="w-full rounded-full border border-border py-2.5 pl-10 pr-4 text-sm outline-none transition-colors duration-200 focus:border-primary"
+            className="form-control rounded-full pl-10"
           />
         </div>
       </div>
@@ -108,11 +114,7 @@ export default function BlogGrid() {
       ) : (
         <div className="grid grid-cols-1 items-stretch gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((post) => (
-            <Link
-              key={post.slug}
-              href={`/blog/${post.slug}`}
-              className="group flex h-full flex-col overflow-hidden rounded-xl border border-border bg-surface transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg"
-            >
+            <Card key={post.slug} href={`/blog/${post.slug}`} padding="sm" className="overflow-hidden !p-0">
               <div className="flex h-32 shrink-0 items-center justify-center bg-surface-alt text-primary transition-transform duration-300 group-hover:scale-105">
                 <BlogIcon icon={post.icon} size={36} />
               </div>
@@ -138,7 +140,7 @@ export default function BlogGrid() {
                   </span>
                 </div>
               </div>
-            </Link>
+            </Card>
           ))}
         </div>
       )}

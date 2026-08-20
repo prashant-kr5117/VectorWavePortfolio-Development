@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T08:55:35.831Z",
+  "timestamp": "2026-08-20T09:48:41.698Z",
   "url": "http://localhost:3100/services",
   "toolOptions": {
     "runOnly": {
@@ -890,7 +890,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".bg-surface-alt.h-9.w-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -930,7 +930,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -970,7 +970,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -1382,7 +1382,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".bg-surface-alt.h-9.w-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -1400,7 +1400,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -1418,7 +1418,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -1748,7 +1748,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-phone[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -1780,7 +1780,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-mail[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2.duration-200:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -2548,7 +2548,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
           "target": [
-            ".bg-surface-alt.h-9.w-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -2580,7 +2580,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".bg-surface-alt.h-9.w-9 > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check[height=\"14\"][width=\"14\"]"
+            ".h-9 > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
           ]
         },
         {
@@ -2802,9 +2802,73 @@
           ],
           "none": [],
           "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2.duration-200:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
           "target": [
-            ".border-t.pt-3.mt-2 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
+            ".border-t.pt-3.mt-2:nth-child(7) > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -2836,7 +2900,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".border-t.pt-3.mt-2 > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check[height=\"14\"][width=\"14\"]"
+            ".border-t.pt-3.mt-2:nth-child(7) > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
           ]
         },
         {
@@ -2868,7 +2932,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-boxes\" aria-hidden=\"true\">",
           "target": [
-            ".gap-3.text-center[href$=\"zoho-bundled-suite\"] > .h-11.w-11.bg-surface-chip > .lucide-boxes[width=\"20\"][height=\"20\"]"
+            ".text-center.card-interactive[href$=\"zoho-bundled-suite\"] > .card-icon.mb-3 > .lucide-boxes[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -2900,7 +2964,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(1) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(2) > .gap-3.text-center[href$=\"sales\"] > .h-11.w-11.bg-surface-chip > .lucide-users[width=\"20\"][height=\"20\"]"
+            "div:nth-child(1) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(2) > .text-center.card-interactive[href$=\"sales\"] > .card-icon.mb-3 > .lucide-users[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -2964,7 +3028,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calculator\" aria-hidden=\"true\">",
           "target": [
-            ".gap-3.text-center[href$=\"zoho-finance\"] > .h-11.w-11.bg-surface-chip > .lucide-calculator[width=\"20\"][height=\"20\"]"
+            ".text-center.card-interactive[href$=\"zoho-finance\"] > .card-icon.mb-3 > .lucide-calculator[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -2996,7 +3060,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-cog\" aria-hidden=\"true\">",
           "target": [
-            ".gap-3.text-center[href$=\"human-resources\"] > .h-11.w-11.bg-surface-chip > .lucide-user-cog[width=\"20\"][height=\"20\"]"
+            ".text-center.card-interactive[href$=\"human-resources\"] > .card-icon.mb-3 > .lucide-user-cog[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3028,7 +3092,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-boxes\" aria-hidden=\"true\">",
           "target": [
-            ".gap-3.text-center[href$=\"odoo-business-suite\"] > .h-11.w-11.bg-surface-chip > .lucide-boxes[width=\"20\"][height=\"20\"]"
+            ".text-center.card-interactive[href$=\"odoo-business-suite\"] > .card-icon.mb-3 > .lucide-boxes[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3124,7 +3188,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calculator\" aria-hidden=\"true\">",
           "target": [
-            ".gap-3.text-center[href$=\"odoo-accounting\"] > .h-11.w-11.bg-surface-chip > .lucide-calculator[width=\"20\"][height=\"20\"]"
+            ".text-center.card-interactive[href$=\"odoo-accounting\"] > .card-icon.mb-3 > .lucide-calculator[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3156,7 +3220,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-cog\" aria-hidden=\"true\">",
           "target": [
-            ".gap-3.text-center[href$=\"odoo-workforce-hr\"] > .h-11.w-11.bg-surface-chip > .lucide-user-cog[width=\"20\"][height=\"20\"]"
+            ".text-center.card-interactive[href$=\"odoo-workforce-hr\"] > .card-icon.mb-3 > .lucide-user-cog[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3188,7 +3252,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-boxes\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(3) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(1) > .gap-3.text-center.flex-col > .h-11.w-11.bg-surface-chip > .lucide-boxes[width=\"20\"][height=\"20\"]"
+            "div:nth-child(3) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(1) > .text-center.card-interactive.p-5 > .card-icon.mb-3 > .lucide-boxes[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3220,7 +3284,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users\" aria-hidden=\"true\">",
           "target": [
-            ".gap-3.text-center[href$=\"dynamics-365-sales\"] > .h-11.w-11.bg-surface-chip > .lucide-users[width=\"20\"][height=\"20\"]"
+            ".text-center.card-interactive[href$=\"dynamics-365-sales\"] > .card-icon.mb-3 > .lucide-users[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3252,7 +3316,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-shield-check\" aria-hidden=\"true\">",
           "target": [
-            ".h-11.w-11.bg-surface-chip > .lucide-shield-check[width=\"20\"][height=\"20\"]"
+            ".text-center.card-interactive.p-5 > .card-icon.mb-3 > .lucide-shield-check[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3284,7 +3348,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calculator\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(3) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(4) > .gap-3.text-center.flex-col > .h-11.w-11.bg-surface-chip > .lucide-calculator[width=\"20\"][height=\"20\"]"
+            "div:nth-child(3) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(4) > .text-center.card-interactive.p-5 > .card-icon.mb-3 > .lucide-calculator[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3316,7 +3380,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-cog\" aria-hidden=\"true\">",
           "target": [
-            ".gap-3.text-center[href$=\"dynamics-365-hr\"] > .h-11.w-11.bg-surface-chip > .lucide-user-cog[width=\"20\"][height=\"20\"]"
+            ".text-center.card-interactive[href$=\"dynamics-365-hr\"] > .card-icon.mb-3 > .lucide-user-cog[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3380,7 +3444,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
           "target": [
-            ".h-11.w-11.bg-surface-chip > .lucide-globe[width=\"20\"][height=\"20\"]"
+            ".card-icon.mb-3 > .lucide-globe[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3508,7 +3572,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users\" aria-hidden=\"true\">",
           "target": [
-            ".w-10.h-10.bg-surface-chip > .lucide-users[width=\"20\"][height=\"20\"]"
+            ".lg\\:grid-cols-3.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(2) > .card-interactive.p-5.h-full > .card-icon.mb-3 > .lucide-users[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3540,7 +3604,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-shield-check\" aria-hidden=\"true\">",
           "target": [
-            ".w-10.h-10.bg-surface-chip > .lucide-shield-check[width=\"20\"][height=\"20\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(5) > .card-interactive.p-5.h-full > .card-icon.mb-3 > .lucide-shield-check[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -4116,7 +4180,7 @@
           "impact": null,
           "html": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM7 8.48H3V21h4V8.48Zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48Z\"></path></svg>",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
+            ".h-8.w-8.rounded-full:nth-child(1) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -4148,7 +4212,7 @@
           "impact": null,
           "html": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
+            ".h-8.w-8.rounded-full:nth-child(2) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
           ]
         }
       ]
@@ -4220,7 +4284,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".bg-surface-alt.h-9.w-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -4238,7 +4302,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -4256,7 +4320,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -4796,7 +4860,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".bg-surface-alt.h-9.w-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -4828,7 +4892,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -4860,7 +4924,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -5159,7 +5223,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".bg-surface-alt.h-9.w-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -5177,7 +5241,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -5195,7 +5259,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -5499,7 +5563,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<div style=\"transition-delay:0ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 mb-10 text-center\">",
+          "html": "<div style=\"transition-delay:0ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 mb-10\">",
           "target": [
             ".mb-10"
           ]
@@ -5565,7 +5629,7 @@
           "impact": null,
           "html": "<div class=\"flex shrink-0 items-center justify-center rounded-lg border border-border bg-white px-2\" style=\"height:40px;min-width:40px\">",
           "target": [
-            ".translate-y-0.opacity-100.mb-5 > .bg-white.shrink-0.px-2"
+            ".translate-y-0.opacity-100.mb-5 > .bg-white.border.shrink-0"
           ]
         },
         {
@@ -5597,7 +5661,7 @@
           "impact": null,
           "html": "<img alt=\"Zoho logo\" loading=\"lazy\" width=\"753\" height=\"265\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent;he...\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            ".translate-y-0.opacity-100.mb-5 > .bg-white.shrink-0.px-2 > img[alt=\"Zoho logo\"][width=\"753\"][height=\"265\"]"
+            ".translate-y-0.opacity-100.mb-5 > .bg-white.border.shrink-0 > img[alt=\"Zoho logo\"][width=\"753\"][height=\"265\"]"
           ]
         },
         {
@@ -5702,7 +5766,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".bg-surface-alt.h-9.w-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -5718,9 +5782,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".btn-shine.px-6.hover\\:-translate-y-0\\.5"
+            ".btn--md"
           ]
         }
       ]
@@ -5758,21 +5822,21 @@
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">Platforms &amp; services we implement</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-ink\">Platforms &amp; services we implement</h2>",
                   "target": [
-                    ".mb-10 > .text-xl.sm\\:text-2xl"
+                    ".mb-10 > .text-center > .section-heading"
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">Comprehensive digital solutions</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-ink\">Comprehensive digital solutions</h2>",
                   "target": [
-                    ".bg-surface-alt:nth-child(3) > .max-w-6xl.mx-auto > .mb-8.text-center.translate-y-6 > .text-xl.sm\\:text-2xl"
+                    ".bg-surface-alt:nth-child(3) > .max-w-6xl.mx-auto > .mb-8.translate-y-6.duration-700 > .text-center > .section-heading"
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">Industries we serve</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-ink\">Industries we serve</h2>",
                   "target": [
-                    "section:nth-child(4) > .max-w-6xl.mx-auto > .mb-8.text-center.translate-y-6 > .text-xl.sm\\:text-2xl"
+                    "section:nth-child(4) > .max-w-6xl.mx-auto > .mb-8.translate-y-6.duration-700 > .text-center > .section-heading"
                   ]
                 },
                 {
@@ -5876,7 +5940,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"flex items-center gap-2 transition-colors duration-200 hover:text-accent\">",
           "target": [
-            ".hover\\:text-accent.gap-2.transition-colors:nth-child(2)"
+            ".hover\\:text-accent.gap-2.duration-200:nth-child(2)"
           ]
         },
         {
@@ -5901,7 +5965,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/\">Home</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href=\"/\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href=\"/\"]"
           ]
         },
         {
@@ -5926,7 +5990,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/about\">About Us</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"about\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"about\"]"
           ]
         },
         {
@@ -5976,7 +6040,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/blog\">Blog</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"blog\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"blog\"]"
           ]
         },
         {
@@ -6001,7 +6065,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/contact\">Contact</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full.after\\:w-0:nth-child(5)"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"contact\"]"
           ]
         },
         {
@@ -6024,9 +6088,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"inline-block rounded-full bg-surface-chip px-4 py-1.5 text-[11px] font-bold text-primary\">Services</span>",
+          "html": "<span class=\"section-eyebrow section-eyebrow--light\">Services</span>",
           "target": [
-            ".py-1\\.5"
+            ".section-eyebrow"
           ]
         },
         {
@@ -6076,7 +6140,7 @@
           "impact": null,
           "html": "<p class=\"mx-auto mt-4 max-w-xl text-sm text-ink-muted sm:text-base\">",
           "target": [
-            ".mt-4"
+            ".max-w-xl.mt-4.sm\\:text-base"
           ]
         },
         {
@@ -6099,9 +6163,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">Platforms &amp; services we implement</h2>",
+          "html": "<h2 class=\"section-heading mt-4 text-ink\">Platforms &amp; services we implement</h2>",
           "target": [
-            ".mb-10 > .text-xl.sm\\:text-2xl"
+            ".mb-10 > .text-center > .section-heading"
           ]
         },
         {
@@ -6124,9 +6188,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<p class=\"mt-1 text-sm text-ink-muted\">Select a category to see the specific tools and what they cover.</p>",
+          "html": "<p class=\"section-description text-ink-muted\">Select a category to see the specific tools and what they cover.</p>",
           "target": [
-            ".mb-10 > .mt-1"
+            ".mb-10 > .text-center > .section-description"
           ]
         },
         {
@@ -6426,7 +6490,7 @@
           "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#laptop-manufacturing-refurbishment\">Laptop Refurbishment</a>",
           "target": [
-            "div:nth-child(3) > ul > li:nth-child(3) > .hover\\:text-on-inverse.transition-colors.duration-200"
+            "div:nth-child(3) > ul > li:nth-child(3) > .hover\\:text-on-inverse.duration-200.transition-colors"
           ]
         },
         {
@@ -6526,7 +6590,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"transition-colors duration-200 hover:text-on-inverse\">admin@vectorwavetechnologies.com</a>",
           "target": [
-            "div:nth-child(4) > ul > li:nth-child(2) > .hover\\:text-on-inverse.transition-colors.duration-200"
+            "div:nth-child(4) > ul > li:nth-child(2) > .hover\\:text-on-inverse.duration-200.transition-colors"
           ]
         },
         {
@@ -6551,7 +6615,7 @@
           "impact": null,
           "html": "<a href=\"tel:+918791810555\" class=\"transition-colors duration-200 hover:text-on-inverse\">+91-8791810555</a>",
           "target": [
-            ".hover\\:text-on-inverse.transition-colors[href=\"tel:+918791810555\"]"
+            ".hover\\:text-on-inverse.duration-200[href=\"tel:+918791810555\"]"
           ]
         },
         {
@@ -6964,7 +7028,7 @@
           "impact": null,
           "html": "<img alt=\"Zoho logo\" loading=\"lazy\" width=\"753\" height=\"265\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent;he...\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            ".translate-y-0.opacity-100.mb-5 > .bg-white.shrink-0.px-2 > img[alt=\"Zoho logo\"][width=\"753\"][height=\"265\"]"
+            ".translate-y-0.opacity-100.mb-5 > .bg-white.border.shrink-0 > img[alt=\"Zoho logo\"][width=\"753\"][height=\"265\"]"
           ]
         },
         {
@@ -6990,7 +7054,7 @@
           "impact": null,
           "html": "<img alt=\"Odoo logo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent;he...\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            ".mb-5.gap-3.translate-y-6 > .bg-white.shrink-0.px-2 > img[alt=\"Odoo logo\"][width=\"480\"][height=\"480\"]"
+            ".mb-5.gap-3.translate-y-6 > .bg-white.border.shrink-0 > img[alt=\"Odoo logo\"][width=\"480\"][height=\"480\"]"
           ]
         },
         {
@@ -7016,7 +7080,7 @@
           "impact": null,
           "html": "<img alt=\"Microsoft 365 logo\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent;height:24px;width:auto\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
           "target": [
-            ".mb-5.gap-3.translate-y-6 > .bg-white.shrink-0.px-2 > img[alt=\"Microsoft 365 logo\"][width=\"1017\"][height=\"355\"]"
+            ".mb-5.gap-3.translate-y-6 > .bg-white.border.shrink-0 > img[alt=\"Microsoft 365 logo\"][width=\"1017\"][height=\"355\"]"
           ]
         },
         {
@@ -7042,7 +7106,7 @@
           "impact": null,
           "html": "<img alt=\"Custom Development l...\" loading=\"lazy\" width=\"512\" height=\"512\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent;he...\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            ".mb-5.gap-3.translate-y-6 > .bg-white.shrink-0.px-2 > img[alt=\"Custom Development logo\"][width=\"512\"][height=\"512\"]"
+            ".mb-5.gap-3.translate-y-6 > .bg-white.border.shrink-0 > img[alt=\"Custom Development logo\"][width=\"512\"][height=\"512\"]"
           ]
         },
         {
@@ -7197,7 +7261,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"flex items-center gap-2 transition-colors duration-200 hover:text-accent\">",
           "target": [
-            ".hover\\:text-accent.gap-2.transition-colors:nth-child(2)"
+            ".hover\\:text-accent.gap-2.duration-200:nth-child(2)"
           ]
         },
         {
@@ -7301,7 +7365,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/\">Home</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href=\"/\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href=\"/\"]"
           ]
         },
         {
@@ -7327,7 +7391,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/about\">About Us</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"about\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"about\"]"
           ]
         },
         {
@@ -7379,7 +7443,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/blog\">Blog</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"blog\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"blog\"]"
           ]
         },
         {
@@ -7405,7 +7469,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/contact\">Contact</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full.after\\:w-0:nth-child(5)"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"contact\"]"
           ]
         },
         {
@@ -7429,9 +7493,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".px-5"
+            ".lg\\:flex.hidden.gap-4 > .btn--sm.btn.btn-primary"
           ]
         },
         {
@@ -7455,9 +7519,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/zoho-bundled-suite\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/zoho-bundled-suite\">",
           "target": [
-            ".gap-3.text-center[href$=\"zoho-bundled-suite\"]"
+            ".text-center.card-interactive[href$=\"zoho-bundled-suite\"]"
           ]
         },
         {
@@ -7481,9 +7545,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/sales\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/sales\">",
           "target": [
-            "div:nth-child(1) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(2) > .gap-3.text-center[href$=\"sales\"]"
+            "div:nth-child(1) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(2) > .text-center.card-interactive[href$=\"sales\"]"
           ]
         },
         {
@@ -7507,9 +7571,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/it-support\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/it-support\">",
           "target": [
-            ".gap-3.text-center[href$=\"it-support\"]"
+            ".text-center.card-interactive[href$=\"it-support\"]"
           ]
         },
         {
@@ -7533,9 +7597,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/zoho-finance\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/zoho-finance\">",
           "target": [
-            ".gap-3.text-center[href$=\"zoho-finance\"]"
+            ".text-center.card-interactive[href$=\"zoho-finance\"]"
           ]
         },
         {
@@ -7559,9 +7623,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/human-resources\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/human-resources\">",
           "target": [
-            ".gap-3.text-center[href$=\"human-resources\"]"
+            ".text-center.card-interactive[href$=\"human-resources\"]"
           ]
         },
         {
@@ -7585,9 +7649,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/odoo-business-suite\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/odoo-business-suite\">",
           "target": [
-            ".gap-3.text-center[href$=\"odoo-business-suite\"]"
+            ".text-center.card-interactive[href$=\"odoo-business-suite\"]"
           ]
         },
         {
@@ -7611,9 +7675,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/odoo-sales-ecommerce\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/odoo-sales-ecommerce\">",
           "target": [
-            ".gap-3.text-center[href$=\"odoo-sales-ecommerce\"]"
+            ".text-center.card-interactive[href$=\"odoo-sales-ecommerce\"]"
           ]
         },
         {
@@ -7637,9 +7701,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/odoo-inventory-operations\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/odoo-inventory-operations\">",
           "target": [
-            "div:nth-child(2) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(3) > .gap-3.text-center.flex-col"
+            "div:nth-child(2) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(3) > .text-center.card-interactive.p-5"
           ]
         },
         {
@@ -7663,9 +7727,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/odoo-accounting\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/odoo-accounting\">",
           "target": [
-            ".gap-3.text-center[href$=\"odoo-accounting\"]"
+            ".text-center.card-interactive[href$=\"odoo-accounting\"]"
           ]
         },
         {
@@ -7689,9 +7753,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/odoo-workforce-hr\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/odoo-workforce-hr\">",
           "target": [
-            ".gap-3.text-center[href$=\"odoo-workforce-hr\"]"
+            ".text-center.card-interactive[href$=\"odoo-workforce-hr\"]"
           ]
         },
         {
@@ -7715,9 +7779,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/microsoft-365-dynamics-suite\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/microsoft-365-dynamics-suite\">",
           "target": [
-            "div:nth-child(3) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(1) > .gap-3.text-center.flex-col"
+            "div:nth-child(3) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(1) > .text-center.card-interactive.p-5"
           ]
         },
         {
@@ -7741,9 +7805,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/dynamics-365-sales\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/dynamics-365-sales\">",
           "target": [
-            ".gap-3.text-center[href$=\"dynamics-365-sales\"]"
+            ".text-center.card-interactive[href$=\"dynamics-365-sales\"]"
           ]
         },
         {
@@ -7767,9 +7831,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/microsoft-security-device-management\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/microsoft-security-device-management\">",
           "target": [
-            "div:nth-child(3) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(3) > .gap-3.text-center.flex-col"
+            "div:nth-child(3) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(3) > .text-center.card-interactive.p-5"
           ]
         },
         {
@@ -7793,9 +7857,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/business-central-finance\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/business-central-finance\">",
           "target": [
-            "div:nth-child(3) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(4) > .gap-3.text-center.flex-col"
+            "div:nth-child(3) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(4) > .text-center.card-interactive.p-5"
           ]
         },
         {
@@ -7819,9 +7883,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/dynamics-365-hr\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/dynamics-365-hr\">",
           "target": [
-            ".gap-3.text-center[href$=\"dynamics-365-hr\"]"
+            ".text-center.card-interactive[href$=\"dynamics-365-hr\"]"
           ]
         },
         {
@@ -7845,9 +7909,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/mobile-app-development\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/mobile-app-development\">",
           "target": [
-            "div:nth-child(4) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(1) > .gap-3.text-center.flex-col"
+            "div:nth-child(4) > .lg\\:grid-cols-5.grid-cols-1.sm\\:grid-cols-2 > .translate-y-6.duration-700.ease-out:nth-child(1) > .text-center.card-interactive.p-5"
           ]
         },
         {
@@ -7871,9 +7935,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/web-development\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/web-development\">",
           "target": [
-            ".gap-3.text-center[href$=\"web-development\"]"
+            ".text-center.card-interactive[href$=\"web-development\"]"
           ]
         },
         {
@@ -7897,9 +7961,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/ai-integration\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/ai-integration\">",
           "target": [
-            ".gap-3.text-center[href$=\"ai-integration\"]"
+            ".text-center.card-interactive[href$=\"ai-integration\"]"
           ]
         },
         {
@@ -7923,9 +7987,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/whatsapp-automation\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/whatsapp-automation\">",
           "target": [
-            ".gap-3.text-center[href$=\"whatsapp-automation\"]"
+            ".text-center.card-interactive[href$=\"whatsapp-automation\"]"
           ]
         },
         {
@@ -8107,7 +8171,7 @@
           "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#laptop-manufacturing-refurbishment\">Laptop Refurbishment</a>",
           "target": [
-            "div:nth-child(3) > ul > li:nth-child(3) > .hover\\:text-on-inverse.transition-colors.duration-200"
+            "div:nth-child(3) > ul > li:nth-child(3) > .hover\\:text-on-inverse.duration-200.transition-colors"
           ]
         },
         {
@@ -8159,7 +8223,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"transition-colors duration-200 hover:text-on-inverse\">admin@vectorwavetechnologies.com</a>",
           "target": [
-            "div:nth-child(4) > ul > li:nth-child(2) > .hover\\:text-on-inverse.transition-colors.duration-200"
+            "div:nth-child(4) > ul > li:nth-child(2) > .hover\\:text-on-inverse.duration-200.transition-colors"
           ]
         },
         {
@@ -8185,7 +8249,7 @@
           "impact": null,
           "html": "<a href=\"tel:+918791810555\" class=\"transition-colors duration-200 hover:text-on-inverse\">+91-8791810555</a>",
           "target": [
-            ".hover\\:text-on-inverse.transition-colors[href=\"tel:+918791810555\"]"
+            ".hover\\:text-on-inverse.duration-200[href=\"tel:+918791810555\"]"
           ]
         },
         {
@@ -8211,7 +8275,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -8237,7 +8301,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         }
       ]
@@ -8618,7 +8682,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".bg-surface-alt.h-9.w-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -8636,7 +8700,7 @@
           "impact": null,
           "html": "<img alt=\"Zoho logo\" loading=\"lazy\" width=\"753\" height=\"265\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent;he...\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            ".translate-y-0.opacity-100.mb-5 > .bg-white.shrink-0.px-2 > img[alt=\"Zoho logo\"][width=\"753\"][height=\"265\"]"
+            ".translate-y-0.opacity-100.mb-5 > .bg-white.border.shrink-0 > img[alt=\"Zoho logo\"][width=\"753\"][height=\"265\"]"
           ]
         },
         {
@@ -8654,7 +8718,7 @@
           "impact": null,
           "html": "<img alt=\"Odoo logo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent;he...\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            ".mb-5.gap-3.translate-y-6 > .bg-white.shrink-0.px-2 > img[alt=\"Odoo logo\"][width=\"480\"][height=\"480\"]"
+            ".mb-5.gap-3.translate-y-6 > .bg-white.border.shrink-0 > img[alt=\"Odoo logo\"][width=\"480\"][height=\"480\"]"
           ]
         },
         {
@@ -8672,7 +8736,7 @@
           "impact": null,
           "html": "<img alt=\"Microsoft 365 logo\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent;height:24px;width:auto\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
           "target": [
-            ".mb-5.gap-3.translate-y-6 > .bg-white.shrink-0.px-2 > img[alt=\"Microsoft 365 logo\"][width=\"1017\"][height=\"355\"]"
+            ".mb-5.gap-3.translate-y-6 > .bg-white.border.shrink-0 > img[alt=\"Microsoft 365 logo\"][width=\"1017\"][height=\"355\"]"
           ]
         },
         {
@@ -8690,7 +8754,7 @@
           "impact": null,
           "html": "<img alt=\"Custom Development l...\" loading=\"lazy\" width=\"512\" height=\"512\" decoding=\"async\" data-nimg=\"1\" style=\"color:transparent;he...\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            ".mb-5.gap-3.translate-y-6 > .bg-white.shrink-0.px-2 > img[alt=\"Custom Development logo\"][width=\"512\"][height=\"512\"]"
+            ".mb-5.gap-3.translate-y-6 > .bg-white.border.shrink-0 > img[alt=\"Custom Development logo\"][width=\"512\"][height=\"512\"]"
           ]
         },
         {
@@ -8742,9 +8806,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".btn-shine.px-6.hover\\:-translate-y-0\\.5"
+            ".btn--md"
           ]
         },
         {
@@ -8906,9 +8970,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+                  "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
                   "target": [
-                    ".px-5"
+                    ".lg\\:flex.hidden.gap-4 > .btn--sm.btn.btn-primary"
                   ]
                 }
               ],
@@ -8919,9 +8983,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".px-5"
+            ".lg\\:flex.hidden.gap-4 > .btn--sm.btn.btn-primary"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
         }

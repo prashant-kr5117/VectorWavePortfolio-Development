@@ -9,7 +9,11 @@ import HoverGlow from "@/components/HoverGlow";
 
 export default function Hero() {
   return (
-    <HoverGlow as="section" className="bg-ink-inverse px-4 pb-20 pt-28 sm:px-6 lg:px-10 lg:pb-28 lg:pt-36">
+    // Top padding is now modest (pt-14/20) rather than pt-28/36 — that larger value
+    // existed to clear a `fixed` header that didn't occupy document flow space; the
+    // header is `sticky` everywhere now (see components/Header.tsx), which already
+    // pushes this section down naturally.
+    <HoverGlow as="section" className="bg-ink-inverse px-4 pb-20 pt-14 sm:px-6 lg:px-10 lg:pb-28 lg:pt-20">
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.06]"
         style={{
@@ -49,13 +53,10 @@ export default function Hero() {
           </p>
 
           <div className="mt-7 flex flex-col items-start gap-3 sm:flex-row sm:items-center">
-            <BookConsultationButton className="btn-shine flex w-full items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0 sm:w-auto">
+            <BookConsultationButton className="btn btn-primary btn--md w-full sm:w-auto">
               Book free consultation <ArrowRight size={15} />
             </BookConsultationButton>
-            <Link
-              href="/services"
-              className="w-full rounded-lg border border-on-inverse-border px-6 py-3 text-center text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:border-on-inverse sm:w-auto"
-            >
+            <Link href="/services" className="btn btn-secondary-inverse btn--md w-full sm:w-auto">
               See our services
             </Link>
           </div>

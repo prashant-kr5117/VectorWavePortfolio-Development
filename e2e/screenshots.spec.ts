@@ -44,8 +44,22 @@ test.describe("Visual baseline screenshots", () => {
         const page = await context.newPage();
 
         const response = await page.goto(route.path, { waitUntil: "networkidle" });
-        // Let any fade-in / reveal transitions that ignore reduced-motion settle.
-        await page.waitForTimeout(500);
+        await page.waitForTimeout(300);
+
+        // The site's `Reveal` wrapper (components/Reveal.tsx) uses an IntersectionObserver
+        // to fade content in as it scrolls into view — its initial state is opacity-0
+        // until observed. A real visitor triggers this naturally by scrolling; a
+        // fullPage screenshot taken without ever scrolling does not, so any
+        // below-the-fold Reveal-wrapped content would be captured invisible even
+        // though it renders correctly for real users. Scroll through the page first so
+        // the screenshot reflects what a visitor actually sees.
+        const scrollHeight = await page.evaluate(() => document.body.scrollHeight);
+        for (let y = 0; y < scrollHeight; y += 500) {
+          await page.evaluate((yy) => window.scrollTo(0, yy), y);
+          await page.waitForTimeout(60);
+        }
+        await page.evaluate(() => window.scrollTo(0, 0));
+        await page.waitForTimeout(200);
 
         const fileName = `${route.id}-${viewport.category}-${viewport.width}.png`;
         const filePath = path.join(SCREENSHOT_ROOT, viewport.category, fileName);

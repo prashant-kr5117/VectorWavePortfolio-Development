@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Footer from "@/components/Footer";
 import ServiceJsonLd from "@/components/ServiceJsonLd";
 import { getServiceBySlug } from "@/lib/services";
 import { buildMetadata } from "@/lib/seo";
@@ -60,7 +59,6 @@ export default function ZohoServicePage() {
         <PlatformCredibilitySection />
         <ZohoCTA />
       </main>
-      <Footer />
     </div>
   );
 }

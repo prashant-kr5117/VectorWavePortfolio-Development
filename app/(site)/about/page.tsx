@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema, buildMetadata } from "@/lib/seo";
-import Footer from "@/components/Footer";
 import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
 import HoverGlow from "@/components/HoverGlow";
 import Typewriter from "@/components/Typewriter";
 import PartnerLogos from "@/components/sections/PartnerLogos";
+import { Card, CardIcon } from "@/components/ui/Card";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 import TeamImage from "@/src/TeamImage.jpeg";
 import {
   Boxes,
@@ -161,9 +162,7 @@ export default function AboutPage() {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-ink-inverse via-ink-inverse/75 to-ink-inverse/45" />
           <Reveal className="relative">
-            <span className="inline-block rounded-full bg-surface-chip px-4 py-1.5 text-[11px] font-bold text-primary">
-              About Us
-            </span>
+            <span className="section-eyebrow section-eyebrow--light">About Us</span>
             <h1 className="mx-auto mt-5 min-h-[68px] max-w-2xl text-[26px] font-bold leading-tight text-on-inverse sm:min-h-[80px] sm:text-3xl">
               <Typewriter text="Engineering ERP systems that drive business performance" speed={70} />
             </h1>
@@ -203,22 +202,18 @@ export default function AboutPage() {
 
         <section className="bg-surface-alt px-4 py-14 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-5xl">
-            <Reveal className="mb-8 text-center">
-              <h2 className="text-xl font-bold text-ink sm:text-2xl">
-                What we Provide
-              </h2>
+            <Reveal className="mb-8">
+              <SectionHeading heading="What we Provide" align="center" />
             </Reveal>
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
               {whatWeDo.map((item, i) => (
                 <Reveal key={item.label} delay={i * 60}>
-                  <div className="group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-surface-chip text-primary transition-transform duration-300 group-hover:scale-110">
+                  <Card align="center">
+                    <CardIcon>
                       <item.icon size={20} />
-                    </div>
-                    <span className="text-sm font-bold text-ink">
-                      {item.label}
-                    </span>
-                  </div>
+                    </CardIcon>
+                    <span className="text-sm font-bold text-ink">{item.label}</span>
+                  </Card>
                 </Reveal>
               ))}
             </div>
@@ -251,14 +246,12 @@ export default function AboutPage() {
 
         <section className="bg-surface-alt px-4 py-14 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-6xl">
-            <Reveal className="mb-8 text-center">
-              <h2 className="text-xl font-bold text-ink sm:text-2xl">
-                Meet the team
-              </h2>
-              <p className="mt-2 text-sm text-ink-muted">
-                Behind every solution we deliver is a group of people who
-                genuinely care about getting it right.
-              </p>
+            <Reveal className="mb-8">
+              <SectionHeading
+                heading="Meet the team"
+                description="Behind every solution we deliver is a group of people who genuinely care about getting it right."
+                align="center"
+              />
             </Reveal>
             <Reveal className="mb-4 text-xs font-bold uppercase tracking-wide text-ink-faint">
               Leadership
@@ -266,7 +259,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {leadership.map((person, i) => (
                 <Reveal key={person.role} delay={i * 60}>
-                  <div className="group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg">
+                  <Card>
                     <div className="relative mb-3 h-14 w-14 shrink-0">
                       {person.photo ? (
                         <Image
@@ -299,7 +292,7 @@ export default function AboutPage() {
                     <p className="text-xs leading-relaxed text-ink-muted">
                       {person.desc}
                     </p>
-                  </div>
+                  </Card>
                 </Reveal>
               ))}
             </div>
@@ -310,10 +303,10 @@ export default function AboutPage() {
             <div className="flex flex-col gap-4">
               {departments.map((dept, i) => (
                 <Reveal key={dept.title} delay={i * 60}>
-                  <div className="group flex flex-col gap-4 rounded-xl border border-border bg-surface p-6 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg sm:flex-row sm:items-start">
-                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-ink-inverse text-on-inverse transition-transform duration-300 group-hover:scale-110">
+                  <Card className="gap-4 sm:flex-row sm:items-start" padding="lg">
+                    <CardIcon tone="inverse">
                       <dept.icon size={20} />
-                    </div>
+                    </CardIcon>
                     <div>
                       <div className="mb-2 text-sm font-bold text-ink sm:text-base">
                         {dept.title}
@@ -322,7 +315,7 @@ export default function AboutPage() {
                         {dept.desc}
                       </p>
                     </div>
-                  </div>
+                  </Card>
                 </Reveal>
               ))}
             </div>
@@ -331,25 +324,17 @@ export default function AboutPage() {
 
         <section className="px-4 py-14 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-5xl">
-            <Reveal className="mb-8 text-center">
-              <h2 className="text-xl font-bold text-ink sm:text-2xl">
-                Our 6-D process
-              </h2>
+            <Reveal className="mb-8">
+              <SectionHeading heading="Our 6-D process" align="center" />
             </Reveal>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {process.map((step, i) => (
                 <Reveal key={step.n} delay={i * 60}>
-                  <div className="h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
-                    <div className="mb-2 text-xs font-bold text-primary">
-                      {step.n}
-                    </div>
-                    <div className="mb-1 text-sm font-bold text-ink">
-                      {step.title}
-                    </div>
-                    <p className="text-xs leading-relaxed text-ink-muted">
-                      {step.desc}
-                    </p>
-                  </div>
+                  <Card>
+                    <div className="mb-2 text-xs font-bold text-primary">{step.n}</div>
+                    <div className="mb-1 text-sm font-bold text-ink">{step.title}</div>
+                    <p className="text-xs leading-relaxed text-ink-muted">{step.desc}</p>
+                  </Card>
                 </Reveal>
               ))}
             </div>
@@ -358,14 +343,13 @@ export default function AboutPage() {
 
         <HoverGlow as="section" className="bg-ink-inverse px-4 py-14 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-5xl">
-            <Reveal className="mb-8 text-center">
-              <h2 className="text-xl font-bold text-on-inverse sm:text-2xl">
-                Why choose us
-              </h2>
-              <p className="mt-2 text-sm text-on-inverse-muted">
-                Intelligent, dependable, and scalable solutions that enhance
-                operational efficiency and foster sustainable growth.
-              </p>
+            <Reveal className="mb-8">
+              <SectionHeading
+                heading="Why choose us"
+                description="Intelligent, dependable, and scalable solutions that enhance operational efficiency and foster sustainable growth."
+                tone="inverse"
+                align="center"
+              />
             </Reveal>
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {whyChooseUs.map((item, i) => (
@@ -391,7 +375,6 @@ export default function AboutPage() {
 
         <CTA />
       </main>
-      <Footer />
     </>
   );
 }

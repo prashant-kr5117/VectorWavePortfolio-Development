@@ -66,54 +66,52 @@ export default function ContactForm() {
         <div className="flex flex-col gap-4 overflow-hidden">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
-              <label className="mb-1 block text-xs font-bold text-ink-soft">
+              <label htmlFor="firstName" className="form-label">
                 First name
               </label>
               <input
+                id="firstName"
                 required
                 type="text"
                 name="firstName"
                 placeholder="Jordan"
-                className="w-full rounded-lg border border-border px-3 py-2.5 text-sm text-ink outline-none transition-colors duration-200 placeholder:text-ink-faint focus:border-primary"
+                className="form-control"
               />
             </div>
             <div>
-              <label className="mb-1 block text-xs font-bold text-ink-soft">
+              <label htmlFor="lastName" className="form-label">
                 Last name
               </label>
               <input
+                id="lastName"
                 required
                 type="text"
                 name="lastName"
                 placeholder="Taylor"
-                className="w-full rounded-lg border border-border px-3 py-2.5 text-sm text-ink outline-none transition-colors duration-200 placeholder:text-ink-faint focus:border-primary"
+                className="form-control"
               />
             </div>
           </div>
 
           <div>
-            <label className="mb-1 block text-xs font-bold text-ink-soft">
+            <label htmlFor="email" className="form-label">
               Email
             </label>
             <input
+              id="email"
               required
               type="email"
               name="email"
               placeholder="jordan@company.com"
-              className="w-full rounded-lg border border-border px-3 py-2.5 text-sm text-ink outline-none transition-colors duration-200 placeholder:text-ink-faint focus:border-primary"
+              className="form-control"
             />
           </div>
 
           <div>
-            <label htmlFor="leadSource" className="mb-1 block text-xs font-bold text-ink-soft">
+            <label htmlFor="leadSource" className="form-label">
               How did you hear about us
             </label>
-            <select
-              id="leadSource"
-              name="leadSource"
-              defaultValue="Website"
-              className="w-full rounded-lg border border-border bg-surface px-3 py-2.5 text-sm text-ink outline-none transition-colors duration-200 focus:border-primary"
-            >
+            <select id="leadSource" name="leadSource" defaultValue="Website" className="form-control">
               {leadSources.map((source) => (
                 <option key={source} className="bg-surface text-ink">
                   {source}
@@ -123,28 +121,25 @@ export default function ContactForm() {
           </div>
 
           <div>
-            <label className="mb-1 block text-xs font-bold text-ink-soft">
+            <label htmlFor="requirements" className="form-label">
               Your requirements
             </label>
             <textarea
+              id="requirements"
               rows={4}
               name="requirements"
               placeholder="Tell us what you're looking to build or automate"
-              className="w-full rounded-lg border border-border px-3 py-2.5 text-sm text-ink outline-none transition-colors duration-200 placeholder:text-ink-faint focus:border-primary"
+              className="form-control"
             />
           </div>
 
           {status === "error" && (
-            <p className="text-xs font-bold text-red-600">
+            <p className="form-error" role="alert">
               Something went wrong sending your message. Please try again.
             </p>
           )}
 
-          <button
-            type="submit"
-            disabled={status === "loading"}
-            className="mt-2 inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0 disabled:opacity-70"
-          >
+          <button type="submit" disabled={status === "loading"} className="btn btn-primary btn--md mt-2">
             {status === "loading" && (
               <Loader2 size={16} className="animate-spin" />
             )}

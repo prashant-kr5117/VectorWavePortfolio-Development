@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Image from "next/image";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema, buildMetadata } from "@/lib/seo";
-import Footer from "@/components/Footer";
 import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
 import ServiceIcon from "@/components/ServiceIcon";
 import PlatformLogo from "@/components/PlatformLogo";
+import { Card, CardIcon } from "@/components/ui/Card";
+import { SectionHeading } from "@/components/ui/SectionHeading";
 import { platforms, getServicesByPlatform } from "@/lib/services";
 import { industries } from "@/lib/industries";
 import ZohoLogo from "@/src/zoho.png";
@@ -82,9 +82,7 @@ export default function ServicesPage() {
       <main className="flex-1">
         <section className="bg-surface-alt px-4 py-14 text-center sm:px-6 sm:py-16">
           <Reveal>
-            <span className="inline-block rounded-full bg-surface-chip px-4 py-1.5 text-[11px] font-bold text-primary">
-              Services
-            </span>
+            <span className="section-eyebrow section-eyebrow--light">Services</span>
             <h1 className="mx-auto mt-5 max-w-xl text-[26px] font-bold leading-tight text-ink sm:text-3xl">
               We provide a wide range of services
             </h1>
@@ -101,13 +99,12 @@ export default function ServicesPage() {
 
         <section className="px-4 py-14 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-6xl">
-            <Reveal className="mb-10 text-center">
-              <h2 className="text-xl font-bold text-ink sm:text-2xl">
-                Platforms &amp; services we implement
-              </h2>
-              <p className="mt-1 text-sm text-ink-muted">
-                Select a category to see the specific tools and what they cover.
-              </p>
+            <Reveal className="mb-10">
+              <SectionHeading
+                heading="Platforms & services we implement"
+                description="Select a category to see the specific tools and what they cover."
+                align="center"
+              />
             </Reveal>
 
             <div className="flex flex-col gap-12">
@@ -127,17 +124,12 @@ export default function ServicesPage() {
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
                     {getServicesByPlatform(platform.slug).map((service, i) => (
                       <Reveal key={service.slug} delay={i * 60}>
-                        <Link
-                          href={`/services/${service.slug}`}
-                          className="group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg"
-                        >
-                          <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-surface-chip text-primary transition-transform duration-300 group-hover:scale-110">
+                        <Card href={`/services/${service.slug}`} align="center" padding="md">
+                          <CardIcon>
                             <ServiceIcon icon={service.icon} size={20} />
-                          </div>
-                          <span className="text-sm font-bold text-ink">
-                            {service.title}
-                          </span>
-                        </Link>
+                          </CardIcon>
+                          <span className="text-sm font-bold text-ink">{service.title}</span>
+                        </Card>
                       </Reveal>
                     ))}
                   </div>
@@ -149,34 +141,29 @@ export default function ServicesPage() {
 
         <section className="bg-surface-alt px-4 py-14 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-6xl">
-            <Reveal className="mb-8 text-center">
-              <h2 className="text-xl font-bold text-ink sm:text-2xl">
-                Comprehensive digital solutions
-              </h2>
-              <p className="mt-1 text-sm text-ink-muted">
-                From ERP and CRM to automation and cloud platforms.
-              </p>
+            <Reveal className="mb-8">
+              <SectionHeading
+                heading="Comprehensive digital solutions"
+                description="From ERP and CRM to automation and cloud platforms."
+                align="center"
+              />
             </Reveal>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {coreServices.map((s, i) => (
                 <Reveal key={s.title} delay={i * 60}>
-                  <div className="group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg">
+                  <Card>
                     {s.logo ? (
                       <div className="mb-3 inline-flex h-10 min-w-10 items-center justify-center rounded-lg border border-border bg-white px-2.5 transition-transform duration-300 group-hover:scale-110">
                         <Image src={s.logo} alt={`${s.title} logo`} style={{ height: 22, width: "auto" }} />
                       </div>
                     ) : (
-                      <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-surface-chip text-primary transition-transform duration-300 group-hover:scale-110">
+                      <CardIcon>
                         <s.icon size={20} />
-                      </div>
+                      </CardIcon>
                     )}
-                    <div className="mb-1 text-sm font-bold text-ink">
-                      {s.title}
-                    </div>
-                    <p className="text-sm leading-relaxed text-ink-muted">
-                      {s.desc}
-                    </p>
-                  </div>
+                    <div className="mb-1 text-sm font-bold text-ink">{s.title}</div>
+                    <p className="text-sm leading-relaxed text-ink-muted">{s.desc}</p>
+                  </Card>
                 </Reveal>
               ))}
             </div>
@@ -185,32 +172,23 @@ export default function ServicesPage() {
 
         <section className="px-4 py-14 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-6xl">
-            <Reveal className="mb-8 text-center">
-              <h2 className="text-xl font-bold text-ink sm:text-2xl">
-                Industries we serve
-              </h2>
-              <p className="mt-1 text-sm text-ink-muted">
-                Digital solutions built around the specific needs of the
-                sectors we work with.
-              </p>
+            <Reveal className="mb-8">
+              <SectionHeading
+                heading="Industries we serve"
+                description="Digital solutions built around the specific needs of the sectors we work with."
+                align="center"
+              />
             </Reveal>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {industries.map((item, i) => (
                 <Reveal key={item.title} delay={i * 50}>
-                  <div
-                    id={item.slug}
-                    className="group h-full scroll-mt-24 rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg"
-                  >
-                    <div className="mb-3 flex h-9 w-9 items-center justify-center rounded-lg bg-ink-inverse text-on-inverse transition-transform duration-300 group-hover:scale-110">
+                  <Card id={item.slug} className="scroll-mt-24">
+                    <CardIcon tone="inverse">
                       <item.icon size={18} />
-                    </div>
-                    <div className="mb-1 text-sm font-bold text-ink">
-                      {item.title}
-                    </div>
-                    <p className="text-sm leading-relaxed text-ink-muted">
-                      {item.desc}
-                    </p>
-                  </div>
+                    </CardIcon>
+                    <div className="mb-1 text-sm font-bold text-ink">{item.title}</div>
+                    <p className="text-sm leading-relaxed text-ink-muted">{item.desc}</p>
+                  </Card>
                 </Reveal>
               ))}
             </div>
@@ -219,7 +197,6 @@ export default function ServicesPage() {
 
         <CTA />
       </main>
-      <Footer />
     </>
   );
 }

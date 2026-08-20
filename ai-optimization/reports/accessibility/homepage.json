@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T08:55:20.184Z",
+  "timestamp": "2026-08-20T09:48:28.592Z",
   "url": "http://localhost:3100/",
   "toolOptions": {
     "runOnly": {
@@ -856,7 +856,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9.w-9.bg-surface-alt > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -1096,7 +1096,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(2)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(2)"
           ]
         },
         {
@@ -1136,7 +1136,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(3)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(3)"
           ]
         },
         {
@@ -1176,7 +1176,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(4)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(4)"
           ]
         },
         {
@@ -2708,7 +2708,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9.w-9.bg-surface-alt > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -2816,7 +2816,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(2)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(2)"
           ]
         },
         {
@@ -2834,7 +2834,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(3)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(3)"
           ]
         },
         {
@@ -2852,7 +2852,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(4)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(4)"
           ]
         },
         {
@@ -3557,7 +3557,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(2)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(2)"
           ]
         },
         {
@@ -3575,7 +3575,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(3)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(3)"
           ]
         },
         {
@@ -3593,7 +3593,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(4)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(4)"
           ]
         },
         {
@@ -4154,7 +4154,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-phone[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -4186,7 +4186,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-mail[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -4282,7 +4282,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full.after\\:w-0 > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            ".hover\\:after\\:w-full.after\\:w-0.after\\:absolute > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -4954,7 +4954,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
           "target": [
-            ".h-9.w-9.bg-surface-alt > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -4986,7 +4986,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".h-9.w-9.bg-surface-alt > .relative > .w-40.-translate-y-1.shadow-xl > .duration-150.px-3\\.5.py-2\\.5:nth-child(1) > .lucide-check[height=\"14\"][width=\"14\"]"
+            ".h-9 > .relative > .w-40.-translate-y-1.shadow-xl > .duration-150.px-3\\.5.py-2\\.5:nth-child(1) > .lucide-check[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -5208,6 +5208,70 @@
           ],
           "none": [],
           "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
           "target": [
             ".pt-3.mt-2.justify-between > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
@@ -5306,7 +5370,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-right\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"m12 5 7 7-7 7\"></path></svg>",
           "target": [
-            ".sm\\:w-auto.btn-shine.hover\\:bg-accent-hover > .lucide-arrow-right[width=\"15\"][height=\"15\"]"
+            ".sm\\:w-auto.btn--md.btn-primary > .lucide-arrow-right[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -7746,7 +7810,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9.w-9.bg-surface-alt > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -7854,7 +7918,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(2)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(2)"
           ]
         },
         {
@@ -7872,7 +7936,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(3)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(3)"
           ]
         },
         {
@@ -7890,7 +7954,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(4)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(4)"
           ]
         },
         {
@@ -8559,7 +8623,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(2)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(2)"
           ]
         },
         {
@@ -8577,7 +8641,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(3)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(3)"
           ]
         },
         {
@@ -8595,7 +8659,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(4)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(4)"
           ]
         },
         {
@@ -9192,7 +9256,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(2)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(2)"
           ]
         },
         {
@@ -9210,7 +9274,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(3)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(3)"
           ]
         },
         {
@@ -9228,7 +9292,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(4)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(4)"
           ]
         },
         {
@@ -9666,7 +9730,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(2)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(2)"
           ]
         },
         {
@@ -9698,7 +9762,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(3)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(3)"
           ]
         },
         {
@@ -9730,7 +9794,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(4)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(4)"
           ]
         },
         {
@@ -10720,7 +10784,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9.w-9.bg-surface-alt > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -10912,7 +10976,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(2)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(2)"
           ]
         },
         {
@@ -10944,7 +11008,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(3)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(3)"
           ]
         },
         {
@@ -10976,7 +11040,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(4)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(4)"
           ]
         },
         {
@@ -12171,7 +12235,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9.w-9.bg-surface-alt > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -12279,7 +12343,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(2)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(2)"
           ]
         },
         {
@@ -12297,7 +12361,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(3)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(3)"
           ]
         },
         {
@@ -12315,7 +12379,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(4)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(4)"
           ]
         },
         {
@@ -13923,6 +13987,38 @@
           ],
           "none": [],
           "impact": null,
+          "html": "<img alt=\"Tally\" loading=\"lazy\" width=\"71\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/tally.0bo3zydc_k9g8.svg\">",
+          "target": [
+            "img[alt=\"Tally\"][width=\"71\"][height=\"28\"]:nth-child(14)"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "important-letter-spacing",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+            },
+            {
+              "id": "important-word-spacing",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+            },
+            {
+              "id": "important-line-height",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+            }
+          ],
+          "none": [],
+          "impact": null,
           "html": "<img alt=\"VectorWave Technolog...\" loading=\"lazy\" width=\"750\" height=\"500\" decoding=\"async\" data-nimg=\"1\" class=\"mb-3.5 h-25 w-auto\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
             ".mb-3\\.5"
@@ -13998,7 +14094,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9.w-9.bg-surface-alt > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -14014,9 +14110,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine flex w-full items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0 sm:w-auto\">",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md w-full sm:w-auto\">",
           "target": [
-            ".sm\\:w-auto.btn-shine.hover\\:bg-accent-hover"
+            ".sm\\:w-auto.btn--md.btn-primary"
           ]
         },
         {
@@ -14181,7 +14277,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(2)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(2)"
           ]
         },
         {
@@ -14199,7 +14295,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(3)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(3)"
           ]
         },
         {
@@ -14217,7 +14313,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(4)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(4)"
           ]
         },
         {
@@ -14665,9 +14761,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".relative > .btn-shine.hover\\:bg-accent-hover.hover\\:shadow-md"
+            ".relative > .btn--md.btn-primary.btn"
           ]
         }
       ]
@@ -14717,9 +14813,9 @@
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">Services we provide</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-ink\">Services we provide</h2>",
                   "target": [
-                    ".max-w-7xl.mx-auto > .mb-8.text-center.translate-y-6 > .text-xl.sm\\:text-2xl"
+                    ".section-heading"
                   ]
                 },
                 {
@@ -14749,7 +14845,7 @@
                 {
                   "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">How we work</h2>",
                   "target": [
-                    ".max-w-4xl > .mb-8.text-center.translate-y-6 > .text-xl.sm\\:text-2xl"
+                    ".mb-8.text-center.translate-y-6 > .text-xl.sm\\:text-2xl"
                   ]
                 },
                 {
@@ -14791,7 +14887,7 @@
                 {
                   "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">Delight over satisfaction</h2>",
                   "target": [
-                    ".py-20.lg\\:py-28.text-center:nth-child(11) > .max-w-2xl.mx-auto.translate-y-6 > .text-xl.sm\\:text-2xl"
+                    ".py-20.text-center.lg\\:py-28:nth-child(11) > .max-w-2xl.mx-auto.translate-y-6 > .text-xl.sm\\:text-2xl"
                   ]
                 },
                 {
@@ -14910,15 +15006,15 @@
               "id": "color-contrast",
               "data": {
                 "fgColor": "#1d4ed8",
-                "bgColor": "#f3f4f5",
-                "contrastRatio": 6.08,
+                "bgColor": "#ffffff",
+                "contrastRatio": 6.7,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "bold",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.08"
+              "message": "Element has sufficient color contrast of 6.7"
             }
           ],
           "all": [],
@@ -14935,15 +15031,15 @@
               "id": "color-contrast",
               "data": {
                 "fgColor": "#33405c",
-                "bgColor": "#f3f4f5",
-                "contrastRatio": 9.4,
+                "bgColor": "#ffffff",
+                "contrastRatio": 10.35,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "bold",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 9.4"
+              "message": "Element has sufficient color contrast of 10.35"
             }
           ],
           "all": [],
@@ -14951,7 +15047,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/about\">About Us</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"about\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"about\"]"
           ]
         },
         {
@@ -14960,15 +15056,15 @@
               "id": "color-contrast",
               "data": {
                 "fgColor": "#33405c",
-                "bgColor": "#f3f4f5",
-                "contrastRatio": 9.4,
+                "bgColor": "#ffffff",
+                "contrastRatio": 10.35,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "bold",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 9.4"
+              "message": "Element has sufficient color contrast of 10.35"
             }
           ],
           "all": [],
@@ -14976,7 +15072,7 @@
           "impact": null,
           "html": "<a class=\"relative flex items-center gap-1 py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/services\">",
           "target": [
-            ".relative:nth-child(3) > .hover\\:text-primary.hover\\:after\\:w-full.after\\:w-0"
+            ".relative:nth-child(3) > .hover\\:after\\:w-full.after\\:w-0.after\\:absolute"
           ]
         },
         {
@@ -14985,15 +15081,15 @@
               "id": "color-contrast",
               "data": {
                 "fgColor": "#33405c",
-                "bgColor": "#f3f4f5",
-                "contrastRatio": 9.4,
+                "bgColor": "#ffffff",
+                "contrastRatio": 10.35,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "bold",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 9.4"
+              "message": "Element has sufficient color contrast of 10.35"
             }
           ],
           "all": [],
@@ -15001,7 +15097,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/blog\">Blog</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"blog\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"blog\"]"
           ]
         },
         {
@@ -15010,15 +15106,15 @@
               "id": "color-contrast",
               "data": {
                 "fgColor": "#33405c",
-                "bgColor": "#f3f4f5",
-                "contrastRatio": 9.4,
+                "bgColor": "#ffffff",
+                "contrastRatio": 10.35,
                 "fontSize": "9.8pt (13px)",
                 "fontWeight": "bold",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 9.4"
+              "message": "Element has sufficient color contrast of 10.35"
             }
           ],
           "all": [],
@@ -15026,7 +15122,32 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/contact\">Contact</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full.after\\:w-0:nth-child(5)"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"contact\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#33405c",
+                "bgColor": "#f8fafc",
+                "contrastRatio": 9.89,
+                "fontSize": "9.0pt (12px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 9.89"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"flex shrink-0 items-center gap-2 rounded-full border border-border bg-surface-alt px-4 py-2 text-xs font-bold text-ink-soft\">",
+          "target": [
+            ".rounded-full.px-4.bg-surface-alt:nth-child(2)"
           ]
         },
         {
@@ -16658,7 +16779,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/about\">About Us</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"about\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"about\"]"
           ]
         },
         {
@@ -16684,7 +16805,7 @@
           "impact": null,
           "html": "<a class=\"relative flex items-center gap-1 py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/services\">",
           "target": [
-            ".relative:nth-child(3) > .hover\\:text-primary.hover\\:after\\:w-full.after\\:w-0"
+            ".relative:nth-child(3) > .hover\\:after\\:w-full.after\\:w-0.after\\:absolute"
           ]
         },
         {
@@ -16710,7 +16831,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/blog\">Blog</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full[href$=\"blog\"]"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"blog\"]"
           ]
         },
         {
@@ -16736,7 +16857,7 @@
           "impact": null,
           "html": "<a class=\"relative py-1 text-[13px] font-bold transition-colors duration-300 after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 text-ink-soft hover:text-primary hover:after:w-full after:w-0\" href=\"/contact\">Contact</a>",
           "target": [
-            ".hover\\:text-primary.hover\\:after\\:w-full.after\\:w-0:nth-child(5)"
+            ".hover\\:after\\:w-full.after\\:w-0[href$=\"contact\"]"
           ]
         },
         {
@@ -16760,9 +16881,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".btn-shine.px-5.inline-block"
+            ".lg\\:flex.hidden.gap-4 > .btn--sm.btn-primary[href$=\"contact\"]"
           ]
         },
         {
@@ -16786,9 +16907,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"w-full rounded-lg border border-on-inverse-border px-6 py-3 text-center text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:border-on-inverse sm:w-auto\" href=\"/services\">See our services</a>",
+          "html": "<a class=\"btn btn-secondary-inverse btn--md w-full sm:w-auto\" href=\"/services\">See our services</a>",
           "target": [
-            ".hover\\:border-on-inverse.sm\\:w-auto.px-6"
+            ".btn-secondary-inverse"
           ]
         },
         {
@@ -16812,9 +16933,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"block group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/zoho-bundled-suite\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5  \" href=\"/services/zoho-bundled-suite\">",
           "target": [
-            ".hover\\:-translate-y-1.hover\\:shadow-lg[href$=\"zoho-bundled-suite\"]"
+            ".card-interactive.p-5[href$=\"zoho-bundled-suite\"]"
           ]
         },
         {
@@ -16838,9 +16959,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"block group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/sales\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5  \" href=\"/services/sales\">",
           "target": [
-            ".hover\\:-translate-y-1.hover\\:shadow-lg[href$=\"sales\"]"
+            ".card-interactive.p-5[href$=\"sales\"]"
           ]
         },
         {
@@ -16864,9 +16985,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"block group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/it-support\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5  \" href=\"/services/it-support\">",
           "target": [
-            ".hover\\:-translate-y-1.hover\\:shadow-lg[href$=\"it-support\"]"
+            ".card-interactive.p-5[href$=\"it-support\"]"
           ]
         },
         {
@@ -16890,9 +17011,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"block group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/zoho-finance\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5  \" href=\"/services/zoho-finance\">",
           "target": [
-            ".hover\\:-translate-y-1.hover\\:shadow-lg[href$=\"zoho-finance\"]"
+            ".card-interactive.p-5[href$=\"zoho-finance\"]"
           ]
         },
         {
@@ -16916,9 +17037,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"block group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/human-resources\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5  \" href=\"/services/human-resources\">",
           "target": [
-            ".hover\\:-translate-y-1.hover\\:shadow-lg[href$=\"human-resources\"]"
+            ".card-interactive.p-5[href$=\"human-resources\"]"
           ]
         },
         {
@@ -16942,9 +17063,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"block group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/web-development\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5  \" href=\"/services/web-development\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(7) > .hover\\:-translate-y-1.hover\\:shadow-lg[href$=\"web-development\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(7) > .card-interactive.p-5[href$=\"web-development\"]"
           ]
         },
         {
@@ -16968,9 +17089,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"block group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/web-development\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5  \" href=\"/services/web-development\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(8) > .hover\\:-translate-y-1.hover\\:shadow-lg[href$=\"web-development\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(8) > .card-interactive.p-5[href$=\"web-development\"]"
           ]
         },
         {
@@ -16994,9 +17115,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"block group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/ai-integration\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5  \" href=\"/services/ai-integration\">",
           "target": [
-            ".hover\\:-translate-y-1.hover\\:shadow-lg[href$=\"ai-integration\"]"
+            ".card-interactive.p-5[href$=\"ai-integration\"]"
           ]
         },
         {
@@ -17020,9 +17141,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"block group h-full rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/mobile-app-development\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5  \" href=\"/services/mobile-app-development\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(10) > .hover\\:-translate-y-1.hover\\:shadow-lg.p-5"
+            ".translate-y-6.duration-700.ease-out:nth-child(10) > .card-interactive.p-5.h-full"
           ]
         },
         {
@@ -17048,7 +17169,7 @@
           "impact": null,
           "html": "<a class=\"mt-6 inline-block rounded-lg border border-on-inverse-border px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:border-on-inverse hover:shadow-md active:translate-y-0\" href=\"/services\">Explore more</a>",
           "target": [
-            ".hover\\:border-on-inverse.inline-block.hover\\:shadow-md"
+            ".hover\\:border-on-inverse"
           ]
         },
         {
@@ -17741,7 +17862,7 @@
           "impact": null,
           "html": "<button type=\"button\" aria-label=\"Change language\" aria-expanded=\"false\" class=\"flex items-center gap-1 text-ink transition-all duration-300 active:scale-90\">",
           "target": [
-            ".h-9.w-9.bg-surface-alt > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
+            ".h-9 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"]"
           ]
         },
         {
@@ -17757,9 +17878,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine flex w-full items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0 sm:w-auto\">",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md w-full sm:w-auto\">",
           "target": [
-            ".sm\\:w-auto.btn-shine.hover\\:bg-accent-hover"
+            ".sm\\:w-auto.btn--md.btn-primary"
           ]
         },
         {
@@ -18209,7 +18330,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(2)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(2)"
           ]
         },
         {
@@ -18227,7 +18348,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(3)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(3)"
           ]
         },
         {
@@ -18245,7 +18366,7 @@
           "impact": null,
           "html": "<button type=\"button\" role=\"tab\" aria-selected=\"false\" class=\"group flex items-center gap-2.5 rounded-xl border px-3.5 py-2.5 text-left transition-all duration-300 sm:px-4 sm:py-3 border-border bg-surface hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-sm\">",
           "target": [
-            ".hover\\:shadow-sm.sm\\:px-4.sm\\:py-3:nth-child(4)"
+            ".hover\\:border-primary\\/30.hover\\:shadow-sm.sm\\:px-4:nth-child(4)"
           ]
         },
         {
@@ -18693,9 +18814,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".relative > .btn-shine.hover\\:bg-accent-hover.hover\\:shadow-md"
+            ".relative > .btn--md.btn-primary.btn"
           ]
         },
         {
@@ -18857,9 +18978,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+                  "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
                   "target": [
-                    ".btn-shine.px-5.inline-block"
+                    ".lg\\:flex.hidden.gap-4 > .btn--sm.btn-primary[href$=\"contact\"]"
                   ]
                 }
               ],
@@ -18870,9 +18991,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".btn-shine.px-5.inline-block"
+            ".lg\\:flex.hidden.gap-4 > .btn--sm.btn-primary[href$=\"contact\"]"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
         },
@@ -19004,7 +19125,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span> without the overhead.</span>",
+          "html": "<span> without the </span>",
           "target": [
             "span[aria-hidden=\"true\"] > span:nth-child(3)"
           ],
@@ -19054,9 +19175,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<button type=\"button\" class=\"btn-shine flex w-full items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0 sm:w-auto\">",
+                  "html": "<button type=\"button\" class=\"btn btn-primary btn--md w-full sm:w-auto\">",
                   "target": [
-                    ".sm\\:w-auto.btn-shine.hover\\:bg-accent-hover"
+                    ".sm\\:w-auto.btn--md.btn-primary"
                   ]
                 }
               ],
@@ -19067,9 +19188,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<button type=\"button\" class=\"btn-shine flex w-full items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0 sm:w-auto\">",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md w-full sm:w-auto\">",
           "target": [
-            ".sm\\:w-auto.btn-shine.hover\\:bg-accent-hover"
+            ".sm\\:w-auto.btn--md.btn-primary"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
         },
@@ -19099,9 +19220,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<a class=\"w-full rounded-lg border border-on-inverse-border px-6 py-3 text-center text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:border-on-inverse sm:w-auto\" href=\"/services\">See our services</a>",
+          "html": "<a class=\"btn btn-secondary-inverse btn--md w-full sm:w-auto\" href=\"/services\">See our services</a>",
           "target": [
-            ".hover\\:border-on-inverse.sm\\:w-auto.px-6"
+            ".btn-secondary-inverse"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
         },
@@ -19346,31 +19467,6 @@
             ".z-20.-translate-y-1\\/2.-translate-x-1\\/2:nth-child(8) > .relative.group > .bg-ink-inverse-alt\\/80.shadow-lg.backdrop-blur > .whitespace-nowrap"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because element contains an image node"
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "contrastRatio": 0,
-                "fontSize": "9.0pt (12px)",
-                "fontWeight": "bold",
-                "messageKey": "bgOverlap",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element's background color could not be determined because it is overlapped by another element"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "serious",
-          "html": "<span class=\"flex shrink-0 items-center gap-2 rounded-full border border-border bg-surface-alt px-4 py-2 text-xs font-bold text-ink-soft\">",
-          "target": [
-            ".rounded-full.px-4.bg-surface-alt:nth-child(2)"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element"
         },
         {
           "any": [

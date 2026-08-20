@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Footer from "@/components/Footer";
 import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
 import BlogGrid from "@/components/BlogGrid";
@@ -64,7 +63,6 @@ export default function BlogPage() {
 
         <CTA />
       </main>
-      <Footer />
     </>
   );
 }

@@ -32,6 +32,19 @@
 
   /* primary blue */
   --color-primary: #1d4ed8;
+
+  /* semantic status — previously missing; form/system messaging used raw red utilities */
+  --color-success: #15803d;
+  --color-success-surface: #f0fdf4;
+  --color-error: #b91c1c;
+  --color-error-surface: #fef2f2;
+
+  /* restrained, cool-toned elevation — deliberately lighter/tighter than Tailwind's
+     default shadow-lg, which reads as generic-SaaS. Tinted with the ink color instead
+     of pure black so it stays consistent with the rest of the palette. */
+  --shadow-card: 0 1px 2px rgba(11, 27, 51, 0.04), 0 1px 1px rgba(11, 27, 51, 0.03);
+  --shadow-card-hover: 0 1px 2px rgba(11, 27, 51, 0.04), 0 16px 32px -16px rgba(11, 27, 51, 0.18);
+  --shadow-control-focus: 0 0 0 3px rgba(29, 78, 216, 0.15);
 }
 
 @theme inline {
@@ -55,8 +68,28 @@
   --color-accent: var(--color-accent);
   --color-accent-hover: var(--color-accent-hover);
   --color-primary: var(--color-primary);
+  --color-success: var(--color-success);
+  --color-success-surface: var(--color-success-surface);
+  --color-error: var(--color-error);
+  --color-error-surface: var(--color-error-surface);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Documented type scale — the intended system going forward. Existing page-specific
+     heading sizes were not mass-retrofitted (out of scope for a global-foundation pass —
+     see ai-optimization/reports/WORKSTREAM-02-RESULT.md), but every new shared
+     component in this pass (Section, Card, Button) uses these tokens, and they're the
+     reference for any future page-level typography work. */
+  --text-eyebrow: 0.6875rem; /* 11px */
+  --text-eyebrow--line-height: 1.4;
+  --text-h2: 1.375rem; /* 22px, scales to 1.5rem/24px at sm: via existing sm:text-2xl pattern */
+  --text-h2--line-height: 1.3;
+  --text-h3: 1.0625rem; /* 17px */
+  --text-h3--line-height: 1.4;
+  --text-body: 0.9375rem; /* 15px */
+  --text-body--line-height: 1.6;
+  --text-body-sm: 0.8125rem; /* 13px */
+  --text-body-sm--line-height: 1.55;
 }
 
 html {
@@ -68,6 +101,107 @@ body {
   color: var(--color-ink);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
   transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Sitewide keyboard-focus ring. Previously only 6 elements in the whole codebase had
+   any custom focus styling (see ai-optimization/reports/STAGE-2-BASELINE-REVIEW.md /
+   RENDERED-BASELINE.md) — everything else relied on the bare browser default. One rule
+   here covers every interactive element consistently, including ones that set
+   Tailwind's `outline-none` utility (which only removes the default outline, not a
+   later-declared `:focus-visible` outline at equal specificity). Never applies on
+   mouse/touch interaction — `:focus-visible` only matches keyboard/programmatic focus. */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@layer components {
+  /* ---- Section heading pattern (eyebrow + heading + description) ---- */
+  .section-eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide;
+  }
+  .section-eyebrow--light {
+    @apply bg-surface-chip text-primary;
+  }
+  .section-eyebrow--inverse {
+    @apply border border-on-inverse-border bg-white/5 text-accent;
+  }
+  .section-heading {
+    @apply text-xl font-bold leading-snug sm:text-2xl;
+  }
+  .section-description {
+    @apply mt-1 text-sm;
+  }
+
+  /* ---- Card system ---- */
+  .card,
+  .card-interactive {
+    @apply rounded-xl border border-border bg-surface;
+    box-shadow: var(--shadow-card);
+  }
+  .card-interactive {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:border-primary/30;
+  }
+  .card-interactive:hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+  .card-icon {
+    @apply flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-surface-chip text-primary transition-transform duration-300;
+  }
+  .card-icon--inverse {
+    @apply bg-ink-inverse text-on-inverse;
+  }
+  .group:hover .card-icon {
+    @apply scale-110;
+  }
+
+  /* ---- Button system ---- */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg text-sm font-bold transition-all duration-200 disabled:pointer-events-none disabled:opacity-60;
+  }
+  .btn--md {
+    @apply px-6 py-3;
+  }
+  .btn--sm {
+    @apply px-5 py-2.5 text-[13px];
+  }
+  .btn-primary {
+    @apply relative overflow-hidden bg-accent text-on-inverse hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0;
+  }
+  .btn-primary::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(115deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+    transform: skewX(-20deg);
+  }
+  .btn-primary:hover::after {
+    animation: shine-sweep 0.65s ease forwards;
+  }
+  .btn-secondary {
+    @apply border border-border text-ink hover:-translate-y-0.5 hover:border-primary/40 hover:bg-surface-alt;
+  }
+  .btn-secondary-inverse {
+    @apply border border-on-inverse-border text-on-inverse hover:-translate-y-0.5 hover:border-on-inverse;
+  }
+  .btn-text {
+    @apply gap-1 font-bold text-primary hover:underline;
+  }
+
+  /* ---- Form controls ---- */
+  .form-label {
+    @apply mb-1 block text-xs font-bold text-ink-soft;
+  }
+  .form-control {
+    @apply w-full rounded-lg border border-border bg-surface px-3 py-2.5 text-sm text-ink outline-none transition-colors duration-200 placeholder:text-ink-faint focus:border-primary;
+  }
+  .form-error {
+    @apply text-xs font-bold text-error;
+  }
 }
 
 @keyframes fade-in-up {

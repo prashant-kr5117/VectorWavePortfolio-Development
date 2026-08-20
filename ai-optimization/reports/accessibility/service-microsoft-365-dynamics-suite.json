@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T08:56:43.992Z",
+  "timestamp": "2026-08-20T09:49:31.991Z",
   "url": "http://localhost:3100/services/microsoft-365-dynamics-suite",
   "toolOptions": {
     "runOnly": {
@@ -930,7 +930,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -970,7 +970,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -1400,7 +1400,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -1418,7 +1418,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -1748,7 +1748,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-phone[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -1780,7 +1780,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-mail[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -2802,9 +2802,73 @@
           ],
           "none": [],
           "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-phone\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2[href=\"tel:+918791810555\"] > .lucide-phone[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
+          "target": [
+            ".hover\\:text-primary.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
           "target": [
-            ".border-t.pt-3.mt-2 > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
+            ".border-t.pt-3.mt-2:nth-child(7) > .relative > .active\\:scale-90.gap-1[aria-label=\"Change language\"] > .lucide-globe[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -2836,7 +2900,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".border-t.pt-3.mt-2 > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
+            ".border-t.pt-3.mt-2:nth-child(7) > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
           ]
         },
         {
@@ -3156,7 +3220,7 @@
           "impact": null,
           "html": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM7 8.48H3V21h4V8.48Zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48Z\"></path></svg>",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
+            ".h-8.w-8.rounded-full:nth-child(1) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -3188,7 +3252,7 @@
           "impact": null,
           "html": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
+            ".h-8.w-8.rounded-full:nth-child(2) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
           ]
         }
       ]
@@ -3278,7 +3342,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -3296,7 +3360,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -3868,7 +3932,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -3900,7 +3964,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -4217,7 +4281,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -4235,7 +4299,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -4539,105 +4603,9 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<div style=\"transition-delay:0ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 mb-8 text-center\"><h2 class=\"text-xl font-bold text-ink sm:text-2xl\">What's included</h2></div>",
+          "html": "<div style=\"transition-delay:0ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 mb-8\"><div class=\"text-center\"><h2 class=\"section-heading mt-4 text-ink\">What's included</h2></div></div>",
           "target": [
             ".mb-8"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<div style=\"transition-delay:0ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 \">",
-          "target": [
-            ".lg\\:grid-cols-3 > .translate-y-0.opacity-100.duration-700:nth-child(1)"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<div style=\"transition-delay:60ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 \">",
-          "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(2)"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<div style=\"transition-delay:120ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 \">",
-          "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(3)"
           ]
         },
         {
@@ -4758,9 +4726,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".btn-shine.mt-5.inline-flex"
+            ".btn--md"
           ]
         }
       ]
@@ -4798,15 +4766,15 @@
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">What's included</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-ink\">What's included</h2>",
                   "target": [
-                    ".text-xl"
+                    ".section-heading"
                   ]
                 },
                 {
                   "html": "<h2 class=\"text-lg font-bold text-ink\">Other <!-- -->Microsoft 365<!-- --> services we provide</h2>",
                   "target": [
-                    ".mb-6.translate-y-6.text-center > .text-lg"
+                    ".mb-6.text-center.translate-y-6 > .text-lg"
                   ]
                 },
                 {
@@ -5060,7 +5028,7 @@
           "impact": null,
           "html": "<a class=\"mb-6 inline-flex items-center gap-1.5 text-xs font-bold text-ink-soft transition-colors duration-200 hover:text-primary\" href=\"/services\">",
           "target": [
-            ".gap-1\\.5"
+            ".inline-flex"
           ]
         },
         {
@@ -5083,9 +5051,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"mb-3 inline-block rounded-full bg-surface-chip px-3 py-1 text-[11px] font-bold text-primary\">Microsoft 365</span>",
+          "html": "<span class=\"section-eyebrow section-eyebrow--light mb-3\">Microsoft 365</span>",
           "target": [
-            ".px-3"
+            ".section-eyebrow"
           ]
         },
         {
@@ -5135,7 +5103,7 @@
           "impact": null,
           "html": "<p class=\"mx-auto mt-4 max-w-xl text-sm text-ink-muted sm:text-base\">",
           "target": [
-            ".mt-4"
+            ".max-w-xl"
           ]
         },
         {
@@ -5158,159 +5126,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h2 class=\"text-xl font-bold text-ink sm:text-2xl\">What's included</h2>",
+          "html": "<h2 class=\"section-heading mt-4 text-ink\">What's included</h2>",
           "target": [
-            ".text-xl"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#0b1b33",
-                "bgColor": "#ffffff",
-                "contrastRatio": 17.22,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "bold",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 17.22"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"mb-1 text-sm font-bold text-ink\">Microsoft 365 Core Apps</div>",
-          "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(1) > .p-5.hover\\:-translate-y-1.hover\\:border-primary\\/30 > .mb-1.text-ink.text-sm"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#55607a",
-                "bgColor": "#ffffff",
-                "contrastRatio": 6.28,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.28"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<p class=\"text-sm leading-relaxed text-ink-muted\">Word, Excel, PowerPoint, Outlook, and Teams set up and licensed correctly for your team.</p>",
-          "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(1) > .p-5.hover\\:-translate-y-1.hover\\:border-primary\\/30 > .leading-relaxed"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#0b1b33",
-                "bgColor": "#ffffff",
-                "contrastRatio": 17.22,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "bold",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 17.22"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"mb-1 text-sm font-bold text-ink\">Dynamics 365 Business Central</div>",
-          "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(2) > .p-5.hover\\:-translate-y-1.hover\\:border-primary\\/30 > .mb-1.text-ink.text-sm"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#55607a",
-                "bgColor": "#ffffff",
-                "contrastRatio": 6.28,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.28"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<p class=\"text-sm leading-relaxed text-ink-muted\">A connected ERP covering finance, purchasing, inventory, and projects for growing businesses.</p>",
-          "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(2) > .p-5.hover\\:-translate-y-1.hover\\:border-primary\\/30 > .leading-relaxed"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#0b1b33",
-                "bgColor": "#ffffff",
-                "contrastRatio": 17.22,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "bold",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 17.22"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"mb-1 text-sm font-bold text-ink\">Dynamics 365 Sales</div>",
-          "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(3) > .p-5.hover\\:-translate-y-1.hover\\:border-primary\\/30 > .mb-1.text-ink.text-sm"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#55607a",
-                "bgColor": "#ffffff",
-                "contrastRatio": 6.28,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.28"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<p class=\"text-sm leading-relaxed text-ink-muted\">Manages your pipeline and customer data on the same platform as your inbox and calendar.</p>",
-          "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(3) > .p-5.hover\\:-translate-y-1.hover\\:border-primary\\/30 > .leading-relaxed"
+            ".section-heading"
           ]
         },
         {
@@ -5360,7 +5178,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Platforms</div>",
           "target": [
-            "div:nth-child(2) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(2) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -5485,7 +5303,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Industries</div>",
           "target": [
-            "div:nth-child(3) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(3) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -5610,7 +5428,7 @@
           "impact": null,
           "html": "<div class=\"mb-3 text-base font-bold text-on-inverse\">Get in touch</div>",
           "target": [
-            "div:nth-child(4) > .text-base.mb-3.text-on-inverse"
+            "div:nth-child(4) > .text-base.text-on-inverse.mb-3"
           ]
         },
         {
@@ -6407,9 +6225,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".px-5"
+            ".lg\\:flex.hidden.gap-4 > .btn--sm.btn.btn-primary"
           ]
         },
         {
@@ -6435,7 +6253,7 @@
           "impact": null,
           "html": "<a class=\"mb-6 inline-flex items-center gap-1.5 text-xs font-bold text-ink-soft transition-colors duration-200 hover:text-primary\" href=\"/services\">",
           "target": [
-            ".gap-1\\.5"
+            ".inline-flex"
           ]
         },
         {
@@ -6459,9 +6277,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/dynamics-365-sales\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/dynamics-365-sales\">",
           "target": [
-            ".gap-3.group[href$=\"dynamics-365-sales\"]"
+            ".card-interactive.p-5[href$=\"dynamics-365-sales\"]"
           ]
         },
         {
@@ -6485,9 +6303,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/microsoft-security-device-management\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/microsoft-security-device-management\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(2) > .gap-3.group.p-5"
+            ".translate-y-6.duration-700.ease-out:nth-child(2) > .card-interactive.p-5.text-center"
           ]
         },
         {
@@ -6511,9 +6329,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/business-central-finance\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/business-central-finance\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(3) > .gap-3.group.p-5"
+            ".translate-y-6.duration-700.ease-out:nth-child(3) > .card-interactive.p-5.text-center"
           ]
         },
         {
@@ -6537,9 +6355,9 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"group flex h-full flex-col items-center gap-3 rounded-xl border border-border bg-surface p-5 text-center transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg\" href=\"/services/dynamics-365-hr\">",
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/dynamics-365-hr\">",
           "target": [
-            ".gap-3.group[href$=\"dynamics-365-hr\"]"
+            ".card-interactive.p-5[href$=\"dynamics-365-hr\"]"
           ]
         },
         {
@@ -6825,7 +6643,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -6851,7 +6669,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         }
       ]
@@ -7248,9 +7066,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn-shine mt-5 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-sm font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
           "target": [
-            ".btn-shine.mt-5.inline-flex"
+            ".btn--md"
           ]
         },
         {
@@ -7412,9 +7230,9 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+                  "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
                   "target": [
-                    ".px-5"
+                    ".lg\\:flex.hidden.gap-4 > .btn--sm.btn.btn-primary"
                   ]
                 }
               ],
@@ -7425,9 +7243,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<a class=\"btn-shine inline-block rounded-lg bg-accent px-5 py-2.5 text-[13px] font-bold text-on-inverse transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-hover hover:shadow-md active:translate-y-0\" href=\"/contact\">Book a call</a>",
+          "html": "<a class=\"btn btn-primary btn--sm\" href=\"/contact\">Book a call</a>",
           "target": [
-            ".px-5"
+            ".lg\\:flex.hidden.gap-4 > .btn--sm.btn.btn-primary"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
         }

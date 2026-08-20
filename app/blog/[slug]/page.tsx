@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import Footer from "@/components/Footer";
 import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
 import BlogIcon from "@/components/BlogIcon";
 import HoverGlow from "@/components/HoverGlow";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
+import { Card } from "@/components/ui/Card";
 import { getPostBySlug, getRelatedPosts, posts } from "@/lib/posts";
 import { buildMetadata } from "@/lib/seo";
 import { ArrowLeft, Calendar, Clock, User } from "lucide-react";
@@ -53,9 +53,7 @@ export default async function BlogPostPage(props: {
               <ArrowLeft size={14} /> Back to blog
             </Link>
             <div>
-              <span className="inline-block rounded-full bg-surface-chip px-4 py-1.5 text-[11px] font-bold text-primary">
-                {post.category}
-              </span>
+              <span className="section-eyebrow section-eyebrow--light">{post.category}</span>
               <h1 className="mx-auto mt-5 text-[24px] font-bold leading-tight text-ink sm:text-3xl">
                 {post.title}
               </h1>
@@ -98,10 +96,7 @@ export default async function BlogPostPage(props: {
               <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                 {related.map((r, i) => (
                   <Reveal key={r.slug} delay={i * 60}>
-                    <Link
-                      href={`/blog/${r.slug}`}
-                      className="group flex h-full flex-col rounded-xl border border-border bg-surface p-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-lg"
-                    >
+                    <Card href={`/blog/${r.slug}`}>
                       <span className="mb-2 inline-block w-fit rounded-full bg-surface-chip px-3 py-1 text-[10px] font-bold text-primary">
                         {r.category}
                       </span>
@@ -111,7 +106,7 @@ export default async function BlogPostPage(props: {
                       <p className="line-clamp-2 text-xs text-ink-muted">
                         {r.excerpt}
                       </p>
-                    </Link>
+                    </Card>
                   </Reveal>
                 ))}
               </div>
@@ -121,7 +116,6 @@ export default async function BlogPostPage(props: {
 
         <CTA />
       </main>
-      <Footer />
     </>
   );
 }

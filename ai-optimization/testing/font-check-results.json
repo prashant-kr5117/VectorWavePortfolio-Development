@@ -1,0 +1,66 @@
+[
+  {
+    "routeId": "homepage",
+    "path": "/",
+    "expectedFontFamily": "Geist (via next/font, exposed as --font-geist-sans)",
+    "bodyComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "h1ComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "geistCssVariablePresent": true
+  },
+  {
+    "routeId": "about",
+    "path": "/about",
+    "expectedFontFamily": "Geist (via next/font, exposed as --font-geist-sans)",
+    "bodyComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "h1ComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "geistCssVariablePresent": true
+  },
+  {
+    "routeId": "services-index",
+    "path": "/services",
+    "expectedFontFamily": "Geist (via next/font, exposed as --font-geist-sans)",
+    "bodyComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "h1ComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "geistCssVariablePresent": true
+  },
+  {
+    "routeId": "service-zoho-bundled-suite",
+    "path": "/services/zoho-bundled-suite",
+    "expectedFontFamily": "Geist (via next/font, exposed as --font-geist-sans)",
+    "bodyComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "h1ComputedFontFamily": "Manrope, \"Manrope Fallback\"",
+    "geistCssVariablePresent": true
+  },
+  {
+    "routeId": "service-sales",
+    "path": "/services/sales",
+    "expectedFontFamily": "Geist (via next/font, exposed as --font-geist-sans)",
+    "bodyComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "h1ComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "geistCssVariablePresent": true
+  },
+  {
+    "routeId": "blog-index",
+    "path": "/blog",
+    "expectedFontFamily": "Geist (via next/font, exposed as --font-geist-sans)",
+    "bodyComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "h1ComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "geistCssVariablePresent": true
+  },
+  {
+    "routeId": "blog-5-signs-your-business-has-outgrown-spreadsheets",
+    "path": "/blog/5-signs-your-business-has-outgrown-spreadsheets",
+    "expectedFontFamily": "Geist (via next/font, exposed as --font-geist-sans)",
+    "bodyComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "h1ComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "geistCssVariablePresent": true
+  },
+  {
+    "routeId": "contact",
+    "path": "/contact",
+    "expectedFontFamily": "Geist (via next/font, exposed as --font-geist-sans)",
+    "bodyComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "h1ComputedFontFamily": "Arial, Helvetica, sans-serif",
+    "geistCssVariablePresent": true
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "routeId": "homepage",
+    "path": "/",
+    "status": "measured",
+    "scores": {
+      "performance": 0.33,
+      "accessibility": 0.97,
+      "seo": 1,
+      "bestPractices": 0.77
+    }
+  },
+  {
+    "routeId": "about",
+    "path": "/about",
+    "status": "measured",
+    "scores": {
+      "performance": 0.37,
+      "accessibility": 0.96,
+      "seo": 1,
+      "bestPractices": 0.77
+    }
+  },
+  {
+    "routeId": "services-index",
+    "path": "/services",
+    "status": "measured",
+    "scores": {
+      "performance": 0.45,
+      "accessibility": 0.96,
+      "seo": 1,
+      "bestPractices": 0.77
+    }
+  },
+  {
+    "routeId": "service-zoho-bundled-suite",
+    "path": "/services/zoho-bundled-suite",
+    "status": "measured",
+    "scores": {
+      "performance": 0.31,
+      "accessibility": 0.95,
+      "seo": 1,
+      "bestPractices": 0.77
+    }
+  },
+  {
+    "routeId": "service-sales",
+    "path": "/services/sales",
+    "status": "measured",
+    "scores": {
+      "performance": 0.41,
+      "accessibility": 0.96,
+      "seo": 1,
+      "bestPractices": 0.77
+    }
+  },
+  {
+    "routeId": "blog-index",
+    "path": "/blog",
+    "status": "measured",
+    "scores": {
+      "performance": 0.47,
+      "accessibility": 0.97,
+      "seo": 1,
+      "bestPractices": 0.77
+    }
+  },
+  {
+    "routeId": "blog-5-signs-your-business-has-outgrown-spreadsheets",
+    "path": "/blog/5-signs-your-business-has-outgrown-spreadsheets",
+    "status": "measured",
+    "scores": {
+      "performance": 0.48,
+      "accessibility": 0.96,
+      "seo": 1,
+      "bestPractices": 0.77
+    }
+  },
+  {
+    "routeId": "contact",
+    "path": "/contact",
+    "status": "measured",
+    "scores": {
+      "performance": 0.49,
+      "accessibility": 0.92,
+      "seo": 1,
+      "bestPractices": 0.77
+    }
+  }
+]

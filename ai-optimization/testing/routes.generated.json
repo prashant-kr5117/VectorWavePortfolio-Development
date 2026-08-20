@@ -1,0 +1,237 @@
+{
+  "generatedAt": "2026-08-19T20:02:50.679Z",
+  "source": "e2e/lib/routes.ts, derived from lib/services.ts + lib/posts.ts",
+  "totalRoutes": 30,
+  "routes": [
+    {
+      "id": "homepage",
+      "label": "Homepage",
+      "path": "/",
+      "kind": "core"
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "path": "/about",
+      "kind": "core"
+    },
+    {
+      "id": "services-index",
+      "label": "Services Index",
+      "path": "/services",
+      "kind": "core"
+    },
+    {
+      "id": "blog-index",
+      "label": "Blog Index",
+      "path": "/blog",
+      "kind": "core"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "path": "/contact",
+      "kind": "core"
+    },
+    {
+      "id": "service-zoho-bundled-suite",
+      "label": "Service: Zoho Bundled Suite",
+      "path": "/services/zoho-bundled-suite",
+      "kind": "service"
+    },
+    {
+      "id": "service-sales",
+      "label": "Service: Sales",
+      "path": "/services/sales",
+      "kind": "service"
+    },
+    {
+      "id": "service-it-support",
+      "label": "Service: IT & Support",
+      "path": "/services/it-support",
+      "kind": "service"
+    },
+    {
+      "id": "service-zoho-finance",
+      "label": "Service: Zoho Finance",
+      "path": "/services/zoho-finance",
+      "kind": "service"
+    },
+    {
+      "id": "service-human-resources",
+      "label": "Service: Human Resources",
+      "path": "/services/human-resources",
+      "kind": "service"
+    },
+    {
+      "id": "service-odoo-business-suite",
+      "label": "Service: Odoo Business Suite",
+      "path": "/services/odoo-business-suite",
+      "kind": "service"
+    },
+    {
+      "id": "service-odoo-sales-ecommerce",
+      "label": "Service: Sales & eCommerce",
+      "path": "/services/odoo-sales-ecommerce",
+      "kind": "service"
+    },
+    {
+      "id": "service-odoo-inventory-operations",
+      "label": "Service: Inventory & Operations",
+      "path": "/services/odoo-inventory-operations",
+      "kind": "service"
+    },
+    {
+      "id": "service-odoo-accounting",
+      "label": "Service: Odoo Accounting",
+      "path": "/services/odoo-accounting",
+      "kind": "service"
+    },
+    {
+      "id": "service-odoo-workforce-hr",
+      "label": "Service: Workforce & HR",
+      "path": "/services/odoo-workforce-hr",
+      "kind": "service"
+    },
+    {
+      "id": "service-microsoft-365-dynamics-suite",
+      "label": "Service: Microsoft 365 & Dynamics Suite",
+      "path": "/services/microsoft-365-dynamics-suite",
+      "kind": "service"
+    },
+    {
+      "id": "service-dynamics-365-sales",
+      "label": "Service: Dynamics 365 Sales",
+      "path": "/services/dynamics-365-sales",
+      "kind": "service"
+    },
+    {
+      "id": "service-microsoft-security-device-management",
+      "label": "Service: Security & Device Management",
+      "path": "/services/microsoft-security-device-management",
+      "kind": "service"
+    },
+    {
+      "id": "service-business-central-finance",
+      "label": "Service: Business Central Finance",
+      "path": "/services/business-central-finance",
+      "kind": "service"
+    },
+    {
+      "id": "service-dynamics-365-hr",
+      "label": "Service: Dynamics 365 HR",
+      "path": "/services/dynamics-365-hr",
+      "kind": "service"
+    },
+    {
+      "id": "service-mobile-app-development",
+      "label": "Service: Mobile App Development",
+      "path": "/services/mobile-app-development",
+      "kind": "service"
+    },
+    {
+      "id": "service-web-development",
+      "label": "Service: Web Development",
+      "path": "/services/web-development",
+      "kind": "service"
+    },
+    {
+      "id": "service-ai-integration",
+      "label": "Service: AI Integration",
+      "path": "/services/ai-integration",
+      "kind": "service"
+    },
+    {
+      "id": "service-whatsapp-automation",
+      "label": "Service: WhatsApp Automation",
+      "path": "/services/whatsapp-automation",
+      "kind": "service"
+    },
+    {
+      "id": "blog-5-signs-your-business-has-outgrown-spreadsheets",
+      "label": "Blog: 5 signs your business has outgrown spreadsheets",
+      "path": "/blog/5-signs-your-business-has-outgrown-spreadsheets",
+      "kind": "blog"
+    },
+    {
+      "id": "blog-zoho-crm-automation-where-teams-leave-value-on-the-table",
+      "label": "Blog: Zoho CRM automation: where most teams leave value on the table",
+      "path": "/blog/zoho-crm-automation-where-teams-leave-value-on-the-table",
+      "kind": "blog"
+    },
+    {
+      "id": "blog-where-ai-actually-pays-off-inside-a-growing-business",
+      "label": "Blog: Where AI actually pays off inside a growing business",
+      "path": "/blog/where-ai-actually-pays-off-inside-a-growing-business",
+      "kind": "blog"
+    },
+    {
+      "id": "blog-what-makes-a-business-website-actually-convert",
+      "label": "Blog: What makes a business website actually convert",
+      "path": "/blog/what-makes-a-business-website-actually-convert",
+      "kind": "blog"
+    },
+    {
+      "id": "blog-getting-your-chart-of-accounts-audit-ready-with-zoho-books",
+      "label": "Blog: Getting your chart of accounts audit-ready with Zoho Books",
+      "path": "/blog/getting-your-chart-of-accounts-audit-ready-with-zoho-books",
+      "kind": "blog"
+    },
+    {
+      "id": "blog-zoho-vs-odoo-choosing-the-right-erp-foundation",
+      "label": "Blog: Zoho vs Odoo: choosing the right ERP foundation",
+      "path": "/blog/zoho-vs-odoo-choosing-the-right-erp-foundation",
+      "kind": "blog"
+    }
+  ],
+  "representativeRoutes": [
+    {
+      "id": "homepage",
+      "label": "Homepage",
+      "path": "/",
+      "kind": "core"
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "path": "/about",
+      "kind": "core"
+    },
+    {
+      "id": "services-index",
+      "label": "Services Index",
+      "path": "/services",
+      "kind": "core"
+    },
+    {
+      "id": "service-zoho-bundled-suite",
+      "label": "Service: Zoho Bundled Suite",
+      "path": "/services/zoho-bundled-suite",
+      "kind": "service"
+    },
+    {
+      "id": "service-sales",
+      "label": "Service: Sales",
+      "path": "/services/sales",
+      "kind": "service"
+    },
+    {
+      "id": "blog-index",
+      "label": "Blog Index",
+      "path": "/blog",
+      "kind": "core"
+    },
+    {
+      "id": "blog-5-signs-your-business-has-outgrown-spreadsheets",
+      "label": "Blog: 5 signs your business has outgrown spreadsheets",
+      "path": "/blog/5-signs-your-business-has-outgrown-spreadsheets",
+      "kind": "blog"
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "path": "/contact",
+      "kind": "core"
+    }
+  ]
+}

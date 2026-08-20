@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "e2e": "playwright test",
+    "e2e:screenshots": "playwright test screenshots.spec.ts",
+    "e2e:health": "playwright test health-check.spec.ts",
+    "e2e:a11y": "playwright test accessibility.spec.ts",
+    "e2e:font": "playwright test font-check.spec.ts",
+    "e2e:lighthouse": "node e2e/lighthouse-audit.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.23.0",
@@ -15,12 +21,15 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.62.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
+    "lighthouse": "^13.4.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

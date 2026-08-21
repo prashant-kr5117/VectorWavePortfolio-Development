@@ -23,13 +23,9 @@
   {
     "routeId": "blog-index",
     "path": "/blog",
-    "violationCount": 1,
-    "violationsBySeverity": {
-      "serious": 1
-    },
-    "violationIds": [
-      "color-contrast"
-    ]
+    "violationCount": 0,
+    "violationsBySeverity": {},
+    "violationIds": []
   },
   {
     "routeId": "contact",

@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-21T08:13:59.425Z",
+  "timestamp": "2026-08-21T10:26:51.420Z",
   "url": "http://localhost:3100/",
   "toolOptions": {
     "runOnly": {
@@ -5260,7 +5260,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<span aria-hidden=\"true\">",
+          "html": "<span aria-hidden=\"true\"><span>Powering Intelligent </span><span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Business F</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
           "target": [
             "span[aria-hidden=\"true\"]"
           ]
@@ -13583,7 +13583,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -15148,7 +15148,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -15953,7 +15953,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -15992,7 +15992,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -16031,7 +16031,7 @@
             }
           ],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -18948,7 +18948,7 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Business Flow,</span>",
+                  "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Business F</span>",
                   "target": [
                     ".bg-gradient-to-r"
                   ]
@@ -18961,41 +18961,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Business Flow,</span>",
+          "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Business F</span>",
           "target": [
             ".bg-gradient-to-r"
-          ],
-          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "contrastRatio": 0,
-                "fontSize": "36.0pt (48px)",
-                "fontWeight": "bold",
-                "messageKey": "bgGradient",
-                "expectedContrastRatio": "3:1"
-              },
-              "relatedNodes": [
-                {
-                  "html": "<div class=\"pointer-events-none ...\" style=\"background-image:lin...\">",
-                  "target": [
-                    ".opacity-\\[0\\.06\\]"
-                  ]
-                }
-              ],
-              "impact": "serious",
-              "message": "Element's background color could not be determined due to a background gradient"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": "serious",
-          "html": "<span> without the </span>",
-          "target": [
-            "span[aria-hidden=\"true\"] > span:nth-child(3)"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient"
         },

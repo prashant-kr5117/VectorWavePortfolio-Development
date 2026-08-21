@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-21T08:14:20.819Z",
+  "timestamp": "2026-08-21T10:27:08.965Z",
   "url": "http://localhost:3100/contact",
   "toolOptions": {
     "runOnly": {
@@ -730,7 +730,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -770,7 +770,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -1266,7 +1266,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -1284,7 +1284,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -1614,7 +1614,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<body class=\"min-h-full flex flex-col\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+          "html": "<body class=\"min-h-full flex flex-col\">",
           "target": [
             "body"
           ]
@@ -1732,7 +1732,7 @@
           "impact": null,
           "html": "<svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM7 8.48H3V21h4V8.48Zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48Z\"></path></svg>",
           "target": [
-            "a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
+            "a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
           ]
         },
         {
@@ -1764,7 +1764,7 @@
           "impact": null,
           "html": "<svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">",
           "target": [
-            "a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
+            "a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
           ]
         },
         {
@@ -3240,7 +3240,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -3258,7 +3258,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -3788,7 +3788,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -3820,7 +3820,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -4179,7 +4179,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -4197,7 +4197,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -4427,41 +4427,9 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<body class=\"min-h-full flex flex-col\" style=\"position: relative; min-height: 100%; top: 0px;\">",
-          "target": [
-            "body"
           ]
         },
         {
@@ -4833,7 +4801,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -5839,126 +5807,6 @@
             {
               "id": "color-contrast",
               "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<select class=\"goog-te-combo\" aria-label=\"Language Translate Widget\"><option value=\"\">Select Language</option><option value=\"nl\">Dutch</option></select>",
-          "target": [
-            ".goog-te-combo"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input type=\"text\" name=\"sl\" id=\"goog-gt-votingInputSrcLang\">",
-          "target": [
-            "#goog-gt-votingInputSrcLang"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input type=\"text\" name=\"tl\" id=\"goog-gt-votingInputTrgLang\">",
-          "target": [
-            "#goog-gt-votingInputTrgLang"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input type=\"text\" name=\"query\" id=\"goog-gt-votingInputSrcText\">",
-          "target": [
-            "#goog-gt-votingInputSrcText"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input type=\"text\" name=\"gtrans\" id=\"goog-gt-votingInputTrgText\">",
-          "target": [
-            "#goog-gt-votingInputTrgText"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<input type=\"text\" name=\"vote\" id=\"goog-gt-votingInputVote\">",
-          "target": [
-            "#goog-gt-votingInputVote"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
                 "fgColor": "#121212",
                 "bgColor": "#ffffff",
                 "contrastRatio": 18.73,
@@ -6038,7 +5886,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -6330,7 +6178,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -6369,7 +6217,7 @@
             }
           ],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -6733,7 +6581,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -6759,7 +6607,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
           ]
         },
         {
@@ -7738,7 +7586,7 @@
           "impact": null,
           "html": "<option class=\"bg-surface text-ink\">Facebook Ads</option>",
           "target": [
-            "#leadSource > option:nth-child(1)"
+            "option:nth-child(1)"
           ]
         },
         {
@@ -7756,7 +7604,7 @@
           "impact": null,
           "html": "<option class=\"bg-surface text-ink\">Google Ads</option>",
           "target": [
-            "#leadSource > option:nth-child(2)"
+            "option:nth-child(2)"
           ]
         },
         {

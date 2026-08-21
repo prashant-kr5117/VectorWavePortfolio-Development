@@ -70,7 +70,10 @@ work if the fork gets resolved toward the shared token system anyway.
 **Risk:** Low for the `blog-index` fix (single token, well-understood). The
 `zoho-bundled-suite` fix should wait for Q-004.
 **Business decision required?** No.
-**Status:** Open (blog-index half), Blocked on Q-004 (zoho-bundled-suite half).
+**Status:** blog-index half — Done, resolved by Iteration 001 (2026-08-21): darkened
+`--color-ink-faint` to `#646f89`, verified 0 new violations sitewide. See
+`ai-optimization/iterations/ITERATION-001.md`. zoho-bundled-suite half — still Blocked
+on Q-004.
 
 ---
 

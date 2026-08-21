@@ -89,3 +89,16 @@ After Score: axe-core violations: 2 instances / 2 pages — unchanged, About sti
 Regressions: None found — 31/31 health checks passed (all 30 routes + /team redirect), 0 console/page errors, 0 new accessibility violations (About and homepage both flat at 0), 0 broken routes (the Salesforce Footer link's removal actually fixes a previously-broken anchor), build/type-check clean, 0 new ESLint errors (same 2 pre-existing, untouched-file errors as every prior workstream), no other route touched beyond the 4 files listed above, no new dependency installed, no business-fact fabricated (every removed claim was deleted outright or replaced with a code-derived structural fact never inflated beyond what lib/services.ts and lib/industries.ts actually contain).
 Decision: KEEP — build/type-check/lint clean, all health/accessibility/Lighthouse checks pass, 0 regressions, 150 rendered screenshots (all 30 routes × 5 viewports) reviewed for the changed pages confirm the About page's Leadership section and platform-logo strip render cleanly at every viewport with no layout breakage, and a final senior-enterprise-buyer review (WORKSTREAM-05-RESULT.md Section 20) found no further claim requiring correction.
 Human Approval: Not yet requested — awaiting human review per SAFETY_RULES.md before this iteration is committed/merged. Nothing was committed or pushed.
+
+### Iteration: 001 — Fix blog-index color-contrast violation (autonomous loop, STANDARD mode)
+Date: 2026-08-21
+Branch/Commit: main (VectorWavePortfolio-Development repo), committed locally, not pushed
+Target: app/globals.css (`--color-ink-faint` token only)
+Problem: `blog-index`'s `color-contrast` axe violation (serious) — `--color-ink-faint` (#8a93a8) at 3.07:1 against white, below WCAG AA 4.5:1, on blog card meta text (author/date/read-time).
+Proposed Change: Darkened `--color-ink-faint` to #646f89 (5.03:1 vs white, 4.81:1 vs surface-alt), verified used only on light surfaces sitewide (9 consuming files checked) so no new violation is introduced elsewhere.
+Reason: See ai-optimization/iterations/ITERATION-001.md for full detail.
+Before Score: Accessibility 92/100 (Q-002 full re-score baseline, ai-optimization/reports/Q-002-FULL-RESCORE.md). axe: 2 known violations sitewide (blog-index color-contrast, service-zoho-bundled-suite local colors).
+After Score: Accessibility 96/100. axe: blog-index violations 2→0; only the unrelated, untouched service-zoho-bundled-suite violation remains. Overall weighted score 76.37 → 76.69.
+Regressions: None — 31/31 health checks pass, 0 new axe violations on any route, build/type-check/lint clean (2 pre-existing, untouched-file ESLint errors only), no business-fact/URL change, visual review of blog-index (all 5 viewports) + homepage/about/services-index (desktop) found no layout/hierarchy regression.
+Decision: ACCEPT — see ITERATION-001.md "Reason".
+Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md — committed locally per the loop's git model (ai-optimization/loop/README.md "Git model": commits are expected, pushing is not). Not pushed.

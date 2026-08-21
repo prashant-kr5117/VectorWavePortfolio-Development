@@ -1,15 +1,19 @@
 {
-  "current_iteration": 1,
+  "current_iteration": 2,
   "current_task": null,
   "status": "idle",
   "mode": "STANDARD",
-  "last_score": null,
-  "best_score": {
-    "overall": 76.37,
-    "source": "Full re-score against committed baseline af99005ce394ec8e9ec3b103102b2f92d1c4805d, per ai-optimization/loop/TASK-QUEUE.md Q-002. See ai-optimization/reports/Q-002-FULL-RESCORE.md for per-category evidence and reasoning. Supersedes the prior 62.92 Stage-2 source-level baseline.",
-    "as_of": "2026-08-21 (post-Workstream-5, post-baseline-commit)"
+  "last_score": {
+    "overall": 76.69,
+    "source": "Iteration 001 partial re-score (Accessibility only, 92->96). See ai-optimization/iterations/ITERATION-001.md.",
+    "as_of": "2026-08-21"
   },
-  "last_commit": "af99005ce394ec8e9ec3b103102b2f92d1c4805d",
+  "best_score": {
+    "overall": 76.69,
+    "source": "Iteration 001 partial re-score (Accessibility only, 92->96) applied on top of the Q-002 full re-score baseline of 76.37. See ai-optimization/iterations/ITERATION-001.md and ai-optimization/reports/Q-002-FULL-RESCORE.md.",
+    "as_of": "2026-08-21 (post-Iteration-001)"
+  },
+  "last_commit": "PENDING_ITERATION_001_COMMIT",
   "consecutive_no_improvement": 0,
   "human_decision_required": false,
   "human_decision_reason": null,

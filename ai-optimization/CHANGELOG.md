@@ -115,3 +115,16 @@ After Score: UX 78/100, Visual Design 80/100, Performance 70/100 (unchanged — 
 Regressions: None — build/type-check clean, same 2 pre-existing untouched-file ESLint errors, homepage health-check and axe both pass (0 violations), new dependency confirmed to add 0 new npm-audit findings (4 clean packages), no business-fact/URL/layout change, visual review of homepage (desktop + mobile, final settled state) found no regression.
 Decision: ACCEPT — see ITERATION-002.md "Reason".
 Human Approval: New dependency explicitly approved via AskUserQuestion this session (SAFETY_RULES.md requirement). Committed locally per the loop's git model. Not pushed.
+
+### Iteration: 003 — Animated connector lines for TechnologyEcosystemVisual (direct human request)
+Date: 2026-08-21
+Branch/Commit: main (VectorWavePortfolio-Development repo), committed locally, not pushed
+Target: components/sections/TechnologyEcosystemVisual.tsx
+Problem: Human asked to improve Iteration 002's connector animation further; chose "animated connector lines" from 3 proposed options. Iteration 002's connectors only faded/scaled an arrow icon, never drew an actual line.
+Proposed Change: SVG pathLength draw-in per connector, arrowhead pop on completion; rewrote the timing model from Motion variants/staggerChildren to explicit per-element delays for predictability; caught and fixed a real overflow regression at the 768px/1024px tablet breakpoints by moving the horizontal-flow cutover from sm: (640px) to lg: (1024px), letting 768px use the same clean vertical stack as mobile instead of cramming 5 cards into too little width.
+Reason: See ai-optimization/iterations/ITERATION-003.md for full detail, including the overflow-regression catch and its verification.
+Before Score: UX 78/100, Visual Design 80/100 (Iteration 002 baseline). Overall 77.09.
+After Score: Visual Design 82/100 (+2, unrelated categories unchanged). Overall 77.09 → 77.27.
+Regressions: None in the final state — build/type-check/lint clean, homepage health-check and axe both pass (0 violations), overflow-checked and screenshot-reviewed at 768/1024/1280/1440 (a mid-iteration overflow regression at 768/1024 was caught and fixed before this was logged, per CONTROLLER.md Step 14's REVISE path), no business-fact/URL change, no new dependency (reused Iteration 002's motion install).
+Decision: ACCEPT — see ITERATION-003.md "Reason".
+Human Approval: Direct human request and design choice (AskUserQuestion) this session. Committed locally per the loop's git model. Not pushed.

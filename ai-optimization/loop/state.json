@@ -13,7 +13,7 @@
     "source": "Iteration 001 partial re-score (Accessibility only, 92->96) applied on top of the Q-002 full re-score baseline of 76.37. See ai-optimization/iterations/ITERATION-001.md and ai-optimization/reports/Q-002-FULL-RESCORE.md.",
     "as_of": "2026-08-21 (post-Iteration-001)"
   },
-  "last_commit": "PENDING_ITERATION_001_COMMIT",
+  "last_commit": "de3a590a2ea7a29862714ca810bb4c37b364e960",
   "consecutive_no_improvement": 0,
   "human_decision_required": false,
   "human_decision_reason": null,

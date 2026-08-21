@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T12:57:39.682Z",
+  "generatedAt": "2026-08-21T13:27:13.778Z",
   "source": "e2e/lib/routes.ts, derived from lib/services.ts + lib/posts.ts",
   "totalRoutes": 30,
   "routes": [

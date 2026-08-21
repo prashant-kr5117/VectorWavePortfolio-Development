@@ -141,3 +141,16 @@ After Score: Visual Design 83/100 (+1), Accessibility 97/100 (+1). Overall 77.27
 Regressions: None in the final state — build/type-check/lint clean, homepage health-check and axe both pass (0 violations), chip text-wrap verified at 1024/1440 (all labels single-line, no overflow), no business-fact change, no new dependency.
 Decision: ACCEPT — see ITERATION-004.md "Reason".
 Human Approval: Direct human bug report this session. Committed locally per the loop's git model. Not pushed.
+
+### Iteration: 005 — Fix blog post H1 mobile size drift (Q-005 heading half)
+Date: 2026-08-21
+Branch/Commit: main (VectorWavePortfolio-Development repo), committed locally, not pushed
+Target: app/blog/[slug]/page.tsx (H1 className only)
+Problem: Blog post H1 used text-[24px] on mobile vs. text-[26px] on every other page's main heading (Stage 2 finding, never fixed by Workstreams 1-5).
+Proposed Change: Changed text-[24px] to text-[26px] to match the other 5 pages exactly. Also re-audited Q-005's "blog image gap" half and found it stale (BlogGrid.tsx already solves the visual gap via a category-icon system, not the unused BlogPost.image field) -- re-scoped in TASK-QUEUE.md rather than implemented.
+Reason: See ai-optimization/iterations/ITERATION-005.md for full detail.
+Before Score: Brand Consistency 62/100 (Q-002 baseline, unchanged since).
+After Score: Brand Consistency 63/100 (+1). Overall 77.44 -> 77.51.
+Regressions: None -- build/type-check/lint clean, health-check and axe pass on representative blog routes, visual review confirms clean 2-line wrap on mobile, no content/business-fact change.
+Decision: ACCEPT -- see ITERATION-005.md "Reason".
+Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md. Committed locally. Not pushed.

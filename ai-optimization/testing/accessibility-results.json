@@ -1,7 +1,7 @@
 [
   {
-    "routeId": "homepage",
-    "path": "/",
+    "routeId": "blog-5-signs-your-business-has-outgrown-spreadsheets",
+    "path": "/blog/5-signs-your-business-has-outgrown-spreadsheets",
     "violationCount": 0,
     "violationsBySeverity": {},
     "violationIds": []

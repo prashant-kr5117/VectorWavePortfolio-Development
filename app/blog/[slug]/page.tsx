@@ -54,7 +54,7 @@ export default async function BlogPostPage(props: {
             </Link>
             <div>
               <span className="section-eyebrow section-eyebrow--light">{post.category}</span>
-              <h1 className="mx-auto mt-5 text-[24px] font-bold leading-tight text-ink sm:text-3xl">
+              <h1 className="mx-auto mt-5 text-[26px] font-bold leading-tight text-ink sm:text-3xl">
                 {post.title}
               </h1>
               <div className="mt-5 flex flex-wrap items-center justify-center gap-4 text-xs text-ink-muted">

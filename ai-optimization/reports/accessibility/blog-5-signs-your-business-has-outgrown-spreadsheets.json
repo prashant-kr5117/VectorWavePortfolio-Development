@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-21T10:28:55.613Z",
+  "timestamp": "2026-08-21T13:27:18.725Z",
   "url": "http://localhost:3100/blog/5-signs-your-business-has-outgrown-spreadsheets",
   "toolOptions": {
     "runOnly": {
@@ -4728,7 +4728,7 @@
               "data": null,
               "relatedNodes": [
                 {
-                  "html": "<h1 class=\"mx-auto mt-5 text-[24px] font-bold leading-tight text-ink sm:text-3xl\">5 signs your business has outgrown spreadsheets</h1>",
+                  "html": "<h1 class=\"mx-auto mt-5 text-[26px] font-bold leading-tight text-ink sm:text-3xl\">5 signs your business has outgrown spreadsheets</h1>",
                   "target": [
                     "h1"
                   ]
@@ -5044,7 +5044,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h1 class=\"mx-auto mt-5 text-[24px] font-bold leading-tight text-ink sm:text-3xl\">5 signs your business has outgrown spreadsheets</h1>",
+          "html": "<h1 class=\"mx-auto mt-5 text-[26px] font-bold leading-tight text-ink sm:text-3xl\">5 signs your business has outgrown spreadsheets</h1>",
           "target": [
             "h1"
           ]

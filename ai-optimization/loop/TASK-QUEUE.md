@@ -110,7 +110,18 @@ Strategy; the heading-size fix is a pure CSS consistency fix).
 **Risk:** Low for the heading-size fix. The image gap may hit `HUMAN-DECISIONS.md`
 triggers if it requires sourcing real photography — evaluate per-post, don't batch-decide.
 **Business decision required?** Possibly, per-post, if real photography is the chosen fix.
-**Status:** Open — needs a fresh audit iteration before an implementation iteration.
+**Status:** Heading-size half — Done, resolved by Iteration 005 (2026-08-21): re-verified
+against current code (`app/blog/[slug]/page.tsx:57` still had `text-[24px]` vs. every
+other page's `text-[26px]`), fixed to match. Image-gap half — **re-scoped, stale
+finding**: re-audited during Iteration 005 and found `BlogPost.image` is still an unused
+field (`lib/posts.ts:15`), but the underlying visual gap it originally described no
+longer exists — a later workstream (before this loop existed) already solved it with a
+per-category icon treatment (`BlogGrid.tsx`'s `BlogIcon` component, not the `image`
+field). This is no longer a Trust/Content gap needing a business decision on
+photography; it's a harmless, low-priority dead-code cleanup (remove the unused
+optional field, or wire it up if real photography is ever sourced later). Downgraded to
+P3, not re-added as an active queue item — noted here so a future audit doesn't
+rediscover it from scratch.
 
 ---
 

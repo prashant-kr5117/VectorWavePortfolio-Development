@@ -128,3 +128,16 @@ After Score: Visual Design 82/100 (+2, unrelated categories unchanged). Overall 
 Regressions: None in the final state — build/type-check/lint clean, homepage health-check and axe both pass (0 violations), overflow-checked and screenshot-reviewed at 768/1024/1280/1440 (a mid-iteration overflow regression at 768/1024 was caught and fixed before this was logged, per CONTROLLER.md Step 14's REVISE path), no business-fact/URL change, no new dependency (reused Iteration 002's motion install).
 Decision: ACCEPT — see ITERATION-003.md "Reason".
 Human Approval: Direct human request and design choice (AskUserQuestion) this session. Committed locally per the loop's git model. Not pushed.
+
+### Iteration: 004 — Fix illegible platform-logo chips in TechnologyEcosystemVisual (human bug report)
+Date: 2026-08-21
+Branch/Commit: main (VectorWavePortfolio-Development repo), committed locally, not pushed
+Target: components/sections/TechnologyEcosystemVisual.tsx
+Problem: User-reported and screenshot-confirmed: the Odoo platform chip rendered essentially blank (its asset is a 480x480 square WebP icon, not a wordmark, scaled to an illegible 14px). The platform name was sr-only, so sighted users had no text fallback when a logo was too small/detailed to read.
+Proposed Change: Added a visible text label under each logo (stacked layout, after a first horizontal-layout attempt wrapped "Dynamics 365" onto 3 lines and was caught/fixed before being called done).
+Reason: See ai-optimization/iterations/ITERATION-004.md for full detail.
+Before Score: Visual Design 82/100, Accessibility 96/100 (Iteration 003 baseline). Overall 77.27.
+After Score: Visual Design 83/100 (+1), Accessibility 97/100 (+1). Overall 77.27 -> 77.44.
+Regressions: None in the final state — build/type-check/lint clean, homepage health-check and axe both pass (0 violations), chip text-wrap verified at 1024/1440 (all labels single-line, no overflow), no business-fact change, no new dependency.
+Decision: ACCEPT — see ITERATION-004.md "Reason".
+Human Approval: Direct human bug report this session. Committed locally per the loop's git model. Not pushed.

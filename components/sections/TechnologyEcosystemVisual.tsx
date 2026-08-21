@@ -30,9 +30,9 @@ import MicrosoftDynamics365Logo from "@/src/Microsoft_Dynamics_365_Logo.svg";
  * prefers-reduced-motion media query does not reach it.
  */
 const platformNodes = [
-  { name: "Zoho", logo: ZohoLogo },
-  { name: "Odoo", logo: OdooLogo },
-  { name: "Microsoft Dynamics 365", logo: MicrosoftDynamics365Logo },
+  { name: "Zoho", label: "Zoho", logo: ZohoLogo },
+  { name: "Odoo", label: "Odoo", logo: OdooLogo },
+  { name: "Microsoft Dynamics 365", label: "Dynamics 365", logo: MicrosoftDynamics365Logo },
 ];
 
 const stages = [
@@ -108,10 +108,10 @@ export default function TechnologyEcosystemVisual() {
               {platformNodes.map((p) => (
                 <span
                   key={p.name}
-                  className="flex items-center gap-2 rounded-lg bg-white px-2 py-1.5"
+                  className="flex w-full flex-col items-center justify-center gap-1 rounded-lg bg-white px-2 py-2"
                 >
-                  <Image src={p.logo} alt="" aria-hidden="true" style={{ height: 14, width: "auto" }} />
-                  <span className="sr-only">{p.name}</span>
+                  <Image src={p.logo} alt="" aria-hidden="true" style={{ height: 16, width: "auto" }} />
+                  <span className="whitespace-nowrap text-[10px] font-semibold text-ink-soft">{p.label}</span>
                 </span>
               ))}
             </div>

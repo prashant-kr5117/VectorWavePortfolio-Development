@@ -21,7 +21,7 @@ const items = [
   {
     n: "04",
     title: "We don't lock you into one platform.",
-    chain: ["Zoho", "Odoo", "Dynamics 365", "Salesforce", "Custom Technology"],
+    chain: ["Zoho", "Odoo", "Dynamics 365", "Custom Technology"],
     sep: "|",
   },
 ];

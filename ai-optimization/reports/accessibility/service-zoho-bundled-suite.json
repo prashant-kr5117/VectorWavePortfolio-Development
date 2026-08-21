@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T09:48:55.336Z",
+  "timestamp": "2026-08-21T08:14:26.914Z",
   "url": "http://localhost:3100/services/zoho-bundled-suite",
   "toolOptions": {
     "runOnly": {
@@ -9583,34 +9583,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"manrope_c2c5a9d-module__SPJgmW__className text-[15px] font-extrabold tracking-[0.02em] text-[#59616B]\">Salesforce</span>",
-          "target": [
-            ".tracking-\\[0\\.02em\\].text-\\[15px\\].font-extrabold:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#59616b",
-                "bgColor": "#f5f4ef",
-                "contrastRatio": 5.69,
-                "fontSize": "11.3pt (15px)",
-                "fontWeight": "bold",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 5.69"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<span class=\"manrope_c2c5a9d-module__SPJgmW__className text-[15px] font-extrabold tracking-[0.02em] text-[#59616B]\">Odoo</span>",
           "target": [
-            ".tracking-\\[0\\.02em\\].text-\\[15px\\].font-extrabold:nth-child(4)"
+            ".tracking-\\[0\\.02em\\].text-\\[15px\\].font-extrabold:nth-child(3)"
           ]
         },
         {
@@ -9711,31 +9686,6 @@
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-dynamics\">Dynamics 365</a>",
           "target": [
             "a[href$=\"/#tech-dynamics\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#93a0bd",
-                "bgColor": "#0b1b33",
-                "contrastRatio": 6.56,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.56"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a>",
-          "target": [
-            "a[href$=\"/#tech-salesforce\"]"
           ]
         },
         {
@@ -10033,7 +9983,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Salesforce · Odoo</span>",
+          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Odoo</span>",
           "target": [
             ".text-on-inverse-faint.text-xs"
           ]
@@ -11435,32 +11385,6 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a>",
-          "target": [
-            "a[href$=\"/#tech-salesforce\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "focusable-no-name",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is not in tab order or has accessible text"
-            }
-          ],
-          "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-odoo\">Odoo</a>",
           "target": [
             "a[href$=\"/#tech-odoo\"]"
@@ -12155,27 +12079,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a></li>",
-          "target": [
-            "div:nth-child(2) > .space-y-2\\.5 > li:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "listitem",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "List item has a <ul>, <ol> or role=\"list\" parent element"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-odoo\">Odoo</a></li>",
           "target": [
-            "div:nth-child(2) > .space-y-2\\.5 > li:nth-child(4)"
+            "div:nth-child(2) > .space-y-2\\.5 > li:nth-child(3)"
           ]
         },
         {
@@ -12247,7 +12153,7 @@
           "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#trading-distribution\">Trading</a></li>",
           "target": [
-            "div:nth-child(3) > .space-y-2\\.5 > li:nth-child(4)"
+            ".space-y-2\\.5 > li:nth-child(4)"
           ]
         },
         {

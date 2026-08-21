@@ -8,11 +8,11 @@ export default function CTA() {
       <Reveal>
         <HoverGlow className="rounded-2xl border border-border bg-ink-inverse px-6 py-14 text-center transition-all duration-300 hover:border-accent/50 sm:px-10">
           <h2 className="text-lg font-bold text-on-inverse sm:text-xl">
-            Would you like to start a project with us?
+            Ready to bring your systems into one place?
           </h2>
           <p className="mx-auto mt-2 max-w-md text-sm text-on-inverse-muted">
-            Let&apos;s collaborate to turn your ideas into impactful digital
-            solutions that drive real results.
+            Let&apos;s map out where your processes are breaking down and how
+            a connected Zoho, Odoo or Microsoft 365 setup can fix it.
           </p>
           <BookConsultationButton className="btn btn-primary btn--md mt-5">
             Book free consultation

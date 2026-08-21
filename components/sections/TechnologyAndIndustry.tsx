@@ -3,15 +3,7 @@ import Reveal from "@/components/Reveal";
 import HoverGlow from "@/components/HoverGlow";
 import TechPlatformTabs from "./TechPlatformTabs";
 import IndustryTabs from "./IndustryTabs";
-
-const ecosystem = [
-  "Zoho",
-  "Microsoft Dynamics 365",
-  "Salesforce",
-  "Odoo",
-  "AI & Automation",
-  "Custom Technology",
-];
+import TechnologyEcosystemVisual from "./TechnologyEcosystemVisual";
 
 const visibilityChain = ["Transactions", "Data", "KPIs", "Dashboards", "Decisions"];
 
@@ -55,25 +47,7 @@ export default function TechnologyAndIndustry() {
           </p>
         </Reveal>
 
-        <Reveal className="mt-14 overflow-hidden border-y border-on-inverse-border py-6">
-          <div className="mb-3 text-center text-[11px] font-bold uppercase tracking-wide text-accent">
-            The technology ecosystem
-          </div>
-          <div className="group relative overflow-hidden">
-            <div className="flex w-max animate-marquee items-center gap-12">
-              {[...ecosystem, ...ecosystem].map((name, i) => (
-                <span
-                  key={`${name}-${i}`}
-                  className={`shrink-0 whitespace-nowrap font-bold ${
-                    i % ecosystem.length === 0 ? "text-accent" : "text-on-inverse-muted"
-                  }`}
-                >
-                  {name}
-                </span>
-              ))}
-            </div>
-          </div>
-        </Reveal>
+        <TechnologyEcosystemVisual />
 
         <Reveal className="mt-16 lg:mt-20">
           <h2 className="max-w-lg text-xl font-bold leading-snug text-on-inverse sm:text-2xl">

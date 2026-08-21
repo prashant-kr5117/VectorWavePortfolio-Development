@@ -10,6 +10,8 @@ import PartnerLogos from "@/components/sections/PartnerLogos";
 import { Card, CardIcon } from "@/components/ui/Card";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import TeamImage from "@/src/TeamImage.jpeg";
+import { platforms, serviceCategories } from "@/lib/services";
+import { industries } from "@/lib/industries";
 import {
   Boxes,
   Code2,
@@ -21,7 +23,6 @@ import {
   Cpu,
   Truck,
   CheckCircle2,
-  UserRound,
   Layers,
   Scale,
   BrainCircuit,
@@ -30,7 +31,7 @@ import {
 export const metadata: Metadata = buildMetadata({
   title: "About VectorWave Technologies",
   description:
-    "Meet the VectorWave team: certified Zoho consultants, CRM specialists, finance pros, web developers, and AI engineers helping businesses bring sales, finance, HR, and operations together in one system.",
+    "Meet the VectorWave team: Zoho consultants, CRM specialists, finance pros, web developers, and AI engineers helping businesses bring sales, finance, HR, and operations together in one system.",
   path: "/about",
 });
 
@@ -47,8 +48,6 @@ const leadership: {
   icon: typeof Briefcase;
   role: string;
   desc: string;
-  name?: string;
-  photo?: string;
 }[] = [
   {
     icon: Briefcase,
@@ -75,8 +74,8 @@ const leadership: {
 const departments = [
   {
     icon: Layers,
-    title: "Certified Zoho Consultants & Implementation Experts",
-    desc: "Our Zoho Consulting Team consists of certified Zoho experts with extensive experience implementing and customizing the complete Zoho ecosystem: CRM, Books, Zoho One deployment, workflow automation, and advanced integrations. From requirement gathering and solution architecture to data migration and optimization, the team ensures structured and seamless Zoho implementation.",
+    title: "Zoho Consultants & Implementation Experts",
+    desc: "Our Zoho Consulting Team has extensive experience implementing and customizing the complete Zoho ecosystem: CRM, Books, Zoho One deployment, workflow automation, and advanced integrations. From requirement gathering and solution architecture to data migration and optimization, the team ensures structured and seamless Zoho implementation.",
   },
   {
     icon: Users,
@@ -113,16 +112,25 @@ const whyChooseUs = [
   "Best Quality Designs",
   "24x7 Live Support",
   "Result Oriented Projects",
-  "Award Winning Support Team",
+  "Dedicated, Hands-On Support",
   "Best ROI Techniques",
   "Experienced Professionals",
 ];
 
+/**
+ * Every value here is a structural fact derived from the same source data the
+ * homepage Hero uses (components/sections/Hero.tsx), not a marketing claim — same
+ * pattern, same reasoning: a code-derived count can't drift out of sync or need a
+ * source no one can point to. "10 Satisfied Clients", "4 Accolades Earned", and
+ * "56K+ Lines of Code" were removed — none had a source anywhere in the codebase
+ * (ai-optimization/reports/TRUST-FACT-AUDIT.md). "15 Projects Completed" is kept:
+ * it's the same human-verified figure as the Hero's "15+ Projects delivered".
+ */
 const stats = [
-  { value: "10", label: "Satisfied Clients" },
   { value: "15", label: "Projects Completed" },
-  { value: "4", label: "Accolades Earned" },
-  { value: "56K+", label: "Lines of Code" },
+  { value: String(platforms.length), label: "Technology Platforms" },
+  { value: String(industries.length), label: "Industries Served" },
+  { value: String(serviceCategories.length), label: "Services Offered" },
 ];
 
 const aboutJsonLd = {
@@ -260,35 +268,10 @@ export default function AboutPage() {
               {leadership.map((person, i) => (
                 <Reveal key={person.role} delay={i * 60}>
                   <Card>
-                    <div className="relative mb-3 h-14 w-14 shrink-0">
-                      {person.photo ? (
-                        <Image
-                          src={person.photo}
-                          alt={person.name ?? person.role}
-                          fill
-                          className="rounded-full object-cover"
-                        />
-                      ) : (
-                        <div className="flex h-14 w-14 items-center justify-center rounded-full bg-surface-chip text-primary transition-transform duration-300 group-hover:scale-110">
-                          <UserRound size={24} />
-                        </div>
-                      )}
-                      <div className="absolute -bottom-1 -right-1 flex h-6 w-6 items-center justify-center rounded-full bg-ink-inverse text-on-inverse ring-2 ring-surface">
-                        <person.icon size={12} />
-                      </div>
-                    </div>
-                    {person.name && (
-                      <div className="text-sm font-bold text-ink">{person.name}</div>
-                    )}
-                    <div
-                      className={
-                        person.name
-                          ? "mb-1 mt-0.5 text-xs font-semibold text-primary"
-                          : "mb-1 text-sm font-bold text-ink"
-                      }
-                    >
-                      {person.role}
-                    </div>
+                    <CardIcon>
+                      <person.icon size={20} />
+                    </CardIcon>
+                    <div className="mb-1 text-sm font-bold text-ink">{person.role}</div>
                     <p className="text-xs leading-relaxed text-ink-muted">
                       {person.desc}
                     </p>

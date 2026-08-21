@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T09:50:20.372Z",
+  "timestamp": "2026-08-21T08:16:20.257Z",
   "url": "http://localhost:3100/blog/what-makes-a-business-website-actually-convert",
   "toolOptions": {
     "runOnly": {
@@ -4734,7 +4734,7 @@
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-lg font-bold text-on-inverse sm:text-xl\">Would you like to start a project with us?</h2>",
+                  "html": "<h2 class=\"text-lg font-bold text-on-inverse sm:text-xl\">Ready to bring your systems into one place?</h2>",
                   "target": [
                     "h2"
                   ]
@@ -5332,31 +5332,6 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a>",
-          "target": [
-            "a[href$=\"/#tech-salesforce\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#93a0bd",
-                "bgColor": "#0b1b33",
-                "contrastRatio": 6.56,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.56"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-odoo\">Odoo</a>",
           "target": [
             "a[href$=\"/#tech-odoo\"]"
@@ -5632,7 +5607,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Salesforce · Odoo</span>",
+          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Odoo</span>",
           "target": [
             ".text-on-inverse-faint:nth-child(2)"
           ]
@@ -6410,32 +6385,6 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a>",
-          "target": [
-            "a[href$=\"/#tech-salesforce\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "focusable-no-name",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is not in tab order or has accessible text"
-            }
-          ],
-          "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-odoo\">Odoo</a>",
           "target": [
             "a[href$=\"/#tech-odoo\"]"
@@ -6788,27 +6737,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a></li>",
-          "target": [
-            "div:nth-child(2) > ul > li:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "listitem",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "List item has a <ul>, <ol> or role=\"list\" parent element"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-odoo\">Odoo</a></li>",
           "target": [
-            "div:nth-child(2) > ul > li:nth-child(4)"
+            "div:nth-child(2) > ul > li:nth-child(3)"
           ]
         },
         {
@@ -6880,7 +6811,7 @@
           "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#trading-distribution\">Trading</a></li>",
           "target": [
-            "div:nth-child(3) > ul > li:nth-child(4)"
+            "li:nth-child(4)"
           ]
         },
         {

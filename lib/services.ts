@@ -36,6 +36,12 @@ export type ServiceCategory = {
   title: string;
   short: string;
   intro: string;
+  /** The business problem this service exists to solve — shown before the solution. */
+  problem: string;
+  /** Short, concrete "who this is for" statements — not fabricated client claims. */
+  useCases: string[];
+  /** Systems this service commonly connects with — platform facts, not project claims. */
+  integrations: string[];
   icon: ServiceIcon;
   tools: ServiceTool[];
   metaTitle: string;
@@ -69,8 +75,71 @@ export const platforms: Platform[] = [
   },
 ];
 
+/**
+ * Platform-level architecture flow and implementation methodology — shared across every
+ * service on that platform, rather than duplicated per service. This is intentional: the
+ * underlying implementation approach genuinely doesn't differ between, say, Zoho Sales
+ * and Zoho Finance, so representing it once per platform (not once per service) avoids
+ * the near-duplicate-paragraph risk flagged in ai-optimization/reports/STAGE-2-BASELINE-REVIEW.md.
+ * See ai-optimization/reports/WORKSTREAM-04-RESULT.md Section 2.
+ */
+export type PlatformProfile = {
+  /** Stage labels for the platform architecture diagram (components/services/PlatformArchitectureFlow.tsx). */
+  architecture: string[];
+  implementation: { step: string; detail: string }[];
+  /** Contextual CTA label for this platform's service pages — see WORKSTREAM-04-RESULT.md Section 13. */
+  ctaLabel: string;
+};
+
+export const platformProfiles: Record<PlatformSlug, PlatformProfile> = {
+  zoho: {
+    architecture: ["CRM", "Books", "Inventory", "Analytics", "Automation"],
+    implementation: [
+      { step: "Map", detail: "Document how sales, finance and operations actually run today." },
+      { step: "Configure", detail: "Set up the right combination of Zoho apps around that process." },
+      { step: "Connect", detail: "Link Zoho to your website, email and any tools you're keeping." },
+      { step: "Go live & support", detail: "Migrate data, train the team, and stay available after launch." },
+    ],
+    ctaLabel: "Talk to a Zoho solution architect",
+  },
+  odoo: {
+    architecture: ["CRM", "Sales", "Inventory", "Manufacturing", "Accounting", "Reporting"],
+    implementation: [
+      { step: "Scope modules", detail: "Choose only the Odoo apps the business actually needs." },
+      { step: "Configure on one database", detail: "Set up workflows so every app shares the same data." },
+      { step: "Customize with Studio", detail: "Adjust forms, views and reports without a full dev cycle." },
+      { step: "Migrate & support", detail: "Move existing data across and stay available after go-live." },
+    ],
+    ctaLabel: "Talk to an Odoo implementation specialist",
+  },
+  "microsoft-365": {
+    architecture: ["Sales", "Customer Service", "Finance", "Supply Chain", "Business Central", "Power Platform"],
+    implementation: [
+      { step: "Assess the estate", detail: "Review what's already licensed in Microsoft 365 and Dynamics 365." },
+      { step: "Configure the platform", detail: "Set up Dynamics 365 or Business Central for finance, sales or operations." },
+      { step: "Extend with Power Platform", detail: "Add Power Apps, Power Automate and Power BI where needed." },
+      { step: "Secure & support", detail: "Apply identity/device policy and stay available after go-live." },
+    ],
+    ctaLabel: "Talk to a Microsoft 365 solution architect",
+  },
+  "custom-development": {
+    architecture: ["Business requirement", "Architecture", "APIs", "Application", "Integrations", "Data", "Deployment"],
+    implementation: [
+      { step: "Define the requirement", detail: "Understand the workflow the platform doesn't already cover." },
+      { step: "Design the architecture", detail: "Plan how the build connects to your existing systems." },
+      { step: "Build & integrate", detail: "Develop the application and connect it via API to your CRM/ERP." },
+      { step: "Deploy & support", detail: "Ship it, monitor it, and keep it running." },
+    ],
+    ctaLabel: "Discuss your project",
+  },
+};
+
 export const serviceCategories: ServiceCategory[] = [
   // ---- Zoho ----
+  // Zoho intro/tools content preserved verbatim from before Workstream 4 — per
+  // ai-optimization/reports/SERVICE-CONTENT-RESEARCH.md, this was already the strongest,
+  // most specific content on the site and was not rewritten. Only problem/useCases/
+  // integrations were added.
   {
     slug: "zoho-bundled-suite",
     platform: "zoho",
@@ -78,6 +147,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "CRM, Finance, HR and Analytics set up as one connected suite.",
     intro:
       "Full-suite Zoho implementation covering everything from initial setup to customisation and go-live, all built around how your business actually works. We map your existing processes and configure the right combination of apps for better team efficiency and collaboration.",
+    problem:
+      "Sales, finance, HR and reporting often run in disconnected tools that don't share data, so numbers have to be reconciled by hand.",
+    useCases: [
+      "A business consolidating multiple point tools into one system",
+      "A company standardizing process across departments for the first time",
+      "A team that wants sales, finance and HR reporting from a single source of truth",
+    ],
+    integrations: ["Zoho CRM Plus", "Zoho Finance Plus", "Website & lead forms", "Email & calendar"],
     icon: "boxes",
     metaTitle: "Zoho Bundled Suite | Zoho Implementation & Setup Services",
     metaDescription:
@@ -120,6 +197,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Pipeline automation, lead capture and reporting built around your process.",
     intro:
       "Accelerate revenue growth and streamline your sales process with powerful Zoho sales applications. From lead capture to deal closure and customer engagement, these tools help businesses automate workflows, improve conversions, and deliver exceptional customer experiences.",
+    problem:
+      "Leads get lost between first contact and a closed deal when there's no shared pipeline, so follow-ups depend on memory rather than a system.",
+    useCases: [
+      "A sales team without a shared CRM today",
+      "A business that wants automated lead capture from its website",
+      "A team that needs live pipeline reporting for management",
+    ],
+    integrations: ["Zoho Finance (quote-to-invoice)", "Website & landing pages", "WhatsApp / live chat", "Email"],
     icon: "users",
     metaTitle: "Zoho Sales Tools | Capture Leads & Close Deals Faster",
     metaDescription:
@@ -154,6 +239,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Infrastructure, helpdesk and reliable uptime for your team.",
     intro:
       "Good support keeps customers happy and businesses running. Zoho's tools enable teams to handle tickets faster, resolve issues remotely, and deliver customer experiences people actually appreciate.",
+    problem:
+      "Support requests spread across email and chat make it hard to track response times or spot recurring issues.",
+    useCases: [
+      "A support team without a shared ticketing system",
+      "A business that needs SLA tracking on response times",
+      "Field teams that need remote-access troubleshooting",
+    ],
+    integrations: ["Zoho CRM (customer context)", "Email & phone", "Remote-access tools", "Knowledge base / website"],
     icon: "headset",
     metaTitle: "Zoho IT & Support | Helpdesk & Remote Support Tools",
     metaDescription:
@@ -184,6 +277,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Invoicing, expenses, compliance and reporting, kept in sync.",
     intro:
       "Zoho's financial tools consolidate accounting, billing, expenses, and inventory management into one unified platform, automating routine tasks and giving real-time visibility into business financial performance.",
+    problem:
+      "Manual invoicing and expense tracking make it hard to know real-time cash position or stay ahead of compliance deadlines.",
+    useCases: [
+      "A business still invoicing manually or from spreadsheets",
+      "A company that needs GST/VAT-compliant accounting",
+      "A team that wants automated payment reminders and reconciliation",
+    ],
+    integrations: ["Zoho CRM (quote-to-cash)", "Bank feeds", "Payment gateways", "Zoho Inventory"],
     icon: "calculator",
     metaTitle: "Zoho Finance Solutions | Accounting, Billing & Inventory",
     metaDescription:
@@ -226,6 +327,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Recruitment, onboarding, attendance and payroll workflows.",
     intro:
       "Managing people is one of the most important parts of running a business. Zoho's HR tools bring recruitment, onboarding, attendance, payroll, and performance management into one connected system.",
+    problem:
+      "Recruitment, attendance and payroll tracked in spreadsheets create errors and slow down every people process.",
+    useCases: [
+      "A growing team outgrowing spreadsheet-based HR",
+      "A business that needs compliant, automated payroll",
+      "A company that wants a self-service portal for leave and attendance",
+    ],
+    integrations: ["Zoho Finance (payroll postings)", "Biometric / attendance devices", "Email", "Job boards"],
     icon: "user-cog",
     metaTitle: "Zoho HR Solutions | People, Recruit & Payroll",
     metaDescription:
@@ -247,13 +356,23 @@ export const serviceCategories: ServiceCategory[] = [
   },
 
   // ---- Odoo ----
+  // intro/tools refined against current official Odoo sources — see
+  // ai-optimization/reports/SERVICE-CONTENT-RESEARCH.md for exact sources and what changed.
   {
     slug: "odoo-business-suite",
     platform: "odoo",
     title: "Odoo Business Suite",
     short: "CRM, inventory, accounting and HR running on one connected database.",
     intro:
-      "Odoo's modular design means you only run what your business needs, all on one database. We implement and connect the right combination of Odoo apps so sales, finance, inventory, and HR share the same data instead of living in separate systems.",
+      "Odoo's modular design — 50+ integrated apps sharing one database — means you only run what your business needs. We implement and connect the right combination of Odoo apps so sales, finance, inventory, and HR share the same data instead of living in separate systems.",
+    problem:
+      "Running CRM, inventory, accounting and HR on separate systems means the same data gets entered more than once and drifts out of sync.",
+    useCases: [
+      "A business consolidating multiple disconnected tools onto one database",
+      "A company that wants sales, inventory and finance to update each other automatically",
+      "A team planning to add modules, like manufacturing, as it grows",
+    ],
+    integrations: ["Odoo Website & eCommerce", "Bank feeds", "Barcode scanners", "Third-party apps via Odoo's API"],
     icon: "boxes",
     metaTitle: "Odoo Business Suite | Odoo ERP Implementation Services",
     metaDescription:
@@ -261,11 +380,11 @@ export const serviceCategories: ServiceCategory[] = [
     tools: [
       {
         name: "Odoo CRM & Sales",
-        desc: "Manages leads, quotations, and the full sales pipeline with automation and real-time forecasting.",
+        desc: "Captures leads automatically from your website, email or database imports, and manages the full pipeline from first contact through to quotation and order.",
       },
       {
         name: "Odoo Inventory",
-        desc: "Tracks stock across warehouses with real-time visibility and automated reordering.",
+        desc: "Updates stock in real time as products are received, moved or sold, with barcode scanning and multi-warehouse support visible instantly in Sales and Accounting.",
       },
       {
         name: "Odoo Accounting",
@@ -273,11 +392,11 @@ export const serviceCategories: ServiceCategory[] = [
       },
       {
         name: "Odoo Employees",
-        desc: "Covers employee records, org structure, and attendance from a single hub.",
+        desc: "Centralises employee profiles, contracts and org structure, with onboarding and offboarding plans that trigger the right steps automatically.",
       },
       {
         name: "Odoo Studio",
-        desc: "Lets us build custom apps and workflows on top of your Odoo setup without a full dev team.",
+        desc: "A no-code, drag-and-drop builder for custom forms, views, reports and workflows — configuration changes without a full development cycle.",
       },
     ],
   },
@@ -287,7 +406,15 @@ export const serviceCategories: ServiceCategory[] = [
     title: "Sales & eCommerce",
     short: "Quotes, storefronts and subscriptions connected to the same data.",
     intro:
-      "Odoo blurs the line between CRM and storefront, letting you sell however your customers show up, in a shop, online, or through a sales rep, without juggling separate systems for each. We configure the tools that fit how you actually sell.",
+      "Odoo blurs the line between CRM and storefront, letting you sell however your customers show up — in a shop, online, or through a sales rep — without juggling separate systems for each. We configure the tools that fit how you actually sell.",
+    problem:
+      "Selling in-store, online and through reps on separate systems means stock and pricing can go out of sync between channels.",
+    useCases: [
+      "A business selling through more than one channel today",
+      "A company launching a subscription or recurring-revenue product",
+      "A team that wants quotes to flow straight into fulfilment and invoicing",
+    ],
+    integrations: ["Odoo Inventory (stock sync)", "Payment gateways", "Shipping carriers", "Odoo Accounting"],
     icon: "shopping-cart",
     metaTitle: "Odoo Sales & eCommerce | CRM, Storefront & Subscriptions",
     metaDescription:
@@ -303,7 +430,7 @@ export const serviceCategories: ServiceCategory[] = [
       },
       {
         name: "Odoo Website & eCommerce",
-        desc: "Builds and manages your online storefront, connected directly to stock and orders.",
+        desc: "Builds your online storefront with real-time stock sync across web, marketplace and POS, plus support for subscriptions and downloadable products.",
       },
       {
         name: "Odoo Subscriptions",
@@ -318,6 +445,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Stock, purchasing and manufacturing kept accurate and in sync.",
     intro:
       "This is where Odoo pulls ahead of most CRM-first platforms, real operational control. We set up inventory, purchasing, and manufacturing so stock levels, production runs, and vendor orders are always accurate and always in sync.",
+    problem:
+      "Manual stock counts and disconnected purchasing lead to stockouts, overstock, or production delays waiting on components.",
+    useCases: [
+      "A business with multiple warehouses to keep in sync",
+      "A manufacturer that needs BoM-driven production planning",
+      "A team that wants automated reordering instead of manual purchase requests",
+    ],
+    integrations: ["Odoo Sales & eCommerce", "Odoo Accounting", "Barcode scanners", "Vendor / supplier systems"],
     icon: "package",
     metaTitle: "Odoo Inventory & Operations | Stock, Manufacturing & Purchase",
     metaDescription:
@@ -329,7 +464,7 @@ export const serviceCategories: ServiceCategory[] = [
       },
       {
         name: "Odoo Manufacturing",
-        desc: "Plans production runs, bills of materials, and work orders on the shop floor.",
+        desc: "Brings production planning, Bills of Materials and work-order tracking into one interface, with built-in quality checks.",
       },
       {
         name: "Odoo Purchase",
@@ -352,6 +487,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Invoicing, reconciliation and reporting that update the moment you sell.",
     intro:
       "Odoo's finance apps keep invoicing, expenses, and reporting in sync with the rest of your business, so your numbers are accurate the moment a sale or purchase happens, not days later.",
+    problem:
+      "Books that update days after a sale or purchase make it hard to trust the numbers management is looking at.",
+    useCases: [
+      "A business closing the books manually or with delayed exports",
+      "A company that needs multicurrency accounting",
+      "A team that wants live financial dashboards instead of static reports",
+    ],
+    integrations: ["Odoo Sales / Inventory / Manufacturing", "Bank feeds", "Odoo Spreadsheet (BI)", "E-signature for approvals"],
     icon: "calculator",
     metaTitle: "Odoo Accounting | Invoicing, Reconciliation & Reporting",
     metaDescription:
@@ -386,6 +529,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Recruitment, attendance and reviews without the spreadsheets.",
     intro:
       "From the first interview to everyday attendance, we set up Odoo's HR apps to handle the employee lifecycle without spreadsheets or manual tracking.",
+    problem:
+      "Hiring, attendance and reviews tracked across spreadsheets and email slow down every people decision.",
+    useCases: [
+      "A business without a structured hiring pipeline today",
+      "A company that needs self-service leave requests and approvals",
+      "A team that wants recurring, structured performance reviews",
+    ],
+    integrations: ["Odoo Payroll (where implemented)", "Company website (job postings)", "Email", "Attendance / biometric devices"],
     icon: "user-cog",
     metaTitle: "Odoo Workforce & HR | Employees, Recruitment & Time Off",
     metaDescription:
@@ -393,19 +544,19 @@ export const serviceCategories: ServiceCategory[] = [
     tools: [
       {
         name: "Odoo Employees",
-        desc: "A central record for every employee, including contracts, documents, and organisation structure.",
+        desc: "Centralises employee profiles, contracts, documents and org structure, with onboarding and offboarding plans that trigger the right steps automatically.",
       },
       {
         name: "Odoo Recruitment",
-        desc: "Manages job postings, candidate pipelines, and interview scheduling in one view.",
+        desc: "Manages hiring pipelines with resume tracking, interview scheduling, and job postings published directly to your website.",
       },
       {
         name: "Odoo Time Off",
-        desc: "Handles leave requests, approvals, and balances with a self-service employee portal.",
+        desc: "Leave requests update timesheets, attendance and balances in real time, with single- or two-level approval.",
       },
       {
         name: "Odoo Appraisals",
-        desc: "Runs structured performance reviews on a recurring schedule, tracked over time.",
+        desc: "Runs structured review cycles with 360° feedback and real-time goal tracking linked to each appraisal.",
       },
       {
         name: "Odoo Referrals",
@@ -415,6 +566,8 @@ export const serviceCategories: ServiceCategory[] = [
   },
 
   // ---- Microsoft 365 ----
+  // intro/tools refined against current official Microsoft sources — see
+  // ai-optimization/reports/SERVICE-CONTENT-RESEARCH.md for exact sources and what changed.
   {
     slug: "microsoft-365-dynamics-suite",
     platform: "microsoft-365",
@@ -422,6 +575,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Office apps and Dynamics 365 set up to work as one platform.",
     intro:
       "Microsoft 365 and Dynamics 365 already run in the background of most businesses, we just make sure they're set up to work together. We implement and connect the Microsoft apps your team needs for collaboration, sales, and finance on one shared platform.",
+    problem:
+      "Microsoft 365 and Dynamics 365 often run side by side without being configured to actually work together, so teams still export data between them by hand.",
+    useCases: [
+      "A business already licensed for Microsoft 365 that wants Dynamics 365 connected to it, not separate",
+      "A company that wants finance, sales and collaboration on one platform",
+      "A team that wants custom internal tools without a full dev team, via Power Platform",
+    ],
+    integrations: ["SharePoint & OneDrive", "Outlook & Teams", "Power BI", "Existing line-of-business systems via Power Automate"],
     icon: "boxes",
     metaTitle: "Microsoft 365 & Dynamics Suite | Connected Business Platform",
     metaDescription:
@@ -433,7 +594,7 @@ export const serviceCategories: ServiceCategory[] = [
       },
       {
         name: "Dynamics 365 Business Central",
-        desc: "A connected ERP covering finance, purchasing, inventory, and projects for growing businesses.",
+        desc: "A connected ERP covering finance, supply chain, sales and projects, with Copilot built in for bank reconciliation, inventory forecasting and sales-line suggestions.",
       },
       {
         name: "Dynamics 365 Sales",
@@ -456,6 +617,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Pipeline and customer data managed right inside Outlook and Teams.",
     intro:
       "Sell where your team already works. We configure Dynamics 365's sales tools to plug directly into Outlook and Teams, so your pipeline stays current without extra logins or duplicate data entry.",
+    problem:
+      "A sales team working out of Outlook and spreadsheets loses pipeline visibility the moment a deal moves between people.",
+    useCases: [
+      "A business already on Microsoft 365 wanting its CRM in the same place as email and calendar",
+      "A team that wants AI-assisted deal insights drawn from email and meeting activity",
+      "A company that needs live sales reporting in Power BI",
+    ],
+    integrations: ["Outlook & Teams", "Microsoft Dataverse", "Power BI", "Dynamics 365 Customer Insights"],
     icon: "users",
     metaTitle: "Dynamics 365 Sales | CRM Inside Outlook & Teams",
     metaDescription:
@@ -463,11 +632,11 @@ export const serviceCategories: ServiceCategory[] = [
     tools: [
       {
         name: "Dynamics 365 Sales",
-        desc: "Tracks leads, opportunities, and forecasts with AI-assisted insights on deal health.",
+        desc: "Tracks leads, opportunities and forecasts, with Copilot drawing on CRM data and Microsoft 365 signals like email and meeting recaps to surface next-best actions.",
       },
       {
         name: "Dynamics 365 Customer Insights",
-        desc: "Automates marketing campaigns and customer engagement across channels.",
+        desc: "Builds customer journeys and segments from unified data, with Copilot turning plain-language requests into ready-to-use segments.",
       },
       {
         name: "Microsoft Bookings",
@@ -489,7 +658,15 @@ export const serviceCategories: ServiceCategory[] = [
     title: "Security & Device Management",
     short: "Enterprise-grade identity, device and threat protection from day one.",
     intro:
-      "This is Microsoft's real strength: enterprise-grade security that most other platforms simply don't offer natively. We set up device management, identity protection, and threat detection so your business is secured from day one, not patched together after the fact.",
+      "This is Microsoft's real strength: enterprise-grade security that most other platforms simply don't offer natively. We set up device management, identity protection, and threat detection — increasingly one connected control plane rather than separate tools — so your business is secured from day one, not patched together after the fact.",
+    problem:
+      "Laptops, phones and logins managed separately make it hard to know what's actually protected, or to respond quickly when something isn't.",
+    useCases: [
+      "A business without a central device-management console today",
+      "A company that needs multi-factor authentication enforced consistently",
+      "A team that needs compliance-ready data-loss prevention",
+    ],
+    integrations: ["Microsoft Entra ID (identity)", "Microsoft 365 apps", "Existing endpoints (laptops, phones)", "Conditional access policies"],
     icon: "shield-check",
     metaTitle: "Microsoft Security & Device Management | Intune, Entra, Defender",
     metaDescription:
@@ -497,7 +674,7 @@ export const serviceCategories: ServiceCategory[] = [
     tools: [
       {
         name: "Microsoft Intune",
-        desc: "Manages and protects laptops, phones, and apps across your organisation from one console.",
+        desc: "Manages and protects laptops, phones and apps from one console, and can enforce security policy even on devices not fully enrolled.",
       },
       {
         name: "Microsoft Entra ID",
@@ -520,6 +697,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Accounting, purchasing and reporting on live business data.",
     intro:
       "Dynamics 365 Business Central brings your finance function onto the same platform as sales and operations, so reporting reflects what's actually happening in the business, not last month's export.",
+    problem:
+      "Finance running separately from sales and operations means reports reflect last month, not what's happening now.",
+    useCases: [
+      "A business outgrowing entry-level accounting software",
+      "A company that needs purchasing and inventory tied directly to the ledger",
+      "A team that wants Copilot-assisted bank reconciliation and forecasting",
+    ],
+    integrations: ["Dynamics 365 Sales", "Power BI", "Bank feeds", "Microsoft 365 (Excel/Outlook)"],
     icon: "calculator",
     metaTitle: "Business Central Finance | Dynamics 365 Accounting & Reporting",
     metaDescription:
@@ -527,7 +712,7 @@ export const serviceCategories: ServiceCategory[] = [
     tools: [
       {
         name: "Business Central Finance",
-        desc: "Core accounting, multi-entity ledgers, and financial reporting in one system.",
+        desc: "Core accounting, multi-entity ledgers and financial reporting, with Copilot-assisted bank reconciliation built in.",
       },
       {
         name: "Business Central Sales & Purchasing",
@@ -554,6 +739,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Recruitment, leave and performance in one connected system.",
     intro:
       "From recruitment through performance reviews, we configure Dynamics 365 Human Resources so employee data, leave, and reporting sit in one place instead of scattered spreadsheets and forms.",
+    problem:
+      "Recruitment, leave and performance tracked in separate spreadsheets and forms slow down onboarding and make workforce reporting unreliable.",
+    useCases: [
+      "A business consolidating HR data currently spread across spreadsheets",
+      "A company that wants structured recruiting and onboarding workflows",
+      "A team that needs workforce reporting tied to live headcount data",
+    ],
+    integrations: ["Microsoft 365 (Outlook, Teams)", "Power BI", "Dynamics 365 Finance / Business Central (where implemented)", "Payroll systems"],
     icon: "user-cog",
     metaTitle: "Dynamics 365 HR | Recruitment, Leave & Performance",
     metaDescription:
@@ -583,6 +776,9 @@ export const serviceCategories: ServiceCategory[] = [
   },
 
   // ---- Custom Development ----
+  // Content preserved verbatim from before Workstream 4 — not flagged as weak/generic
+  // by Stage 2, and describes VectorWave's own build practice rather than a third-party
+  // product needing external verification. Only problem/useCases/integrations were added.
   {
     slug: "mobile-app-development",
     platform: "custom-development",
@@ -590,6 +786,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Native and cross-platform apps built around how your team works.",
     intro:
       "We design and build mobile apps for iOS and Android that extend your business systems into the field, whether that's a sales team, service technicians, or customers who need self-service on the go. Every app is built to talk to the platforms you already run, not as a bolt-on.",
+    problem:
+      "Field teams without mobile access to CRM or ERP data end up re-entering the same information back at a desk.",
+    useCases: [
+      "Field sales or service teams who need CRM/ERP access on the go",
+      "A business that needs offline-capable data capture",
+      "A company that wants a customer-facing self-service app",
+    ],
+    integrations: ["Existing CRM/ERP (Zoho, Odoo, Dynamics 365)", "Push notification services", "Backend APIs", "App Store / Google Play"],
     icon: "smartphone",
     metaTitle: "Mobile App Development | iOS & Android Apps",
     metaDescription:
@@ -624,6 +828,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Websites, portals and e-commerce builds connected to the systems behind them.",
     intro:
       "A website that isn't connected to your CRM or ERP is just a brochure. We build business websites, customer portals, and online stores that pull and push data from the platforms you run, so leads, orders, and support requests land exactly where your team already works.",
+    problem:
+      "A website that doesn't talk to the CRM or ERP behind it means leads and orders have to be re-entered by hand.",
+    useCases: [
+      "A business whose current website isn't connected to its CRM/ERP",
+      "A company that needs a customer self-service portal",
+      "A team launching or replatforming an online store",
+    ],
+    integrations: ["Zoho / Odoo / Microsoft 365 (via API)", "Payment gateways", "Email & marketing tools", "Analytics"],
     icon: "globe",
     metaTitle: "Web Development | Business Websites & E-Commerce",
     metaDescription:
@@ -658,6 +870,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Practical AI embedded into the apps and workflows you already use.",
     intro:
       "Most businesses don't need a chatbot for the sake of it, they need AI that removes a specific bottleneck. We identify where AI actually pays off in your operations and build it directly into your CRM, ERP, or internal tools, from automated data entry to intelligent document processing.",
+    problem:
+      "Repetitive data entry and manual document processing take up time a small team doesn't have to spare.",
+    useCases: [
+      "A business with high-volume manual data entry",
+      "A team that wants forecasts or trends surfaced automatically from existing CRM/ERP data",
+      "A company exploring an internal AI assistant trained on its own processes",
+    ],
+    integrations: ["Existing CRM/ERP (Zoho, Odoo, Dynamics 365)", "Document/email sources", "BI dashboards", "Third-party AI model providers"],
     icon: "sparkles",
     metaTitle: "AI Integration | Practical AI for Business Systems",
     metaDescription:
@@ -692,6 +912,14 @@ export const serviceCategories: ServiceCategory[] = [
     short: "Automated messaging and chat flows built into WhatsApp Business.",
     intro:
       "WhatsApp is often the fastest way to reach customers, but manual replies don't scale. We set up WhatsApp Business API automation for order updates, support flows, and marketing messages, connected directly to your CRM so conversations stay in context.",
+    problem:
+      "Manually replying to every order update, booking confirmation or FAQ on WhatsApp doesn't scale as volume grows.",
+    useCases: [
+      "A business fielding high WhatsApp message volume manually today",
+      "A company that wants order/appointment confirmations sent automatically",
+      "A team that needs WhatsApp conversations logged against the right CRM record",
+    ],
+    integrations: ["Zoho / Odoo / Dynamics 365 CRM", "WhatsApp Business API", "Order/booking systems", "Live agent handoff"],
     icon: "message-circle",
     metaTitle: "WhatsApp Automation | Business API & Chat Flows",
     metaDescription:
@@ -731,4 +959,31 @@ export function getServicesByPlatform(platform: PlatformSlug): ServiceCategory[]
 
 export function getPlatform(slug: PlatformSlug): Platform | undefined {
   return platforms.find((p) => p.slug === slug);
+}
+
+export function getPlatformProfile(slug: PlatformSlug): PlatformProfile {
+  return platformProfiles[slug];
+}
+
+/**
+ * Related services for a given service: same-platform siblings first, plus a small,
+ * business-sensible cross-platform recommendation set (every platform implementation
+ * benefits from automation/integration/a connected front-end — see
+ * ai-optimization/reports/WORKSTREAM-04-RESULT.md Section 8 for the reasoning). Custom
+ * Development services only link to their own siblings, since they already are the
+ * "integration" layer other services point to.
+ */
+export function getRelatedServices(service: ServiceCategory): ServiceCategory[] {
+  const siblings = getServicesByPlatform(service.platform).filter((s) => s.slug !== service.slug);
+
+  if (service.platform === "custom-development") {
+    return siblings;
+  }
+
+  const crossPlatformSlugs = ["ai-integration", "web-development"];
+  const crossPlatform = crossPlatformSlugs
+    .map((slug) => getServiceBySlug(slug))
+    .filter((s): s is ServiceCategory => Boolean(s));
+
+  return [...siblings, ...crossPlatform];
 }

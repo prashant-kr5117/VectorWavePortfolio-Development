@@ -1,17 +1,13 @@
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, organizationSchema, websiteSchema } from "@/lib/seo";
 import Hero from "@/components/sections/Hero";
-import TrustBadges from "@/components/sections/TrustBadges";
-import PartnerLogos from "@/components/sections/PartnerLogos";
-import ProcessChains from "@/components/sections/ProcessChains";
 import BusinessDiagnosis from "@/components/sections/BusinessDiagnosis";
+import ProcessChains from "@/components/sections/ProcessChains";
 import Services from "@/components/sections/Services";
 import TechnologyAndIndustry from "@/components/sections/TechnologyAndIndustry";
-import Process from "@/components/sections/Process";
 import WhyVectorWave from "@/components/sections/WhyVectorWave";
-import Innovation from "@/components/sections/Innovation";
-import Testimonial from "@/components/sections/Testimonial";
-import VideoTestimonial from "@/components/sections/VideoTestimonial";
+import CaseStudy from "@/components/sections/CaseStudy";
+import Process from "@/components/sections/Process";
 import CTA from "@/components/sections/CTA";
 
 const homeJsonLd = {
@@ -39,23 +35,19 @@ export default function Home() {
       <JsonLd data={homeJsonLd} />
       <main className="flex-1">
         <Hero />
-        <TrustBadges />
-        <PartnerLogos reverse />
-        <ProcessChains />
         <BusinessDiagnosis />
+        <ProcessChains />
         <Services />
         <TechnologyAndIndustry />
-        <Process />
         <WhyVectorWave />
-        <Innovation />
-        <Testimonial />
-        <VideoTestimonial
+        <CaseStudy
           videoSrc="/maxwell-testimonial.mp4"
           poster="/maxwell-poster.jpg"
           quote="VectorWave Technologies streamlined our sales with Zoho CRM and smoothly migrated our accounting from Tally to Zoho Books. Seamless implementation, responsive team - highly recommend!"
           name="Nikhil"
           role="CEO, Maxvill"
         />
+        <Process />
         <CTA />
       </main>
     </>

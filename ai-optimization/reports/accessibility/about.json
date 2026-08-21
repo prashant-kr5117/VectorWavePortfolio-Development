@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T09:48:36.832Z",
+  "timestamp": "2026-08-21T08:14:05.847Z",
   "url": "http://localhost:3100/about",
   "toolOptions": {
     "runOnly": {
@@ -930,7 +930,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -970,7 +970,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -1400,7 +1400,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -1418,7 +1418,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -2580,7 +2580,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".h-9 > .relative > .z-30.w-40.-translate-y-1 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check[width=\"14\"][height=\"14\"]"
+            ".h-9 > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check[width=\"14\"][height=\"14\"]"
           ]
         },
         {
@@ -2900,7 +2900,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".pt-3.border-t.mt-2:nth-child(7) > .relative > .z-30.w-40.-translate-y-1 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check[width=\"14\"][height=\"14\"]"
+            ".pt-3.border-t.mt-2:nth-child(7) > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check[width=\"14\"][height=\"14\"]"
           ]
         },
         {
@@ -2930,7 +2930,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<span aria-hidden=\"true\"><span>Engineering ERP systems that drive busine</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
+          "html": "<span aria-hidden=\"true\"><span>Engineering ERP systems that d</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
           "target": [
             "h1 > span > span:nth-child(1)"
           ]
@@ -3060,7 +3060,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calculator\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-calculator[width=\"20\"][height=\"20\"]"
+            ".p-5.text-center.card-interactive > .card-icon.mb-3 > .lucide-calculator[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3154,39 +3154,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-round\" aria-hidden=\"true\">",
-          "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(1) > .p-5.card-interactive.h-full > .h-14.w-14.relative > .group-hover\\:scale-110.bg-surface-chip.h-14 > .lucide-user-round[width=\"24\"][height=\"24\"]"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "focusable-modal-open",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements while a modal is open"
-            },
-            {
-              "id": "focusable-disabled",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements contained within element"
-            },
-            {
-              "id": "focusable-not-tabbable",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements contained within element"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-briefcase\" aria-hidden=\"true\">",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-briefcase\" aria-hidden=\"true\">",
           "target": [
             ".lucide-briefcase"
           ]
@@ -3218,39 +3186,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-round\" aria-hidden=\"true\">",
-          "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(2) > .p-5.card-interactive.h-full > .h-14.w-14.relative > .group-hover\\:scale-110.bg-surface-chip.h-14 > .lucide-user-round[width=\"24\"][height=\"24\"]"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "focusable-modal-open",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements while a modal is open"
-            },
-            {
-              "id": "focusable-disabled",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements contained within element"
-            },
-            {
-              "id": "focusable-not-tabbable",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements contained within element"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-cpu\" aria-hidden=\"true\">",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-cpu\" aria-hidden=\"true\">",
           "target": [
             ".lucide-cpu"
           ]
@@ -3282,9 +3218,9 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-round\" aria-hidden=\"true\">",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calculator\" aria-hidden=\"true\">",
           "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(3) > .p-5.card-interactive.h-full > .h-14.w-14.relative > .group-hover\\:scale-110.bg-surface-chip.h-14 > .lucide-user-round[width=\"24\"][height=\"24\"]"
+            ".translate-y-6.duration-700.ease-out:nth-child(3) > .p-5.card-interactive.h-full > .card-icon.mb-3 > .lucide-calculator[width=\"20\"][height=\"20\"]"
           ]
         },
         {
@@ -3314,71 +3250,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calculator\" aria-hidden=\"true\">",
-          "target": [
-            ".lucide-calculator[width=\"12\"][height=\"12\"]"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "focusable-modal-open",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements while a modal is open"
-            },
-            {
-              "id": "focusable-disabled",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements contained within element"
-            },
-            {
-              "id": "focusable-not-tabbable",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements contained within element"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-round\" aria-hidden=\"true\">",
-          "target": [
-            ".translate-y-6.duration-700.ease-out:nth-child(4) > .p-5.card-interactive.h-full > .h-14.w-14.relative > .group-hover\\:scale-110.bg-surface-chip.h-14 > .lucide-user-round[width=\"24\"][height=\"24\"]"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "focusable-modal-open",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements while a modal is open"
-            },
-            {
-              "id": "focusable-disabled",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements contained within element"
-            },
-            {
-              "id": "focusable-not-tabbable",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "No focusable elements contained within element"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-truck\" aria-hidden=\"true\">",
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-truck\" aria-hidden=\"true\">",
           "target": [
             ".lucide-truck"
           ]
@@ -3860,7 +3732,7 @@
           "impact": null,
           "html": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM7 8.48H3V21h4V8.48Zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48Z\"></path></svg>",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1) > svg[fill=\"currentColor\"][width=\"14\"][height=\"14\"]"
+            ".h-8.w-8.rounded-full:nth-child(1) > svg[fill=\"currentColor\"][width=\"14\"][height=\"14\"]"
           ]
         },
         {
@@ -3892,7 +3764,7 @@
           "impact": null,
           "html": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2) > svg[fill=\"currentColor\"][width=\"14\"][height=\"14\"]"
+            ".h-8.w-8.rounded-full:nth-child(2) > svg[fill=\"currentColor\"][width=\"14\"][height=\"14\"]"
           ]
         }
       ]
@@ -3982,7 +3854,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -4000,7 +3872,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -4572,7 +4444,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -4604,7 +4476,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -4921,7 +4793,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -4939,7 +4811,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         },
         {
@@ -5275,7 +5147,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<div style=\"transition-delay:0ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 mb-5 text-center\"><span class=\"text-[11px] font-bold uppercase tracking-wide text-ink-muted\">Trusted technology partners</span></div>",
+          "html": "<div style=\"transition-delay:0ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 mb-5 text-center\"><span class=\"text-[11px] font-bold uppercase tracking-wide text-ink-muted\">Platforms we implement</span></div>",
           "target": [
             ".mb-5"
           ]
@@ -5307,9 +5179,9 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"Microsoft Dynamics 365\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
+          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"480\" height=\"228\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            "img[alt=\"Microsoft Dynamics 365\"][width=\"1017\"][height=\"355\"]:nth-child(3)"
+            "img[alt=\"Zoho\"]"
           ]
         },
         {
@@ -5339,9 +5211,9 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"Shopify\" loading=\"lazy\" width=\"2048\" height=\"2048\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            "img[alt=\"Shopify\"][width=\"2048\"][height=\"2048\"]:nth-child(4)"
+            "img[alt=\"Odoo\"]"
           ]
         },
         {
@@ -5371,169 +5243,9 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"React\" loading=\"lazy\" width=\"512\" height=\"512\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Microsoft Dynamics 365\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 object-contain sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
           "target": [
-            "img[alt=\"React\"][width=\"512\"][height=\"512\"]:nth-child(5)"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"NetSuite\" loading=\"lazy\" width=\"2072\" height=\"144\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-3.5 sm:h-4\" style=\"color:transparent\" src=\"/_next/static/media/NetSuite_idNc45xmoe_0.0euux2k331f40.svg\">",
-          "target": [
-            ".h-3\\.5.sm\\:h-4[alt=\"NetSuite\"]:nth-child(6)"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"Tally\" loading=\"lazy\" width=\"71\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/tally.0bo3zydc_k9g8.svg\">",
-          "target": [
-            "img[alt=\"Tally\"][width=\"71\"][height=\"28\"]:nth-child(7)"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"480\" height=\"228\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"Zoho\"][height=\"228\"][width=\"480\"]:nth-child(8)"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"Odoo\"][height=\"480\"][width=\"480\"]:nth-child(9)"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"Microsoft Dynamics 365\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
-          "target": [
-            "img[alt=\"Microsoft Dynamics 365\"][width=\"1017\"][height=\"355\"]:nth-child(10)"
+            "img[alt=\"Microsoft Dynamics 365\"]"
           ]
         },
         {
@@ -5806,7 +5518,7 @@
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-lg font-bold text-on-inverse sm:text-xl\">Would you like to start a project with us?</h2>",
+                  "html": "<h2 class=\"text-lg font-bold text-on-inverse sm:text-xl\">Ready to bring your systems into one place?</h2>",
                   "target": [
                     ".sm\\:text-xl"
                   ]
@@ -6079,7 +5791,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"text-[11px] font-bold uppercase tracking-wide text-ink-muted\">Trusted technology partners</span>",
+          "html": "<span class=\"text-[11px] font-bold uppercase tracking-wide text-ink-muted\">Platforms we implement</span>",
           "target": [
             ".mb-5 > .text-\\[11px\\].uppercase.tracking-wide"
           ]
@@ -6282,31 +5994,6 @@
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-dynamics\">Dynamics 365</a>",
           "target": [
             "a[href$=\"/#tech-dynamics\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#93a0bd",
-                "bgColor": "#0b1b33",
-                "contrastRatio": 6.56,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.56"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a>",
-          "target": [
-            "a[href$=\"/#tech-salesforce\"]"
           ]
         },
         {
@@ -6604,7 +6291,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Salesforce · Odoo</span>",
+          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Odoo</span>",
           "target": [
             ".text-on-inverse-faint:nth-child(2)"
           ]
@@ -7002,9 +6689,9 @@
             }
           ],
           "impact": null,
-          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"480\" height=\"228\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"480\" height=\"228\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            "img[alt=\"Zoho\"][height=\"228\"][width=\"480\"]:nth-child(1)"
+            "img[alt=\"Zoho\"]"
           ]
         },
         {
@@ -7028,9 +6715,9 @@
             }
           ],
           "impact": null,
-          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            "img[alt=\"Odoo\"][height=\"480\"][width=\"480\"]:nth-child(2)"
+            "img[alt=\"Odoo\"]"
           ]
         },
         {
@@ -7054,295 +6741,9 @@
             }
           ],
           "impact": null,
-          "html": "<img alt=\"Microsoft Dynamics 365\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
+          "html": "<img alt=\"Microsoft Dynamics 365\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 object-contain sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
           "target": [
-            "img[alt=\"Microsoft Dynamics 365\"][width=\"1017\"][height=\"355\"]:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-alt",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has an alt attribute"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "alt-space-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a valid alt attribute value"
-            }
-          ],
-          "impact": null,
-          "html": "<img alt=\"Shopify\" loading=\"lazy\" width=\"2048\" height=\"2048\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"Shopify\"][width=\"2048\"][height=\"2048\"]:nth-child(4)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-alt",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has an alt attribute"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "alt-space-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a valid alt attribute value"
-            }
-          ],
-          "impact": null,
-          "html": "<img alt=\"React\" loading=\"lazy\" width=\"512\" height=\"512\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"React\"][width=\"512\"][height=\"512\"]:nth-child(5)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-alt",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has an alt attribute"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "alt-space-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a valid alt attribute value"
-            }
-          ],
-          "impact": null,
-          "html": "<img alt=\"NetSuite\" loading=\"lazy\" width=\"2072\" height=\"144\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-3.5 sm:h-4\" style=\"color:transparent\" src=\"/_next/static/media/NetSuite_idNc45xmoe_0.0euux2k331f40.svg\">",
-          "target": [
-            ".h-3\\.5.sm\\:h-4[alt=\"NetSuite\"]:nth-child(6)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-alt",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has an alt attribute"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "alt-space-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a valid alt attribute value"
-            }
-          ],
-          "impact": null,
-          "html": "<img alt=\"Tally\" loading=\"lazy\" width=\"71\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/tally.0bo3zydc_k9g8.svg\">",
-          "target": [
-            "img[alt=\"Tally\"][width=\"71\"][height=\"28\"]:nth-child(7)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-alt",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has an alt attribute"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "alt-space-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a valid alt attribute value"
-            }
-          ],
-          "impact": null,
-          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"480\" height=\"228\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"Zoho\"][height=\"228\"][width=\"480\"]:nth-child(8)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-alt",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has an alt attribute"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "alt-space-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a valid alt attribute value"
-            }
-          ],
-          "impact": null,
-          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"Odoo\"][height=\"480\"][width=\"480\"]:nth-child(9)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-alt",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has an alt attribute"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "alt-space-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a valid alt attribute value"
-            }
-          ],
-          "impact": null,
-          "html": "<img alt=\"Microsoft Dynamics 365\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
-          "target": [
-            "img[alt=\"Microsoft Dynamics 365\"][width=\"1017\"][height=\"355\"]:nth-child(10)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-alt",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has an alt attribute"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "alt-space-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a valid alt attribute value"
-            }
-          ],
-          "impact": null,
-          "html": "<img alt=\"Shopify\" loading=\"lazy\" width=\"2048\" height=\"2048\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"Shopify\"][width=\"2048\"][height=\"2048\"]:nth-child(11)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-alt",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has an alt attribute"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "alt-space-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a valid alt attribute value"
-            }
-          ],
-          "impact": null,
-          "html": "<img alt=\"React\" loading=\"lazy\" width=\"512\" height=\"512\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"React\"][width=\"512\"][height=\"512\"]:nth-child(12)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-alt",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has an alt attribute"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "alt-space-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a valid alt attribute value"
-            }
-          ],
-          "impact": null,
-          "html": "<img alt=\"NetSuite\" loading=\"lazy\" width=\"2072\" height=\"144\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-3.5 sm:h-4\" style=\"color:transparent\" src=\"/_next/static/media/NetSuite_idNc45xmoe_0.0euux2k331f40.svg\">",
-          "target": [
-            ".h-3\\.5.sm\\:h-4[alt=\"NetSuite\"]:nth-child(13)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-alt",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has an alt attribute"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "alt-space-value",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "critical",
-              "message": "Element has a valid alt attribute value"
-            }
-          ],
-          "impact": null,
-          "html": "<img alt=\"Tally\" loading=\"lazy\" width=\"71\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/tally.0bo3zydc_k9g8.svg\">",
-          "target": [
-            "img[alt=\"Tally\"][width=\"71\"][height=\"28\"]:nth-child(14)"
+            "img[alt=\"Microsoft Dynamics 365\"]"
           ]
         },
         {
@@ -7755,32 +7156,6 @@
             }
           ],
           "impact": null,
-          "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a>",
-          "target": [
-            "a[href$=\"/#tech-salesforce\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "focusable-no-name",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is not in tab order or has accessible text"
-            }
-          ],
-          "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-odoo\">Odoo</a>",
           "target": [
             "a[href$=\"/#tech-odoo\"]"
@@ -7965,7 +7340,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
+            ".h-8.w-8.rounded-full:nth-child(1)"
           ]
         },
         {
@@ -7991,7 +7366,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
+            ".h-8.w-8.rounded-full:nth-child(2)"
           ]
         }
       ]
@@ -8133,27 +7508,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a></li>",
-          "target": [
-            "div:nth-child(2) > ul > li:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "listitem",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "List item has a <ul>, <ol> or role=\"list\" parent element"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-odoo\">Odoo</a></li>",
           "target": [
-            "div:nth-child(2) > ul > li:nth-child(4)"
+            "div:nth-child(2) > ul > li:nth-child(3)"
           ]
         },
         {
@@ -8225,7 +7582,7 @@
           "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#trading-distribution\">Trading</a></li>",
           "target": [
-            "div:nth-child(3) > ul > li:nth-child(4)"
+            "li:nth-child(4)"
           ]
         },
         {
@@ -8388,9 +7745,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"480\" height=\"228\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"480\" height=\"228\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            "img[alt=\"Zoho\"][height=\"228\"][width=\"480\"]:nth-child(1)"
+            "img[alt=\"Zoho\"]"
           ]
         },
         {
@@ -8406,9 +7763,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
-            "img[alt=\"Odoo\"][height=\"480\"][width=\"480\"]:nth-child(2)"
+            "img[alt=\"Odoo\"]"
           ]
         },
         {
@@ -8424,207 +7781,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"Microsoft Dynamics 365\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
+          "html": "<img alt=\"Microsoft Dynamics 365\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 object-contain sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
           "target": [
-            "img[alt=\"Microsoft Dynamics 365\"][width=\"1017\"][height=\"355\"]:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"Shopify\" loading=\"lazy\" width=\"2048\" height=\"2048\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"Shopify\"][width=\"2048\"][height=\"2048\"]:nth-child(4)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"React\" loading=\"lazy\" width=\"512\" height=\"512\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"React\"][width=\"512\"][height=\"512\"]:nth-child(5)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"NetSuite\" loading=\"lazy\" width=\"2072\" height=\"144\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-3.5 sm:h-4\" style=\"color:transparent\" src=\"/_next/static/media/NetSuite_idNc45xmoe_0.0euux2k331f40.svg\">",
-          "target": [
-            ".h-3\\.5.sm\\:h-4[alt=\"NetSuite\"]:nth-child(6)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"Tally\" loading=\"lazy\" width=\"71\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/tally.0bo3zydc_k9g8.svg\">",
-          "target": [
-            "img[alt=\"Tally\"][width=\"71\"][height=\"28\"]:nth-child(7)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"480\" height=\"228\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"Zoho\"][height=\"228\"][width=\"480\"]:nth-child(8)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"Odoo\"][height=\"480\"][width=\"480\"]:nth-child(9)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"Microsoft Dynamics 365\" loading=\"lazy\" width=\"1017\" height=\"355\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/Microsoft_Dynamics_365_Logo.3tti03mi87jgb.svg\">",
-          "target": [
-            "img[alt=\"Microsoft Dynamics 365\"][width=\"1017\"][height=\"355\"]:nth-child(10)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"Shopify\" loading=\"lazy\" width=\"2048\" height=\"2048\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"Shopify\"][width=\"2048\"][height=\"2048\"]:nth-child(11)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"React\" loading=\"lazy\" width=\"512\" height=\"512\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 obje...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
-          "target": [
-            "img[alt=\"React\"][width=\"512\"][height=\"512\"]:nth-child(12)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"NetSuite\" loading=\"lazy\" width=\"2072\" height=\"144\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-3.5 sm:h-4\" style=\"color:transparent\" src=\"/_next/static/media/NetSuite_idNc45xmoe_0.0euux2k331f40.svg\">",
-          "target": [
-            ".h-3\\.5.sm\\:h-4[alt=\"NetSuite\"]:nth-child(13)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "no-focusable-content",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element does not have focusable descendants"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<img alt=\"Tally\" loading=\"lazy\" width=\"71\" height=\"28\" decoding=\"async\" data-nimg=\"1\" class=\"w-auto shrink-0 object-contain h-7 sm:h-8\" style=\"color:transparent\" src=\"/_next/static/media/tally.0bo3zydc_k9g8.svg\">",
-          "target": [
-            "img[alt=\"Tally\"][width=\"71\"][height=\"28\"]:nth-child(14)"
+            "img[alt=\"Microsoft Dynamics 365\"]"
           ]
         },
         {
@@ -8849,7 +8008,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span>Engineering ERP systems that drive busine</span>",
+          "html": "<span>Engineering ERP systems that d</span>",
           "target": [
             "span > span:nth-child(1) > span:nth-child(1)"
           ],

@@ -6,6 +6,8 @@ import BookConsultationButton from "@/components/BookConsultationButton";
 import EcosystemOrbit from "@/components/EcosystemOrbit";
 import Counter from "@/components/Counter";
 import HoverGlow from "@/components/HoverGlow";
+import { platforms } from "@/lib/services";
+import { industries } from "@/lib/industries";
 
 export default function Hero() {
   return (
@@ -29,7 +31,7 @@ export default function Hero() {
         <Reveal>
           <span className="inline-flex items-center gap-2 rounded-full border border-accent/25 bg-accent/10 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-accent">
             <span className="h-1.5 w-1.5 shrink-0 animate-dot-pulse rounded-full bg-accent" />
-            Zoho Authorised Partner · ERP · CRM · Web and AI Solutions
+            ERP · CRM · Web &amp; AI Solutions
           </span>
 
           <h1 className="mt-5 min-h-[120px] max-w-xl text-[32px] font-bold leading-tight text-on-inverse sm:min-h-[180px] sm:text-5xl">
@@ -61,13 +63,26 @@ export default function Hero() {
             </Link>
           </div>
 
-          <div className="mt-10 flex gap-10 border-t border-on-inverse-border pt-6">
+          {/* Projects Delivered restored per ai-optimization/reports/WORKSTREAM-03-RESULT.md
+              Section 20 — "15+" is the human-confirmed verified figure (matching the
+              About page's "15 Projects Completed"), not the prior contradicted "50+".
+              Given first position and a larger number size than the other two stats so
+              it reads as the primary proof point, with a divider separating it from the
+              secondary platform/industry counts — a deliberately different visual
+              treatment from the pre-Workstream-3 flat two-stat row, not a restoration of
+              the old layout. */}
+          <div className="mt-10 flex flex-wrap items-end gap-x-8 gap-y-4 border-t border-on-inverse-border pt-6">
             <div>
-              <Counter value={50} suffix="+" className="text-2xl font-bold text-on-inverse" />
-              <div className="mt-0.5 text-xs text-on-inverse-faint">Projects delivered</div>
+              <Counter value={15} suffix="+" className="text-3xl font-bold text-on-inverse" />
+              <div className="mt-0.5 text-xs font-semibold text-on-inverse-faint">Projects delivered</div>
+            </div>
+            <div aria-hidden="true" className="hidden h-8 w-px bg-on-inverse-border sm:block" />
+            <div>
+              <Counter value={platforms.length} className="text-xl font-bold text-on-inverse" />
+              <div className="mt-0.5 text-xs text-on-inverse-faint">Platforms</div>
             </div>
             <div>
-              <Counter value={12} className="text-2xl font-bold text-on-inverse" />
+              <Counter value={industries.length} className="text-xl font-bold text-on-inverse" />
               <div className="mt-0.5 text-xs text-on-inverse-faint">Industries served</div>
             </div>
           </div>

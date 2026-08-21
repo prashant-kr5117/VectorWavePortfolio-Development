@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema, buildMetadata } from "@/lib/seo";
 import CTA from "@/components/sections/CTA";
@@ -8,51 +8,53 @@ import ServiceIcon from "@/components/ServiceIcon";
 import PlatformLogo from "@/components/PlatformLogo";
 import { Card, CardIcon } from "@/components/ui/Card";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { platforms, getServicesByPlatform } from "@/lib/services";
+import { getServiceBySlug, getPlatform } from "@/lib/services";
 import { industries } from "@/lib/industries";
-import ZohoLogo from "@/src/zoho.png";
-import OdooLogo from "@/src/odoo_logo.png";
-import { Network, Users, ShieldCheck, Code2 } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = buildMetadata({
   title: "ERP, CRM & Cloud Solutions | VectorWave Services",
   description:
-    "Tailored ERP, CRM, Zoho, and Odoo solutions helping businesses streamline operations and grow with the right technology.",
+    "VectorWave helps organizations select, implement, customize, integrate and optimize business technology — Zoho, Odoo, Microsoft 365 and custom development.",
   path: "/services",
 });
 
-const coreServices = [
+/**
+ * Capability groups, not a technology list — answers "what business problem can
+ * VectorWave solve" before "which platform does it run on." Every slug below maps to a
+ * real service in lib/services.ts; no group was invented to hit a target count, and no
+ * service appears in a group it doesn't genuinely belong to. See
+ * ai-optimization/reports/WORKSTREAM-04-RESULT.md Section 1 for the reasoning.
+ */
+const capabilityGroups = [
   {
-    icon: Network,
-    title: "ERP Implementation",
-    desc: "A well implemented ERP system changes how your business operates. We design and deploy scalable ERP systems that connect your departments, improve data visibility, and make day-to-day operations run smoother.",
+    name: "Sales & customer relationships",
+    description: "Capture leads, manage the pipeline, and keep every customer interaction in one place.",
+    slugs: ["sales", "odoo-sales-ecommerce", "dynamics-365-sales"],
   },
   {
-    icon: Users,
-    title: "CRM Implementation",
-    desc: "Managing leads, sales pipelines, and customer relationships becomes a lot easier with the right CRM in place. We customise workflows, automate follow-ups, and give your team the insights they need.",
+    name: "Finance & operations",
+    description: "Invoicing, inventory, manufacturing and reporting that stay accurate in real time.",
+    slugs: ["zoho-finance", "odoo-accounting", "odoo-inventory-operations", "business-central-finance"],
   },
   {
-    logo: ZohoLogo,
-    title: "Zoho Implementation",
-    desc: "Zoho has a tool for almost every part of your business. We implement and configure Zoho platforms so everything works together, giving your team one connected system for sales, finance, HR, and more.",
+    name: "People & workforce",
+    description: "Recruitment, attendance, payroll and performance in one connected system.",
+    slugs: ["human-resources", "odoo-workforce-hr", "dynamics-365-hr"],
   },
   {
-    logo: OdooLogo,
-    title: "Odoo Implementation",
-    desc: "Odoo's modular approach means you only use what your business actually needs. We handle end-to-end Odoo implementation covering inventory, finance, sales, and operations.",
+    name: "Support & security",
+    description: "Keep the business running for customers, and protected for everyone else.",
+    slugs: ["it-support", "microsoft-security-device-management"],
   },
   {
-    icon: ShieldCheck,
-    title: "Annual Maintenance & Support",
-    desc: "Our AMC services keep your systems monitored, updated, and running at their best, with ongoing technical support that minimises downtime and disruption.",
-  },
-  {
-    icon: Code2,
-    title: "Custom Application Development",
-    desc: "We build secure, scalable web and mobile applications designed around your specific business processes, focused on performance, ease of use, and long-term adaptability.",
+    name: "Automation & custom development",
+    description: "The custom work — apps, integrations, AI, messaging — that connects everything else together.",
+    slugs: ["mobile-app-development", "web-development", "ai-integration", "whatsapp-automation"],
   },
 ];
+
+const fullPlatformSlugs = ["zoho-bundled-suite", "odoo-business-suite", "microsoft-365-dynamics-suite"];
 
 const servicesJsonLd = {
   "@context": "https://schema.org",
@@ -83,92 +85,95 @@ export default function ServicesPage() {
         <section className="bg-surface-alt px-4 py-14 text-center sm:px-6 sm:py-16">
           <Reveal>
             <span className="section-eyebrow section-eyebrow--light">Services</span>
-            <h1 className="mx-auto mt-5 max-w-xl text-[26px] font-bold leading-tight text-ink sm:text-3xl">
-              We provide a wide range of services
+            <h1 className="mx-auto mt-5 max-w-2xl text-[26px] font-bold leading-tight text-ink sm:text-3xl">
+              VectorWave helps organizations select, implement, customize, integrate and
+              optimize business technology.
             </h1>
             <p className="mx-auto mt-4 max-w-xl text-sm text-ink-muted sm:text-base">
-              We work with businesses to simplify operations, improve
-              productivity, and drive growth using the right cloud tools and
-              custom technology built around how you work. Whether your team
-              runs on Zoho, Odoo, or Microsoft 365, we implement, connect, and
-              support the platform you&apos;ve already chosen or help you
-              pick the right one.
+              Zoho, Odoo, Microsoft 365 and custom development — chosen on business
+              requirements, not on which platform we&apos;d rather sell.
             </p>
           </Reveal>
         </section>
 
-        <section className="px-4 py-14 sm:px-6 lg:px-10">
-          <div className="mx-auto max-w-6xl">
-            <Reveal className="mb-10">
-              <SectionHeading
-                heading="Platforms & services we implement"
-                description="Select a category to see the specific tools and what they cover."
-                align="center"
-              />
-            </Reveal>
-
-            <div className="flex flex-col gap-12">
-              {platforms.map((platform) => (
-                <div key={platform.slug}>
-                  <Reveal className="mb-5 flex items-center gap-3">
-                    <PlatformLogo platform={platform} size={40} iconSize={18} />
-                    <div>
-                      <div className="text-sm font-bold text-ink sm:text-base">
-                        {platform.name}
-                      </div>
-                      <p className="text-xs text-ink-muted sm:text-sm">
-                        {platform.short}
-                      </p>
-                    </div>
-                  </Reveal>
-                  <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
-                    {getServicesByPlatform(platform.slug).map((service, i) => (
-                      <Reveal key={service.slug} delay={i * 60}>
-                        <Card href={`/services/${service.slug}`} align="center" padding="md">
-                          <CardIcon>
-                            <ServiceIcon icon={service.icon} size={20} />
-                          </CardIcon>
-                          <span className="text-sm font-bold text-ink">{service.title}</span>
-                        </Card>
-                      </Reveal>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section className="bg-surface-alt px-4 py-14 sm:px-6 lg:px-10">
+        {/* Full platform implementation — the flagship, whole-business commitment level */}
+        <section className="bg-ink-inverse px-4 py-14 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-6xl">
             <Reveal className="mb-8">
               <SectionHeading
-                heading="Comprehensive digital solutions"
-                description="From ERP and CRM to automation and cloud platforms."
+                eyebrow="Full platform implementation"
+                heading="Every function, on one connected platform"
+                description="For businesses ready to standardize on a single system of record."
+                tone="inverse"
                 align="center"
               />
             </Reveal>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {coreServices.map((s, i) => (
-                <Reveal key={s.title} delay={i * 60}>
-                  <Card>
-                    {s.logo ? (
-                      <div className="mb-3 inline-flex h-10 min-w-10 items-center justify-center rounded-lg border border-border bg-white px-2.5 transition-transform duration-300 group-hover:scale-110">
-                        <Image src={s.logo} alt={`${s.title} logo`} style={{ height: 22, width: "auto" }} />
-                      </div>
-                    ) : (
-                      <CardIcon>
-                        <s.icon size={20} />
-                      </CardIcon>
-                    )}
-                    <div className="mb-1 text-sm font-bold text-ink">{s.title}</div>
-                    <p className="text-sm leading-relaxed text-ink-muted">{s.desc}</p>
-                  </Card>
-                </Reveal>
-              ))}
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+              {fullPlatformSlugs.map((slug, i) => {
+                const service = getServiceBySlug(slug);
+                if (!service) return null;
+                const platform = getPlatform(service.platform);
+                return (
+                  <Reveal key={slug} delay={i * 80}>
+                    <Link
+                      href={`/services/${slug}`}
+                      className="group flex h-full flex-col rounded-xl border border-on-inverse-border bg-white/5 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/50"
+                    >
+                      {platform && <PlatformLogo platform={platform} size={40} iconSize={18} />}
+                      <div className="mt-4 text-sm font-bold text-on-inverse">{service.title}</div>
+                      <p className="mt-1.5 flex-1 text-xs leading-relaxed text-on-inverse-muted">
+                        {service.short}
+                      </p>
+                      <span className="mt-4 inline-flex items-center gap-1 text-xs font-bold text-accent">
+                        Explore {platform?.name ?? service.title}
+                        <ArrowRight size={12} className="transition-transform duration-200 group-hover:translate-x-0.5" />
+                      </span>
+                    </Link>
+                  </Reveal>
+                );
+              })}
             </div>
           </div>
         </section>
+
+        {/* Capability groups — the "what business problem" answer */}
+        {capabilityGroups.map((group, gi) => (
+          <section
+            key={group.name}
+            className={`px-4 py-14 sm:px-6 lg:px-10 ${gi % 2 === 1 ? "bg-surface-alt" : ""}`}
+          >
+            <div className="mx-auto max-w-6xl">
+              <Reveal className="mb-8">
+                <SectionHeading heading={group.name} description={group.description} align="center" />
+              </Reveal>
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                {group.slugs.map((slug, i) => {
+                  const service = getServiceBySlug(slug);
+                  if (!service) return null;
+                  const platform = getPlatform(service.platform);
+                  return (
+                    <Reveal key={slug} delay={i * 60}>
+                      <Card href={`/services/${slug}`} padding="md">
+                        <div className="mb-3 flex items-center justify-between">
+                          <CardIcon>
+                            <ServiceIcon icon={service.icon} size={18} />
+                          </CardIcon>
+                          {platform && (
+                            <span className="text-[10px] font-bold uppercase tracking-wide text-ink-faint">
+                              {platform.name}
+                            </span>
+                          )}
+                        </div>
+                        <div className="mb-1 text-sm font-bold text-ink">{service.title}</div>
+                        <p className="text-xs leading-relaxed text-ink-muted">{service.short}</p>
+                      </Card>
+                    </Reveal>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        ))}
 
         <section className="px-4 py-14 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-6xl">

@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T09:50:26.296Z",
+  "timestamp": "2026-08-21T08:16:25.472Z",
   "url": "http://localhost:3100/blog/getting-your-chart-of-accounts-audit-ready-with-zoho-books",
   "toolOptions": {
     "runOnly": {
@@ -810,7 +810,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -850,7 +850,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -1346,7 +1346,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -1364,7 +1364,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -1694,7 +1694,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<body class=\"min-h-full flex flex-col\">",
+          "html": "<body class=\"min-h-full flex flex-col\" style=\"position: relative; min-height: 100%; top: 0px;\">",
           "target": [
             "body"
           ]
@@ -1812,7 +1812,7 @@
           "impact": null,
           "html": "<svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM7 8.48H3V21h4V8.48Zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48Z\"></path></svg>",
           "target": [
-            "a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
+            "a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
           ]
         },
         {
@@ -1844,7 +1844,7 @@
           "impact": null,
           "html": "<svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">",
           "target": [
-            "a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
+            "a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
           ]
         },
         {
@@ -2676,7 +2676,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(1) > .text-ink-muted.w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(1) > .text-ink-muted.w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2708,7 +2708,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(2) > .text-ink-muted.w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(2) > .text-ink-muted.w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2740,7 +2740,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(3) > .text-ink-muted.w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(3) > .text-ink-muted.w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2772,7 +2772,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(4) > .text-ink-muted.w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(4) > .text-ink-muted.w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -3256,7 +3256,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -3274,7 +3274,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -3804,7 +3804,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -3836,7 +3836,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -4195,7 +4195,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -4213,7 +4213,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -4443,9 +4443,41 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
           "target": [
             "html"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "important-letter-spacing",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+            },
+            {
+              "id": "important-word-spacing",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+            },
+            {
+              "id": "important-line-height",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<body class=\"min-h-full flex flex-col\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+          "target": [
+            "body"
           ]
         },
         {
@@ -4702,7 +4734,7 @@
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-lg font-bold text-on-inverse sm:text-xl\">Would you like to start a project with us?</h2>",
+                  "html": "<h2 class=\"text-lg font-bold text-on-inverse sm:text-xl\">Ready to bring your systems into one place?</h2>",
                   "target": [
                     "h2"
                   ]
@@ -4729,7 +4761,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
           "target": [
             "html"
           ]
@@ -5300,31 +5332,6 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a>",
-          "target": [
-            "a[href$=\"/#tech-salesforce\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#93a0bd",
-                "bgColor": "#0b1b33",
-                "contrastRatio": 6.56,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.56"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-odoo\">Odoo</a>",
           "target": [
             "a[href$=\"/#tech-odoo\"]"
@@ -5577,7 +5584,7 @@
           "impact": null,
           "html": "<span class=\"text-sm text-on-inverse-faint\">© 2026 VectorWave Technologies. All rights reserved.</span>",
           "target": [
-            ".text-on-inverse-faint:nth-child(1)"
+            ".text-on-inverse-faint.text-sm"
           ]
         },
         {
@@ -5600,9 +5607,129 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Salesforce · Odoo</span>",
+          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Odoo</span>",
           "target": [
             ".text-on-inverse-faint:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<select class=\"goog-te-combo\" aria-label=\"Language Translate Widget\"><option value=\"\">Select Language</option><option value=\"nl\">Dutch</option></select>",
+          "target": [
+            "select"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"sl\" id=\"goog-gt-votingInputSrcLang\">",
+          "target": [
+            "#goog-gt-votingInputSrcLang"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"tl\" id=\"goog-gt-votingInputTrgLang\">",
+          "target": [
+            "#goog-gt-votingInputTrgLang"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"query\" id=\"goog-gt-votingInputSrcText\">",
+          "target": [
+            "#goog-gt-votingInputSrcText"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"gtrans\" id=\"goog-gt-votingInputTrgText\">",
+          "target": [
+            "#goog-gt-votingInputTrgText"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"vote\" id=\"goog-gt-votingInputVote\">",
+          "target": [
+            "#goog-gt-votingInputVote"
           ]
         },
         {
@@ -5689,7 +5816,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
           "target": [
             "html"
           ]
@@ -5728,7 +5855,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
           "target": [
             "html"
           ]
@@ -5767,7 +5894,7 @@
             }
           ],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
           "target": [
             "html"
           ]
@@ -5948,7 +6075,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -5974,7 +6101,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -6235,32 +6362,6 @@
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-dynamics\">Dynamics 365</a>",
           "target": [
             "a[href$=\"/#tech-dynamics\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "focusable-no-name",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is not in tab order or has accessible text"
-            }
-          ],
-          "impact": null,
-          "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a>",
-          "target": [
-            "a[href$=\"/#tech-salesforce\"]"
           ]
         },
         {
@@ -6636,27 +6737,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a></li>",
-          "target": [
-            "div:nth-child(2) > ul > li:nth-child(3)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "listitem",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "List item has a <ul>, <ol> or role=\"list\" parent element"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-odoo\">Odoo</a></li>",
           "target": [
-            "div:nth-child(2) > ul > li:nth-child(4)"
+            "div:nth-child(2) > ul > li:nth-child(3)"
           ]
         },
         {
@@ -6728,7 +6811,7 @@
           "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#trading-distribution\">Trading</a></li>",
           "target": [
-            "div:nth-child(3) > ul > li:nth-child(4)"
+            "li:nth-child(4)"
           ]
         },
         {

@@ -1,110 +1,65 @@
-import Image from "next/image";
-import {
-  Boxes,
-  Users,
-  Headset,
-  Calculator,
-  UserCog,
-  Database,
-  ShoppingCart,
-  Bot,
-  Smartphone,
-} from "lucide-react";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import Reveal from "@/components/Reveal";
-import { Card, CardIcon } from "@/components/ui/Card";
+import ServiceIcon from "@/components/ServiceIcon";
+import PlatformLogo from "@/components/PlatformLogo";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import WebCodingImage from "@/src/Web Coding.png";
+import { platforms, getServicesByPlatform } from "@/lib/services";
 
-const services = [
-  {
-    icon: Boxes,
-    title: "Zoho Bundle Suite",
-    desc: "CRM, Finance, HR and Analytics set up as one suite.",
-    slug: "zoho-bundled-suite",
-  },
-  {
-    icon: Users,
-    title: "Zoho Sales",
-    desc: "Pipeline automation, lead capture and reporting.",
-    slug: "sales",
-  },
-  {
-    icon: Headset,
-    title: "IT & Support",
-    desc: "Infrastructure, helpdesk and reliable uptime.",
-    slug: "it-support",
-  },
-  {
-    icon: Calculator,
-    title: "Finance & Accounting",
-    desc: "Invoicing, expenses, compliance and reporting.",
-    slug: "zoho-finance",
-  },
-  {
-    icon: UserCog,
-    title: "Human Resources",
-    desc: "Recruitment, onboarding, attendance and payroll.",
-    slug: "human-resources",
-  },
-  {
-    icon: Database,
-    title: "Data Migration",
-    desc: "Secure, accurate transfers with minimal downtime.",
-  },
-  {
-    logo: WebCodingImage,
-    title: "Web Development",
-    desc: "Fast, SEO-friendly websites that convert visitors.",
-    slug: "web-development",
-  },
-  {
-    icon: ShoppingCart,
-    title: "E-Commerce",
-    desc: "Secure online stores built to grow sales.",
-    slug: "web-development",
-  },
-  {
-    icon: Bot,
-    title: "Artificial Intelligence",
-    desc: "Automation that speeds up decisions and tasks.",
-    slug: "ai-integration",
-  },
-  {
-    icon: Smartphone,
-    title: "App Development",
-    desc: "Android, iOS and cross-platform apps for your team.",
-    slug: "mobile-app-development",
-  },
-];
-
+/**
+ * Grouped by the real 4-platform structure (Zoho / Odoo / Microsoft 365 / Custom
+ * Development) instead of a hand-picked 10-item subset. The previous version mixed
+ * platforms inconsistently, included a service with no working link (Data Migration),
+ * and pointed two different cards at the same URL (E-Commerce/Web Development) — sourcing
+ * directly from lib/services.ts (the same data the Header mega-menu and /services page
+ * already use) removes both bugs by construction rather than needing a separate fix. See
+ * ai-optimization/reports/HOMEPAGE-CURRENT-STATE.md item 6.
+ */
 export default function Services() {
   return (
     <section className="px-4 py-20 sm:px-6 lg:px-10 lg:py-28">
       <div className="mx-auto max-w-7xl">
-        <Reveal className="mb-8">
+        <Reveal className="mb-10">
           <SectionHeading
-            heading="Services we provide"
-            description="One connected system in place of scattered spreadsheets and tools."
+            heading="One integrated technology capability"
+            description="19 services across four platforms — implementation, integration and the custom work that connects them."
             align="center"
           />
         </Reveal>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((s, i) => (
-            <Reveal key={s.title} delay={i * 60}>
-              <Card href={s.slug ? `/services/${s.slug}` : undefined}>
-                {s.logo ? (
-                  <div className="mb-3 h-12 w-12 shrink-0 overflow-hidden rounded-full transition-transform duration-300 group-hover:scale-110">
-                    <Image src={s.logo} alt="" className="h-full w-full object-cover" />
-                  </div>
-                ) : (
-                  <CardIcon>
-                    <s.icon size={18} />
-                  </CardIcon>
-                )}
-                <div className="mb-1 text-sm font-bold text-ink">{s.title}</div>
-                <p className="text-sm text-ink-muted">{s.desc}</p>
-              </Card>
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {platforms.map((platform, pi) => (
+            <Reveal key={platform.slug} delay={pi * 80} className="card flex h-full flex-col p-5">
+              <div className="flex items-center gap-3">
+                <PlatformLogo platform={platform} size={36} iconSize={16} />
+                <div className="text-sm font-bold text-ink">{platform.name}</div>
+              </div>
+              <p className="mt-2.5 text-xs leading-relaxed text-ink-muted">{platform.short}</p>
+
+              <div className="mt-4 flex flex-1 flex-col gap-0.5 border-t border-border pt-3">
+                {getServicesByPlatform(platform.slug).map((service) => (
+                  <Link
+                    key={service.slug}
+                    href={`/services/${service.slug}`}
+                    className="group/item flex items-center gap-2 rounded-lg px-1.5 py-1.5 transition-colors duration-200 hover:bg-surface-alt"
+                  >
+                    <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-surface-chip text-primary transition-transform duration-300 group-hover/item:scale-110">
+                      <ServiceIcon icon={service.icon} size={12} />
+                    </span>
+                    <span className="text-xs font-semibold leading-tight text-ink-soft group-hover/item:text-ink">
+                      {service.title}
+                    </span>
+                  </Link>
+                ))}
+              </div>
+
+              <Link
+                href="/services"
+                className="btn-text mt-4 inline-flex items-center text-xs"
+              >
+                Explore {platform.name} services
+                <ArrowRight size={12} />
+              </Link>
             </Reveal>
           ))}
         </div>

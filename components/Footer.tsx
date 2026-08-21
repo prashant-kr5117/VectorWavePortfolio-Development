@@ -8,7 +8,6 @@ import Logo from "@/src/logo2.png";
 const platformLinks = [
   { label: "Zoho", href: "/#tech-zoho" },
   { label: "Dynamics 365", href: "/#tech-dynamics" },
-  { label: "Salesforce", href: "/#tech-salesforce" },
   { label: "Odoo", href: "/#tech-odoo" },
 ];
 
@@ -29,7 +28,7 @@ export default function Footer() {
             A business transformation and enterprise technology company, with
             a dashboard and reporting practice backed by financial and data
             analysts. Zoho is our flagship platform; we also implement
-            Dynamics 365, Salesforce, Odoo and custom technology.
+            Dynamics 365, Odoo and custom technology.
           </p>
         </div>
 
@@ -102,7 +101,7 @@ export default function Footer() {
             © 2026 VectorWave Technologies. All rights reserved.
           </span>
           <span className="text-xs text-on-inverse-faint">
-            Zoho Ecosystem · Microsoft Dynamics 365 · Salesforce · Odoo
+            Zoho Ecosystem · Microsoft Dynamics 365 · Odoo
           </span>
         </div>
         <div className="flex gap-2">

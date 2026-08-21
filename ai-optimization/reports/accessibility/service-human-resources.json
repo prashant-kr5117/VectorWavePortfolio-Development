@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-20T09:49:10.410Z",
+  "timestamp": "2026-08-21T08:14:45.202Z",
   "url": "http://localhost:3100/services/human-resources",
   "toolOptions": {
     "runOnly": {
@@ -930,7 +930,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(1)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
           ]
         },
         {
@@ -970,7 +970,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(2)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
           ]
         },
         {
@@ -1400,7 +1400,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(1)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
           ]
         },
         {
@@ -1418,7 +1418,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(2)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
           ]
         },
         {
@@ -1780,7 +1780,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
           "target": [
-            ".hover\\:text-accent.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-accent.gap-2.duration-200:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -1908,7 +1908,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-boxes\" aria-hidden=\"true\">",
           "target": [
-            ".group\\/item.gap-2\\.5[href$=\"zoho-bundled-suite\"] > .bg-rose-50.text-rose-600.h-7 > .lucide-boxes[width=\"13\"][height=\"13\"]"
+            ".group\\/item.px-1\\.5[href$=\"zoho-bundled-suite\"] > .bg-rose-50.text-rose-600.h-7 > .lucide-boxes[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -1940,7 +1940,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users\" aria-hidden=\"true\">",
           "target": [
-            ".transition-\\[opacity\\,transform\\].ease-\\[cubic-bezier\\(0\\,0\\.71\\,0\\.2\\,1\\.01\\)\\].translate-y-1:nth-child(1) > .gap-0\\.5.flex-col.flex > .group\\/item.gap-2\\.5[href$=\"sales\"] > .bg-emerald-50.text-emerald-600.h-7 > .lucide-users[width=\"13\"][height=\"13\"]"
+            ".transition-\\[opacity\\,transform\\].ease-\\[cubic-bezier\\(0\\,0\\.71\\,0\\.2\\,1\\.01\\)\\].translate-y-1:nth-child(1) > .gap-0\\.5.flex-col.flex > .group\\/item.px-1\\.5[href$=\"sales\"] > .bg-emerald-50.text-emerald-600.h-7 > .lucide-users[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -2004,7 +2004,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calculator\" aria-hidden=\"true\">",
           "target": [
-            ".group\\/item.gap-2\\.5[href$=\"zoho-finance\"] > .bg-violet-50.text-violet-600.h-7 > .lucide-calculator[width=\"13\"][height=\"13\"]"
+            ".group\\/item.px-1\\.5[href$=\"zoho-finance\"] > .bg-violet-50.text-violet-600.h-7 > .lucide-calculator[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -2036,7 +2036,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-cog\" aria-hidden=\"true\">",
           "target": [
-            ".group\\/item.gap-2\\.5[href$=\"human-resources\"] > .bg-amber-50.text-amber-600.h-7 > .lucide-user-cog[width=\"13\"][height=\"13\"]"
+            ".group\\/item.px-1\\.5[href$=\"human-resources\"] > .bg-amber-50.text-amber-600.h-7 > .lucide-user-cog[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -2068,7 +2068,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-boxes\" aria-hidden=\"true\">",
           "target": [
-            ".group\\/item.gap-2\\.5[href$=\"odoo-business-suite\"] > .bg-rose-50.text-rose-600.h-7 > .lucide-boxes[width=\"13\"][height=\"13\"]"
+            ".group\\/item.px-1\\.5[href$=\"odoo-business-suite\"] > .bg-rose-50.text-rose-600.h-7 > .lucide-boxes[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -2164,7 +2164,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calculator\" aria-hidden=\"true\">",
           "target": [
-            ".group\\/item.gap-2\\.5[href$=\"odoo-accounting\"] > .bg-violet-50.text-violet-600.h-7 > .lucide-calculator[width=\"13\"][height=\"13\"]"
+            ".group\\/item.px-1\\.5[href$=\"odoo-accounting\"] > .bg-violet-50.text-violet-600.h-7 > .lucide-calculator[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -2196,7 +2196,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-cog\" aria-hidden=\"true\">",
           "target": [
-            ".group\\/item.gap-2\\.5[href$=\"odoo-workforce-hr\"] > .bg-amber-50.text-amber-600.h-7 > .lucide-user-cog[width=\"13\"][height=\"13\"]"
+            ".group\\/item.px-1\\.5[href$=\"odoo-workforce-hr\"] > .bg-amber-50.text-amber-600.h-7 > .lucide-user-cog[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -2228,7 +2228,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-boxes\" aria-hidden=\"true\">",
           "target": [
-            ".transition-\\[opacity\\,transform\\].ease-\\[cubic-bezier\\(0\\,0\\.71\\,0\\.2\\,1\\.01\\)\\].translate-y-1:nth-child(3) > .gap-0\\.5.flex-col.flex > .group\\/item.gap-2\\.5.px-1\\.5:nth-child(1) > .bg-rose-50.text-rose-600.h-7 > .lucide-boxes[width=\"13\"][height=\"13\"]"
+            ".transition-\\[opacity\\,transform\\].ease-\\[cubic-bezier\\(0\\,0\\.71\\,0\\.2\\,1\\.01\\)\\].translate-y-1:nth-child(3) > .gap-0\\.5.flex-col.flex > .group\\/item.px-1\\.5.gap-2\\.5:nth-child(1) > .bg-rose-50.text-rose-600.h-7 > .lucide-boxes[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -2260,7 +2260,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-users\" aria-hidden=\"true\">",
           "target": [
-            ".group\\/item.gap-2\\.5[href$=\"dynamics-365-sales\"] > .bg-emerald-50.text-emerald-600.h-7 > .lucide-users[width=\"13\"][height=\"13\"]"
+            ".group\\/item.px-1\\.5[href$=\"dynamics-365-sales\"] > .bg-emerald-50.text-emerald-600.h-7 > .lucide-users[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -2324,7 +2324,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-calculator\" aria-hidden=\"true\">",
           "target": [
-            ".transition-\\[opacity\\,transform\\].ease-\\[cubic-bezier\\(0\\,0\\.71\\,0\\.2\\,1\\.01\\)\\].translate-y-1:nth-child(3) > .gap-0\\.5.flex-col.flex > .group\\/item.gap-2\\.5.px-1\\.5:nth-child(4) > .bg-violet-50.text-violet-600.h-7 > .lucide-calculator[width=\"13\"][height=\"13\"]"
+            ".transition-\\[opacity\\,transform\\].ease-\\[cubic-bezier\\(0\\,0\\.71\\,0\\.2\\,1\\.01\\)\\].translate-y-1:nth-child(3) > .gap-0\\.5.flex-col.flex > .group\\/item.px-1\\.5.gap-2\\.5:nth-child(4) > .bg-violet-50.text-violet-600.h-7 > .lucide-calculator[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -2356,7 +2356,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-cog\" aria-hidden=\"true\">",
           "target": [
-            ".group\\/item.gap-2\\.5[href$=\"dynamics-365-hr\"] > .bg-amber-50.text-amber-600.h-7 > .lucide-user-cog[width=\"13\"][height=\"13\"]"
+            ".group\\/item.px-1\\.5[href$=\"dynamics-365-hr\"] > .bg-amber-50.text-amber-600.h-7 > .lucide-user-cog[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -2452,7 +2452,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-sparkles\" aria-hidden=\"true\">",
           "target": [
-            ".lucide-sparkles"
+            ".lucide-sparkles[width=\"13\"][height=\"13\"]"
           ]
         },
         {
@@ -2516,7 +2516,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-right transition-transform duration-200 group-hover/cta:translate-x-0.5\" ...>",
           "target": [
-            ".lucide-arrow-right"
+            ".group-hover\\/cta\\:translate-x-0\\.5"
           ]
         },
         {
@@ -2580,7 +2580,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".h-9 > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
+            ".h-9 > .relative > .right-0.z-30.w-40 > .text-left.duration-150.w-full:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
           ]
         },
         {
@@ -2676,7 +2676,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(1) > .w-full.text-ink-muted.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(1) > .w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2708,7 +2708,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(2) > .w-full.text-ink-muted.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(2) > .w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2740,7 +2740,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(3) > .w-full.text-ink-muted.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(3) > .w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2772,7 +2772,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(4) > .w-full.text-ink-muted.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(4) > .w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2836,7 +2836,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\">",
           "target": [
-            ".hover\\:text-primary.gap-2:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
+            ".hover\\:text-primary.gap-2.duration-200:nth-child(2) > .lucide-mail[width=\"15\"][height=\"15\"]"
           ]
         },
         {
@@ -2900,7 +2900,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".border-t.pt-3.mt-2:nth-child(7) > .relative > .right-0.z-30.w-40 > .px-3\\.5.text-left.duration-150:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
+            ".border-t.pt-3.mt-2:nth-child(7) > .relative > .right-0.z-30.w-40 > .text-left.duration-150.w-full:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
           ]
         },
         {
@@ -2965,6 +2965,230 @@
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"26\" height=\"26\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-user-cog\" aria-hidden=\"true\">",
           "target": [
             "svg[width=\"26\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
+          "target": [
+            ".items-start:nth-child(1) > .mt-0\\.5.lucide-check[width=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
+          "target": [
+            ".items-start:nth-child(2) > .mt-0\\.5.lucide-check[width=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check mt-0.5 shrink-0 text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
+          "target": [
+            ".items-start:nth-child(3) > .mt-0\\.5.lucide-check[width=\"15\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/20...\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-...\" aria-hidden=\"true\" style=\"animation-delay:90ms\">",
+          "target": [
+            "span:nth-child(2) > .mx-2.animate-flow-arrow.sm\\:mx-3"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/20...\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-...\" aria-hidden=\"true\" style=\"animation-delay:180m...\">",
+          "target": [
+            "span:nth-child(3) > .mx-2.animate-flow-arrow.sm\\:mx-3"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/20...\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-...\" aria-hidden=\"true\" style=\"animation-delay:270m...\">",
+          "target": [
+            "span:nth-child(4) > .mx-2.animate-flow-arrow.sm\\:mx-3"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/20...\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-...\" aria-hidden=\"true\" style=\"animation-delay:360m...\">",
+          "target": [
+            "span:nth-child(5) > .mx-2.animate-flow-arrow.sm\\:mx-3"
           ]
         },
         {
@@ -3122,6 +3346,70 @@
           ],
           "none": [],
           "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-sparkles\" aria-hidden=\"true\">",
+          "target": [
+            ".lucide-sparkles[width=\"20\"][height=\"20\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-globe\" aria-hidden=\"true\">",
+          "target": [
+            ".card-icon.mb-3 > .lucide-globe[width=\"20\"][height=\"20\"]"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "focusable-modal-open",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements while a modal is open"
+            },
+            {
+              "id": "focusable-disabled",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            },
+            {
+              "id": "focusable-not-tabbable",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "No focusable elements contained within element"
+            }
+          ],
+          "none": [],
+          "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-map-pin mt-0.5 shrink-0\" aria-hidden=\"true\">",
           "target": [
             ".lucide-map-pin"
@@ -3220,7 +3508,7 @@
           "impact": null,
           "html": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM7 8.48H3V21h4V8.48Zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48Z\"></path></svg>",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(1) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
+            ".h-8.w-8.border-on-inverse-border:nth-child(1) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -3252,7 +3540,7 @@
           "impact": null,
           "html": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(2) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
+            ".h-8.w-8.border-on-inverse-border:nth-child(2) > svg[fill=\"currentColor\"][height=\"14\"][width=\"14\"]"
           ]
         }
       ]
@@ -3342,7 +3630,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(1)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
           ]
         },
         {
@@ -3360,7 +3648,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(2)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
           ]
         },
         {
@@ -3932,7 +4220,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(1)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
           ]
         },
         {
@@ -3964,7 +4252,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(2)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
           ]
         },
         {
@@ -4281,7 +4569,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(1)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
           ]
         },
         {
@@ -4299,7 +4587,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(2)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
           ]
         },
         {
@@ -4603,41 +4891,9 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<div style=\"transition-delay:0ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 mb-8\"><div class=\"text-center\"><h2 class=\"section-heading mt-4 text-ink\">What's included</h2></div></div>",
-          "target": [
-            ".mb-8"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
           "html": "<div style=\"transition-delay:0ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 \">",
           "target": [
-            ".lg\\:grid-cols-3 > .translate-y-0.opacity-100.duration-700:nth-child(1)"
+            ".gap-10.lg\\:grid-cols-2.max-w-5xl > .translate-y-0.opacity-100.duration-700:nth-child(1)"
           ]
         },
         {
@@ -4667,41 +4923,9 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<div style=\"transition-delay:60ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 \">",
+          "html": "<div style=\"transition-delay:80ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 \">",
           "target": [
             ".translate-y-0.opacity-100.duration-700:nth-child(2)"
-          ]
-        },
-        {
-          "any": [],
-          "all": [
-            {
-              "id": "important-letter-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-word-spacing",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
-            },
-            {
-              "id": "important-line-height",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
-            }
-          ],
-          "none": [],
-          "impact": null,
-          "html": "<div style=\"transition-delay:120ms\" class=\"transition-all duration-700 ease-out translate-y-0 opacity-100 \">",
-          "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(3)"
           ]
         },
         {
@@ -4822,7 +5046,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Talk to a Zoho solution architect</button>",
           "target": [
             ".btn--md"
           ]
@@ -4862,19 +5086,31 @@
                   ]
                 },
                 {
-                  "html": "<h2 class=\"section-heading mt-4 text-ink\">What's included</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-ink\">Recruitment, attendance and payroll tracked in spreadsheets create errors and slow down every people process.</h2>",
                   "target": [
-                    ".section-heading"
+                    ".translate-y-0.opacity-100.duration-700:nth-child(1) > .section-heading.mt-4"
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-lg font-bold text-ink\">Other <!-- -->Zoho<!-- --> services we provide</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-ink\">Capabilities</h2>",
                   "target": [
-                    ".mb-6.translate-y-6.text-center > .text-lg"
+                    ".max-w-5xl.mx-auto > .mb-8.translate-y-6.duration-700 > .text-center > .section-heading.mt-4"
                   ]
                 },
                 {
-                  "html": "<h2 class=\"text-lg font-bold text-on-inverse sm:text-xl\">Would you like to start a project with us?</h2>",
+                  "html": "<h2 class=\"section-heading mt-4 text-ink\">How it fits together</h2>",
+                  "target": [
+                    ".max-w-4xl > .mb-8.translate-y-6.duration-700 > .text-center > .section-heading.mt-4"
+                  ]
+                },
+                {
+                  "html": "<h2 class=\"text-lg font-bold text-ink\">Related services</h2>",
+                  "target": [
+                    ".mb-6.text-center.translate-y-6 > .text-lg"
+                  ]
+                },
+                {
+                  "html": "<h2 class=\"text-lg font-bold text-on-inverse sm:text-xl\">Talk to a Zoho solution architect</h2>",
                   "target": [
                     ".sm\\:text-xl"
                   ]
@@ -4974,7 +5210,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"flex items-center gap-2 transition-colors duration-200 hover:text-accent\">",
           "target": [
-            ".hover\\:text-accent.gap-2:nth-child(2)"
+            ".hover\\:text-accent.gap-2.duration-200:nth-child(2)"
           ]
         },
         {
@@ -5149,7 +5385,7 @@
           "impact": null,
           "html": "<span class=\"section-eyebrow section-eyebrow--light mb-3\">Zoho</span>",
           "target": [
-            ".section-eyebrow"
+            ".section-eyebrow.section-eyebrow--light.mb-3"
           ]
         },
         {
@@ -5207,6 +5443,31 @@
             {
               "id": "color-contrast",
               "data": {
+                "fgColor": "#1d4ed8",
+                "bgColor": "#eff4fe",
+                "contrastRatio": 6.07,
+                "fontSize": "8.3pt (11px)",
+                "fontWeight": "bold",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 6.07"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"section-eyebrow section-eyebrow--light\">Where this fits</span>",
+          "target": [
+            ".gap-10.lg\\:grid-cols-2.max-w-5xl > .translate-y-0.opacity-100.duration-700:nth-child(1) > .section-eyebrow.section-eyebrow--light"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
                 "fgColor": "#0b1b33",
                 "bgColor": "#ffffff",
                 "contrastRatio": 17.22,
@@ -5222,9 +5483,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<h2 class=\"section-heading mt-4 text-ink\">What's included</h2>",
+          "html": "<h2 class=\"section-heading mt-4 text-ink\">Recruitment, attendance and payroll tracked in spreadsheets create errors and slow down every people process.</h2>",
           "target": [
-            ".section-heading"
+            ".translate-y-0.opacity-100.duration-700:nth-child(1) > .section-heading.mt-4"
           ]
         },
         {
@@ -5232,24 +5493,24 @@
             {
               "id": "color-contrast",
               "data": {
-                "fgColor": "#0b1b33",
+                "fgColor": "#1d4ed8",
                 "bgColor": "#ffffff",
-                "contrastRatio": 17.22,
-                "fontSize": "10.5pt (14px)",
+                "contrastRatio": 6.7,
+                "fontSize": "7.9pt (10.5px)",
                 "fontWeight": "bold",
                 "expectedContrastRatio": "4.5:1"
               },
               "relatedNodes": [],
               "impact": "serious",
-              "message": "Element has sufficient color contrast of 17.22"
+              "message": "Element has sufficient color contrast of 6.7"
             }
           ],
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<div class=\"mb-1 text-sm font-bold text-ink\">Zoho People</div>",
+          "html": "<div class=\"mb-2.5 text-[10.5px] font-bold uppercase tracking-wide text-primary\">Common use cases</div>",
           "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(1) > .card-interactive.p-5.h-full > .mb-1.text-ink.text-sm"
+            ".mb-2\\.5"
           ]
         },
         {
@@ -5272,34 +5533,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<p class=\"text-sm leading-relaxed text-ink-muted\">A complete HR platform that manages the full employee journey, from the day someone joins to the day they leave, with automated workflows and real-time reporting built in.</p>",
+          "html": "<li class=\"flex items-start gap-2.5 text-sm text-ink-muted\">",
           "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(1) > .card-interactive.p-5.h-full > .leading-relaxed"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#0b1b33",
-                "bgColor": "#ffffff",
-                "contrastRatio": 17.22,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "bold",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 17.22"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"mb-1 text-sm font-bold text-ink\">Zoho Recruit</div>",
-          "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(2) > .card-interactive.p-5.h-full > .mb-1.text-ink.text-sm"
+            ".translate-y-0.opacity-100.duration-700:nth-child(2) > ul > .items-start:nth-child(1)"
           ]
         },
         {
@@ -5322,34 +5558,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<p class=\"text-sm leading-relaxed text-ink-muted\">A recruitment management system that simplifies hiring for businesses and staffing agencies, from posting jobs to scheduling interviews and making offers.</p>",
+          "html": "<li class=\"flex items-start gap-2.5 text-sm text-ink-muted\">",
           "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(2) > .card-interactive.p-5.h-full > .leading-relaxed"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#0b1b33",
-                "bgColor": "#ffffff",
-                "contrastRatio": 17.22,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "bold",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 17.22"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<div class=\"mb-1 text-sm font-bold text-ink\">Zoho Payroll</div>",
-          "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(3) > .card-interactive.p-5.h-full > .mb-1.text-ink.text-sm"
+            ".items-start:nth-child(2)"
           ]
         },
         {
@@ -5372,9 +5583,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<p class=\"text-sm leading-relaxed text-ink-muted\">A reliable payroll solution that automates salary processing, tax calculations, and statutory compliance so every team member gets paid accurately and on time, every time.</p>",
+          "html": "<li class=\"flex items-start gap-2.5 text-sm text-ink-muted\">",
           "target": [
-            ".translate-y-0.opacity-100.duration-700:nth-child(3) > .card-interactive.p-5.h-full > .leading-relaxed"
+            ".items-start:nth-child(3)"
           ]
         },
         {
@@ -5475,31 +5686,6 @@
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-dynamics\">Dynamics 365</a>",
           "target": [
             "a[href$=\"/#tech-dynamics\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "fgColor": "#93a0bd",
-                "bgColor": "#0b1b33",
-                "contrastRatio": 6.56,
-                "fontSize": "10.5pt (14px)",
-                "fontWeight": "normal",
-                "expectedContrastRatio": "4.5:1"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has sufficient color contrast of 6.56"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a>",
-          "target": [
-            "a[href$=\"/#tech-salesforce\"]"
           ]
         },
         {
@@ -5624,7 +5810,7 @@
           "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#laptop-manufacturing-refurbishment\">Laptop Refurbishment</a>",
           "target": [
-            "div:nth-child(3) > ul > li:nth-child(3) > .hover\\:text-on-inverse"
+            "div:nth-child(3) > .space-y-2\\.5 > li:nth-child(3) > .hover\\:text-on-inverse.duration-200"
           ]
         },
         {
@@ -5699,7 +5885,7 @@
           "impact": null,
           "html": "<li class=\"flex items-start gap-2\">",
           "target": [
-            ".items-start"
+            ".space-y-2\\.5 > .items-start"
           ]
         },
         {
@@ -5724,7 +5910,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"transition-colors duration-200 hover:text-on-inverse\">admin@vectorwavetechnologies.com</a>",
           "target": [
-            "div:nth-child(4) > ul > li:nth-child(2) > .hover\\:text-on-inverse"
+            "div:nth-child(4) > .space-y-2\\.5 > li:nth-child(2) > .hover\\:text-on-inverse.duration-200"
           ]
         },
         {
@@ -5749,7 +5935,7 @@
           "impact": null,
           "html": "<a href=\"tel:+918791810555\" class=\"transition-colors duration-200 hover:text-on-inverse\">+91-8791810555</a>",
           "target": [
-            ".hover\\:text-on-inverse[href=\"tel:+918791810555\"]"
+            ".hover\\:text-on-inverse.duration-200[href=\"tel:+918791810555\"]"
           ]
         },
         {
@@ -5774,7 +5960,7 @@
           "impact": null,
           "html": "<span class=\"text-sm text-on-inverse-faint\">© 2026 VectorWave Technologies. All rights reserved.</span>",
           "target": [
-            ".text-on-inverse-faint:nth-child(1)"
+            ".text-on-inverse-faint.text-sm"
           ]
         },
         {
@@ -5797,9 +5983,9 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Salesforce · Odoo</span>",
+          "html": "<span class=\"text-xs text-on-inverse-faint\">Zoho Ecosystem · Microsoft Dynamics 365 · Odoo</span>",
           "target": [
-            ".text-on-inverse-faint:nth-child(2)"
+            ".text-on-inverse-faint.text-xs"
           ]
         },
         {
@@ -6239,7 +6425,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"flex items-center gap-2 transition-colors duration-200 hover:text-accent\">",
           "target": [
-            ".hover\\:text-accent.gap-2:nth-child(2)"
+            ".hover\\:text-accent.gap-2.duration-200:nth-child(2)"
           ]
         },
         {
@@ -6627,6 +6813,58 @@
             }
           ],
           "impact": null,
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/ai-integration\">",
+          "target": [
+            ".card-interactive.p-5[href$=\"ai-integration\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
+          "html": "<a class=\"group flex h-full flex-col card-interactive p-5 items-center text-center \" href=\"/services/web-development\">",
+          "target": [
+            ".card-interactive.p-5[href$=\"web-development\"]"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            }
+          ],
+          "all": [],
+          "none": [
+            {
+              "id": "focusable-no-name",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is not in tab order or has accessible text"
+            }
+          ],
+          "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-zoho\">Zoho</a>",
           "target": [
             "a[href$=\"/#tech-zoho\"]"
@@ -6656,32 +6894,6 @@
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-dynamics\">Dynamics 365</a>",
           "target": [
             "a[href$=\"/#tech-dynamics\"]"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "has-visible-text",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element has text that is visible to screen readers"
-            }
-          ],
-          "all": [],
-          "none": [
-            {
-              "id": "focusable-no-name",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is not in tab order or has accessible text"
-            }
-          ],
-          "impact": null,
-          "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a>",
-          "target": [
-            "a[href$=\"/#tech-salesforce\"]"
           ]
         },
         {
@@ -6785,7 +6997,7 @@
           "impact": null,
           "html": "<a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#laptop-manufacturing-refurbishment\">Laptop Refurbishment</a>",
           "target": [
-            "div:nth-child(3) > ul > li:nth-child(3) > .hover\\:text-on-inverse"
+            "div:nth-child(3) > .space-y-2\\.5 > li:nth-child(3) > .hover\\:text-on-inverse.duration-200"
           ]
         },
         {
@@ -6837,7 +7049,7 @@
           "impact": null,
           "html": "<a href=\"mailto:admin@vectorwavetechnologies.com\" class=\"transition-colors duration-200 hover:text-on-inverse\">admin@vectorwavetechnologies.com</a>",
           "target": [
-            "div:nth-child(4) > ul > li:nth-child(2) > .hover\\:text-on-inverse"
+            "div:nth-child(4) > .space-y-2\\.5 > li:nth-child(2) > .hover\\:text-on-inverse.duration-200"
           ]
         },
         {
@@ -6863,7 +7075,7 @@
           "impact": null,
           "html": "<a href=\"tel:+918791810555\" class=\"transition-colors duration-200 hover:text-on-inverse\">+91-8791810555</a>",
           "target": [
-            ".hover\\:text-on-inverse[href=\"tel:+918791810555\"]"
+            ".hover\\:text-on-inverse.duration-200[href=\"tel:+918791810555\"]"
           ]
         },
         {
@@ -6889,7 +7101,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(1)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(1)"
           ]
         },
         {
@@ -6915,7 +7127,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagra...\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"flex h-8 w-8 items-c...\">",
           "target": [
-            ".h-8.w-8.rounded-full:nth-child(2)"
+            ".h-8.w-8.border-on-inverse-border:nth-child(2)"
           ]
         }
       ]
@@ -6949,9 +7161,9 @@
             }
           ],
           "impact": null,
-          "html": "<ul class=\"space-y-2.5 text-sm text-on-inverse-muted\">",
+          "html": "<ul class=\"flex flex-col gap-2.5\">",
           "target": [
-            "div:nth-child(2) > ul"
+            ".translate-y-0.opacity-100.duration-700:nth-child(2) > ul"
           ]
         },
         {
@@ -6969,7 +7181,7 @@
           "impact": null,
           "html": "<ul class=\"space-y-2.5 text-sm text-on-inverse-muted\">",
           "target": [
-            "div:nth-child(3) > ul"
+            "div:nth-child(2) > .space-y-2\\.5"
           ]
         },
         {
@@ -6987,7 +7199,25 @@
           "impact": null,
           "html": "<ul class=\"space-y-2.5 text-sm text-on-inverse-muted\">",
           "target": [
-            "div:nth-child(4) > ul"
+            "div:nth-child(3) > .space-y-2\\.5"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "only-listitems",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "List element only has direct children that are allowed inside <li> elements"
+            }
+          ],
+          "impact": null,
+          "html": "<ul class=\"space-y-2.5 text-sm text-on-inverse-muted\">",
+          "target": [
+            "div:nth-child(4) > .space-y-2\\.5"
           ]
         }
       ]
@@ -7021,9 +7251,63 @@
           "all": [],
           "none": [],
           "impact": null,
+          "html": "<li class=\"flex items-start gap-2.5 text-sm text-ink-muted\">",
+          "target": [
+            ".translate-y-0.opacity-100.duration-700:nth-child(2) > ul > .items-start:nth-child(1)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "listitem",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<li class=\"flex items-start gap-2.5 text-sm text-ink-muted\">",
+          "target": [
+            ".items-start:nth-child(2)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "listitem",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<li class=\"flex items-start gap-2.5 text-sm text-ink-muted\">",
+          "target": [
+            ".items-start:nth-child(3)"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "listitem",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "List item has a <ul>, <ol> or role=\"list\" parent element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-zoho\">Zoho</a></li>",
           "target": [
-            "div:nth-child(2) > ul > li:nth-child(1)"
+            "div:nth-child(2) > .space-y-2\\.5 > li:nth-child(1)"
           ]
         },
         {
@@ -7041,25 +7325,7 @@
           "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-dynamics\">Dynamics 365</a></li>",
           "target": [
-            "div:nth-child(2) > ul > li:nth-child(2)"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "listitem",
-              "data": null,
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "List item has a <ul>, <ol> or role=\"list\" parent element"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
-          "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-salesforce\">Salesforce</a></li>",
-          "target": [
-            "div:nth-child(2) > ul > li:nth-child(3)"
+            "div:nth-child(2) > .space-y-2\\.5 > li:nth-child(2)"
           ]
         },
         {
@@ -7077,7 +7343,7 @@
           "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/#tech-odoo\">Odoo</a></li>",
           "target": [
-            "div:nth-child(2) > ul > li:nth-child(4)"
+            "div:nth-child(2) > .space-y-2\\.5 > li:nth-child(3)"
           ]
         },
         {
@@ -7095,7 +7361,7 @@
           "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#ev-manufacturing\">EV Manufacturing</a></li>",
           "target": [
-            "div:nth-child(3) > ul > li:nth-child(1)"
+            "div:nth-child(3) > .space-y-2\\.5 > li:nth-child(1)"
           ]
         },
         {
@@ -7113,7 +7379,7 @@
           "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#real-estate\">Real Estate</a></li>",
           "target": [
-            "div:nth-child(3) > ul > li:nth-child(2)"
+            "div:nth-child(3) > .space-y-2\\.5 > li:nth-child(2)"
           ]
         },
         {
@@ -7131,7 +7397,7 @@
           "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#laptop-manufacturing-refurbishment\">Laptop Refurbishment</a></li>",
           "target": [
-            "div:nth-child(3) > ul > li:nth-child(3)"
+            "div:nth-child(3) > .space-y-2\\.5 > li:nth-child(3)"
           ]
         },
         {
@@ -7149,7 +7415,7 @@
           "impact": null,
           "html": "<li><a class=\"transition-colors duration-200 hover:text-on-inverse\" href=\"/services#trading-distribution\">Trading</a></li>",
           "target": [
-            "div:nth-child(3) > ul > li:nth-child(4)"
+            "li:nth-child(4)"
           ]
         },
         {
@@ -7167,7 +7433,7 @@
           "impact": null,
           "html": "<li class=\"flex items-start gap-2\">",
           "target": [
-            ".items-start"
+            ".space-y-2\\.5 > .items-start"
           ]
         },
         {
@@ -7185,7 +7451,7 @@
           "impact": null,
           "html": "<li class=\"flex items-center gap-2\">",
           "target": [
-            "div:nth-child(4) > ul > li:nth-child(2)"
+            "div:nth-child(4) > .space-y-2\\.5 > li:nth-child(2)"
           ]
         },
         {
@@ -7203,7 +7469,7 @@
           "impact": null,
           "html": "<li class=\"flex items-center gap-2\">",
           "target": [
-            "div:nth-child(4) > ul > li:nth-child(3)"
+            "div:nth-child(4) > .space-y-2\\.5 > li:nth-child(3)"
           ]
         }
       ]
@@ -7312,7 +7578,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Book free consultation</button>",
+          "html": "<button type=\"button\" class=\"btn btn-primary btn--md mt-5\">Talk to a Zoho solution architect</button>",
           "target": [
             ".btn--md"
           ]

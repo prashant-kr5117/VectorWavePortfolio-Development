@@ -83,7 +83,7 @@ export function PlatformCredibilitySection() {
           <span className={`${manrope.className} text-[15px] font-extrabold tracking-[0.02em] text-[#191D23]`}>
             Zoho
           </span>
-          {["Microsoft Dynamics 365", "Salesforce", "Odoo"].map((p) => (
+          {["Microsoft Dynamics 365", "Odoo"].map((p) => (
             <span key={p} className={`${manrope.className} text-[15px] font-extrabold tracking-[0.02em] text-[#59616B]`}>
               {p}
             </span>

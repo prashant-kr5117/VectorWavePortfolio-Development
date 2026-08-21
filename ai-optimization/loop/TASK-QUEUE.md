@@ -139,7 +139,27 @@ expectations) sit near the form itself, per `BRAND_GUIDELINES.md`'s "proof near 
 claim" principle applied to conversion context.
 **Risk:** Low for an audit. Implementation risk depends on findings.
 **Business decision required?** Unlikely, unless findings surface an unverified claim.
-**Status:** Open — needs a fresh audit iteration.
+**Status:** Done — resolved by Iteration 006 (2026-08-21). Audit found the form itself
+solid (proper labels, loading/success/error states, stated response-time expectation)
+and trust signals already sit next to the form (office-location card in the same grid
+row). Real finding: the page stacked 3 competing contact mechanisms (header "Book a
+call," the form, and a redundant bottom `<CTA />` band) — removed the redundant CTA
+band from this page only. See `ai-optimization/iterations/ITERATION-006.md`.
+
+---
+
+### Q-015
+**Priority:** P3
+**Area:** Accessibility / Form UX — Contact page
+**Problem:** `ContactForm.tsx`'s `firstName`/`lastName`/`email` inputs have no
+`autocomplete` attribute (`given-name`/`family-name`/`email`).
+**Evidence:** Direct code read during Iteration 006's Q-006 audit. Not caught by axe
+(not part of its default violation set), which is why no prior workstream flagged it.
+**Proposed solution:** Add the 3 corresponding `autocomplete` values — a WCAG 2.1 SC
+1.3.5 best practice, also improves browser autofill convenience.
+**Risk:** Low — attribute-only, no behavior change.
+**Business decision required?** No.
+**Status:** Open.
 
 ---
 

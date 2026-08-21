@@ -154,3 +154,16 @@ After Score: Brand Consistency 63/100 (+1). Overall 77.44 -> 77.51.
 Regressions: None -- build/type-check/lint clean, health-check and axe pass on representative blog routes, visual review confirms clean 2-line wrap on mobile, no content/business-fact change.
 Decision: ACCEPT -- see ITERATION-005.md "Reason".
 Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md. Committed locally. Not pushed.
+
+### Iteration: 006 -- Remove redundant CTA from Contact page (Q-006 audit + fix)
+Date: 2026-08-21
+Branch/Commit: main (VectorWavePortfolio-Development repo), committed locally, not pushed
+Target: app/contact/page.tsx (CTA import + usage only)
+Problem: Fresh audit of the Contact page (never a dedicated workstream target) found the form itself solid, but the page stacked 3 competing contact mechanisms: the header's persistent "Book a call" button, the contact form, and a redundant bottom <CTA/> band ("Book free consultation") -- on the one page whose entire purpose is already "contact us."
+Proposed Change: Removed the <CTA/> section from the Contact page only; the shared component is untouched and still correctly used on every other page as their sole conversion mechanism. Also found and queued (not implemented) a ContactForm autocomplete-attribute gap as new item Q-015.
+Reason: See ai-optimization/iterations/ITERATION-006.md for full detail.
+Before Score: Conversion/CRO 74/100, UX 78/100 (Iteration 002 baseline, unchanged since).
+After Score: Conversion/CRO 77/100 (+3), UX 79/100 (+1). Overall 77.51 -> 78.04.
+Regressions: None -- build/type-check/lint clean, health-check and axe pass (0 violations), before/after screenshots (desktop+mobile) confirm no layout gap or regression, form itself untouched and unchanged, no business-fact/URL change.
+Decision: ACCEPT -- see ITERATION-006.md "Reason".
+Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md. Committed locally. Not pushed.

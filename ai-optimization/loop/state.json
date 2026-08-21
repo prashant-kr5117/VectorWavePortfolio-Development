@@ -1,19 +1,19 @@
 {
-  "current_iteration": 6,
+  "current_iteration": 7,
   "current_task": null,
   "status": "idle",
   "mode": "STANDARD",
   "last_score": {
-    "overall": 77.51,
-    "source": "Iteration 005 partial re-score (Brand Consistency +1). See ai-optimization/iterations/ITERATION-005.md.",
+    "overall": 78.04,
+    "source": "Iteration 006 partial re-score (Conversion/CRO +3, UX +1). See ai-optimization/iterations/ITERATION-006.md.",
     "as_of": "2026-08-21"
   },
   "best_score": {
-    "overall": 77.51,
-    "source": "Iteration 005 partial re-score (Brand Consistency +1) applied on top of Iteration 004's 77.44. See ai-optimization/iterations/ITERATION-005.md through ITERATION-001.md, and ai-optimization/reports/Q-002-FULL-RESCORE.md.",
-    "as_of": "2026-08-21 (post-Iteration-005)"
+    "overall": 78.04,
+    "source": "Iteration 006 partial re-score (Conversion/CRO +3, UX +1) applied on top of Iteration 005's 77.51. See ai-optimization/iterations/ITERATION-006.md through ITERATION-001.md, and ai-optimization/reports/Q-002-FULL-RESCORE.md.",
+    "as_of": "2026-08-21 (post-Iteration-006)"
   },
-  "last_commit": "a63bfaf41ffb55be75cb45bc170d80e3592ea76f",
+  "last_commit": "PENDING_ITERATION_006_COMMIT",
   "consecutive_no_improvement": 0,
   "human_decision_required": false,
   "human_decision_reason": null,

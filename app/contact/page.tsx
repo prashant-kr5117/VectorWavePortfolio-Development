@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
 import ContactForm from "@/components/ContactForm";
 import JsonLd from "@/components/JsonLd";
@@ -138,8 +137,6 @@ export default function ContactPage() {
             </div>
           </div>
         </section>
-
-        <CTA />
       </main>
     </>
   );

@@ -102,3 +102,16 @@ After Score: Accessibility 96/100. axe: blog-index violations 2→0; only the un
 Regressions: None — 31/31 health checks pass, 0 new axe violations on any route, build/type-check/lint clean (2 pre-existing, untouched-file ESLint errors only), no business-fact/URL change, visual review of blog-index (all 5 viewports) + homepage/about/services-index (desktop) found no layout/hierarchy regression.
 Decision: ACCEPT — see ITERATION-001.md "Reason".
 Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md — committed locally per the loop's git model (ai-optimization/loop/README.md "Git model": commits are expected, pushing is not). Not pushed.
+
+### Iteration: 002 — Sequenced motion for TechnologyEcosystemVisual (direct human request)
+Date: 2026-08-21
+Branch/Commit: main (VectorWavePortfolio-Development repo), committed locally, not pushed
+Target: components/sections/TechnologyEcosystemVisual.tsx; package.json/package-lock.json (new dependency: motion@13.1.1, explicitly approved by the human this session)
+Problem: The homepage's "How the pieces connect" flow diagram had a dead stagger attempt (transitionDelay set on a CSS keyframe animation, which transitionDelay cannot affect) that also fired at mount instead of on scroll-into-view — net effect, all 5 stages appeared simultaneously instead of in sequence.
+Proposed Change: Rebuilt the reveal using the `motion` library — staggerChildren + spring transitions (stiffness/damping values matching motion.dev/ui's own published UI defaults), wrapped in MotionConfig reducedMotion="user" since Motion's JS-driven animation isn't reached by the site's existing CSS-based prefers-reduced-motion rule.
+Reason: See ai-optimization/iterations/ITERATION-002.md for full detail, including ground-truth in-browser timing measurement proving the fix.
+Before Score: UX 76/100, Visual Design 78/100, Performance 70/100 (Iteration 001 baseline). Overall 76.69.
+After Score: UX 78/100, Visual Design 80/100, Performance 70/100 (unchanged — bundle-size delta not measured this iteration). Overall 76.69 → 77.09.
+Regressions: None — build/type-check clean, same 2 pre-existing untouched-file ESLint errors, homepage health-check and axe both pass (0 violations), new dependency confirmed to add 0 new npm-audit findings (4 clean packages), no business-fact/URL/layout change, visual review of homepage (desktop + mobile, final settled state) found no regression.
+Decision: ACCEPT — see ITERATION-002.md "Reason".
+Human Approval: New dependency explicitly approved via AskUserQuestion this session (SAFETY_RULES.md requirement). Committed locally per the loop's git model. Not pushed.

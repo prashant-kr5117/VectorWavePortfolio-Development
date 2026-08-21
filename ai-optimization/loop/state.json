@@ -13,7 +13,7 @@
     "source": "Iteration 006 partial re-score (Conversion/CRO +3, UX +1) applied on top of Iteration 005's 77.51. See ai-optimization/iterations/ITERATION-006.md through ITERATION-001.md, and ai-optimization/reports/Q-002-FULL-RESCORE.md.",
     "as_of": "2026-08-21 (post-Iteration-006)"
   },
-  "last_commit": "PENDING_ITERATION_006_COMMIT",
+  "last_commit": "ab5c3882b246a9f190259ea5284c24254fdaf98d",
   "consecutive_no_improvement": 0,
   "human_decision_required": false,
   "human_decision_reason": null,

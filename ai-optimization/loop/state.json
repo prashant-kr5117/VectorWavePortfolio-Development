@@ -13,7 +13,7 @@
     "source": "Iteration 002 partial re-score (UX +2, Visual Design +2) applied on top of Iteration 001's 76.69. See ai-optimization/iterations/ITERATION-002.md, ITERATION-001.md, and ai-optimization/reports/Q-002-FULL-RESCORE.md.",
     "as_of": "2026-08-21 (post-Iteration-002)"
   },
-  "last_commit": "PENDING_ITERATION_002_COMMIT",
+  "last_commit": "ad11e3255a9a9a824b02f43acd6267ceb12bc24c",
   "consecutive_no_improvement": 0,
   "human_decision_required": false,
   "human_decision_reason": null,

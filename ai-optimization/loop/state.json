@@ -1,19 +1,19 @@
 {
-  "current_iteration": 7,
+  "current_iteration": 8,
   "current_task": null,
   "status": "idle",
   "mode": "STANDARD",
   "last_score": {
-    "overall": 78.04,
-    "source": "Iteration 006 partial re-score (Conversion/CRO +3, UX +1). See ai-optimization/iterations/ITERATION-006.md.",
+    "overall": 78.27,
+    "source": "Iteration 007 partial re-score (Content +1, Trust/Proof +1). See ai-optimization/iterations/ITERATION-007.md.",
     "as_of": "2026-08-21"
   },
   "best_score": {
-    "overall": 78.04,
-    "source": "Iteration 006 partial re-score (Conversion/CRO +3, UX +1) applied on top of Iteration 005's 77.51. See ai-optimization/iterations/ITERATION-006.md through ITERATION-001.md, and ai-optimization/reports/Q-002-FULL-RESCORE.md.",
-    "as_of": "2026-08-21 (post-Iteration-006)"
+    "overall": 78.27,
+    "source": "Iteration 007 partial re-score (Content +1, Trust/Proof +1) applied on top of Iteration 006's 78.04. See ai-optimization/iterations/ITERATION-007.md through ITERATION-001.md, and ai-optimization/reports/Q-002-FULL-RESCORE.md.",
+    "as_of": "2026-08-21 (post-Iteration-007)"
   },
-  "last_commit": "ab5c3882b246a9f190259ea5284c24254fdaf98d",
+  "last_commit": "PENDING_ITERATION_007_COMMIT",
   "consecutive_no_improvement": 0,
   "human_decision_required": false,
   "human_decision_reason": null,

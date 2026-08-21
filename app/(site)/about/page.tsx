@@ -109,11 +109,11 @@ const process = [
 ];
 
 const whyChooseUs = [
-  "Best Quality Designs",
+  "Clean, Purposeful Design",
   "24x7 Live Support",
   "Result Oriented Projects",
   "Dedicated, Hands-On Support",
-  "Best ROI Techniques",
+  "ROI-Focused Delivery",
   "Experienced Professionals",
 ];
 

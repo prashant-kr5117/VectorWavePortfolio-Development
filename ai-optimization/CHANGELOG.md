@@ -167,3 +167,16 @@ After Score: Conversion/CRO 77/100 (+3), UX 79/100 (+1). Overall 77.51 -> 78.04.
 Regressions: None -- build/type-check/lint clean, health-check and axe pass (0 violations), before/after screenshots (desktop+mobile) confirm no layout gap or regression, form itself untouched and unchanged, no business-fact/URL change.
 Decision: ACCEPT -- see ITERATION-006.md "Reason".
 Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md. Committed locally. Not pushed.
+
+### Iteration: 007 -- Rewrite generic superlatives in About page "Why choose us" (Q-009)
+Date: 2026-08-21
+Branch/Commit: main (VectorWavePortfolio-Development repo), committed locally, not pushed
+Target: app/(site)/about/page.tsx (whyChooseUs array, 2 of 6 items)
+Problem: "Best Quality Designs" and "Best ROI Techniques" are unranked superlatives with no supporting award/certification/ranking, flagged but not fixed during Workstream 5 (TRUST-FACT-AUDIT.md Section 3).
+Proposed Change: "Best Quality Designs" -> "Clean, Purposeful Design"; "Best ROI Techniques" -> "ROI-Focused Delivery" -- same pattern as the "Award Winning Support Team" -> "Dedicated, Hands-On Support" fix already present elsewhere in this same list.
+Reason: See ai-optimization/iterations/ITERATION-007.md for full detail.
+Before Score: Content 72/100, Trust/Proof 70/100 (Iteration 001 baseline, unchanged since).
+After Score: Content 73/100 (+1), Trust/Proof 71/100 (+1). Overall 78.04 -> 78.27.
+Regressions: None -- build/type-check/lint clean, health-check and axe pass (0 violations), visual review confirms clean render in the 6-item grid, no business-fact asserted or removed.
+Decision: ACCEPT -- see ITERATION-007.md "Reason".
+Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md. Committed locally. Not pushed.

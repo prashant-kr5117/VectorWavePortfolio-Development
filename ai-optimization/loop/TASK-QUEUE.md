@@ -212,7 +212,10 @@ describing an actual practice rather than an unranked superlative) — same patt
 used for "Award Winning Support Team" → "Dedicated, Hands-On Support" in Workstream 5.
 **Risk:** Low — copy-only change, no claim requiring verification either before or after.
 **Business decision required?** No.
-**Status:** Open.
+**Status:** Done — resolved by Iteration 007 (2026-08-21). "Best Quality Designs" →
+"Clean, Purposeful Design"; "Best ROI Techniques" → "ROI-Focused Delivery" — same
+pattern as Workstream 5's "Award Winning Support Team" → "Dedicated, Hands-On Support"
+already in this list. See `ai-optimization/iterations/ITERATION-007.md`.
 
 ---
 

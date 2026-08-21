@@ -1,7 +1,7 @@
 [
   {
-    "routeId": "contact",
-    "path": "/contact",
+    "routeId": "about",
+    "path": "/about",
     "violationCount": 0,
     "violationsBySeverity": {},
     "violationIds": []

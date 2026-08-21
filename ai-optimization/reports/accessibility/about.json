@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-21T10:26:56.916Z",
+  "timestamp": "2026-08-21T15:35:23.042Z",
   "url": "http://localhost:3100/about",
   "toolOptions": {
     "runOnly": {
@@ -2930,7 +2930,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<span aria-hidden=\"true\"><span>Engineering ERP systems t</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
+          "html": "<span aria-hidden=\"true\"><span>Engineering ERP systems that drive bu</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
           "target": [
             "h1 > span > span:nth-child(1)"
           ]
@@ -8008,7 +8008,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span>Engineering ERP systems t</span>",
+          "html": "<span>Engineering ERP systems that drive bu</span>",
           "target": [
             "span > span:nth-child(1) > span:nth-child(1)"
           ],

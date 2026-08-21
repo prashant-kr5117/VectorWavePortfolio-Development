@@ -28,8 +28,9 @@ performs.
 **Business decision required?** No (process decision, not a factual claim) — but still
 requires a human, since committing on someone's behalf without asking violates this
 repo's own git-safety convention.
-**Status:** Open — blocks all other tasks below from being *executed* (they can still be
-queued/prioritized).
+**Status:** Done — resolved 2026-08-21. Human committed the baseline as `af99005`
+("feat: complete VectorWave optimization baseline", 351 files). See `HUMAN-DECISIONS.md`
+H-1 resolution.
 
 ---
 
@@ -46,7 +47,9 @@ the current (post-commit) state, using the evidence sources in the scoring works
 Update `state.json.best_score`.
 **Risk:** Low — this is measurement, not a website change. No revert path needed.
 **Business decision required?** No.
-**Status:** Open, blocked on Q-001.
+**Status:** Done — resolved 2026-08-21. Full re-score against committed baseline
+`af99005` complete: overall 62.92 → 76.37. See
+`ai-optimization/reports/Q-002-FULL-RESCORE.md` for per-category evidence.
 
 ---
 

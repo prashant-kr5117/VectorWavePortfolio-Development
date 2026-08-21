@@ -1,18 +1,18 @@
 {
-  "current_iteration": 0,
+  "current_iteration": 1,
   "current_task": null,
-  "status": "not_started",
+  "status": "idle",
   "mode": "STANDARD",
   "last_score": null,
   "best_score": {
-    "overall": 62.92,
-    "source": "Computed from ai-optimization/BASELINE.md's per-category scores, weighted per ai-optimization/EVALUATION_RUBRIC.md's 11-category model (Information Architecture excluded from the weighted sum per the rubric's own note). This is the Stage 2 source-level baseline, NOT re-scored since — Workstreams 1-5 measured deltas via axe/Lighthouse/screenshots but never recomputed a full weighted rubric score. See ROADMAP.md Task R-0.",
-    "as_of": "2026-08-20 (Stage 2 baseline, pre-Workstream-1)"
+    "overall": 76.37,
+    "source": "Full re-score against committed baseline af99005ce394ec8e9ec3b103102b2f92d1c4805d, per ai-optimization/loop/TASK-QUEUE.md Q-002. See ai-optimization/reports/Q-002-FULL-RESCORE.md for per-category evidence and reasoning. Supersedes the prior 62.92 Stage-2 source-level baseline.",
+    "as_of": "2026-08-21 (post-Workstream-5, post-baseline-commit)"
   },
-  "last_commit": null,
+  "last_commit": "af99005ce394ec8e9ec3b103102b2f92d1c4805d",
   "consecutive_no_improvement": 0,
-  "human_decision_required": true,
-  "human_decision_reason": "Pre-flight blocker recorded in ai-optimization/loop/HUMAN-DECISIONS.md item H-1: the working tree currently holds 77 uncommitted files spanning Workstreams 1-5 (last real commit is 9b6ba44, docs-only). The loop's git-checkpoint/revert model (CONTROLLER.md Step 7, STOP-CONDITIONS.md) requires a clean, human-reviewed baseline commit to diff against. The loop must not create its first checkpoint, and therefore must not run its first iteration, until a human reviews and commits (or explicitly discards) this existing work.",
+  "human_decision_required": false,
+  "human_decision_reason": null,
   "last_updated": "2026-08-21T00:00:00+05:30",
   "notes": "This file is the loop's single source of truth for where it left off. Updated only by the controller at the end of Step 15/16 of ai-optimization/loop/CONTROLLER.md, or by a human resetting state after a manual intervention. See ai-optimization/loop/README.md for the full state-file contract."
 }

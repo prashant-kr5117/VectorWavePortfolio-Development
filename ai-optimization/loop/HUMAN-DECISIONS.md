@@ -20,23 +20,26 @@ legal/compliance uncertainty.
 
 **Category:** Destructive architecture / process safety (git model)
 **Raised:** 2026-08-21, during controller setup
-**Status:** OPEN — blocks all loop iterations (`state.json.human_decision_required = true`)
+**Status:** RESOLVED — option (a): the human reviewed and committed the baseline.
 
-The working tree currently holds **77 uncommitted files** spanning Workstreams 1-5 (the
-last real commit is `9b6ba44`, a docs-only commit — "docs: define homepage master plan").
+The working tree held **77 uncommitted files** spanning Workstreams 1-5 (the last real
+commit was `9b6ba44`, a docs-only commit — "docs: define homepage master plan").
 `CONTROLLER.md` Step 7's checkpoint model, and every REVERT path in `STOP-CONDITIONS.md`,
-assume the loop's first checkpoint is a clean, human-reviewed `HEAD`. Right now that
-isn't true: a `git reset --hard` at any point would discard five workstreams of
-real, already-validated work, and the loop has no way to distinguish "its own" changes
-from this pre-existing uncommitted work using git alone.
+require the loop's first checkpoint to be a clean, human-reviewed `HEAD`.
 
-**Decision needed:** a human should review Workstreams 1-5's accumulated changes (see
-`CHANGELOG.md` for the full list, `WORKSTREAM-01-RESULT.md` through `WORKSTREAM-05-RESULT.md`
-for per-workstream detail) and either:
-(a) commit them as a reviewed baseline (one commit or several, human's choice), or
-(b) explicitly instruct that specific files/changes be discarded before the baseline commit.
+**Decision needed:** a human should review Workstreams 1-5's accumulated changes and
+either (a) commit them as a reviewed baseline, or (b) explicitly instruct that specific
+files/changes be discarded before the baseline commit.
 
-**Resolution:** _(pending)_
+**Resolution:** Resolved 2026-08-21 — the human reviewed and committed the complete
+baseline (Workstreams 1-5 plus the loop's own governance files) as commit
+`af99005ce394ec8e9ec3b103102b2f92d1c4805d` ("feat: complete VectorWave optimization
+baseline", 351 files changed). Verified independently via `git status` (clean),
+`git log` (this commit is `HEAD`), and `git show --stat` (file list matches the
+Workstream 1-5 + loop-setup scope described above — no unrelated content). Confirmed
+already pushed to `origin` (`VectorWavePortfolio-Development`, the development repo —
+no production remote is configured in this working copy). This commit is now the loop's
+first checkpoint per `CONTROLLER.md` Step 7.
 
 ---
 

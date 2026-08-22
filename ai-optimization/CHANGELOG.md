@@ -180,3 +180,16 @@ After Score: Content 73/100 (+1), Trust/Proof 71/100 (+1). Overall 78.04 -> 78.2
 Regressions: None -- build/type-check/lint clean, health-check and axe pass (0 violations), visual review confirms clean render in the 6-item grid, no business-fact asserted or removed.
 Decision: ACCEPT -- see ITERATION-007.md "Reason".
 Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md. Committed locally. Not pushed.
+
+### Iteration: 008 -- Add autocomplete attributes to ContactForm (Q-015)
+Date: 2026-08-22
+Branch/Commit: main (VectorWavePortfolio-Development repo), committed locally, not pushed
+Target: components/ContactForm.tsx (3 input attributes)
+Problem: firstName/lastName/email inputs had no autocomplete attribute -- a WCAG 2.1 SC 1.3.5 gap, found during Iteration 006's Contact audit and queued as Q-015.
+Proposed Change: Added autoComplete="given-name"/"family-name"/"email". ContactForm also renders inside ConsultationModal (sitewide "Book a call" modal), so this was validated as a shared-component change (full 30-route suite), not scoped to /contact alone.
+Reason: See ai-optimization/iterations/ITERATION-008.md for full detail.
+Before Score: Accessibility 97/100 (Iteration 004 baseline, unchanged since).
+After Score: Accessibility 98/100 (+1). Overall 78.27 -> 78.35.
+Regressions: None -- build/type-check/lint clean, full 30-route health-check (31/31) and axe suite pass (0 new violations, only the pre-existing out-of-scope zoho-bundled-suite violation remains), visual review confirms no visible change (attribute-only).
+Decision: ACCEPT -- see ITERATION-008.md "Reason".
+Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md. Committed locally. Not pushed.

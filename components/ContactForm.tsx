@@ -74,6 +74,7 @@ export default function ContactForm() {
                 required
                 type="text"
                 name="firstName"
+                autoComplete="given-name"
                 placeholder="Jordan"
                 className="form-control"
               />
@@ -87,6 +88,7 @@ export default function ContactForm() {
                 required
                 type="text"
                 name="lastName"
+                autoComplete="family-name"
                 placeholder="Taylor"
                 className="form-control"
               />
@@ -102,6 +104,7 @@ export default function ContactForm() {
               required
               type="email"
               name="email"
+              autoComplete="email"
               placeholder="jordan@company.com"
               className="form-control"
             />

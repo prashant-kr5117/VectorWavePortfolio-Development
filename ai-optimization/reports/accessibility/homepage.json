@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-21T12:55:47.263Z",
+  "timestamp": "2026-08-21T15:48:50.313Z",
   "url": "http://localhost:3100/",
   "toolOptions": {
     "runOnly": {
@@ -5260,7 +5260,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<span aria-hidden=\"true\"><span>Powering Intelligent </span><span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Business F</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
+          "html": "<span aria-hidden=\"true\"><span>Powering Intelligent </span><span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Busines</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
           "target": [
             "span[aria-hidden=\"true\"]"
           ]
@@ -18998,7 +18998,7 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Business F</span>",
+                  "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Busines</span>",
                   "target": [
                     ".bg-gradient-to-r"
                   ]
@@ -19011,7 +19011,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Business F</span>",
+          "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Busines</span>",
           "target": [
             ".bg-gradient-to-r"
           ],

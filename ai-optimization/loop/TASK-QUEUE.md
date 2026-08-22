@@ -159,7 +159,10 @@ band from this page only. See `ai-optimization/iterations/ITERATION-006.md`.
 1.3.5 best practice, also improves browser autofill convenience.
 **Risk:** Low — attribute-only, no behavior change.
 **Business decision required?** No.
-**Status:** Open.
+**Status:** Done — resolved by Iteration 008 (2026-08-22). Added
+`given-name`/`family-name`/`email` autocomplete values; verified via full 30-route
+suite since `ContactForm` also renders inside the sitewide `ConsultationModal`. See
+`ai-optimization/iterations/ITERATION-008.md`.
 
 ---
 

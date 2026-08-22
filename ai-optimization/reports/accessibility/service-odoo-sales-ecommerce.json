@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-21T10:27:42.752Z",
+  "timestamp": "2026-08-21T15:49:58.626Z",
   "url": "http://localhost:3100/services/odoo-sales-ecommerce",
   "toolOptions": {
     "runOnly": {
@@ -4795,7 +4795,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
           "target": [
             "html"
           ]
@@ -5169,7 +5169,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
           "target": [
             "html"
           ]
@@ -6035,26 +6035,6 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<select class=\"goog-te-combo\" aria-label=\"Language Translate Widget\"><option value=\"\">Select Language</option><option value=\"nl\">Dutch</option></select>",
-          "target": [
-            "select"
-          ]
-        },
-        {
-          "any": [
-            {
-              "id": "color-contrast",
-              "data": {
-                "messageKey": "hidden"
-              },
-              "relatedNodes": [],
-              "impact": "serious",
-              "message": "Element is hidden"
-            }
-          ],
-          "all": [],
-          "none": [],
-          "impact": null,
           "html": "<input type=\"text\" name=\"sl\" id=\"goog-gt-votingInputSrcLang\">",
           "target": [
             "#goog-gt-votingInputSrcLang"
@@ -6224,7 +6204,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
           "target": [
             "html"
           ]
@@ -6263,7 +6243,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
           "target": [
             "html"
           ]
@@ -6302,7 +6282,7 @@
             }
           ],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"--zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc; height: 100%;\">",
           "target": [
             "html"
           ]

@@ -13,7 +13,7 @@
     "source": "Iteration 010 partial re-score applied on top of Iteration 009's 78.92, itself on Iteration 008's 78.35. See ai-optimization/iterations/ITERATION-010.md, ITERATION-009.md, and earlier iteration logs through ai-optimization/reports/Q-002-FULL-RESCORE.md.",
     "as_of": "2026-08-22 (post-Iteration-010)"
   },
-  "last_commit": "PENDING_ITERATION_009_COMMIT",
+  "last_commit": "37f14f17ef60ba04beba963f53d322fcdbc9df50",
   "consecutive_no_improvement": 0,
   "human_decision_required": false,
   "human_decision_reason": null,

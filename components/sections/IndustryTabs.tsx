@@ -15,40 +15,23 @@ export default function IndustryTabs() {
   const active = industries[activeIndustry];
 
   return (
-    <Reveal delay={100}>
-      <span className="inline-flex items-center gap-2 rounded-full border border-on-inverse-border bg-white/5 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-accent">
-        Industry experience
-      </span>
-      <h2 className="mt-4 text-xl font-bold leading-snug text-on-inverse sm:text-2xl">
-        Different industries.
-        <br />
-        <span className="text-on-inverse-muted">Different processes.</span>
-      </h2>
+    // self-start: see the identical comment in TechPlatformTabs.tsx -- CSS Grid items
+    // default to align-self: stretch, which breaks position: sticky reflow here too.
+    <div className="self-start">
+      <Reveal delay={100}>
+        <span className="inline-flex items-center gap-2 rounded-full border border-on-inverse-border bg-white/5 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-accent">
+          Industry experience
+        </span>
+        <h2 className="mt-4 text-xl font-bold leading-snug text-on-inverse sm:text-2xl">
+          Different industries.
+          <br />
+          <span className="text-on-inverse-muted">Different processes.</span>
+        </h2>
+      </Reveal>
 
-      <div role="tablist" aria-label="Industries" className="mt-6 flex flex-col">
-        {industries.map((ind, i) => {
-          const isActive = i === activeIndustry;
-          return (
-            <button
-              key={ind.slug}
-              type="button"
-              role="tab"
-              aria-selected={isActive}
-              onClick={() => setActiveIndustry(i)}
-              onMouseEnter={() => setActiveIndustry(i)}
-              onFocus={() => setActiveIndustry(i)}
-              className={`flex items-center gap-2.5 border-t border-on-inverse-border py-3 text-left text-[13.5px] font-bold transition-colors duration-200 last:border-b ${
-                isActive ? "text-on-inverse" : "text-on-inverse-muted hover:text-on-inverse"
-              }`}
-            >
-              <ind.icon size={14} className={isActive ? "text-accent" : "text-on-inverse-faint"} />
-              {ind.title}
-            </button>
-          );
-        })}
-      </div>
-
-      <div className="mt-6 rounded-xl border border-on-inverse-border bg-white/5 p-5">
+      {/* Deliberately NOT inside <Reveal> — see TechPlatformTabs.tsx's identical
+          comment: Reveal's scroll-in transform breaks position: sticky on descendants. */}
+      <div className="sticky top-20 z-10 mt-6 rounded-xl border border-on-inverse-border bg-ink-inverse-alt p-5 shadow-lg lg:top-28">
         <div key={activeIndustry} className="animate-[fade-in-up_0.4s_ease-out_backwards]">
           <p className="text-sm leading-relaxed text-on-inverse">{active.model}</p>
 
@@ -85,6 +68,29 @@ export default function IndustryTabs() {
           )}
         </div>
       </div>
-    </Reveal>
+
+      <div role="tablist" aria-label="Industries" className="mt-6 flex flex-col">
+        {industries.map((ind, i) => {
+          const isActive = i === activeIndustry;
+          return (
+            <button
+              key={ind.slug}
+              type="button"
+              role="tab"
+              aria-selected={isActive}
+              onClick={() => setActiveIndustry(i)}
+              onMouseEnter={() => setActiveIndustry(i)}
+              onFocus={() => setActiveIndustry(i)}
+              className={`flex items-center gap-2.5 border-t border-on-inverse-border py-3 text-left text-[13.5px] font-bold transition-colors duration-200 last:border-b ${
+                isActive ? "text-on-inverse" : "text-on-inverse-muted hover:text-on-inverse"
+              }`}
+            >
+              <ind.icon size={14} className={isActive ? "text-accent" : "text-on-inverse-faint"} />
+              {ind.title}
+            </button>
+          );
+        })}
+      </div>
+    </div>
   );
 }

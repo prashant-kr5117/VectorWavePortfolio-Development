@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-21T15:48:56.302Z",
+  "timestamp": "2026-08-22T13:46:00.343Z",
   "url": "http://localhost:3100/about",
   "toolOptions": {
     "runOnly": {
@@ -2930,7 +2930,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<span aria-hidden=\"true\"><span>Engineering ERP systems that drive b</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
+          "html": "<span aria-hidden=\"true\"><span>Engineering ERP systems that drive </span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
           "target": [
             "h1 > span > span:nth-child(1)"
           ]
@@ -5179,7 +5179,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"480\" height=\"228\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"753\" height=\"265\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
             "img[alt=\"Zoho\"]"
           ]
@@ -5211,7 +5211,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"623\" height=\"199\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
             "img[alt=\"Odoo\"]"
           ]
@@ -6689,7 +6689,7 @@
             }
           ],
           "impact": null,
-          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"480\" height=\"228\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"753\" height=\"265\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
             "img[alt=\"Zoho\"]"
           ]
@@ -6715,7 +6715,7 @@
             }
           ],
           "impact": null,
-          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"623\" height=\"199\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
             "img[alt=\"Odoo\"]"
           ]
@@ -7745,7 +7745,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"480\" height=\"228\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Zoho\" loading=\"lazy\" width=\"753\" height=\"265\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
             "img[alt=\"Zoho\"]"
           ]
@@ -7763,7 +7763,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"480\" height=\"480\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
+          "html": "<img alt=\"Odoo\" loading=\"lazy\" width=\"623\" height=\"199\" decoding=\"async\" data-nimg=\"1\" class=\"h-7 w-auto shrink-0 ...\" style=\"color:transparent\" srcset=\"/_next/image?url=%2F...\" src=\"/_next/image?url=%2F...\">",
           "target": [
             "img[alt=\"Odoo\"]"
           ]
@@ -8008,7 +8008,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span>Engineering ERP systems that drive b</span>",
+          "html": "<span>Engineering ERP systems that drive </span>",
           "target": [
             "span > span:nth-child(1) > span:nth-child(1)"
           ],

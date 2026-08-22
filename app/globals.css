@@ -227,7 +227,14 @@ body {
 }
 
 .animate-page-enter {
-  animation: page-enter 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+  /* "backwards" only (not "both"/"forwards") deliberately: the animation's end state
+     (opacity: 1, translateY(0)) is numerically identical to this element's un-animated
+     resting state, so dropping "forwards" costs nothing visually once the 0.4s
+     animation finishes -- but it matters functionally: any non-"none" transform left on
+     an ancestor (even translateY(0)) creates a new containing block per the CSS spec,
+     which silently breaks `position: sticky` on every descendant, sitewide, for the
+     rest of the page's life. This wraps every route (app/template.tsx). */
+  animation: page-enter 0.4s cubic-bezier(0.16, 1, 0.3, 1) backwards;
 }
 
 @keyframes blink {

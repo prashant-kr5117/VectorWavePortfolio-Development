@@ -193,3 +193,29 @@ After Score: Accessibility 98/100 (+1). Overall 78.27 -> 78.35.
 Regressions: None -- build/type-check/lint clean, full 30-route health-check (31/31) and axe suite pass (0 new violations, only the pre-existing out-of-scope zoho-bundled-suite violation remains), visual review confirms no visible change (attribute-only).
 Decision: ACCEPT -- see ITERATION-008.md "Reason".
 Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md. Committed locally. Not pushed.
+
+### Iteration: 009 -- Fix oversized/wrong logo assets (Performance Audit Finding 1)
+Date: 2026-08-22
+Branch/Commit: main (VectorWavePortfolio-Development repo), committed locally, not pushed
+Target: src/odoo_logo.png (binary replacement), src/GIF by Zoho.gif (deleted), components/sections/PartnerLogos.tsx
+Problem: src/odoo_logo.png was actually an 800KB, 86-frame animated WebP (a decorative promotional animation, no usable static frame), used in 4 components at 16-64px display size. src/GIF by Zoho.gif was a 1.47MB animated GIF used as the "Zoho" logo in PartnerLogos.tsx, explaining why About alone weighed ~3MB vs ~1.5MB elsewhere.
+Proposed Change: Sourced the real official Odoo logo from Wikimedia Commons (8.9KB, 98.9% smaller) per explicit human decision (AskUserQuestion). Swapped PartnerLogos.tsx's Zoho import to the already-correct src/zoho.png (26KB) instead of the GIF; deleted the now-unused GIF.
+Reason: See ai-optimization/iterations/ITERATION-009.md for full detail.
+Before Score: Performance 70/100, Trust/Proof 71/100, Visual Design 83/100.
+After Score: Performance 76/100 (+6), Trust/Proof 72/100 (+1), Visual Design 84/100 (+1). Overall 78.35 -> 78.92.
+Regressions: None -- build/type-check/lint clean, health-check and axe pass (0 violations), visual review confirms the real Odoo wordmark now renders correctly at every display size.
+Decision: ACCEPT -- see ITERATION-009.md "Reason".
+Human Approval: AskUserQuestion decision on logo sourcing this session. Committed locally per the loop's git model. Not pushed.
+
+### Iteration: 010 -- Fix sticky detail-panel visibility bug (direct human bug report)
+Date: 2026-08-22
+Branch/Commit: main (VectorWavePortfolio-Development repo), committed locally, not pushed
+Target: components/sections/TechPlatformTabs.tsx, IndustryTabs.tsx, HoverGlow.tsx, TechnologyAndIndustry.tsx, app/globals.css
+Problem: On the homepage's Technology and Industries sections, hovering a list item near the end of a long list (up to 17 industries) could leave its detail-preview panel scrolled out of view, depending on screen height.
+Proposed Change: Diagnosed and fixed 3 compounding CSS issues silently breaking position: sticky -- Reveal's scroll-in transform (translateY(0) still creates a containing block), HoverGlow's overflow-hidden (opted out via a new clip={false} prop, default unchanged elsewhere), and a sitewide app/template.tsx page-enter animation whose "both" fill-mode left a permanent transform on every page forever (fixed to "backwards" only, zero visual difference). Also fixed resulting visual ghosting (translucent panel backgrounds -> opaque bg-ink-inverse-alt) and an incidentally-discovered WCAG contrast failure on the "Flagship" badge (2.41:1 -> 7.14:1).
+Reason: See ai-optimization/iterations/ITERATION-010.md for full detail, including the ancestor-chain diagnostic methodology.
+Before Score: UX 79/100, Accessibility 98/100, Visual Design 84/100.
+After Score: UX 83/100 (+4), Accessibility 99/100 (+1), Visual Design 86/100 (+2). Overall 78.92 -> 79.62.
+Regressions: None in the final state -- full 30-route health-check (31/31) and axe suite pass (0 violations), behavioral verification confirms the actual last item in each list now keeps its detail panel visible, no business-fact/URL change.
+Decision: ACCEPT -- see ITERATION-010.md "Reason".
+Human Approval: Direct human bug report this session. Committed locally per the loop's git model. Not pushed.

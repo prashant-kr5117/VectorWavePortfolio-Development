@@ -56,20 +56,30 @@ export default function TechPlatformTabs() {
   const activePlatform = techPlatforms[activeTech];
 
   return (
-    <Reveal>
-      <span className="inline-flex items-center gap-2 rounded-full border border-on-inverse-border bg-white/5 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-accent">
-        Technology
-      </span>
-      <h2 className="mt-4 text-xl font-bold leading-snug text-on-inverse sm:text-2xl">
-        Technology should fit the business.
-        <br />
-        <span className="text-on-inverse-muted">Not the other way around.</span>
-      </h2>
+    // self-start: this is a CSS Grid item (TechnologyAndIndustry.tsx's 2-col grid).
+    // Grid items default to align-self: stretch, which is a well-documented cause of
+    // broken `position: sticky` reflow for descendants -- the sticky card's following
+    // siblings stop reflowing correctly when their grid-item ancestor is stretched.
+    <div className="self-start">
+      <Reveal>
+        <span className="inline-flex items-center gap-2 rounded-full border border-on-inverse-border bg-white/5 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-accent">
+          Technology
+        </span>
+        <h2 className="mt-4 text-xl font-bold leading-snug text-on-inverse sm:text-2xl">
+          Technology should fit the business.
+          <br />
+          <span className="text-on-inverse-muted">Not the other way around.</span>
+        </h2>
+      </Reveal>
 
-      <div className="mt-7 rounded-xl border border-accent/40 bg-gradient-to-br from-accent/15 to-primary/10 p-6">
+      {/* Deliberately NOT inside <Reveal> — Reveal applies a CSS transform to animate
+          in on scroll, and any non-"none" transform on an ancestor (even translate-y-0)
+          creates a new containing block, which silently breaks position: sticky on this
+          card. See the sticky comment below for why this card needs to stay pinned. */}
+      <div className="sticky top-20 z-10 mt-7 rounded-xl border border-accent/40 bg-ink-inverse-alt p-6 shadow-lg lg:top-28">
         <div key={activeTech} className="animate-[fade-in-up_0.4s_ease-out_backwards]">
           {activePlatform.badge && (
-            <span className="inline-block rounded-full bg-accent px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-on-inverse">
+            <span className="inline-block rounded-full bg-accent px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-ink">
               {activePlatform.badge}
             </span>
           )}
@@ -140,6 +150,6 @@ export default function TechPlatformTabs() {
         We recommend the platform based on business requirements, not
         on which one we&apos;d rather sell.
       </p>
-    </Reveal>
+    </div>
   );
 }

@@ -6,10 +6,17 @@ export default function HoverGlow({
   as = "div",
   children,
   className = "",
+  clip = true,
 }: {
   as?: "div" | "section" | "footer";
   children: ReactNode;
   className?: string;
+  /** Clips the glow to the element's box (needed for rounded-corner cards, so the glow
+   * doesn't visually poke past the rounded edges). Default true preserves existing
+   * behavior everywhere. Pass false when nothing needs corner-clipping and something
+   * inside needs `position: sticky` to work — `overflow` other than `visible` on any
+   * ancestor breaks sticky, a well-documented CSS gotcha. */
+  clip?: boolean;
 }) {
   const ref = useRef<HTMLElement>(null);
   const Component = as;
@@ -26,7 +33,7 @@ export default function HoverGlow({
     <Component
       ref={ref as never}
       onMouseMove={handleMove}
-      className={`group relative overflow-hidden ${className}`}
+      className={`group relative ${clip ? "overflow-hidden" : ""} ${className}`}
     >
       <div
         className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"

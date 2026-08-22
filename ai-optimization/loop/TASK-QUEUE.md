@@ -222,6 +222,52 @@ already in this list. See `ai-optimization/iterations/ITERATION-007.md`.
 
 ---
 
+### Q-016
+**Priority:** P2
+**Area:** Performance — sitewide
+**Problem:** `ai-optimization/reports/PERFORMANCE-AUDIT.md` identified 2 remaining
+top-3 fixes not yet implemented: (Fix #2) Google Translate/GTM's `lazyOnload` execution
+lands 5.5-7.5s into the page lifecycle and correlates with when LCP finally settles on
+every route — worth investigating whether Translate specifically can be deferred to
+load only on interaction with `LanguageSwitcher.tsx`. (Fix #3) shared JS chunks
+(`1eglloh0s_w8l.js`, `0jem183kvk9zx.js`) generate repeated long tasks and Lighthouse
+flags ~180-205KB "wasted" bytes per page — worth a code-splitting investigation.
+**Evidence:** `ai-optimization/reports/PERFORMANCE-AUDIT.md`, Findings 2 and 3, and the
+"Top 3 highest-impact fixes" section (Fix #1 already done — Iteration 009).
+**Proposed solution:** Not implementation-ready — needs its own investigation pass per
+fix (this is a research/audit task, same pattern as Q-005/Q-006 before their
+implementation iterations).
+**Risk:** Unknown until investigated — Fix #2 touches a sitewide third-party script,
+Fix #3 touches shared JS bundling; both need careful scoped validation.
+**Business decision required?** No.
+**Status:** Open — needs a fresh investigation iteration before an implementation
+iteration, per fix.
+
+---
+
+### Q-017
+**Priority:** P3
+**Area:** Technical Quality — sitewide
+**Problem:** Iteration 010 found and fixed a sitewide bug: `app/template.tsx`'s
+`.animate-page-enter` used `animation: ... both`, whose fill-mode left a permanent
+non-`none` transform on every page's root wrapper forever after the 0.4s entrance
+animation — silently breaking `position: sticky` for any descendant, sitewide, for as
+long as the loop's own iterations have existed (and likely since Workstream 2, when
+this animation was introduced). Now fixed (Iteration 010), but any *other* component
+that may have quietly attempted `position: sticky` before this fix (and silently failed,
+with no visible error) was never audited.
+**Evidence:** `ai-optimization/iterations/ITERATION-010.md` Finding 2.
+**Proposed solution:** `grep -rn "sticky" components app` for any other
+`position: sticky` usage sitewide (excluding the known-intentional `Header.tsx` sticky
+nav, which uses `top-0` and was already confirmed working); verify each renders/behaves
+as intended now that the root blocker is cleared.
+**Risk:** Low — this is an audit, not a change. Any findings would need their own
+scoped fix.
+**Business decision required?** No.
+**Status:** Open.
+
+---
+
 ## Blocked-on-human items (tracked here for completeness, not independently actionable)
 
 | ID | Area | Blocked on | See |

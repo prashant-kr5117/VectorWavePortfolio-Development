@@ -27,7 +27,16 @@ const visibilityQuestions = [
  */
 export default function TechnologyAndIndustry() {
   return (
-    <HoverGlow as="section" className="bg-ink-inverse px-4 py-20 sm:px-6 lg:px-10 lg:py-28">
+    // clip={false}: TechPlatformTabs/IndustryTabs each have a sticky detail panel that
+    // must stay pinned in the viewport while their tab list scrolls past. `overflow:
+    // hidden` on any ancestor breaks `position: sticky` (a well-documented CSS gotcha),
+    // and this section's glow effect is a full-bleed `inset-0` fill with no rounded
+    // corners to clip against, so nothing here actually needed the clip.
+    <HoverGlow
+      as="section"
+      clip={false}
+      className="bg-ink-inverse px-4 py-20 sm:px-6 lg:px-10 lg:py-28"
+    >
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-14 lg:grid-cols-2 lg:gap-16">
           <TechPlatformTabs />

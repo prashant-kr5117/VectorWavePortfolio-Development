@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-21T15:50:13.933Z",
+  "timestamp": "2026-08-22T13:47:04.712Z",
   "url": "http://localhost:3100/services/dynamics-365-sales",
   "toolOptions": {
     "runOnly": {
@@ -65,26 +65,6 @@
       "description": "Ensure aria-braillelabel and aria-brailleroledescription have a non-braille equivalent",
       "help": "aria-braille attributes must have a non-braille equivalent",
       "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-braille-equivalent?application=playwright",
-      "nodes": []
-    },
-    {
-      "id": "aria-command-name",
-      "impact": null,
-      "tags": [
-        "cat.aria",
-        "wcag2a",
-        "wcag412",
-        "TTv5",
-        "TT6.a",
-        "EN-301-549",
-        "EN-9.4.1.2",
-        "ACT",
-        "RGAAv4",
-        "RGAA-11.9.1"
-      ],
-      "description": "Ensure every ARIA button, link and menuitem has an accessible name",
-      "help": "ARIA commands must have an accessible name",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-command-name?application=playwright",
       "nodes": []
     },
     {
@@ -213,21 +193,6 @@
       "description": "Ensure every ARIA toggle field has an accessible name",
       "help": "ARIA toggle fields must have an accessible name",
       "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-toggle-field-name?application=playwright",
-      "nodes": []
-    },
-    {
-      "id": "aria-tooltip-name",
-      "impact": null,
-      "tags": [
-        "cat.aria",
-        "wcag2a",
-        "wcag412",
-        "EN-301-549",
-        "EN-9.4.1.2"
-      ],
-      "description": "Ensure every ARIA tooltip node has an accessible name",
-      "help": "ARIA tooltip nodes must have an accessible name",
-      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-tooltip-name?application=playwright",
       "nodes": []
     },
     {
@@ -845,7 +810,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -885,7 +850,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -1049,6 +1014,303 @@
               "next-route-announcer",
               "#__next-route-announcer__"
             ]
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"zsiq_theme1  \" data-id=\"zsalesiq\" role=\"complementary\" aria-label=\"Live chat widget\" position=\"right-bottom\" theme=\"pattern\">",
+          "target": [
+            ".zsiq_theme1"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<span class=\"siqico-chat zsiq-chat-icn\" id=\"zs_fl_chat\" aria-label=\"Chat Widget\" role=\"button\" tabindex=\"0\"></span>",
+          "target": [
+            "#zs_fl_chat"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"zsiq-float-tooltip \" id=\"zs-fl-tip\" role=\"tooltip\" aria-label=\"Live chat status\">",
+          "target": [
+            "#zs-fl-tip"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"zsiq-clr3 zsiq-elips\" data-zsqa=\"title\" aria-label=\"We're Online!\">We're Online!</div>",
+          "target": [
+            ".zsiq-clr3"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<p class=\"zsiq-clr6 zsiq-m0 zsiq-mT3 zsiq-elips zsiq-tultip-desc\" data-zsqa=\"subtitle\" aria-label=\"How may I help you today?\">How may I help you today?</p>",
+          "target": [
+            ".zsiq-clr6"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-allowed-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attributes are used correctly for the defined role"
+            },
+            {
+              "id": "aria-allowed-attr-elm",
+              "data": null,
+              "relatedNodes": [],
+              "message": "ARIA attributes are allowed for this element",
+              "impact": "critical"
+            },
+            {
+              "id": "aria-no-deprecated-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "No deprecated ARIA attributes are used"
+            }
+          ],
+          "none": [
+            {
+              "id": "aria-unsupported-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<em id=\"zs-tip-close\" class=\"siqico-close zsiq-tultip-close\" role=\"button\" tabindex=\"0\" aria-label=\"Close tooltip\"></em>",
+          "target": [
+            "#zs-tip-close"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aria-command-name",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "TTv5",
+        "TT6.a",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "ACT",
+        "RGAAv4",
+        "RGAA-11.9.1"
+      ],
+      "description": "Ensure every ARIA button, link and menuitem has an accessible name",
+      "help": "ARIA commands must have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-command-name?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"siqico-chat zsiq-chat-icn\" id=\"zs_fl_chat\" aria-label=\"Chat Widget\" role=\"button\" tabindex=\"0\"></span>",
+          "target": [
+            "#zs_fl_chat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<em id=\"zs-tip-close\" class=\"siqico-close zsiq-tultip-close\" role=\"button\" tabindex=\"0\" aria-label=\"Close tooltip\"></em>",
+          "target": [
+            "#zs-tip-close"
           ]
         }
       ]
@@ -1084,7 +1346,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -1102,7 +1364,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -1178,6 +1440,114 @@
               "next-route-announcer",
               "#__next-route-announcer__"
             ]
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq_theme1  \" data-id=\"zsalesiq\" role=\"complementary\" aria-label=\"Live chat widget\" position=\"right-bottom\" theme=\"pattern\">",
+          "target": [
+            ".zsiq_theme1"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"siqico-chat zsiq-chat-icn\" id=\"zs_fl_chat\" aria-label=\"Chat Widget\" role=\"button\" tabindex=\"0\"></span>",
+          "target": [
+            "#zs_fl_chat"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq-float-tooltip \" id=\"zs-fl-tip\" role=\"tooltip\" aria-label=\"Live chat status\">",
+          "target": [
+            "#zs-fl-tip"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq-clr3 zsiq-elips\" data-zsqa=\"title\" aria-label=\"We're Online!\">We're Online!</div>",
+          "target": [
+            ".zsiq-clr3"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"zsiq-clr6 zsiq-m0 zsiq-mT3 zsiq-elips zsiq-tultip-desc\" data-zsqa=\"subtitle\" aria-label=\"How may I help you today?\">How may I help you today?</p>",
+          "target": [
+            ".zsiq-clr6"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-conditional-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<em id=\"zs-tip-close\" class=\"siqico-close zsiq-tultip-close\" role=\"button\" tabindex=\"0\" aria-label=\"Close tooltip\"></em>",
+          "target": [
+            "#zs-tip-close"
           ]
         }
       ]
@@ -1218,6 +1588,78 @@
               "#__next-route-announcer__"
             ]
           ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"zsiq_theme1  \" data-id=\"zsalesiq\" role=\"complementary\" aria-label=\"Live chat widget\" position=\"right-bottom\" theme=\"pattern\">",
+          "target": [
+            ".zsiq_theme1"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<span class=\"siqico-chat zsiq-chat-icn\" id=\"zs_fl_chat\" aria-label=\"Chat Widget\" role=\"button\" tabindex=\"0\"></span>",
+          "target": [
+            "#zs_fl_chat"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"zsiq-float-tooltip \" id=\"zs-fl-tip\" role=\"tooltip\" aria-label=\"Live chat status\">",
+          "target": [
+            "#zs-fl-tip"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "deprecatedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "minor",
+              "message": "ARIA role is not deprecated"
+            }
+          ],
+          "impact": null,
+          "html": "<em id=\"zs-tip-close\" class=\"siqico-close zsiq-tultip-close\" role=\"button\" tabindex=\"0\" aria-label=\"Close tooltip\"></em>",
+          "target": [
+            "#zs-tip-close"
+          ]
         }
       ]
     },
@@ -1252,7 +1694,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<body class=\"min-h-full flex flex-col\">",
+          "html": "<body class=\"min-h-full flex flex-col\" style=\"position: relative; min-height: 100%; top: 0px;\">",
           "target": [
             "body"
           ]
@@ -1370,7 +1812,7 @@
           "impact": null,
           "html": "<svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M6.94 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0ZM7 8.48H3V21h4V8.48Zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-3.96 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.68-2.91V8.48Z\"></path></svg>",
           "target": [
-            "a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
+            "a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
           ]
         },
         {
@@ -1402,7 +1844,7 @@
           "impact": null,
           "html": "<svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"currentColor\" aria-hidden=\"true\">",
           "target": [
-            "a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
+            "a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"] > svg[width=\"17\"][height=\"17\"][fill=\"currentColor\"]"
           ]
         },
         {
@@ -2138,7 +2580,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".h-9 > .relative > .right-0.z-30.w-40 > .text-left.duration-150[type=\"button\"]:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
+            ".h-9 > .relative > .right-0.z-30.w-40 > .text-left.duration-150.w-full:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
           ]
         },
         {
@@ -2234,7 +2676,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(1) > .w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(1) > .w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2266,7 +2708,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(2) > .w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(2) > .w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2298,7 +2740,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(3) > .w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(3) > .w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2330,7 +2772,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-chevron-down transition-transform duration-200\" aria-hidden=\"true\">",
           "target": [
-            "div:nth-child(4) > .w-full > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
+            "div:nth-child(4) > .w-full.justify-between > .lucide-chevron-down[height=\"14\"][width=\"14\"]"
           ]
         },
         {
@@ -2458,7 +2900,7 @@
           "impact": null,
           "html": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-check text-primary\" aria-hidden=\"true\"><path d=\"M20 6 9 17l-5-5\"></path></svg>",
           "target": [
-            ".border-t.pt-3.mt-2:nth-child(7) > .relative > .right-0.z-30.w-40 > .text-left.duration-150[type=\"button\"]:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
+            ".border-t.pt-3.mt-2:nth-child(7) > .relative > .right-0.z-30.w-40 > .text-left.duration-150.w-full:nth-child(1) > .lucide-check.text-primary[height=\"14\"]"
           ]
         },
         {
@@ -3137,7 +3579,7 @@
     },
     {
       "id": "aria-prohibited-attr",
-      "impact": null,
+      "impact": "serious",
       "tags": [
         "cat.aria",
         "wcag2a",
@@ -3166,7 +3608,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -3184,7 +3626,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -3261,6 +3703,78 @@
               "#__next-route-announcer__"
             ]
           ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"zsiq_theme1  \" data-id=\"zsalesiq\" role=\"complementary\" aria-label=\"Live chat widget\" position=\"right-bottom\" theme=\"pattern\">",
+          "target": [
+            ".zsiq_theme1"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<span class=\"siqico-chat zsiq-chat-icn\" id=\"zs_fl_chat\" aria-label=\"Chat Widget\" role=\"button\" tabindex=\"0\"></span>",
+          "target": [
+            "#zs_fl_chat"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"zsiq-float-tooltip \" id=\"zs-fl-tip\" role=\"tooltip\" aria-label=\"Live chat status\">",
+          "target": [
+            "#zs-fl-tip"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "ARIA attribute is allowed"
+            }
+          ],
+          "impact": null,
+          "html": "<em id=\"zs-tip-close\" class=\"siqico-close zsiq-tultip-close\" role=\"button\" tabindex=\"0\" aria-label=\"Close tooltip\"></em>",
+          "target": [
+            "#zs-tip-close"
+          ]
         }
       ]
     },
@@ -3299,6 +3813,78 @@
               "next-route-announcer",
               "#__next-route-announcer__"
             ]
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq_theme1  \" data-id=\"zsalesiq\" role=\"complementary\" aria-label=\"Live chat widget\" position=\"right-bottom\" theme=\"pattern\">",
+          "target": [
+            ".zsiq_theme1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"siqico-chat zsiq-chat-icn\" id=\"zs_fl_chat\" aria-label=\"Chat Widget\" role=\"button\" tabindex=\"0\"></span>",
+          "target": [
+            "#zs_fl_chat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq-float-tooltip \" id=\"zs-fl-tip\" role=\"tooltip\" aria-label=\"Live chat status\">",
+          "target": [
+            "#zs-fl-tip"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-required-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "All required ARIA attributes are present"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<em id=\"zs-tip-close\" class=\"siqico-close zsiq-tultip-close\" role=\"button\" tabindex=\"0\" aria-label=\"Close tooltip\"></em>",
+          "target": [
+            "#zs-tip-close"
           ]
         }
       ]
@@ -3353,6 +3939,175 @@
               "#__next-route-announcer__"
             ]
           ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"zsiq_theme1  \" data-id=\"zsalesiq\" role=\"complementary\" aria-label=\"Live chat widget\" position=\"right-bottom\" theme=\"pattern\">",
+          "target": [
+            ".zsiq_theme1"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<span class=\"siqico-chat zsiq-chat-icn\" id=\"zs_fl_chat\" aria-label=\"Chat Widget\" role=\"button\" tabindex=\"0\"></span>",
+          "target": [
+            "#zs_fl_chat"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<div class=\"zsiq-float-tooltip \" id=\"zs-fl-tip\" role=\"tooltip\" aria-label=\"Live chat status\">",
+          "target": [
+            "#zs-fl-tip"
+          ]
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "invalidrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is valid"
+            },
+            {
+              "id": "abstractrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "Abstract roles are not used"
+            },
+            {
+              "id": "unsupportedrole",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA role is supported"
+            }
+          ],
+          "impact": null,
+          "html": "<em id=\"zs-tip-close\" class=\"siqico-close zsiq-tultip-close\" role=\"button\" tabindex=\"0\" aria-label=\"Close tooltip\"></em>",
+          "target": [
+            "#zs-tip-close"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aria-tooltip-name",
+      "impact": null,
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2"
+      ],
+      "description": "Ensure every ARIA tooltip node has an accessible name",
+      "help": "ARIA tooltip nodes must have an accessible name",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-tooltip-name?application=playwright",
+      "nodes": [
+        {
+          "any": [
+            {
+              "id": "has-visible-text",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has text that is visible to screen readers"
+            },
+            {
+              "id": "aria-label",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute exists and is not empty"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq-float-tooltip \" id=\"zs-fl-tip\" role=\"tooltip\" aria-label=\"Live chat status\">",
+          "target": [
+            "#zs-fl-tip"
+          ]
         }
       ]
     },
@@ -3401,7 +4156,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -3433,7 +4188,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -3565,6 +4320,198 @@
               "next-route-announcer",
               "#__next-route-announcer__"
             ]
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq_theme1  \" data-id=\"zsalesiq\" role=\"complementary\" aria-label=\"Live chat widget\" position=\"right-bottom\" theme=\"pattern\">",
+          "target": [
+            ".zsiq_theme1"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"siqico-chat zsiq-chat-icn\" id=\"zs_fl_chat\" aria-label=\"Chat Widget\" role=\"button\" tabindex=\"0\"></span>",
+          "target": [
+            "#zs_fl_chat"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq-float-tooltip \" id=\"zs-fl-tip\" role=\"tooltip\" aria-label=\"Live chat status\">",
+          "target": [
+            "#zs-fl-tip"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq-clr3 zsiq-elips\" data-zsqa=\"title\" aria-label=\"We're Online!\">We're Online!</div>",
+          "target": [
+            ".zsiq-clr3"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"zsiq-clr6 zsiq-m0 zsiq-mT3 zsiq-elips zsiq-tultip-desc\" data-zsqa=\"subtitle\" aria-label=\"How may I help you today?\">How may I help you today?</p>",
+          "target": [
+            ".zsiq-clr6"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "aria-valid-attr-value",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute values are valid"
+            },
+            {
+              "id": "aria-errormessage",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-errormessage exists and references elements visible to screen readers that use a supported aria-errormessage technique"
+            },
+            {
+              "id": "aria-level",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "aria-level values are valid"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<em id=\"zs-tip-close\" class=\"siqico-close zsiq-tultip-close\" role=\"button\" tabindex=\"0\" aria-label=\"Close tooltip\"></em>",
+          "target": [
+            "#zs-tip-close"
           ]
         }
       ]
@@ -3600,7 +4547,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -3618,7 +4565,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -3695,6 +4642,114 @@
               "#__next-route-announcer__"
             ]
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq_theme1  \" data-id=\"zsalesiq\" role=\"complementary\" aria-label=\"Live chat widget\" position=\"right-bottom\" theme=\"pattern\">",
+          "target": [
+            ".zsiq_theme1"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"siqico-chat zsiq-chat-icn\" id=\"zs_fl_chat\" aria-label=\"Chat Widget\" role=\"button\" tabindex=\"0\"></span>",
+          "target": [
+            "#zs_fl_chat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq-float-tooltip \" id=\"zs-fl-tip\" role=\"tooltip\" aria-label=\"Live chat status\">",
+          "target": [
+            "#zs-fl-tip"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq-clr3 zsiq-elips\" data-zsqa=\"title\" aria-label=\"We're Online!\">We're Online!</div>",
+          "target": [
+            ".zsiq-clr3"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"zsiq-clr6 zsiq-m0 zsiq-mT3 zsiq-elips zsiq-tultip-desc\" data-zsqa=\"subtitle\" aria-label=\"How may I help you today?\">How may I help you today?</p>",
+          "target": [
+            ".zsiq-clr6"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "aria-valid-attr",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "critical",
+              "message": "ARIA attribute name is valid"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<em id=\"zs-tip-close\" class=\"siqico-close zsiq-tultip-close\" role=\"button\" tabindex=\"0\" aria-label=\"Close tooltip\"></em>",
+          "target": [
+            "#zs-tip-close"
+          ]
         }
       ]
     },
@@ -3713,6 +4768,70 @@
       "help": "Inline text spacing must be adjustable with custom stylesheets",
       "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/avoid-inline-spacing?application=playwright",
       "nodes": [
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "important-letter-spacing",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+            },
+            {
+              "id": "important-word-spacing",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+            },
+            {
+              "id": "important-line-height",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
+          "target": [
+            "html"
+          ]
+        },
+        {
+          "any": [],
+          "all": [
+            {
+              "id": "important-letter-spacing",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Letter-spacing in the style attribute is not set to !important, or meets the minimum"
+            },
+            {
+              "id": "important-word-spacing",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "word-spacing in the style attribute is not set to !important, or meets the minimum"
+            },
+            {
+              "id": "important-line-height",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "line-height in the style attribute is not set to !important, or meets the minimum"
+            }
+          ],
+          "none": [],
+          "impact": null,
+          "html": "<body class=\"min-h-full flex flex-col\" style=\"position: relative; min-height: 100%; top: 0px;\">",
+          "target": [
+            "body"
+          ]
+        },
         {
           "any": [],
           "all": [
@@ -4050,7 +5169,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -4900,6 +6019,176 @@
           "target": [
             ".text-on-inverse-faint.text-xs"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<select class=\"goog-te-combo\" aria-label=\"Language Translate Widget\"><option value=\"\">Select Language</option><option value=\"nl\">Dutch</option></select>",
+          "target": [
+            "select"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"sl\" id=\"goog-gt-votingInputSrcLang\">",
+          "target": [
+            "#goog-gt-votingInputSrcLang"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"tl\" id=\"goog-gt-votingInputTrgLang\">",
+          "target": [
+            "#goog-gt-votingInputTrgLang"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"query\" id=\"goog-gt-votingInputSrcText\">",
+          "target": [
+            "#goog-gt-votingInputSrcText"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"gtrans\" id=\"goog-gt-votingInputTrgText\">",
+          "target": [
+            "#goog-gt-votingInputTrgText"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "messageKey": "hidden"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element is hidden"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<input type=\"text\" name=\"vote\" id=\"goog-gt-votingInputVote\">",
+          "target": [
+            "#goog-gt-votingInputVote"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#121212",
+                "bgColor": "#ffffff",
+                "contrastRatio": 18.73,
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 18.73"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<div class=\"zsiq-clr3 zsiq-elips\" data-zsqa=\"title\" aria-label=\"We're Online!\">We're Online!</div>",
+          "target": [
+            ".zsiq-clr3"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fgColor": "#666666",
+                "bgColor": "#ffffff",
+                "contrastRatio": 5.74,
+                "fontSize": "9.8pt (13px)",
+                "fontWeight": "normal",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element has sufficient color contrast of 5.74"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<p class=\"zsiq-clr6 zsiq-m0 zsiq-mT3 zsiq-elips zsiq-tultip-desc\" data-zsqa=\"subtitle\" aria-label=\"How may I help you today?\">How may I help you today?</p>",
+          "target": [
+            ".zsiq-clr6"
+          ]
         }
       ]
     },
@@ -4935,7 +6224,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -4974,7 +6263,7 @@
           "all": [],
           "none": [],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -5013,7 +6302,7 @@
             }
           ],
           "impact": null,
-          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\">",
+          "html": "<html lang=\"en\" class=\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased\" style=\"height: 100%; --zsiqf-custom-bg-color: #0066cc; --zsiqf-custom-bg: #0066cc; --zsiqf-cw-bg-color: #0066cc;\">",
           "target": [
             "html"
           ]
@@ -5194,7 +6483,7 @@
           "impact": null,
           "html": "<a href=\"https://www.linkedin.com/company/vectorwavetechnologies/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"LinkedIn\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -5220,7 +6509,7 @@
           "impact": null,
           "html": "<a href=\"https://www.instagram.com/vectorwavetechnologies?igsh=d21hcWg2MDN2aXo0\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Instagram\" class=\"transition-colors duration-200 hover:text-on-inverse\">",
           "target": [
-            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ".gap-4.items-center.flex > a[aria-label=\"Instagram\"][rel=\"noopener noreferrer\"][target=\"_blank\"]"
           ]
         },
         {
@@ -6343,11 +7632,117 @@
           "target": [
             ".mb-3\\.5"
           ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<span class=\"siqico-chat zsiq-chat-icn\" id=\"zs_fl_chat\" aria-label=\"Chat Widget\" role=\"button\" tabindex=\"0\"></span>",
+          "target": [
+            "#zs_fl_chat"
+          ]
+        },
+        {
+          "any": [
+            {
+              "id": "no-focusable-content",
+              "data": null,
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "Element does not have focusable descendants"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": null,
+          "html": "<em id=\"zs-tip-close\" class=\"siqico-close zsiq-tultip-close\" role=\"button\" tabindex=\"0\" aria-label=\"Close tooltip\"></em>",
+          "target": [
+            "#zs-tip-close"
+          ]
         }
       ]
     }
   ],
   "incomplete": [
+    {
+      "id": "aria-prohibited-attr",
+      "impact": "serious",
+      "tags": [
+        "cat.aria",
+        "wcag2a",
+        "wcag412",
+        "EN-301-549",
+        "EN-9.4.1.2",
+        "RGAAv4",
+        "RGAA-7.1.1"
+      ],
+      "description": "Ensure ARIA attributes are not prohibited for an element's role",
+      "help": "Elements must only use permitted ARIA attributes",
+      "helpUrl": "https://dequeuniversity.com/rules/axe/4.13/aria-prohibited-attr?application=playwright",
+      "nodes": [
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": {
+                "role": null,
+                "nodeName": "div",
+                "messageKey": "noRoleSingular",
+                "prohibited": [
+                  "aria-label"
+                ]
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute is not well supported on a div with no valid role attribute."
+            }
+          ],
+          "impact": "serious",
+          "html": "<div class=\"zsiq-clr3 zsiq-elips\" data-zsqa=\"title\" aria-label=\"We're Online!\">We're Online!</div>",
+          "target": [
+            ".zsiq-clr3"
+          ],
+          "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute."
+        },
+        {
+          "any": [],
+          "all": [],
+          "none": [
+            {
+              "id": "aria-prohibited-attr",
+              "data": {
+                "role": null,
+                "nodeName": "p",
+                "messageKey": "noRoleSingular",
+                "prohibited": [
+                  "aria-label"
+                ]
+              },
+              "relatedNodes": [],
+              "impact": "serious",
+              "message": "aria-label attribute is not well supported on a p with no valid role attribute."
+            }
+          ],
+          "impact": "serious",
+          "html": "<p class=\"zsiq-clr6 zsiq-m0 zsiq-mT3 zsiq-elips zsiq-tultip-desc\" data-zsqa=\"subtitle\" aria-label=\"How may I help you today?\">How may I help you today?</p>",
+          "target": [
+            ".zsiq-clr6"
+          ],
+          "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a p with no valid role attribute."
+        }
+      ]
+    },
     {
       "id": "color-contrast",
       "impact": "serious",

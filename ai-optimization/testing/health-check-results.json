@@ -10,13 +10,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327228242&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=686493271.1787327231&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787327231&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2F&dt=VectorWave%20Technologies%20Zoho%20%26%20ERP%20Solutions%20for%20Growth&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3683",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406254210&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=14983114.1787406254&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787406254&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2F&dt=VectorWave%20Technologies%20Zoho%20%26%20ERP%20Solutions%20for%20Growth&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1163",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
-    "h1Text": "Powering Intelligent Business Flow, without thePowering Intelligent Business Flow, without the overhead.",
-    "bodyTextLength": 87089
+    "h1Text": "Powering Intelligent Business FPowering Intelligent Business Flow, without the overhead.",
+    "bodyTextLength": 86847
   },
   {
     "routeId": "about",
@@ -29,13 +29,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j1h2v9254525573za200zd9254525573&_p=1787327233634&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1439718940.1787327234&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787327233&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fabout&dt=About%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=645",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406258196&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1097657630.1787406258&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406258&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fabout&dt=About%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=542",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "Engineering ERP systems that Engineering ERP systems that drive business performance",
-    "bodyTextLength": 67004
+    "bodyTextLength": 67667
   },
   {
     "routeId": "services-index",
@@ -48,13 +48,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327236707&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=117008386.1787327237&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~119791749~120315471~120385422~120476659&sid=1787327236&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices&dt=ERP%2C%20CRM%20%26%20Cloud%20Solutions%20%7C%20VectorWave%20Services&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=668",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406261132&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1736422864.1787406261&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~119381662~120315471~120385423&sid=1787406261&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices&dt=ERP%2C%20CRM%20%26%20Cloud%20Solutions%20%7C%20VectorWave%20Services&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=539",
         "failure": "net::ERR_ABORTED"
       }
     ],
     "hasH1": true,
     "h1Text": "VectorWave helps organizations select, implement, customize, integrate and optimize business technology.",
-    "bodyTextLength": 74487
+    "bodyTextLength": 74246
   },
   {
     "routeId": "blog-index",
@@ -67,7 +67,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327239526&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1319892388.1787327240&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787327239&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog&dt=Blog%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=637",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406264080&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=779053001.1787406264&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787406264&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog&dt=Blog%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=714",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -86,7 +86,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327242531&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=625058355.1787327243&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787327242&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fcontact&dt=Contact%20VectorWave%20Technologies%20%7C%20Get%20in%20Touch&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=695",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j1h2v9254525573za200zd9254525573&_p=1787406267498&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1678166465.1787406268&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787406267&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fcontact&dt=Contact%20VectorWave%20Technologies%20%7C%20Get%20in%20Touch&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=733",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -105,7 +105,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327245416&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1203841910.1787327246&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118012009~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787327245&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fzoho-bundled-suite&dt=Zoho%20Implementation%20%26%20Consulting%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=732",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406271292&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1773218947.1787406271&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406271&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fzoho-bundled-suite&dt=Zoho%20Implementation%20%26%20Consulting%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1067",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -124,7 +124,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327248632&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=956531660.1787327249&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385422~120412527~120420416&sid=1787327248&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fsales&dt=Zoho%20Sales%20Tools%20%7C%20Capture%20Leads%20%26%20Close%20Deals%20Faster&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=655",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406274588&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=716781919.1787406275&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406274&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fsales&dt=Zoho%20Sales%20Tools%20%7C%20Capture%20Leads%20%26%20Close%20Deals%20Faster&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=694",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -143,7 +143,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327251229&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1956641775.1787327252&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787327251&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fit-support&dt=Zoho%20IT%20%26%20Support%20%7C%20Helpdesk%20%26%20Remote%20Support%20Tools&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=657",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406277290&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1486350229.1787406277&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787406277&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fit-support&dt=Zoho%20IT%20%26%20Support%20%7C%20Helpdesk%20%26%20Remote%20Support%20Tools&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=515",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -162,7 +162,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327253958&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1224746992.1787327254&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787327254&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fzoho-finance&dt=Zoho%20Finance%20Solutions%20%7C%20Accounting%2C%20Billing%20%26%20Inventory&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=523",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j1h2v9254525573za200zd9254525573&_p=1787406280117&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1843384491.1787406280&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406280&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fzoho-finance&dt=Zoho%20Finance%20Solutions%20%7C%20Accounting%2C%20Billing%20%26%20Inventory&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=666",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -181,7 +181,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327256753&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1717569417.1787327257&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787327256&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fhuman-resources&dt=Zoho%20HR%20Solutions%20%7C%20People%2C%20Recruit%20%26%20Payroll&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=684",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j1h2v9254525573za200zd9254525573&_p=1787406283076&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1426986446.1787406284&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406283&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fhuman-resources&dt=Zoho%20HR%20Solutions%20%7C%20People%2C%20Recruit%20%26%20Payroll&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=881",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -200,7 +200,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327259449&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=126289253.1787327260&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118012008~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787327259&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-business-suite&dt=Odoo%20Business%20Suite%20%7C%20Odoo%20ERP%20Implementation%20Services&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=532",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406285612&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1693590339.1787406286&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787406285&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-business-suite&dt=Odoo%20Business%20Suite%20%7C%20Odoo%20ERP%20Implementation%20Services&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=644",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -219,7 +219,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327262124&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=916861373.1787327262&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787327262&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-sales-ecommerce&dt=Odoo%20Sales%20%26%20eCommerce%20%7C%20CRM%2C%20Storefront%20%26%20Subscriptions&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=559",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406288037&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1169717162.1787406288&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787406288&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-sales-ecommerce&dt=Odoo%20Sales%20%26%20eCommerce%20%7C%20CRM%2C%20Storefront%20%26%20Subscriptions&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=667",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -238,7 +238,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327264893&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=201947661.1787327265&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787327265&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-inventory-operations&dt=Odoo%20Inventory%20%26%20Operations%20%7C%20Stock%2C%20Manufacturing%20%26%20Purchase&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=625",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406290764&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1102259532.1787406291&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406291&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-inventory-operations&dt=Odoo%20Inventory%20%26%20Operations%20%7C%20Stock%2C%20Manufacturing%20%26%20Purchase&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=645",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -257,7 +257,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327267596&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=678803452.1787327268&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787327267&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-accounting&dt=Odoo%20Accounting%20%7C%20Invoicing%2C%20Reconciliation%20%26%20Reporting&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=624",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406293225&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=2142537305.1787406293&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787406293&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-accounting&dt=Odoo%20Accounting%20%7C%20Invoicing%2C%20Reconciliation%20%26%20Reporting&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=524",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -276,7 +276,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0h1v9254525573za200zd9254525573&_p=1787327270386&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=604022568.1787327271&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120315471~120385422~120474863&sid=1787327270&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-workforce-hr&dt=Odoo%20Workforce%20%26%20HR%20%7C%20Employees%2C%20Recruitment%20%26%20Time%20Off&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=545",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0h1v9254525573za200zd9254525573&_p=1787406295747&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=302807912.1787406296&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406295&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fodoo-workforce-hr&dt=Odoo%20Workforce%20%26%20HR%20%7C%20Employees%2C%20Recruitment%20%26%20Time%20Off&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=545",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -295,7 +295,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327272987&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=416804743.1787327273&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118012009~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787327273&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmicrosoft-365-dynamics-suite&dt=Microsoft%20365%20%26%20Dynamics%20Suite%20%7C%20Connected%20Business%20Platform&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=555",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406298556&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=397570177.1787406299&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406298&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmicrosoft-365-dynamics-suite&dt=Microsoft%20365%20%26%20Dynamics%20Suite%20%7C%20Connected%20Business%20Platform&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=616",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -314,7 +314,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327275770&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=631513891.1787327276&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787327275&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fdynamics-365-sales&dt=Dynamics%20365%20Sales%20%7C%20CRM%20Inside%20Outlook%20%26%20Teams&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=507",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406301302&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=590129120.1787406301&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787406301&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fdynamics-365-sales&dt=Dynamics%20365%20Sales%20%7C%20CRM%20Inside%20Outlook%20%26%20Teams&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=653",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -333,7 +333,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327278445&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1155150721.1787327279&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787327278&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmicrosoft-security-device-management&dt=Microsoft%20Security%20%26%20Device%20Management%20%7C%20Intune%2C%20Entra%2C%20Defender&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=571",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406304110&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=443398862.1787406304&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406304&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmicrosoft-security-device-management&dt=Microsoft%20Security%20%26%20Device%20Management%20%7C%20Intune%2C%20Entra%2C%20Defender&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=637",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -352,7 +352,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327281190&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=809906372.1787327281&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787327281&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fbusiness-central-finance&dt=Business%20Central%20Finance%20%7C%20Dynamics%20365%20Accounting%20%26%20Reporting&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=551",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406307278&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=727422187.1787406307&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406307&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fbusiness-central-finance&dt=Business%20Central%20Finance%20%7C%20Dynamics%20365%20Accounting%20%26%20Reporting&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=729",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -371,7 +371,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327284326&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=468942264.1787327285&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787327284&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fdynamics-365-hr&dt=Dynamics%20365%20HR%20%7C%20Recruitment%2C%20Leave%20%26%20Performance&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=915",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406310687&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=2035547331.1787406311&frm=0&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787406310&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fdynamics-365-hr&dt=Dynamics%20365%20HR%20%7C%20Recruitment%2C%20Leave%20%26%20Performance&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=762",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -390,7 +390,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327287435&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=612880364.1787327288&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787327287&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmobile-app-development&dt=Mobile%20App%20Development%20%7C%20iOS%20%26%20Android%20Apps&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=602",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406313914&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1659489314.1787406314&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120032689~120315470~120385423&sid=1787406314&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fmobile-app-development&dt=Mobile%20App%20Development%20%7C%20iOS%20%26%20Android%20Apps&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=762",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -409,7 +409,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327290286&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=575963603.1787327291&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787327290&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fweb-development&dt=Web%20Development%20%7C%20Business%20Websites%20%26%20E-Commerce&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=704",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406317047&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=962375151.1787406317&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787406317&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fweb-development&dt=Web%20Development%20%7C%20Business%20Websites%20%26%20E-Commerce&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=707",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -428,7 +428,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327293372&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1220201066.1787327294&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787327293&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fai-integration&dt=AI%20Integration%20%7C%20Practical%20AI%20for%20Business%20Systems&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=680",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406319722&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=215036384.1787406320&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406319&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fai-integration&dt=AI%20Integration%20%7C%20Practical%20AI%20for%20Business%20Systems&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=500",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -447,7 +447,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327296177&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1008954489.1787327296&frm=0&ngs=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120315470~120385422~120420415&sid=1787327296&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fwhatsapp-automation&dt=WhatsApp%20Automation%20%7C%20Business%20API%20%26%20Chat%20Flows&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=599",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406322223&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1359602009.1787406322&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119367802~119367810~120315471~120385422~120474864&sid=1787406322&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fservices%2Fwhatsapp-automation&dt=WhatsApp%20Automation%20%7C%20Business%20API%20%26%20Chat%20Flows&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=533",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -466,11 +466,11 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327298898&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1609132820.1787327299&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787327299&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2F5-signs-your-business-has-outgrown-spreadsheets&dt=5%20signs%20your%20business%20has%20outgrown%20spreadsheets%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=595",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406324933&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1683989261.1787406325&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938469~118897920~118897930~119259606~119367802~119367810~119791748~120315471~120385423&sid=1787406325&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2F5-signs-your-business-has-outgrown-spreadsheets&dt=5%20signs%20your%20business%20has%20outgrown%20spreadsheets%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=500",
         "failure": "net::ERR_ABORTED"
       },
       {
-        "url": "https://www.google.com/sorry/index?continue=https://translate.google.com/translate_a/element.js%3Fcb%3DgoogleTranslateElementInit&q=EgRn_wNjGMLmodQGIjDSIt7_C9l7tBf6QRoDQIjLtssscjhRoaa3plJPk6VJ4T0s4cpO3nRbFNuiVnpnYisyAnJSWgFD",
+        "url": "https://www.google.com/sorry/index?continue=https://translate.google.com/translate_a/element.js%3Fcb%3DgoogleTranslateElementInit&q=EgRn_wNRGPXPptQGIjCYxXnskARrUB8ixHsvPWdahoUGxp0lOE8Qiegi1pHvQ6_A0xwhlhMJk33sH8E3UVQyAnJSWgFD",
         "failure": "net::ERR_BLOCKED_BY_ORB"
       }
     ],
@@ -489,17 +489,13 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327301466&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=2077084023.1787327302&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118897920~118897930~119367802~119367810~120315471~120385423&sid=1787327301&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fzoho-crm-automation-where-teams-leave-value-on-the-table&dt=Zoho%20CRM%20automation%3A%20where%20most%20teams%20leave%20value%20on%20the%20table%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=718",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406327401&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1860370754.1787406328&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119367802~119367810~120315471~120385423~120476659&sid=1787406327&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fzoho-crm-automation-where-teams-leave-value-on-the-table&dt=Zoho%20CRM%20automation%3A%20where%20most%20teams%20leave%20value%20on%20the%20table%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=545",
         "failure": "net::ERR_ABORTED"
-      },
-      {
-        "url": "https://www.google.com/sorry/index?continue=https://translate.google.com/translate_a/element.js%3Fcb%3DgoogleTranslateElementInit&q=EgRn_wNjGMTmodQGIjDUzvUtjpCgdt7NsizzDtHOs9vc-n7eLvKKC5TrHGxi90hq-N9wmjD4Rm3OfZfA1m8yAnJSWgFD",
-        "failure": "net::ERR_BLOCKED_BY_ORB"
       }
     ],
     "hasH1": true,
     "h1Text": "Zoho CRM automation: where most teams leave value on the table",
-    "bodyTextLength": 32713
+    "bodyTextLength": 32846
   },
   {
     "routeId": "blog-where-ai-actually-pays-off-inside-a-growing-business",
@@ -512,7 +508,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327304338&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=959774109.1787327305&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787327304&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fwhere-ai-actually-pays-off-inside-a-growing-business&dt=Where%20AI%20actually%20pays%20off%20inside%20a%20growing%20business%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=706",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406329939&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=677983259.1787406330&frm=0&ngs=1&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938466~115938468~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787406330&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fwhere-ai-actually-pays-off-inside-a-growing-business&dt=Where%20AI%20actually%20pays%20off%20inside%20a%20growing%20business%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=633",
         "failure": "net::ERR_ABORTED"
       }
     ],
@@ -531,13 +527,17 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j1h2v9254525573za200zd9254525573&_p=1787327307048&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=348100907.1787327307&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~119367802~119367810~119793973~120315471~120385423&sid=1787327307&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fwhat-makes-a-business-website-actually-convert&dt=What%20makes%20a%20business%20website%20actually%20convert%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=560",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406332819&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=462768172.1787406333&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~119367802~119367810~120315471~120385423~120474862&sid=1787406333&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fwhat-makes-a-business-website-actually-convert&dt=What%20makes%20a%20business%20website%20actually%20convert%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=770",
         "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/sorry/index?continue=https://translate.google.com/translate_a/element.js%3Fcb%3DgoogleTranslateElementInit&q=EgRn_wNRGP3PptQGIjBtNYEQkwF5QwZaPRVOUSVzeSirpDV7RsMpkFlNwyIbRvLJuRD3R-pOrDdNqQW_Y_UyAnJSWgFD",
+        "failure": "net::ERR_BLOCKED_BY_ORB"
       }
     ],
     "hasH1": true,
     "h1Text": "What makes a business website actually convert",
-    "bodyTextLength": 31701
+    "bodyTextLength": 31568
   },
   {
     "routeId": "blog-getting-your-chart-of-accounts-audit-ready-with-zoho-books",
@@ -550,11 +550,11 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j1h2v9254525573za200zd9254525573&_p=1787327309655&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1676065088.1787327310&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120315471~120385422&sid=1787327309&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fgetting-your-chart-of-accounts-audit-ready-with-zoho-books&dt=Getting%20your%20chart%20of%20accounts%20audit-ready%20with%20Zoho%20Books%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=536",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406335913&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1548928767.1787406336&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118897920~118897930~119367802~119367810~120315470~120385423&sid=1787406336&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fgetting-your-chart-of-accounts-audit-ready-with-zoho-books&dt=Getting%20your%20chart%20of%20accounts%20audit-ready%20with%20Zoho%20Books%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=769",
         "failure": "net::ERR_ABORTED"
       },
       {
-        "url": "https://www.google.com/sorry/index?continue=https://translate.google.com/translate_a/element.js%3Fcb%3DgoogleTranslateElementInit&q=EgRn_wNjGM3modQGIjADzHAlzH_BVMsAW-9SQH0jgv-TGeLfwVTQuD3bn_WlZhy2BvJvqy-qjGK0KYbVQ6cyAnJSWgFD",
+        "url": "https://www.google.com/sorry/index?continue=https://translate.google.com/translate_a/element.js%3Fcb%3DgoogleTranslateElementInit&q=EgRn_wNRGIDQptQGIjBRLe6fUObdSD0bznC6v_4GMLN-hODloM06kkJNa7Q85hreZAr8ssQXAKQ4eeLY2FoyAnJSWgFD",
         "failure": "net::ERR_BLOCKED_BY_ORB"
       }
     ],
@@ -573,7 +573,7 @@
     "pageErrors": [],
     "failedRequests": [
       {
-        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787327312058&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=378605120.1787327312&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938469~118012008~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787327312&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fzoho-vs-odoo-choosing-the-right-erp-foundation&dt=Zoho%20vs%20Odoo%3A%20choosing%20the%20right%20ERP%20foundation%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=589",
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-2YYH8VS7J8&gtm=45je68j0v9254525573za200zd9254525573&_p=1787406338735&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=150699035.1787406339&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119367802~119367810~120315470~120385422&sid=1787406338&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2Fblog%2Fzoho-vs-odoo-choosing-the-right-erp-foundation&dt=Zoho%20vs%20Odoo%3A%20choosing%20the%20right%20ERP%20foundation%20%7C%20VectorWave%20Technologies&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=533",
         "failure": "net::ERR_ABORTED"
       }
     ],

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Reveal from "@/components/Reveal";
-import ZohoLogo from "@/src/GIF by Zoho.gif";
+import ZohoLogo from "@/src/zoho.png";
 import OdooLogo from "@/src/odoo_logo.png";
 import MicrosoftDynamics365Logo from "@/src/Microsoft_Dynamics_365_Logo.svg";
 

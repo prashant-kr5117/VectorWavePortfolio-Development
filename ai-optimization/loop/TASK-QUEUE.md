@@ -264,7 +264,11 @@ as intended now that the root blocker is cleared.
 **Risk:** Low — this is an audit, not a change. Any findings would need their own
 scoped fix.
 **Business decision required?** No.
-**Status:** Open.
+**Status:** Done — resolved by Iteration 011 (2026-08-24). Found one other sticky
+usage sitewide (`app/services/zoho-bundled-suite/_components/PageNav.tsx`) and
+confirmed via direct measurement it was already fixed for free by Iteration 010's
+sitewide `template.tsx` change — no code change needed. See
+`ai-optimization/iterations/ITERATION-011.md`.
 
 ---
 

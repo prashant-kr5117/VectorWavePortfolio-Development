@@ -13,7 +13,7 @@
     "orientationAngle": 0,
     "orientationType": "landscape-primary"
   },
-  "timestamp": "2026-08-22T13:45:53.688Z",
+  "timestamp": "2026-08-24T07:05:48.263Z",
   "url": "http://localhost:3100/",
   "toolOptions": {
     "runOnly": {
@@ -5260,7 +5260,7 @@
           ],
           "none": [],
           "impact": null,
-          "html": "<span aria-hidden=\"true\"><span>Powering Intelligent </span><span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Busin</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
+          "html": "<span aria-hidden=\"true\"><span>Powering Intelligent </span><span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Bus</span><span class=\"ml-0.5 inline-block w-[2px] animate-blink bg-current align-middle\" style=\"height:0.9em\"></span></span>",
           "target": [
             "span[aria-hidden=\"true\"]"
           ]
@@ -19946,7 +19946,7 @@
               },
               "relatedNodes": [
                 {
-                  "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Busin</span>",
+                  "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Bus</span>",
                   "target": [
                     ".bg-gradient-to-r"
                   ]
@@ -19959,7 +19959,7 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Busin</span>",
+          "html": "<span class=\"bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent\">Bus</span>",
           "target": [
             ".bg-gradient-to-r"
           ],

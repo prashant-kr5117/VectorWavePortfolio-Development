@@ -231,3 +231,16 @@ Before/After Score: No change (79.62) -- verification only, nothing to fix.
 Regressions: None -- health-check and axe pass on the audited route, no code touched.
 Decision: ACCEPT (verification-only) -- see ITERATION-011.md "Reason".
 Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md. Committed locally. Not pushed.
+
+### Iteration: 012 -- Skip loading Google Translate for default-English visitors (Q-016 Fix #2)
+Date: 2026-08-24
+Branch/Commit: main (VectorWavePortfolio-Development repo), committed locally, not pushed
+Target: app/layout.tsx, components/ConditionalGoogleTranslate.tsx (new)
+Problem: LanguageSwitcher.tsx works via a googtrans cookie + full page reload, not a live API call -- so the ~93KB lazyOnload Google Translate script has nothing to do for the default-English majority (no cookie).
+Proposed Change: Skip loading the translate script entirely unless the cookie is already set. First attempt read the cookie server-side via next/headers cookies() in the root layout -- caught during build validation: this flipped every route from static to dynamic rendering, a much worse regression than the fix's benefit, and was reverted before commit. Shipped fix reads the cookie client-side via useSyncExternalStore (SSR-safe, avoids a fresh react-hooks/set-state-in-effect lint violation), keeping all routes static.
+Reason: See ai-optimization/iterations/ITERATION-012.md for full detail, including the reverted attempt.
+Before Score: Performance 76/100, Technical Quality 85/100.
+After Score: Performance 79/100 (+3), Technical Quality 87/100 (+2). Overall 79.62 -> 79.90.
+Regressions: None in the shipped state -- build/type-check/lint clean, route table confirmed static, full 30-route health-check (31/31) and axe suite pass, behavioral verification for both cookie states plus the full switcher click-through flow, mobile-390 screenshot reviewed.
+Decision: ACCEPT -- see ITERATION-012.md "Reason".
+Human Approval: Autonomous loop, STANDARD mode, per ai-optimization/loop/CONTROLLER.md. Committed locally. Not pushed.

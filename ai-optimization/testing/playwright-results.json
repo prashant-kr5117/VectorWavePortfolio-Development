@@ -4,9 +4,9 @@
       "C:\\Program Files\\nodejs\\node.exe",
       "C:\\Users\\DELL\\my-app\\node_modules\\@playwright\\test\\cli.js",
       "test",
-      "accessibility.spec.ts",
+      "screenshots.spec.ts",
       "--grep",
-      "service-zoho-bundled-suite"
+      "homepage @ desktop-1440|homepage @ mobile-390"
     ],
     "configFile": "C:\\Users\\DELL\\my-app\\playwright.config.ts",
     "rootDir": "C:/Users/DELL/my-app/e2e",
@@ -73,26 +73,31 @@
   },
   "suites": [
     {
-      "title": "accessibility.spec.ts",
-      "file": "accessibility.spec.ts",
+      "title": "screenshots.spec.ts",
+      "file": "screenshots.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Automated accessibility audit (axe-core)",
-          "file": "accessibility.spec.ts",
-          "line": 37,
+          "title": "Visual baseline screenshots",
+          "file": "screenshots.spec.ts",
+          "line": 36,
           "column": 6,
           "specs": [
             {
-              "title": "a11y: service-zoho-bundled-suite",
+              "title": "homepage @ desktop-1440",
               "ok": true,
               "tags": [],
               "tests": [
                 {
                   "timeout": 60000,
-                  "annotations": [],
+                  "annotations": [
+                    {
+                      "type": "screenshot-status",
+                      "description": "{\"route\":\"/\",\"viewport\":\"desktop-1440\",\"httpStatus\":200,\"file\":\"C:\\\\Users\\\\DELL\\\\my-app\\\\ai-optimization\\\\screenshots\\\\iteration-012\\\\desktop\\\\homepage-desktop-1440.png\"}"
+                    }
+                  ],
                   "expectedStatus": "passed",
                   "projectId": "chromium",
                   "projectName": "chromium",
@@ -101,23 +106,72 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5750,
+                      "duration": 8475,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-08-24T06:28:21.231Z",
-                      "annotations": [],
+                      "startTime": "2026-08-24T07:08:12.768Z",
+                      "annotations": [
+                        {
+                          "type": "screenshot-status",
+                          "description": "{\"route\":\"/\",\"viewport\":\"desktop-1440\",\"httpStatus\":200,\"file\":\"C:\\\\Users\\\\DELL\\\\my-app\\\\ai-optimization\\\\screenshots\\\\iteration-012\\\\desktop\\\\homepage-desktop-1440.png\"}"
+                        }
+                      ],
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "ddd864604af8a6a0198f-9670d40ec3ad2dae67c1",
-              "file": "accessibility.spec.ts",
+              "id": "677a4938ef65bfc6a6e5-d9a03c3da3887d8bc777",
+              "file": "screenshots.spec.ts",
               "line": 39,
-              "column": 9
+              "column": 11
+            },
+            {
+              "title": "homepage @ mobile-390",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "screenshot-status",
+                      "description": "{\"route\":\"/\",\"viewport\":\"mobile-390\",\"httpStatus\":200,\"file\":\"C:\\\\Users\\\\DELL\\\\my-app\\\\ai-optimization\\\\screenshots\\\\iteration-012\\\\mobile\\\\homepage-mobile-390.png\"}"
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9072,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-08-24T07:08:21.616Z",
+                      "annotations": [
+                        {
+                          "type": "screenshot-status",
+                          "description": "{\"route\":\"/\",\"viewport\":\"mobile-390\",\"httpStatus\":200,\"file\":\"C:\\\\Users\\\\DELL\\\\my-app\\\\ai-optimization\\\\screenshots\\\\iteration-012\\\\mobile\\\\homepage-mobile-390.png\"}"
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "677a4938ef65bfc6a6e5-0c9cd7311f4948e1be48",
+              "file": "screenshots.spec.ts",
+              "line": 39,
+              "column": 11
             }
           ]
         }
@@ -126,9 +180,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-08-24T06:28:19.775Z",
-    "duration": 7711.567999999999,
-    "expected": 1,
+    "startTime": "2026-08-24T07:08:11.582Z",
+    "duration": 19624.369,
+    "expected": 2,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

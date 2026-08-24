@@ -4,6 +4,7 @@ import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ConsultationModalProvider } from "@/components/ConsultationModal";
+import ConditionalGoogleTranslate from "@/components/ConditionalGoogleTranslate";
 import { SITE_URL, buildMetadata } from "@/lib/seo";
 import "./globals.css";
 
@@ -61,13 +62,14 @@ gtag('js', new Date());
 gtag('config', 'G-2YYH8VS7J8');`}
         </Script>
         {/*
-          The chat widget and translate widget are both deferred to "lazyOnload":
-          neither has any visible presence until a visitor actively opens them (the
-          translate element is CSS/JS-hidden by design, and the chat bubble isn't part
-          of any above-the-fold content), so there's no UX cost to letting them load
-          once the browser is idle instead of competing with hydration for main-thread
-          time. GA4 stays on "afterInteractive" so early-bounce visits are still
-          tracked accurately.
+          The chat widget is deferred to "lazyOnload": it has no visible presence until
+          a visitor actively opens it (the bubble isn't above-the-fold content), so
+          there's no UX cost to letting it load once the browser is idle instead of
+          competing with hydration for main-thread time. GA4 stays on "afterInteractive"
+          so early-bounce visits are still tracked accurately. The translate widget goes
+          further than lazyOnload -- see ConditionalGoogleTranslate.tsx: it isn't
+          rendered at all unless a visitor has already switched language, since it has
+          nothing to do otherwise (ai-optimization/reports/PERFORMANCE-AUDIT.md Fix #2).
         */}
         <Script id="zsiq-init" strategy="lazyOnload">
           {`window.$zoho = window.$zoho || {};
@@ -78,20 +80,7 @@ $zoho.salesiq = $zoho.salesiq || { ready: function () {} };`}
           src="https://salesiq.zohopublic.in/widget?wc=siq6f8903107a8b817d8ef6172d9f7859f5110c8b5761dd815ba383efcd446c75f420f72f74bd858ff51404ca330c48216c"
           strategy="lazyOnload"
         />
-        <div id="google_translate_element" className="hidden" />
-        <Script id="google-translate-init" strategy="lazyOnload">
-          {`function googleTranslateElementInit() {
-  new window.google.translate.TranslateElement(
-    { pageLanguage: 'en', includedLanguages: 'en,nl', autoDisplay: false },
-    'google_translate_element'
-  );
-}`}
-        </Script>
-        <Script
-          id="google-translate-script"
-          src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-          strategy="lazyOnload"
-        />
+        <ConditionalGoogleTranslate />
       </body>
     </html>
   );

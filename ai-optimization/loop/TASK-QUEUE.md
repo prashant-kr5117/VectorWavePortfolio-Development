@@ -240,8 +240,16 @@ implementation iterations).
 **Risk:** Unknown until investigated — Fix #2 touches a sitewide third-party script,
 Fix #3 touches shared JS bundling; both need careful scoped validation.
 **Business decision required?** No.
-**Status:** Open — needs a fresh investigation iteration before an implementation
-iteration, per fix.
+**Status:** Fix #2 — Done, resolved by Iteration 012 (2026-08-24):
+`components/ConditionalGoogleTranslate.tsx` now skips loading the Google Translate
+script entirely unless a visitor has already switched language (verified for both
+cookie states, plus the full switcher click-through flow). A first attempt using
+`next/headers` `cookies()` server-side was caught and reverted before commit — it
+silently flipped every route from static to dynamic rendering, a much larger
+regression than the fix's benefit; the shipped fix reads the cookie client-side via
+`useSyncExternalStore` instead, keeping all routes static. See
+`ai-optimization/iterations/ITERATION-012.md`. **Fix #3 — still Open**, needs its own
+investigation pass before implementation.
 
 ---
 

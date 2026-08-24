@@ -18,7 +18,7 @@ human confirmation?**
 
 | Claim | Location | Status | Action | Human confirmation? |
 |---|---|---|---|---|
-| "15+" Projects delivered | `components/sections/Hero.tsx:76-77` | **VERIFIED** — the human-supplied figure recorded in `WORKSTREAM-03-RESULT.md` Section 20 | None — keep | No, already confirmed |
+| "25+" Projects delivered | `components/sections/Hero.tsx:76-77` | **VERIFIED** — the human-supplied figure recorded in `WORKSTREAM-03-RESULT.md` Section 20 | None — keep | No, already confirmed |
 | "15" Projects Completed | `app/(site)/about/page.tsx` stats | **VERIFIED** — consistent with the Hero figure | None — keep | No |
 
 **Finding: no contradiction exists anywhere in the live site.** The historically-flagged

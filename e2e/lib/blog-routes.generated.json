@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-08-24T00:00:00.000Z",
+  "source": "scripts/sync-blog-routes.mjs, reading published posts from Sanity",
+  "posts": [
+    {
+      "slug": "5-signs-your-business-has-outgrown-spreadsheets",
+      "title": "5 signs your business has outgrown spreadsheets"
+    },
+    {
+      "slug": "zoho-crm-automation-where-teams-leave-value-on-the-table",
+      "title": "Zoho CRM automation: where most teams leave value on the table"
+    },
+    {
+      "slug": "where-ai-actually-pays-off-inside-a-growing-business",
+      "title": "Where AI actually pays off inside a growing business"
+    },
+    {
+      "slug": "what-makes-a-business-website-actually-convert",
+      "title": "What makes a business website actually convert"
+    },
+    {
+      "slug": "getting-your-chart-of-accounts-audit-ready-with-zoho-books",
+      "title": "Getting your chart of accounts audit-ready with Zoho Books"
+    },
+    {
+      "slug": "zoho-vs-odoo-choosing-the-right-erp-foundation",
+      "title": "Zoho vs Odoo: choosing the right ERP foundation"
+    }
+  ]
+}

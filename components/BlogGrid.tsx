@@ -1,19 +1,18 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { Calendar, Clock, User, Search, ArrowRight } from "lucide-react";
-import { getSortedPosts } from "@/lib/posts";
+import type { BlogPost } from "@/lib/posts";
 import BlogIcon from "@/components/BlogIcon";
 import HoverGlow from "@/components/HoverGlow";
 import { Card } from "@/components/ui/Card";
 
 const categories = ["All", "ERP", "CRM", "AI", "Web Dev", "Finance"];
 
-export default function BlogGrid() {
+export default function BlogGrid({ posts: allPosts }: { posts: BlogPost[] }) {
   const [active, setActive] = useState("All");
   const [query, setQuery] = useState("");
-  const allPosts = useMemo(() => getSortedPosts(), []);
   const isDefaultView = active === "All" && query.trim() === "";
   const featured = isDefaultView ? allPosts[0] : null;
 

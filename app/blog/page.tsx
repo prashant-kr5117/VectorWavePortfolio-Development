@@ -4,6 +4,7 @@ import Reveal from "@/components/Reveal";
 import BlogGrid from "@/components/BlogGrid";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema, buildMetadata } from "@/lib/seo";
+import { getSortedPosts } from "@/lib/posts";
 
 export const metadata: Metadata = buildMetadata({
   title: "Blog | VectorWave Technologies",
@@ -33,7 +34,9 @@ const blogJsonLd = {
   ],
 };
 
-export default function BlogPage() {
+export default async function BlogPage() {
+  const posts = await getSortedPosts();
+
   return (
     <>
       <JsonLd data={blogJsonLd} />
@@ -56,7 +59,7 @@ export default function BlogPage() {
         <section className="px-4 py-14 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-6xl">
             <Reveal>
-              <BlogGrid />
+              <BlogGrid posts={posts} />
             </Reveal>
           </div>
         </section>

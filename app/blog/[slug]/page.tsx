@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CTA from "@/components/sections/CTA";
@@ -6,20 +7,24 @@ import Reveal from "@/components/Reveal";
 import BlogIcon from "@/components/BlogIcon";
 import HoverGlow from "@/components/HoverGlow";
 import ArticleJsonLd from "@/components/ArticleJsonLd";
+import PortableTextRenderer from "@/components/PortableTextRenderer";
 import { Card } from "@/components/ui/Card";
-import { getPostBySlug, getRelatedPosts, posts } from "@/lib/posts";
+import { getPostBySlug, getRelatedPosts } from "@/lib/posts";
+import { client } from "@/lib/sanity/client";
+import { postSlugsQuery } from "@/lib/sanity/queries";
 import { buildMetadata } from "@/lib/seo";
 import { ArrowLeft, Calendar, Clock, User } from "lucide-react";
 
-export function generateStaticParams() {
-  return posts.map((post) => ({ slug: post.slug }));
+export async function generateStaticParams() {
+  const slugs = await client.fetch<string[]>(postSlugsQuery);
+  return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata(props: {
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await props.params;
-  const post = getPostBySlug(slug);
+  const post = await getPostBySlug(slug);
   if (!post) return {};
   return buildMetadata({
     title: `${post.title} | VectorWave Technologies`,
@@ -35,10 +40,10 @@ export default async function BlogPostPage(props: {
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await props.params;
-  const post = getPostBySlug(slug);
+  const post = await getPostBySlug(slug);
   if (!post) notFound();
 
-  const related = getRelatedPosts(post);
+  const related = await getRelatedPosts(post);
 
   return (
     <>
@@ -74,14 +79,25 @@ export default async function BlogPostPage(props: {
 
         <section className="px-4 py-14 sm:px-6">
           <Reveal className="mx-auto flex max-w-2xl flex-col gap-5">
-            <HoverGlow className="mb-2 flex h-40 items-center justify-center rounded-xl bg-ink-inverse text-on-inverse">
-              <BlogIcon icon={post.icon} size={48} />
-            </HoverGlow>
-            {post.content.map((paragraph, i) => (
-              <p key={i} className="text-sm leading-relaxed text-ink-soft sm:text-base">
-                {paragraph}
-              </p>
-            ))}
+            {post.image ? (
+              <div className="relative mb-2 h-56 w-full overflow-hidden rounded-xl sm:h-72">
+                <Image
+                  src={post.image}
+                  alt={post.imageAlt ?? post.title}
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 640px) 672px, 100vw"
+                  priority
+                />
+              </div>
+            ) : (
+              <HoverGlow className="mb-2 flex h-40 items-center justify-center rounded-xl bg-ink-inverse text-on-inverse">
+                <BlogIcon icon={post.icon} size={48} />
+              </HoverGlow>
+            )}
+            <div className="flex flex-col gap-4">
+              <PortableTextRenderer value={post.body} />
+            </div>
           </Reveal>
         </section>
 

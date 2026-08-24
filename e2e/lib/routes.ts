@@ -1,14 +1,20 @@
 /**
  * Canonical route list for the AI optimization evaluation infrastructure.
  *
- * Derived directly from the live data files (lib/services.ts, lib/posts.ts) rather than
- * hand-duplicated, so this list can never silently drift from the real site the way the
- * static app/sitemap.xml does (see ai-optimization/reports/STAGE-2-BASELINE-REVIEW.md,
- * Step 12). Every Playwright test/script imports `routes` from here instead of hardcoding
- * paths.
+ * Service routes are derived directly from the live data file (lib/services.ts) so they
+ * can never silently drift from the real site the way the static app/sitemap.xml does
+ * (see ai-optimization/reports/STAGE-2-BASELINE-REVIEW.md, Step 12). Blog routes come
+ * from e2e/lib/blog-routes.generated.json instead of lib/posts.ts directly: posts now
+ * live in Sanity, and Playwright collects test cases by statically executing this file
+ * before global-setup (or any network call) can run, so a live Sanity fetch isn't
+ * possible here. Run `npm run e2e:sync-routes` after changing posts in the Studio to
+ * refresh that snapshot. Every Playwright test/script imports `routes` from here instead
+ * of hardcoding paths.
  */
 import { serviceCategories } from "../../lib/services";
-import { posts } from "../../lib/posts";
+import blogRoutesSnapshot from "./blog-routes.generated.json";
+
+const posts = blogRoutesSnapshot.posts;
 
 export type RouteKind = "core" | "service" | "blog";
 

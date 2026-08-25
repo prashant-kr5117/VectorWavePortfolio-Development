@@ -1,6 +1,7 @@
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, organizationSchema, websiteSchema } from "@/lib/seo";
 import Hero from "@/components/sections/Hero";
+import PartnerLogos from "@/components/sections/PartnerLogos";
 import BusinessDiagnosis from "@/components/sections/BusinessDiagnosis";
 import ProcessChains from "@/components/sections/ProcessChains";
 import Services from "@/components/sections/Services";
@@ -35,6 +36,7 @@ export default function Home() {
       <JsonLd data={homeJsonLd} />
       <main className="flex-1">
         <Hero />
+        <PartnerLogos reverse />
         <BusinessDiagnosis />
         <ProcessChains />
         <Services />

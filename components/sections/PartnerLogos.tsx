@@ -11,31 +11,34 @@ import MicrosoftDynamics365Logo from "@/src/Microsoft_Dynamics_365_Logo.svg";
  * the Maxvill case study migrated FROM, not a current offering; Shopify/NetSuite have no
  * supporting service content anywhere on the site). See
  * ai-optimization/reports/TRUST-FACT-AUDIT.md.
- *
- * Rendered as a static row, not a marquee: a continuous auto-scroll loop existed to fit
- * 7 logos that overflowed the viewport — 3 logos fit in one row with room to spare, so
- * the scroll motion no longer solves a layout problem and was removed rather than kept
- * as unexplained decoration (ai-optimization/MOTION_GUIDELINES.md).
  */
 const partners = [
   { src: ZohoLogo, alt: "Zoho" },
   { src: OdooLogo, alt: "Odoo" },
   { src: MicrosoftDynamics365Logo, alt: "Microsoft Dynamics 365" },
 ];
+const partnersLoop = [...partners, ...partners];
 
-export default function PartnerLogos() {
+export default function PartnerLogos({ reverse = false }: { reverse?: boolean }) {
   return (
-    <section className="border-b border-border py-8">
+    <section className="group relative overflow-hidden border-b border-border py-8">
       <Reveal className="mb-5 text-center">
         <span className="text-[11px] font-bold uppercase tracking-wide text-ink-muted">
           Platforms we implement
         </span>
       </Reveal>
 
-      <div className="flex flex-wrap items-center justify-center gap-x-14 gap-y-4 px-4 sm:gap-x-20">
-        {partners.map((partner) => (
+      <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-r from-surface to-transparent sm:w-24" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-l from-surface to-transparent sm:w-24" />
+
+      <div
+        className={`flex w-max items-center gap-14 sm:gap-20 ${
+          reverse ? "animate-marquee-reverse" : "animate-marquee"
+        }`}
+      >
+        {partnersLoop.map((partner, i) => (
           <Image
-            key={partner.alt}
+            key={`${partner.alt}-${i}`}
             src={partner.src}
             alt={partner.alt}
             className="h-7 w-auto shrink-0 object-contain sm:h-8"

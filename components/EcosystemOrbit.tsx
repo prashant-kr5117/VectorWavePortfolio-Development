@@ -112,7 +112,7 @@ export default function EcosystemOrbit() {
               className={`absolute -translate-x-1/2 -translate-y-1/2 ${isActive ? "z-40" : "z-20"}`}
               style={{ left: `${x}%`, top: `${y}%` }}
             >
-              <div className="group relative">
+              <div className="group relative w-max">
                 <button
                   type="button"
                   onMouseEnter={() => setActive(node.key)}
@@ -126,7 +126,7 @@ export default function EcosystemOrbit() {
                   onFocus={() => setActive(node.key)}
                   onBlur={() => setActive((cur) => (cur === node.key ? null : cur))}
                   aria-label={node.logo ? node.label : undefined}
-                  className={`relative flex items-center gap-2 overflow-hidden rounded-xl border text-xs font-bold shadow-lg backdrop-blur transition-all duration-300 ${
+                  className={`relative inline-flex items-center gap-2 overflow-hidden rounded-xl border text-xs font-bold shadow-lg backdrop-blur transition-all duration-300 ${
                     node.key === "odoo" ? "px-5 py-4" : node.logo ? "px-4 py-3.5" : "px-3 py-2.5"
                   } ${
                     isActive

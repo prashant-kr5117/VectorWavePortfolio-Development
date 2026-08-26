@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { ArrowRight, ChevronRight } from "lucide-react";
+import { ArrowRight, ChevronDown } from "lucide-react";
 import Reveal from "@/components/Reveal";
 
 const techPlatforms = [
@@ -50,17 +50,17 @@ const techPlatforms = [
  * static content (ecosystem marquee, visibility questions, etc.) doesn't need to ship
  * as client JS just because this widget needs `useState`. See
  * ai-optimization/reports/WORKSTREAM-01-RESULT.md.
+ *
+ * Each row expands in place on hover/click/focus rather than driving a separate sticky
+ * detail panel above the list — the content shows up exactly where the interaction
+ * happened. Uses the same grid-template-rows expand pattern as BusinessDiagnosis.tsx's
+ * accordion.
  */
 export default function TechPlatformTabs() {
   const [activeTech, setActiveTech] = useState(0);
-  const activePlatform = techPlatforms[activeTech];
 
   return (
-    // self-start: this is a CSS Grid item (TechnologyAndIndustry.tsx's 2-col grid).
-    // Grid items default to align-self: stretch, which is a well-documented cause of
-    // broken `position: sticky` reflow for descendants -- the sticky card's following
-    // siblings stop reflowing correctly when their grid-item ancestor is stretched.
-    <div className="self-start">
+    <div>
       <Reveal>
         <span className="inline-flex items-center gap-2 rounded-full border border-on-inverse-border bg-white/5 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-accent">
           Technology
@@ -72,77 +72,79 @@ export default function TechPlatformTabs() {
         </h2>
       </Reveal>
 
-      {/* Deliberately NOT inside <Reveal> — Reveal applies a CSS transform to animate
-          in on scroll, and any non-"none" transform on an ancestor (even translate-y-0)
-          creates a new containing block, which silently breaks position: sticky on this
-          card. See the sticky comment below for why this card needs to stay pinned. */}
-      <div className="sticky top-20 z-10 mt-7 rounded-xl border border-accent/40 bg-ink-inverse-alt p-6 shadow-lg lg:top-28">
-        <div key={activeTech} className="animate-[fade-in-up_0.4s_ease-out_backwards]">
-          {activePlatform.badge && (
-            <span className="inline-block rounded-full bg-accent px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-ink">
-              {activePlatform.badge}
-            </span>
-          )}
-          <div className="mt-3 text-lg font-bold text-on-inverse">{activePlatform.name}</div>
-          <p className="mt-1 text-sm text-on-inverse-muted">{activePlatform.tagline}</p>
-
-          <div className="mt-4 flex flex-wrap gap-1.5">
-            {activePlatform.coverage.map((c) => (
-              <span
-                key={c}
-                className="whitespace-nowrap rounded-md bg-white/10 px-2.5 py-1 text-[11px] font-bold text-on-inverse"
-              >
-                {c}
-              </span>
-            ))}
-          </div>
-
-          <p className="mt-4 text-xs leading-relaxed text-on-inverse-muted">{activePlatform.fit}</p>
-
-          {activePlatform.href && (
-            <Link
-              href={activePlatform.href}
-              className="mt-4 inline-flex items-center gap-1 text-xs font-bold text-accent hover:underline"
-            >
-              View related services
-              <ArrowRight size={12} />
-            </Link>
-          )}
-        </div>
-      </div>
-
-      <div role="tablist" aria-label="Technology platforms" className="mt-2 flex flex-col">
+      <div role="tablist" aria-label="Technology platforms" className="mt-7 flex flex-col">
         {techPlatforms.map((t, i) => {
           const isActive = i === activeTech;
           return (
-            <button
-              key={t.id}
-              id={t.id}
-              type="button"
-              role="tab"
-              aria-selected={isActive}
-              onClick={() => setActiveTech(i)}
-              onMouseEnter={() => setActiveTech(i)}
-              onFocus={() => setActiveTech(i)}
-              className="group block w-full scroll-mt-24 border-t border-on-inverse-border py-4 text-left last:border-b"
-            >
-              <div className="flex items-center justify-between gap-2">
-                <span
-                  className={`text-sm font-bold transition-colors duration-200 ${
-                    isActive ? "text-on-inverse" : "text-on-inverse-muted group-hover:text-on-inverse"
-                  }`}
-                >
-                  {t.name}
-                </span>
-                <ChevronRight
-                  size={15}
-                  className={`shrink-0 transition-all duration-200 ${
-                    isActive ? "translate-x-0.5 text-accent" : "text-on-inverse-faint"
-                  }`}
-                />
+            <div key={t.id} className="border-t border-on-inverse-border last:border-b">
+              <button
+                id={t.id}
+                type="button"
+                role="tab"
+                aria-selected={isActive}
+                aria-expanded={isActive}
+                onClick={() => setActiveTech((cur) => (cur === i ? -1 : i))}
+                onMouseEnter={() => setActiveTech(i)}
+                onFocus={() => setActiveTech(i)}
+                className="group block w-full scroll-mt-24 py-4 text-left"
+              >
+                <div className="flex items-center justify-between gap-2">
+                  <span
+                    className={`text-sm font-bold transition-colors duration-200 ${
+                      isActive ? "text-on-inverse" : "text-on-inverse-muted group-hover:text-on-inverse"
+                    }`}
+                  >
+                    {t.name}
+                  </span>
+                  <ChevronDown
+                    size={15}
+                    className={`shrink-0 transition-all duration-300 ${
+                      isActive ? "rotate-180 text-accent" : "text-on-inverse-faint"
+                    }`}
+                  />
+                </div>
+                <span className="text-xs text-on-inverse-muted">{t.tagline}</span>
+              </button>
+
+              <div
+                className={`grid overflow-hidden transition-[grid-template-rows] duration-300 ease-in-out ${
+                  isActive ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+                }`}
+              >
+                <div className="overflow-hidden">
+                  <div className="pb-5">
+                    {t.badge && (
+                      <span className="inline-block rounded-full bg-accent px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-ink">
+                        {t.badge}
+                      </span>
+                    )}
+
+                    <div className={`flex flex-wrap gap-1.5 ${t.badge ? "mt-3" : ""}`}>
+                      {t.coverage.map((c) => (
+                        <span
+                          key={c}
+                          className="whitespace-nowrap rounded-md bg-white/10 px-2.5 py-1 text-[11px] font-bold text-on-inverse"
+                        >
+                          {c}
+                        </span>
+                      ))}
+                    </div>
+
+                    <p className="mt-3 text-xs leading-relaxed text-on-inverse-muted">{t.fit}</p>
+
+                    {t.href && (
+                      <Link
+                        href={t.href}
+                        className="mt-3 inline-flex items-center gap-1 text-xs font-bold text-accent hover:underline"
+                      >
+                        View related services
+                        <ArrowRight size={12} />
+                      </Link>
+                    )}
+                  </div>
+                </div>
               </div>
-              <span className="text-xs text-on-inverse-muted">{t.tagline}</span>
-            </button>
+            </div>
           );
         })}
       </div>

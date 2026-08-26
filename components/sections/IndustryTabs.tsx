@@ -11,10 +11,12 @@ import { industries } from "@/lib/industries";
  * (components/sections/TechnologyAndIndustry.tsx). Split out for the same reason as
  * TechPlatformTabs.tsx — see ai-optimization/reports/WORKSTREAM-01-RESULT.md.
  *
- * Each row expands in place on hover/click/focus rather than driving a separate detail
- * panel elsewhere on the page — the content shows up exactly where the interaction
- * happened. Uses the same grid-template-rows expand pattern as BusinessDiagnosis.tsx's
- * accordion.
+ * Each row is a real link to that industry's page (every industry now has one, under
+ * /industries/[slug]) — hovering/focusing it expands an in-place preview first (same
+ * grid-template-rows pattern as BusinessDiagnosis.tsx's accordion), and clicking
+ * anywhere on the row navigates. Rows previously toggled an expand/collapse state on
+ * click, which meant clicking an already-expanded (e.g. hover-then-click) row closed it
+ * instead of opening its page — a real link fixes that outright.
  */
 export default function IndustryTabs() {
   const [activeIndustry, setActiveIndustry] = useState(0);
@@ -32,17 +34,14 @@ export default function IndustryTabs() {
         </h2>
       </Reveal>
 
-      <div role="tablist" aria-label="Industries" className="mt-7 flex flex-col">
+      <div aria-label="Industries" className="mt-7 flex flex-col">
         {industries.map((ind, i) => {
           const isActive = i === activeIndustry;
           return (
             <div key={ind.slug} className="border-t border-on-inverse-border last:border-b">
-              <button
-                type="button"
-                role="tab"
-                aria-selected={isActive}
-                aria-expanded={isActive}
-                onClick={() => setActiveIndustry((cur) => (cur === i ? -1 : i))}
+              <Link
+                href={`/industries/${ind.slug}`}
+                aria-current={isActive ? "true" : undefined}
                 onMouseEnter={() => setActiveIndustry(i)}
                 onFocus={() => setActiveIndustry(i)}
                 className="flex w-full items-center justify-between gap-2.5 py-3.5 text-left"
@@ -63,7 +62,7 @@ export default function IndustryTabs() {
                     isActive ? "rotate-180 text-accent" : "text-on-inverse-faint"
                   }`}
                 />
-              </button>
+              </Link>
 
               <div
                 className={`grid overflow-hidden transition-[grid-template-rows] duration-300 ease-in-out ${

@@ -83,7 +83,7 @@ export default function TechPlatformTabs() {
                 role="tab"
                 aria-selected={isActive}
                 aria-expanded={isActive}
-                onClick={() => setActiveTech((cur) => (cur === i ? -1 : i))}
+                onClick={() => setActiveTech(i)}
                 onMouseEnter={() => setActiveTech(i)}
                 onFocus={() => setActiveTech(i)}
                 className="group block w-full scroll-mt-24 py-4 text-left"

@@ -12,10 +12,10 @@ const platformLinks = [
 ];
 
 const industryLinks = [
-  { label: "EV Manufacturing", href: "/services#ev-manufacturing" },
-  { label: "Real Estate", href: "/services#real-estate" },
-  { label: "Laptop Refurbishment", href: "/services#laptop-manufacturing-refurbishment" },
-  { label: "Trading", href: "/services#trading-distribution" },
+  { label: "EV Manufacturing", href: "/industries/ev-manufacturing" },
+  { label: "Real Estate", href: "/industries/real-estate" },
+  { label: "Laptop Refurbishment", href: "/industries/laptop-manufacturing-refurbishment" },
+  { label: "Trading", href: "/industries/trading-distribution" },
 ];
 
 export default function Footer() {

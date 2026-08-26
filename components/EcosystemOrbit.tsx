@@ -65,7 +65,7 @@ export default function EcosystemOrbit() {
 
   return (
     <div className="relative">
-      <div className="relative mx-auto hidden aspect-square w-full max-w-[560px] sm:block">
+      <div className="relative mx-auto hidden aspect-square w-full max-w-[460px] sm:block">
         <div className="absolute left-1/2 top-1/2 h-32 w-32 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/25 blur-2xl" />
 
         <svg viewBox="0 0 100 100" className="absolute inset-0 h-full w-full overflow-visible" aria-hidden="true">

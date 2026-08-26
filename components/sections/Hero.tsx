@@ -15,7 +15,7 @@ export default function Hero() {
     // existed to clear a `fixed` header that didn't occupy document flow space; the
     // header is `sticky` everywhere now (see components/Header.tsx), which already
     // pushes this section down naturally.
-    <HoverGlow as="section" className="bg-ink-inverse px-4 pb-20 pt-14 sm:px-6 lg:px-10 lg:pb-28 lg:pt-20">
+    <HoverGlow as="section" className="bg-ink-inverse px-4 pb-20 pt-14 sm:px-6 lg:px-10 lg:pb-16 lg:pt-14">
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.06]"
         style={{

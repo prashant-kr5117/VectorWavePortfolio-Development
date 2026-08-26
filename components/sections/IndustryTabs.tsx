@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import { industries } from "@/lib/industries";
@@ -66,6 +67,14 @@ export default function IndustryTabs() {
               </div>
             </>
           )}
+
+          <Link
+            href={`/industries/${active.slug}`}
+            className="group/link mt-5 inline-flex items-center gap-1.5 text-xs font-bold text-accent"
+          >
+            Explore {active.title} solutions
+            <ArrowRight size={12} className="transition-transform duration-200 group-hover/link:translate-x-0.5" />
+          </Link>
         </div>
       </div>
 

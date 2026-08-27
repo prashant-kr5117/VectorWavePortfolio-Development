@@ -1,21 +1,24 @@
 import Image from "next/image";
 import Reveal from "@/components/Reveal";
 import ZohoLogo from "@/src/zoho logo.webp";
-import OdooLogo from "@/src/odoo_logo.png";
+import OdooLogo from "@/src/odoo.gif";
 import MicrosoftDynamics365Logo from "@/src/Microsoft_Dynamics_365_Logo.svg";
+import NetSuiteLogo from "@/src/NetSuite_idNc45xmoe_0.svg";
+import TallyLogo from "@/src/tally.svg";
 
 /**
- * Only the 3 platforms VectorWave actually implements (ai-optimization/BUSINESS_FACTS.md)
- * appear here. Shopify/React/NetSuite/Tally were removed — none is a verified VectorWave
- * platform capability (React is a build tool, not a platform partnership; Tally is what
- * the Maxvill case study migrated FROM, not a current offering; Shopify/NetSuite have no
- * supporting service content anywhere on the site). See
- * ai-optimization/reports/TRUST-FACT-AUDIT.md.
+ * NetSuite and Tally are shown here as a deliberate visual/decorative choice, not as a
+ * claim that VectorWave implements them as services — neither has a service page or any
+ * supporting capability content on the site (see ai-optimization/reports/TRUST-FACT-AUDIT.md
+ * for why they were originally removed). Tally is specifically what the Maxvill case study
+ * migrated FROM, not a current offering. Human decision, not an AI-inferred one.
  */
 const partners = [
   { src: ZohoLogo, alt: "Zoho" },
-  { src: OdooLogo, alt: "Odoo" },
+  { src: OdooLogo, alt: "Odoo", sizeClassName: "h-9 sm:h-11" },
   { src: MicrosoftDynamics365Logo, alt: "Microsoft Dynamics 365" },
+  { src: NetSuiteLogo, alt: "NetSuite", sizeClassName: "h-4 sm:h-5" },
+  { src: TallyLogo, alt: "Tally" },
 ];
 const partnersLoop = [...partners, ...partners];
 
@@ -41,7 +44,7 @@ export default function PartnerLogos({ reverse = false }: { reverse?: boolean })
             key={`${partner.alt}-${i}`}
             src={partner.src}
             alt={partner.alt}
-            className="h-7 w-auto shrink-0 object-contain sm:h-8"
+            className={`w-auto shrink-0 object-contain ${partner.sizeClassName ?? "h-7 sm:h-8"}`}
           />
         ))}
       </div>

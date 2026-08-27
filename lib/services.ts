@@ -1,3 +1,24 @@
+import type { StaticImageData } from "next/image";
+import ZohoBundledSuiteImage from "@/src/services/zoho-bundled-suite.jpg";
+import SalesImage from "@/src/services/sales.jpg";
+import ItSupportImage from "@/src/services/it-support.jpg";
+import ZohoFinanceImage from "@/src/services/zoho-finance.jpg";
+import HumanResourcesImage from "@/src/services/human-resources.jpg";
+import OdooBusinessSuiteImage from "@/src/services/odoo-business-suite.jpg";
+import OdooSalesEcommerceImage from "@/src/services/odoo-sales-ecommerce.jpg";
+import OdooInventoryOperationsImage from "@/src/services/odoo-inventory-operations.jpg";
+import OdooAccountingImage from "@/src/services/odoo-accounting.jpg";
+import OdooWorkforceHrImage from "@/src/services/odoo-workforce-hr.jpg";
+import Microsoft365DynamicsSuiteImage from "@/src/services/microsoft-365-dynamics-suite.jpg";
+import Dynamics365SalesImage from "@/src/services/dynamics-365-sales.jpg";
+import MicrosoftSecurityDeviceManagementImage from "@/src/services/microsoft-security-device-management.jpg";
+import BusinessCentralFinanceImage from "@/src/services/business-central-finance.jpg";
+import Dynamics365HrImage from "@/src/services/dynamics-365-hr.jpg";
+import MobileAppDevelopmentImage from "@/src/services/mobile-app-development.jpg";
+import WebDevelopmentImage from "@/src/services/web-development.jpg";
+import AiIntegrationImage from "@/src/services/ai-integration.jpg";
+import WhatsappAutomationImage from "@/src/services/whatsapp-automation.jpg";
+
 export type ServiceIcon =
   | "boxes"
   | "users"
@@ -46,6 +67,8 @@ export type ServiceCategory = {
   tools: ServiceTool[];
   metaTitle: string;
   metaDescription: string;
+  /** Generic, non-client-specific photography for the service's card/hero image. */
+  image: StaticImageData;
 };
 
 export const platforms: Platform[] = [
@@ -142,6 +165,7 @@ export const serviceCategories: ServiceCategory[] = [
   // integrations were added.
   {
     slug: "zoho-bundled-suite",
+    image: ZohoBundledSuiteImage,
     platform: "zoho",
     title: "Zoho Bundled Suite",
     short: "CRM, Finance, HR and Analytics set up as one connected suite.",
@@ -192,6 +216,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "sales",
+    image: SalesImage,
     platform: "zoho",
     title: "Sales",
     short: "Pipeline automation, lead capture and reporting built around your process.",
@@ -234,6 +259,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "it-support",
+    image: ItSupportImage,
     platform: "zoho",
     title: "IT & Support",
     short: "Infrastructure, helpdesk and reliable uptime for your team.",
@@ -272,6 +298,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "zoho-finance",
+    image: ZohoFinanceImage,
     platform: "zoho",
     title: "Zoho Finance",
     short: "Invoicing, expenses, compliance and reporting, kept in sync.",
@@ -322,6 +349,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "human-resources",
+    image: HumanResourcesImage,
     platform: "zoho",
     title: "Human Resources",
     short: "Recruitment, onboarding, attendance and payroll workflows.",
@@ -360,6 +388,7 @@ export const serviceCategories: ServiceCategory[] = [
   // ai-optimization/reports/SERVICE-CONTENT-RESEARCH.md for exact sources and what changed.
   {
     slug: "odoo-business-suite",
+    image: OdooBusinessSuiteImage,
     platform: "odoo",
     title: "Odoo Business Suite",
     short: "CRM, inventory, accounting and HR running on one connected database.",
@@ -402,6 +431,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "odoo-sales-ecommerce",
+    image: OdooSalesEcommerceImage,
     platform: "odoo",
     title: "Sales & eCommerce",
     short: "Quotes, storefronts and subscriptions connected to the same data.",
@@ -440,6 +470,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "odoo-inventory-operations",
+    image: OdooInventoryOperationsImage,
     platform: "odoo",
     title: "Inventory & Operations",
     short: "Stock, purchasing and manufacturing kept accurate and in sync.",
@@ -482,6 +513,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "odoo-accounting",
+    image: OdooAccountingImage,
     platform: "odoo",
     title: "Odoo Accounting",
     short: "Invoicing, reconciliation and reporting that update the moment you sell.",
@@ -524,6 +556,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "odoo-workforce-hr",
+    image: OdooWorkforceHrImage,
     platform: "odoo",
     title: "Workforce & HR",
     short: "Recruitment, attendance and reviews without the spreadsheets.",
@@ -570,6 +603,7 @@ export const serviceCategories: ServiceCategory[] = [
   // ai-optimization/reports/SERVICE-CONTENT-RESEARCH.md for exact sources and what changed.
   {
     slug: "microsoft-365-dynamics-suite",
+    image: Microsoft365DynamicsSuiteImage,
     platform: "microsoft-365",
     title: "Microsoft 365 & Dynamics Suite",
     short: "Office apps and Dynamics 365 set up to work as one platform.",
@@ -612,6 +646,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "dynamics-365-sales",
+    image: Dynamics365SalesImage,
     platform: "microsoft-365",
     title: "Dynamics 365 Sales",
     short: "Pipeline and customer data managed right inside Outlook and Teams.",
@@ -654,6 +689,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "microsoft-security-device-management",
+    image: MicrosoftSecurityDeviceManagementImage,
     platform: "microsoft-365",
     title: "Security & Device Management",
     short: "Enterprise-grade identity, device and threat protection from day one.",
@@ -692,6 +728,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "business-central-finance",
+    image: BusinessCentralFinanceImage,
     platform: "microsoft-365",
     title: "Business Central Finance",
     short: "Accounting, purchasing and reporting on live business data.",
@@ -734,6 +771,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "dynamics-365-hr",
+    image: Dynamics365HrImage,
     platform: "microsoft-365",
     title: "Dynamics 365 HR",
     short: "Recruitment, leave and performance in one connected system.",
@@ -781,6 +819,7 @@ export const serviceCategories: ServiceCategory[] = [
   // product needing external verification. Only problem/useCases/integrations were added.
   {
     slug: "mobile-app-development",
+    image: MobileAppDevelopmentImage,
     platform: "custom-development",
     title: "Mobile App Development",
     short: "Native and cross-platform apps built around how your team works.",
@@ -823,6 +862,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "web-development",
+    image: WebDevelopmentImage,
     platform: "custom-development",
     title: "Web Development",
     short: "Websites, portals and e-commerce builds connected to the systems behind them.",
@@ -865,6 +905,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "ai-integration",
+    image: AiIntegrationImage,
     platform: "custom-development",
     title: "AI Integration",
     short: "Practical AI embedded into the apps and workflows you already use.",
@@ -907,6 +948,7 @@ export const serviceCategories: ServiceCategory[] = [
   },
   {
     slug: "whatsapp-automation",
+    image: WhatsappAutomationImage,
     platform: "custom-development",
     title: "WhatsApp Automation",
     short: "Automated messaging and chat flows built into WhatsApp Business.",

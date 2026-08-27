@@ -245,8 +245,8 @@ export default async function IndustryDetailPage(props: {
                 Talk to us about your {industry.title.toLowerCase()} systems
               </h2>
               <p className="mx-auto mt-2 max-w-md text-sm text-ink-muted">
-                Tell us how you run today and we&apos;ll map out how Zoho, Odoo or
-                Microsoft 365 fits your {industry.title.toLowerCase()} operation.
+                Tell us how you run today and we&apos;ll design the right system
+                for your {industry.title.toLowerCase()} operation.
               </p>
               <BookConsultationButton className="btn btn-primary btn--md mt-5">
                 Book free consultation <ArrowRight size={15} />

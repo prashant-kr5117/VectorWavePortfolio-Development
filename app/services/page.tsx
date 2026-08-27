@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
+import ServicesBannerImage from "@/src/services/banner.jpg";
 import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema, buildMetadata } from "@/lib/seo";
 import CTA from "@/components/sections/CTA";
 import Reveal from "@/components/Reveal";
@@ -82,14 +84,23 @@ export default function ServicesPage() {
     <>
       <JsonLd data={servicesJsonLd} />
       <main className="flex-1">
-        <section className="bg-surface-alt px-4 py-14 text-center sm:px-6 sm:py-16">
-          <Reveal>
-            <span className="section-eyebrow section-eyebrow--light">Services</span>
-            <h1 className="mx-auto mt-5 max-w-2xl text-[26px] font-bold leading-tight text-ink sm:text-3xl">
+        <section className="relative overflow-hidden px-4 py-20 text-center sm:px-6 sm:py-24">
+          <Image
+            src={ServicesBannerImage}
+            alt=""
+            aria-hidden="true"
+            fill
+            priority
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-ink-inverse/80" />
+          <Reveal className="relative">
+            <span className="section-eyebrow section-eyebrow--inverse">Services</span>
+            <h1 className="mx-auto mt-5 max-w-2xl text-[26px] font-bold leading-tight text-on-inverse sm:text-3xl">
               VectorWave helps organizations select, implement, customize, integrate and
               optimize business technology.
             </h1>
-            <p className="mx-auto mt-4 max-w-xl text-sm text-ink-muted sm:text-base">
+            <p className="mx-auto mt-4 max-w-xl text-sm text-on-inverse-muted sm:text-base">
               Zoho, Odoo, Microsoft 365 and custom development — chosen on business
               requirements, not on which platform we&apos;d rather sell.
             </p>
@@ -117,8 +128,12 @@ export default function ServicesPage() {
                   <Reveal key={slug} delay={i * 80}>
                     <Link
                       href={`/services/${slug}`}
-                      className="group flex h-full flex-col rounded-xl border border-on-inverse-border bg-white/5 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/50"
+                      className="group flex h-full flex-col overflow-hidden rounded-xl border border-on-inverse-border bg-white/5 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/50"
                     >
+                      <div className="relative -mx-6 -mt-6 mb-4 h-32 w-[calc(100%+3rem)]">
+                        <Image src={service.image} alt="" fill className="object-cover" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-ink-inverse/70 to-transparent" />
+                      </div>
                       {platform && <PlatformLogo platform={platform} size={40} iconSize={18} />}
                       <div className="mt-4 text-sm font-bold text-on-inverse">{service.title}</div>
                       <p className="mt-1.5 flex-1 text-xs leading-relaxed text-on-inverse-muted">
@@ -153,7 +168,10 @@ export default function ServicesPage() {
                   const platform = getPlatform(service.platform);
                   return (
                     <Reveal key={slug} delay={i * 60}>
-                      <Card href={`/services/${slug}`} padding="md">
+                      <Card href={`/services/${slug}`} padding="md" className="overflow-hidden">
+                        <div className="relative -mx-5 -mt-5 mb-4 h-28 w-[calc(100%+2.5rem)]">
+                          <Image src={service.image} alt="" fill className="object-cover" />
+                        </div>
                         <div className="mb-3 flex items-center justify-between">
                           <CardIcon>
                             <ServiceIcon icon={service.icon} size={18} />

@@ -221,7 +221,7 @@ export default function Header() {
         </nav>
 
         <div className="hidden items-center gap-4 lg:flex">
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-border bg-surface-alt text-ink">
+          <span className="flex h-9 items-center justify-center rounded-lg border border-border bg-surface-alt px-3 text-ink">
             <LanguageSwitcher colorClassName="text-ink" />
           </span>
           <Link href="/contact" className="btn btn-primary btn--sm">

@@ -11,8 +11,8 @@ export default function CTA() {
             Ready to bring your systems into one place?
           </h2>
           <p className="mx-auto mt-2 max-w-md text-sm text-on-inverse-muted">
-            Let&apos;s map out where your processes are breaking down and how
-            a connected Zoho, Odoo or Microsoft 365 setup can fix it.
+            Let&apos;s map out where your processes are breaking down and design
+            the right connected setup to fix it.
           </p>
           <BookConsultationButton className="btn btn-primary btn--md mt-5">
             Book free consultation

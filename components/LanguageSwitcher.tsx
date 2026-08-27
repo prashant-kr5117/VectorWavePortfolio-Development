@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Globe, Check } from "lucide-react";
+import { Globe, ChevronDown, Check } from "lucide-react";
 
 const LANGUAGES = [
   { code: "en", label: "English" },
-  { code: "nl", label: "Netherland" },
+  { code: "nl", label: "Dutch" },
 ];
 
 // Google Translate rewrites text nodes across the page, which can leave React's
@@ -63,6 +63,7 @@ export default function LanguageSwitcher({
   const [open, setOpen] =  useState(false);
   const [current, setCurrent] = useState("en");
   const ref = useRef<HTMLDivElement>(null);
+  const currentLabel = LANGUAGES.find((lang) => lang.code === current)?.label ?? "English";
 
   useEffect(() => {
     patchDomForGoogleTranslate();
@@ -86,9 +87,14 @@ export default function LanguageSwitcher({
         onClick={() => setOpen((v) => !v)}
         aria-label="Change language"
         aria-expanded={open}
-        className={`flex items-center gap-1 ${colorClassName} transition-all duration-300 active:scale-90`}
+        className={`flex items-center gap-1.5 ${colorClassName} transition-all duration-300 active:scale-90`}
       >
-        <Globe size={20} />
+        <Globe size={17} className="shrink-0" />
+        <span className="text-sm font-bold">{currentLabel}</span>
+        <ChevronDown
+          size={13}
+          className={`shrink-0 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+        />
       </button>
 
       <div

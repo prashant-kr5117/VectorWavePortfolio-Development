@@ -127,7 +127,7 @@ export default function EcosystemOrbit() {
                   onBlur={() => setActive((cur) => (cur === node.key ? null : cur))}
                   aria-label={node.logo ? node.label : undefined}
                   className={`relative inline-flex items-center gap-2 overflow-hidden rounded-xl border text-xs font-bold shadow-lg backdrop-blur transition-all duration-300 ${
-                    node.key === "odoo" ? "px-5 py-4" : node.logo ? "px-4 py-3.5" : "px-3 py-2.5"
+                    node.logo ? "px-4 py-3.5" : "px-3 py-2.5"
                   } ${
                     isActive
                       ? "-translate-y-0.5 scale-105 border-accent bg-ink-inverse-alt text-on-inverse shadow-[0_16px_34px_-10px_rgba(48,182,205,0.5)]"
@@ -143,7 +143,7 @@ export default function EcosystemOrbit() {
                         "radial-gradient(160px circle at var(--mx, 50%) var(--my, 50%), rgba(48,182,205,0.35), transparent 70%)",
                     }}
                   />
-                  <NodeIcon node={node} size={node.key === "odoo" ? 60 : node.logo ? 40 : 24} />
+                  <NodeIcon node={node} size={node.logo ? 40 : 24} />
                   {node.logo ? (
                     <span className="sr-only">{node.label}</span>
                   ) : (
@@ -176,14 +176,10 @@ export default function EcosystemOrbit() {
           <div
             key={node.key}
             className={`flex items-center gap-2 rounded-xl border border-on-inverse-border bg-ink-inverse-alt ${
-              node.key === "odoo"
-                ? "justify-center px-5 py-5"
-                : node.logo
-                  ? "justify-center px-4 py-4"
-                  : "px-3 py-2.5"
+              node.logo ? "justify-center px-4 py-4" : "px-3 py-2.5"
             }`}
           >
-            <NodeIcon node={node} size={node.key === "odoo" ? 64 : node.logo ? 44 : 28} />
+            <NodeIcon node={node} size={node.logo ? 44 : 28} />
             {node.logo ? (
               <span className="sr-only">{node.label}</span>
             ) : (

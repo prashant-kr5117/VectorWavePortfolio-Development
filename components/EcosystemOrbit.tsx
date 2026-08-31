@@ -135,9 +135,9 @@ export default function EcosystemOrbit() {
                   }}
                   onFocus={() => setActive(node.key)}
                   onBlur={() => setActive((cur) => (cur === node.key ? null : cur))}
-                  aria-label={node.logo ? node.label : undefined}
+                  aria-label={node.logo || node.photo ? node.label : undefined}
                   className={`relative inline-flex items-center gap-2 overflow-hidden rounded-xl border text-xs font-bold shadow-lg backdrop-blur transition-all duration-300 ${
-                    node.logo ? "px-4 py-3.5" : "px-3 py-2.5"
+                    node.logo || node.photo ? "px-4 py-3.5" : "px-3 py-2.5"
                   } ${
                     isActive
                       ? "-translate-y-0.5 scale-105 border-accent bg-ink-inverse-alt text-on-inverse shadow-[0_16px_34px_-10px_rgba(48,182,205,0.5)]"
@@ -153,8 +153,8 @@ export default function EcosystemOrbit() {
                         "radial-gradient(160px circle at var(--mx, 50%) var(--my, 50%), rgba(48,182,205,0.35), transparent 70%)",
                     }}
                   />
-                  <NodeIcon node={node} size={node.logo ? 40 : 24} />
-                  {node.logo ? (
+                  <NodeIcon node={node} size={node.logo || node.photo ? 40 : 24} />
+                  {node.logo || node.photo ? (
                     <span className="sr-only">{node.label}</span>
                   ) : (
                     <span className="whitespace-nowrap">{node.label}</span>
@@ -186,11 +186,11 @@ export default function EcosystemOrbit() {
           <div
             key={node.key}
             className={`flex items-center gap-2 rounded-xl border border-on-inverse-border bg-ink-inverse-alt ${
-              node.logo ? "justify-center px-4 py-4" : "px-3 py-2.5"
+              node.logo || node.photo ? "justify-center px-4 py-4" : "px-3 py-2.5"
             }`}
           >
-            <NodeIcon node={node} size={node.logo ? 44 : 28} />
-            {node.logo ? (
+            <NodeIcon node={node} size={node.logo || node.photo ? 44 : 28} />
+            {node.logo || node.photo ? (
               <span className="sr-only">{node.label}</span>
             ) : (
               <span className="text-[11px] font-bold text-on-inverse">{node.label}</span>

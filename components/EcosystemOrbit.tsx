@@ -45,7 +45,7 @@ function NodeIcon({ node, size }: { node: Node; size: number }) {
     return (
       <span
         className="relative flex shrink-0 overflow-hidden rounded-md"
-        style={{ width: size * 1.5, height: size }}
+        style={{ width: size * 2.85, height: size }}
       >
         <Image src={node.photo} alt="" fill className="object-cover" />
       </span>

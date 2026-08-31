@@ -2,16 +2,13 @@
 
 import { useState } from "react";
 import Image, { type StaticImageData } from "next/image";
-import {
-  Calculator,
-  Code2,
-  Bot,
-  Layers,
-  type LucideIcon,
-} from "lucide-react";
+import { Layers, type LucideIcon } from "lucide-react";
 import ZohoLogo from "@/src/zoho.png";
 import OdooLogo from "@/src/odoo_logo.png";
 import Microsoft365Logo from "@/src/Microsoft_Dynamics_365_Logo.svg";
+import FinancePhoto from "@/src/services/zoho-finance.jpg";
+import WebDevPhoto from "@/src/services/web-development.jpg";
+import AiPhoto from "@/src/services/ai-integration.jpg";
 
 type Node = {
   key: string;
@@ -19,14 +16,17 @@ type Node = {
   desc: string;
   icon?: LucideIcon;
   logo?: StaticImageData;
+  /** Small square photo swatch — same generic, non-client-specific photography already
+   * used on the /services cards, reused here instead of a plain icon glyph. */
+  photo?: StaticImageData;
 };
 
 const NODES: Node[] = [
   { key: "zoho", label: "Zoho", desc: "CRM, Books, Inventory and more, fully implemented and connected.", logo: ZohoLogo },
   { key: "odoo", label: "Odoo", desc: "Modular open-source ERP tailored to your sales and finance flow.", logo: OdooLogo },
-  { key: "finance", label: "Finance", desc: "Invoicing, expenses and reconciliation kept accurate and in sync.", icon: Calculator },
-  { key: "web", label: "Web Development", desc: "Fast, SEO-ready websites that convert visitors into leads.", icon: Code2 },
-  { key: "ai", label: "AI", desc: "Automation and AI tooling that speeds up decisions and tasks.", icon: Bot },
+  { key: "finance", label: "Finance", desc: "Invoicing, expenses and reconciliation kept accurate and in sync.", photo: FinancePhoto },
+  { key: "web", label: "Web Development", desc: "Fast, SEO-ready websites that convert visitors into leads.", photo: WebDevPhoto },
+  { key: "ai", label: "AI", desc: "Automation and AI tooling that speeds up decisions and tasks.", photo: AiPhoto },
   { key: "microsoft-365", label: "Microsoft 365", desc: "Office, collaboration and Dynamics 365 rollouts for larger, complex teams.", logo: Microsoft365Logo },
 ];
 
@@ -38,6 +38,16 @@ function NodeIcon({ node, size }: { node: Node; size: number }) {
         style={{ height: size, minWidth: size }}
       >
         <Image src={node.logo} alt={`${node.label} logo`} style={{ height: size * 0.8, width: "auto" }} />
+      </span>
+    );
+  }
+  if (node.photo) {
+    return (
+      <span
+        className="relative flex shrink-0 overflow-hidden rounded-md"
+        style={{ width: size, height: size }}
+      >
+        <Image src={node.photo} alt="" fill className="object-cover" />
       </span>
     );
   }

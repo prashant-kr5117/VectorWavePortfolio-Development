@@ -128,12 +128,8 @@ export default function ServicesPage() {
                   <Reveal key={slug} delay={i * 80}>
                     <Link
                       href={`/services/${slug}`}
-                      className="group flex h-full flex-col overflow-hidden rounded-xl border border-on-inverse-border bg-white/5 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/50"
+                      className="group flex h-full flex-col rounded-xl border border-on-inverse-border bg-white/5 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-accent/50"
                     >
-                      <div className="relative -mx-6 -mt-6 mb-4 h-32 w-[calc(100%+3rem)]">
-                        <Image src={service.image} alt="" fill className="object-cover" />
-                        <div className="absolute inset-0 bg-gradient-to-t from-ink-inverse/70 to-transparent" />
-                      </div>
                       {platform && <PlatformLogo platform={platform} size={40} iconSize={18} />}
                       <div className="mt-4 text-sm font-bold text-on-inverse">{service.title}</div>
                       <p className="mt-1.5 flex-1 text-xs leading-relaxed text-on-inverse-muted">

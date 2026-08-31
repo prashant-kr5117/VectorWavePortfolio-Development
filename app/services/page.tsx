@@ -205,7 +205,12 @@ export default function ServicesPage() {
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {industries.map((item, i) => (
                 <Reveal key={item.title} delay={i * 50}>
-                  <Card id={item.slug} href={`/industries/${item.slug}`} className="scroll-mt-24">
+                  <Card id={item.slug} href={`/industries/${item.slug}`} className="scroll-mt-24 overflow-hidden">
+                    {item.heroImage && (
+                      <div className="relative -mx-5 -mt-5 mb-4 h-28 w-[calc(100%+2.5rem)]">
+                        <Image src={item.heroImage} alt="" fill className="object-cover" />
+                      </div>
+                    )}
                     <CardIcon tone="inverse">
                       <item.icon size={18} />
                     </CardIcon>

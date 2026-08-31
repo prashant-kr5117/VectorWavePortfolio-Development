@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL, ORGANIZATION_ID, WEBSITE_ID, breadcrumbSchema, buildMetadata } from "@/lib/seo";
 import CTA from "@/components/sections/CTA";
@@ -63,7 +64,12 @@ export default function IndustriesPage() {
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {industries.map((item, i) => (
                 <Reveal key={item.slug} delay={i * 50}>
-                  <Card href={`/industries/${item.slug}`}>
+                  <Card href={`/industries/${item.slug}`} className="overflow-hidden">
+                    {item.heroImage && (
+                      <div className="relative -mx-5 -mt-5 mb-4 h-28 w-[calc(100%+2.5rem)]">
+                        <Image src={item.heroImage} alt="" fill className="object-cover" />
+                      </div>
+                    )}
                     <CardIcon tone="inverse">
                       <item.icon size={18} />
                     </CardIcon>

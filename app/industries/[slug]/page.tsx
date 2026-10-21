@@ -18,7 +18,11 @@ import { getServiceBySlug, getPlatform } from "@/lib/services";
 import { buildMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
-  return industries.map((industry) => ({ slug: industry.slug }));
+  // real-estate has its own static route (app/industries/real-estate), which wins over
+  // this dynamic segment, so it's excluded here to avoid generating a shadowed page.
+  return industries
+    .filter((industry) => industry.slug !== "real-estate")
+    .map((industry) => ({ slug: industry.slug }));
 }
 
 export async function generateMetadata(props: {

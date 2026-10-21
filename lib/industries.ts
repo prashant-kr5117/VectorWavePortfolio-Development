@@ -130,6 +130,10 @@ export const industries: Industry[] = [
     relatedServiceSlugs: ["sales", "zoho-finance", "whatsapp-automation", "ai-integration", "web-development"],
     faqs: [
       {
+        q: "What is a real estate CRM, and does my team need one?",
+        a: "A real estate CRM is the single place where every lead, site visit, booking and payment for a project lives, replacing spreadsheets, WhatsApp chats and sticky notes. If your enquiries arrive from several channels, follow-ups depend on individual salespeople remembering, or finance tracks collections separately from sales bookings, a CRM connected to your inventory and finance is what closes those gaps.",
+      },
+      {
         q: "Do you work with independent brokers, or only developers?",
         a: "Both — a brokerage typically needs strong lead-to-site-visit tracking in a CRM; a developer running multi-phase projects usually needs project and inventory management on top of that for unit-level booking and collections. We map which one matches your operation before proposing anything.",
       },
@@ -143,7 +147,7 @@ export const industries: Industry[] = [
       },
       {
         q: "How long does an implementation like this take?",
-        a: "It depends on scope. A CRM-only setup for leads and the sales pipeline is the fastest path; adding project/inventory management, booking and collections workflows extends it. We scope a concrete timeline after understanding your current process rather than quoting a fixed number upfront.",
+        a: "It depends on scope. A CRM-only setup for leads and the sales pipeline is the fastest path; adding project/inventory management, booking and collections workflows extends it. For reference, our multi-project real estate case study went from kickoff to full rollout (CRM, inventory, bookings, collections and dashboards) in 12 weeks. We scope a concrete timeline after understanding your current process rather than quoting a fixed number upfront.",
       },
       {
         q: "We already use Zoho or Odoo, but it's not really working for us. Can you help?",

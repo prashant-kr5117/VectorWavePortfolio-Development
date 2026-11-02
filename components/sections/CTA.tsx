@@ -7,10 +7,10 @@ export default function CTA() {
     <section className="px-4 py-16 sm:px-6 lg:px-10 lg:py-20">
       <Reveal>
         <HoverGlow className="rounded-2xl border border-border bg-ink-inverse px-6 py-14 text-center transition-all duration-300 hover:border-accent/50 sm:px-10">
-          <h2 className="text-lg font-bold text-on-inverse sm:text-xl">
+          <h2 className="text-xl font-bold text-on-inverse sm:text-2xl">
             Ready to bring your systems into one place?
           </h2>
-          <p className="mx-auto mt-2 max-w-lg text-sm text-on-inverse-muted">
+          <p className="mx-auto mt-2 max-w-xl text-[15px] leading-relaxed text-on-inverse-muted">
             Start with a free audit. We map where your processes break down across
             Sales, Finance, Marketing and Supply Chain, then show the right
             connected setup to fix it &mdash; across Zoho and Odoo ERP, custom
@@ -27,7 +27,7 @@ export default function CTA() {
             ].map((area) => (
               <li
                 key={area}
-                className="rounded-full border border-on-inverse-border px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-on-inverse-muted"
+                className="rounded-full border border-on-inverse-border px-3 py-1 text-xs font-bold uppercase tracking-wide text-on-inverse-muted"
               >
                 {area}
               </li>

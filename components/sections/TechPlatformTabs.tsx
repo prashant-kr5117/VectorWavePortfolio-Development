@@ -62,7 +62,7 @@ export default function TechPlatformTabs() {
   return (
     <div>
       <Reveal>
-        <span className="inline-flex items-center gap-2 rounded-full border border-on-inverse-border bg-white/5 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-accent">
+        <span className="inline-flex items-center gap-2 rounded-full border border-on-inverse-border bg-white/5 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-accent">
           Technology
         </span>
         <h2 className="mt-4 text-xl font-bold leading-snug text-on-inverse sm:text-2xl">
@@ -90,20 +90,20 @@ export default function TechPlatformTabs() {
               >
                 <div className="flex items-center justify-between gap-2">
                   <span
-                    className={`text-sm font-bold transition-colors duration-200 ${
+                    className={`text-base font-bold transition-colors duration-200 ${
                       isActive ? "text-on-inverse" : "text-on-inverse-muted group-hover:text-on-inverse"
                     }`}
                   >
                     {t.name}
                   </span>
                   <ChevronDown
-                    size={15}
+                    size={16}
                     className={`shrink-0 transition-all duration-300 ${
                       isActive ? "rotate-180 text-accent" : "text-on-inverse-faint"
                     }`}
                   />
                 </div>
-                <span className="text-xs text-on-inverse-muted">{t.tagline}</span>
+                <span className="mt-0.5 block text-[13px] text-on-inverse-muted">{t.tagline}</span>
               </button>
 
               <div
@@ -114,7 +114,7 @@ export default function TechPlatformTabs() {
                 <div className="overflow-hidden">
                   <div className="pb-5">
                     {t.badge && (
-                      <span className="inline-block rounded-full bg-accent px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-ink">
+                      <span className="inline-block rounded-full bg-accent px-2.5 py-1 text-xs font-bold uppercase tracking-wide text-ink">
                         {t.badge}
                       </span>
                     )}
@@ -123,19 +123,19 @@ export default function TechPlatformTabs() {
                       {t.coverage.map((c) => (
                         <span
                           key={c}
-                          className="whitespace-nowrap rounded-md bg-white/10 px-2.5 py-1 text-[11px] font-bold text-on-inverse"
+                          className="whitespace-nowrap rounded-md bg-white/10 px-2.5 py-1 text-xs font-bold text-on-inverse"
                         >
                           {c}
                         </span>
                       ))}
                     </div>
 
-                    <p className="mt-3 text-xs leading-relaxed text-on-inverse-muted">{t.fit}</p>
+                    <p className="mt-3 text-sm leading-relaxed text-on-inverse-muted">{t.fit}</p>
 
                     {t.href && (
                       <Link
                         href={t.href}
-                        className="mt-3 inline-flex items-center gap-1 text-xs font-bold text-accent hover:underline"
+                        className="mt-3 inline-flex items-center gap-1 text-[13px] font-bold text-accent hover:underline"
                       >
                         View related services
                         <ArrowRight size={12} />
@@ -148,7 +148,7 @@ export default function TechPlatformTabs() {
           );
         })}
       </div>
-      <p className="mt-6 text-xs italic leading-relaxed text-on-inverse-faint">
+      <p className="mt-6 text-sm italic leading-relaxed text-on-inverse-muted">
         We recommend the platform based on business requirements, not
         on which one we&apos;d rather sell.
       </p>

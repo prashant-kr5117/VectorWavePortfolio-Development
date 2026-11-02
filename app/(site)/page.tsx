@@ -8,7 +8,6 @@ import Services from "@/components/sections/Services";
 import TechnologyAndIndustry from "@/components/sections/TechnologyAndIndustry";
 import WhyVectorWave from "@/components/sections/WhyVectorWave";
 import CaseStudy from "@/components/sections/CaseStudy";
-import Process from "@/components/sections/Process";
 import LatestPosts from "@/components/sections/LatestPosts";
 import CTA from "@/components/sections/CTA";
 
@@ -49,7 +48,6 @@ export default function Home() {
           name="Nikhil"
           role="CEO, Maxvill"
         />
-        <Process />
         <BusinessDiagnosis />
         <LatestPosts />
         <CTA />

@@ -29,7 +29,7 @@ export default function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1fr_1.05fr] lg:gap-8">
         <Reveal>
-          <span className="inline-flex items-center gap-2 rounded-full border border-accent/25 bg-accent/10 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-accent">
+          <span className="inline-flex items-center gap-2 rounded-full border border-accent/25 bg-accent/10 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-accent">
             <span className="h-1.5 w-1.5 shrink-0 animate-dot-pulse rounded-full bg-accent" />
             Web · ERP · CRM · AI Solutions
           </span>
@@ -49,7 +49,7 @@ export default function Hero() {
             />
           </h1>
 
-          <p className="mt-5 max-w-md text-sm leading-relaxed text-on-inverse-muted sm:text-base">
+          <p className="mt-5 max-w-md text-[15px] leading-relaxed text-on-inverse-muted sm:text-base">
             We design and build business websites, e-commerce and web apps &mdash;
             and implement Zoho and Odoo ERP, CRM automation and AI tooling for
             growing businesses.
@@ -75,16 +75,16 @@ export default function Hero() {
           <div className="mt-10 flex flex-wrap items-end gap-x-8 gap-y-4 border-t border-on-inverse-border pt-6">
             <div>
               <Counter value={15} suffix="+" className="text-3xl font-bold text-on-inverse" />
-              <div className="mt-0.5 text-xs font-semibold text-on-inverse-faint">Projects delivered</div>
+              <div className="mt-0.5 text-[13px] font-semibold text-on-inverse-muted">Projects delivered</div>
             </div>
             <div aria-hidden="true" className="hidden h-8 w-px bg-on-inverse-border sm:block" />
             <div>
               <Counter value={platforms.length} className="text-xl font-bold text-on-inverse" />
-              <div className="mt-0.5 text-xs text-on-inverse-faint">Platforms</div>
+              <div className="mt-0.5 text-[13px] text-on-inverse-muted">Platforms</div>
             </div>
             <div>
               <Counter value={industries.length} className="text-xl font-bold text-on-inverse" />
-              <div className="mt-0.5 text-xs text-on-inverse-faint">Industries served</div>
+              <div className="mt-0.5 text-[13px] text-on-inverse-muted">Industries served</div>
             </div>
           </div>
         </Reveal>

@@ -24,7 +24,7 @@ export default function IndustryTabs() {
   return (
     <div>
       <Reveal delay={100}>
-        <span className="inline-flex items-center gap-2 rounded-full border border-on-inverse-border bg-white/5 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-accent">
+        <span className="inline-flex items-center gap-2 rounded-full border border-on-inverse-border bg-white/5 px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-accent">
           Industry experience
         </span>
         <h2 className="mt-4 text-xl font-bold leading-snug text-on-inverse sm:text-2xl">
@@ -47,9 +47,9 @@ export default function IndustryTabs() {
                 className="flex w-full items-center justify-between gap-2.5 py-3.5 text-left"
               >
                 <span className="flex items-center gap-2.5">
-                  <ind.icon size={14} className={isActive ? "text-accent" : "text-on-inverse-faint"} />
+                  <ind.icon size={16} className={isActive ? "text-accent" : "text-on-inverse-faint"} />
                   <span
-                    className={`text-[13.5px] font-bold transition-colors duration-200 ${
+                    className={`text-base font-bold transition-colors duration-200 ${
                       isActive ? "text-on-inverse" : "text-on-inverse-muted"
                     }`}
                   >
@@ -57,7 +57,7 @@ export default function IndustryTabs() {
                   </span>
                 </span>
                 <ChevronDown
-                  size={14}
+                  size={16}
                   className={`shrink-0 transition-all duration-300 ${
                     isActive ? "rotate-180 text-accent" : "text-on-inverse-faint"
                   }`}
@@ -71,32 +71,32 @@ export default function IndustryTabs() {
               >
                 <div className="overflow-hidden">
                   <div className="pb-5 pl-[26px]">
-                    <p className="text-sm leading-relaxed text-on-inverse">{ind.model}</p>
+                    <p className="text-[15px] leading-relaxed text-on-inverse">{ind.model}</p>
 
-                    <div className="mt-3.5 text-[10.5px] font-bold uppercase tracking-wide text-accent">
+                    <div className="mt-3.5 text-xs font-bold uppercase tracking-wide text-accent">
                       Key processes
                     </div>
-                    <p className="mt-1.5 text-xs leading-relaxed text-on-inverse-muted">
+                    <p className="mt-1.5 text-sm leading-relaxed text-on-inverse-muted">
                       {ind.caps.join(" · ")}
                     </p>
 
-                    <div className="mt-3.5 text-[10.5px] font-bold uppercase tracking-wide text-accent">
+                    <div className="mt-3.5 text-xs font-bold uppercase tracking-wide text-accent">
                       Management visibility
                     </div>
-                    <p className="mt-1.5 text-xs leading-relaxed text-on-inverse-muted">
+                    <p className="mt-1.5 text-sm leading-relaxed text-on-inverse-muted">
                       {ind.visibility}
                     </p>
 
                     {ind.flow && (
                       <>
-                        <div className="mt-3.5 text-[10.5px] font-bold uppercase tracking-wide text-accent">
+                        <div className="mt-3.5 text-xs font-bold uppercase tracking-wide text-accent">
                           Signature process
                         </div>
                         <div className="mt-2 flex flex-wrap items-center gap-x-1.5 gap-y-1.5">
                           {ind.flow.map((step, si) => (
                             <span key={step} className="flex items-center gap-1.5">
                               {si > 0 && <ArrowRight size={10} className="shrink-0 text-on-inverse-faint" />}
-                              <span className="whitespace-nowrap rounded-md bg-white/10 px-2 py-1 text-[11px] font-bold text-on-inverse">
+                              <span className="whitespace-nowrap rounded-md bg-white/10 px-2 py-1 text-xs font-bold text-on-inverse">
                                 {step}
                               </span>
                             </span>
@@ -107,7 +107,7 @@ export default function IndustryTabs() {
 
                     <Link
                       href={`/industries/${ind.slug}`}
-                      className="group/link mt-4 inline-flex items-center gap-1.5 text-xs font-bold text-accent"
+                      className="group/link mt-4 inline-flex items-center gap-1.5 text-[13px] font-bold text-accent"
                     >
                       Explore {ind.title} solutions
                       <ArrowRight size={12} className="transition-transform duration-200 group-hover/link:translate-x-0.5" />

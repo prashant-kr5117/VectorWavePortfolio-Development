@@ -26,7 +26,7 @@ export default function PartnerLogos({ reverse = false }: { reverse?: boolean })
   return (
     <section className="group relative overflow-hidden border-b border-border py-8">
       <Reveal className="mb-5 text-center">
-        <span className="text-[11px] font-bold uppercase tracking-wide text-ink-muted">
+        <span className="text-xs font-bold uppercase tracking-wide text-ink-muted">
           Platforms we implement
         </span>
       </Reveal>

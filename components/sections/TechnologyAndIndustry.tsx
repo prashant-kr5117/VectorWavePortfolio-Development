@@ -47,7 +47,7 @@ export default function TechnologyAndIndustry() {
           <h3 className="max-w-xl text-lg font-bold text-on-inverse sm:text-xl">
             One transformation approach.
           </h3>
-          <p className="mt-2 max-w-2xl text-sm leading-relaxed text-on-inverse-muted">
+          <p className="mt-2 max-w-2xl text-[15px] leading-relaxed text-on-inverse-muted">
             We have worked across manufacturing, technology, services,
             healthcare, education and trading businesses. Because client
             confidentiality matters, we showcase our industry and
@@ -80,7 +80,7 @@ export default function TechnologyAndIndustry() {
             {visibilityQuestions.map((q) => (
               <div
                 key={q}
-                className="border-t border-on-inverse-border py-3.5 text-sm italic text-on-inverse-muted last:border-b"
+                className="border-t border-on-inverse-border py-3.5 text-[15px] italic text-on-inverse-muted last:border-b"
               >
                 &ldquo;{q}&rdquo;
               </div>

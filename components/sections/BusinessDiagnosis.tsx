@@ -44,7 +44,7 @@ export default function BusinessDiagnosis() {
     <section className="px-4 py-20 sm:px-6 lg:px-10 lg:py-28">
       <div className="mx-auto max-w-3xl">
         <Reveal className="mb-10">
-          <span className="inline-flex items-center gap-2 rounded-full bg-surface-chip px-4 py-1.5 text-[11px] font-bold uppercase tracking-wide text-primary">
+          <span className="inline-flex items-center gap-2 rounded-full bg-surface-chip px-4 py-1.5 text-xs font-bold uppercase tracking-wide text-primary">
             Business diagnosis
           </span>
           <h2 className="mt-4 text-xl font-bold text-ink sm:text-2xl">
@@ -61,7 +61,7 @@ export default function BusinessDiagnosis() {
                   type="button"
                   onClick={() => setOpen(isOpen ? null : i)}
                   aria-expanded={isOpen}
-                  className="flex w-full items-center justify-between gap-4 py-5 text-left text-sm font-bold text-ink sm:text-base"
+                  className="flex w-full items-center justify-between gap-4 py-5 text-left text-[15px] font-bold text-ink sm:text-base"
                 >
                   &ldquo;{item.q}&rdquo;
                   <Plus
@@ -77,21 +77,21 @@ export default function BusinessDiagnosis() {
                   }`}
                 >
                   <div className="overflow-hidden">
-                    <div className="flex flex-wrap gap-6 pb-6 text-xs leading-relaxed text-ink-muted sm:text-sm">
+                    <div className="flex flex-wrap gap-6 pb-6 text-sm leading-relaxed text-ink-muted sm:text-[15px]">
                       <div>
-                        <b className="mb-1 block text-[10.5px] font-bold uppercase tracking-wide text-primary">
+                        <b className="mb-1 block text-xs font-bold uppercase tracking-wide text-primary">
                           Diagnosis
                         </b>
                         {item.d}
                       </div>
                       <div>
-                        <b className="mb-1 block text-[10.5px] font-bold uppercase tracking-wide text-primary">
+                        <b className="mb-1 block text-xs font-bold uppercase tracking-wide text-primary">
                           Business impact
                         </b>
                         {item.i}
                       </div>
                       <div>
-                        <b className="mb-1 block text-[10.5px] font-bold uppercase tracking-wide text-primary">
+                        <b className="mb-1 block text-xs font-bold uppercase tracking-wide text-primary">
                           Possible system response
                         </b>
                         {item.s}

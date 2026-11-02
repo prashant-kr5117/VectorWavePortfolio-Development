@@ -55,6 +55,7 @@ export default function CaseStudy({
             heading="Case study: Maxvill"
             description="The one client story on this site we can name, and stand behind."
             align="center"
+            size="lg"
           />
         </Reveal>
 
@@ -103,19 +104,19 @@ export default function CaseStudy({
             <div className="flex flex-col gap-5">
               {beats.map((beat) => (
                 <div key={beat.label} className="border-t border-border pt-4 first:border-t-0 first:pt-0">
-                  <div className="mb-1 text-[10.5px] font-bold uppercase tracking-wide text-primary">
+                  <div className="mb-1 text-xs font-bold uppercase tracking-wide text-primary">
                     {beat.label}
                   </div>
-                  <p className="text-sm leading-relaxed text-ink-muted">{beat.text}</p>
+                  <p className="text-[15px] leading-relaxed text-ink-muted">{beat.text}</p>
                 </div>
               ))}
 
               <div className="border-t border-border pt-4">
-                <div className="mb-1 text-[10.5px] font-bold uppercase tracking-wide text-primary">
+                <div className="mb-1 text-xs font-bold uppercase tracking-wide text-primary">
                   Outcome
                 </div>
-                <p className="text-sm italic leading-relaxed text-ink">&ldquo;{quote}&rdquo;</p>
-                <p className="mt-2 text-xs font-bold text-ink">
+                <p className="text-[15px] italic leading-relaxed text-ink">&ldquo;{quote}&rdquo;</p>
+                <p className="mt-2 text-[13px] font-bold text-ink">
                   {name} <span className="font-normal text-ink-faint">— {role}</span>
                 </p>
               </div>

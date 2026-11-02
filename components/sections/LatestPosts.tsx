@@ -17,7 +17,7 @@ export default async function LatestPosts({ limit = 3 }: { limit?: number }) {
           <h2 className="text-xl font-bold text-ink sm:text-2xl">
             Latest insights
           </h2>
-          <p className="mt-1 text-sm text-ink-muted">
+          <p className="mt-1 text-[15px] text-ink-muted">
             Practical notes from our team on ERP, CRM, AI and automation.
           </p>
         </Reveal>
@@ -40,16 +40,16 @@ export default async function LatestPosts({ limit = 3 }: { limit?: number }) {
                   )}
                 </div>
                 <div className="flex flex-1 flex-col p-5">
-                  <span className="mb-2 inline-block w-fit rounded-full bg-surface-chip px-3 py-1 text-[10px] font-bold text-primary">
+                  <span className="mb-2 inline-block w-fit rounded-full bg-surface-chip px-3 py-1 text-xs font-bold text-primary">
                     {post.category}
                   </span>
-                  <h3 className="mb-2 text-sm font-bold leading-snug text-ink">
+                  <h3 className="mb-2 text-base font-bold leading-snug text-ink">
                     {post.title}
                   </h3>
-                  <p className="mb-4 line-clamp-3 flex-1 text-xs leading-relaxed text-ink-muted">
+                  <p className="mb-4 line-clamp-3 flex-1 text-sm leading-relaxed text-ink-muted">
                     {post.excerpt}
                   </p>
-                  <div className="mt-auto flex flex-wrap items-center gap-3 border-t border-border pt-3 text-[10px] text-ink-faint">
+                  <div className="mt-auto flex flex-wrap items-center gap-3 border-t border-border pt-3 text-xs text-ink-faint">
                     <span className="flex items-center gap-1">
                       <Calendar size={12} /> {post.date}
                     </span>

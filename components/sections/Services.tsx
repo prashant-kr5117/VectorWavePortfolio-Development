@@ -24,6 +24,7 @@ export default function Services() {
             heading="Websites, systems, and everything in between"
             description="We design and build business websites, e-commerce and web apps, and implement ERP, CRM and AI across Zoho, Odoo, Microsoft 365 and custom development."
             align="center"
+            size="lg"
           />
         </Reveal>
 
@@ -32,9 +33,9 @@ export default function Services() {
             <Reveal key={platform.slug} delay={pi * 80} className="card flex h-full flex-col p-5">
               <div className="flex items-center gap-3">
                 <PlatformLogo platform={platform} size={36} iconSize={16} />
-                <div className="text-sm font-bold text-ink">{platform.name}</div>
+                <div className="text-base font-bold leading-snug text-ink">{platform.name}</div>
               </div>
-              <p className="mt-2.5 text-xs leading-relaxed text-ink-muted">{platform.short}</p>
+              <p className="mt-2.5 text-sm leading-relaxed text-ink-muted">{platform.short}</p>
 
               <div className="mt-4 flex flex-1 flex-col gap-0.5 border-t border-border pt-3">
                 {getServicesByPlatform(platform.slug).map((service) => (
@@ -46,7 +47,7 @@ export default function Services() {
                     <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-md bg-surface-chip text-primary transition-transform duration-300 group-hover/item:scale-110">
                       <ServiceIcon icon={service.icon} size={12} />
                     </span>
-                    <span className="text-xs font-semibold leading-tight text-ink-soft group-hover/item:text-ink">
+                    <span className="text-sm font-semibold leading-snug text-ink-soft group-hover/item:text-ink">
                       {service.title}
                     </span>
                   </Link>
@@ -55,10 +56,10 @@ export default function Services() {
 
               <Link
                 href="/services"
-                className="btn-text mt-4 inline-flex items-center text-xs"
+                className="btn-text mt-4 inline-flex items-center text-[13px]"
               >
                 Explore {platform.name} services
-                <ArrowRight size={12} />
+                <ArrowRight size={12} className="shrink-0" />
               </Link>
             </Reveal>
           ))}

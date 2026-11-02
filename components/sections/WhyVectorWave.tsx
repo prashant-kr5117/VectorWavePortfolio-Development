@@ -41,22 +41,22 @@ export default function WhyVectorWave() {
         <div className="grid grid-cols-1 gap-x-10 gap-y-8 sm:grid-cols-2">
           {items.map((item, i) => (
             <Reveal key={item.n} delay={i * 70} className="border-t border-border pt-6">
-              <div className="mb-2.5 text-xs font-bold text-primary">{item.n}</div>
+              <div className="mb-2.5 text-[13px] font-bold text-primary">{item.n}</div>
               <h3 className="mb-4 text-base font-bold leading-snug text-ink">{item.title}</h3>
               <div className="flex flex-wrap items-center gap-1.5">
                 {item.chain.map((step, si) => (
                   <span key={step} className="flex items-center gap-1.5">
                     {si > 0 && (
-                      <span className="text-xs text-ink-faint">{item.sep ?? "→"}</span>
+                      <span className="text-[13px] text-ink-faint">{item.sep ?? "→"}</span>
                     )}
-                    <span className="whitespace-nowrap rounded-md border border-border bg-surface-alt px-2.5 py-1 text-xs font-bold text-ink-soft">
+                    <span className="whitespace-nowrap rounded-md border border-border bg-surface-alt px-2.5 py-1 text-[13px] font-bold text-ink-soft">
                       {step}
                     </span>
                   </span>
                 ))}
               </div>
               {item.note && (
-                <p className="mt-3 text-xs leading-relaxed text-ink-muted">{item.note}</p>
+                <p className="mt-3 text-sm leading-relaxed text-ink-muted">{item.note}</p>
               )}
             </Reveal>
           ))}

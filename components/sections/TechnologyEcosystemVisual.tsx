@@ -79,10 +79,10 @@ export default function TechnologyEcosystemVisual() {
     <MotionConfig reducedMotion="user">
       <div ref={ref} className="mt-14 border-y border-on-inverse-border py-8">
         <div className="mb-6 text-center">
-          <span className="text-[11px] font-bold uppercase tracking-wide text-accent">
+          <span className="text-xs font-bold uppercase tracking-wide text-accent">
             How the pieces connect
           </span>
-          <p className="mx-auto mt-2 max-w-lg text-xs leading-relaxed text-on-inverse-muted">
+          <p className="mx-auto mt-2 max-w-lg text-sm leading-relaxed text-on-inverse-muted">
             The platform is one stage in the work, not the whole of it.
           </p>
         </div>
@@ -90,7 +90,7 @@ export default function TechnologyEcosystemVisual() {
         {/* Desktop (lg+, 1024px+): horizontal flow. Mobile/tablet below that: vertical
             stack — 768px doesn't have room for 5 cards + connectors in a row without
             cramping the text, so it gets the same clean stacked treatment as mobile. */}
-        <div className="flex flex-col items-stretch gap-3 lg:flex-row lg:items-start lg:justify-center lg:gap-1">
+        <div className="flex flex-col items-stretch gap-3 lg:flex-row lg:items-start lg:gap-1">
           {/* Stage 1 — Business need */}
           <EcosystemStage stage={stages[0]} inView={inView} delay={delayAt(0)} />
           <Connector inView={inView} delay={delayAt(1)} />
@@ -100,10 +100,10 @@ export default function TechnologyEcosystemVisual() {
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : undefined}
             transition={{ ...NODE_SPRING, delay: delayAt(2) }}
-            className="flex w-full shrink-0 flex-col items-center rounded-xl border border-accent/40 bg-gradient-to-br from-accent/15 to-primary/10 px-4 py-4 text-center lg:w-[150px] xl:w-[168px]"
+            className="flex w-full shrink-0 flex-col items-center rounded-xl border border-accent/40 bg-gradient-to-br from-accent/15 to-primary/10 px-4 py-4 text-center lg:w-auto lg:min-w-0 lg:flex-1 lg:px-3"
           >
             <Layers size={18} className="mb-2 text-accent" />
-            <div className="text-xs font-bold text-on-inverse">Platform implementation</div>
+            <div className="text-sm font-bold leading-snug text-on-inverse">Platform implementation</div>
             <div className="mt-3 flex w-full flex-col gap-1.5">
               {platformNodes.map((p) => (
                 <span
@@ -111,7 +111,7 @@ export default function TechnologyEcosystemVisual() {
                   className="flex w-full flex-col items-center justify-center gap-1 rounded-lg bg-white px-2 py-2"
                 >
                   <Image src={p.logo} alt="" aria-hidden="true" style={{ height: 16, width: "auto" }} />
-                  <span className="whitespace-nowrap text-[10px] font-semibold text-ink-soft">{p.label}</span>
+                  <span className="whitespace-nowrap text-xs font-semibold text-ink-soft">{p.label}</span>
                 </span>
               ))}
             </div>
@@ -151,16 +151,16 @@ function EcosystemStage({
       initial={{ opacity: 0, y: 20 }}
       animate={inView ? { opacity: 1, y: 0 } : undefined}
       transition={{ ...NODE_SPRING, delay }}
-      className={`flex w-full shrink-0 flex-col items-center rounded-xl border px-4 py-4 text-center lg:w-[150px] xl:w-[168px] ${
+      className={`flex w-full shrink-0 flex-col items-center rounded-xl border px-4 py-4 text-center lg:w-auto lg:min-w-0 lg:flex-1 lg:px-3 ${
         last
           ? "border-accent bg-accent/15"
           : "border-on-inverse-border bg-white/5"
       }`}
     >
       <Icon size={18} className={last ? "mb-2 text-accent" : "mb-2 text-on-inverse-faint"} />
-      <div className="text-xs font-bold text-on-inverse">{stage.label}</div>
+      <div className="text-sm font-bold leading-snug text-on-inverse">{stage.label}</div>
       {stage.detail && (
-        <div className="mt-1 text-[10.5px] leading-snug text-on-inverse-muted">{stage.detail}</div>
+        <div className="mt-1 text-[13px] leading-snug text-on-inverse-muted">{stage.detail}</div>
       )}
     </motion.div>
   );

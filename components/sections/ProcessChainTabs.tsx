@@ -69,13 +69,13 @@ export default function ProcessChainTabs() {
               </span>
               <span>
                 <span
-                  className={`block text-[10px] font-bold tracking-wide ${
+                  className={`block text-xs font-bold tracking-wide ${
                     isActive ? "text-accent" : "text-primary"
                   }`}
                 >
                   {p.n}
                 </span>
-                <span className={`block text-sm font-bold ${isActive ? "text-white" : "text-ink"}`}>
+                <span className={`block text-[15px] font-bold ${isActive ? "text-white" : "text-ink"}`}>
                   {p.title}
                 </span>
               </span>
@@ -99,7 +99,7 @@ export default function ProcessChainTabs() {
                 )}
                 <div
                   style={{ animationDelay: `${si * 70}ms` }}
-                  className={`animate-[fade-in-up_0.5s_ease-out_backwards] whitespace-nowrap rounded-lg border px-3 py-2 text-xs font-bold transition-transform duration-300 hover:-translate-y-0.5 sm:px-3.5 sm:py-2.5 sm:text-sm ${
+                  className={`animate-[fade-in-up_0.5s_ease-out_backwards] whitespace-nowrap rounded-lg border px-3 py-2 text-[13px] font-bold transition-transform duration-300 hover:-translate-y-0.5 sm:px-3.5 sm:py-2.5 sm:text-sm ${
                     isLast
                       ? "border-ink-inverse bg-ink-inverse text-white shadow-md shadow-ink-inverse/25"
                       : "border-border bg-surface-alt text-ink-soft"

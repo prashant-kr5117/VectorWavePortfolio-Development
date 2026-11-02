@@ -162,7 +162,7 @@ export default function EcosystemOrbit() {
                 </button>
 
                 <div
-                  className={`pointer-events-none absolute z-30 w-44 rounded-xl border border-accent/60 bg-ink-inverse-alt p-3 text-left shadow-2xl transition-all duration-200 ${
+                  className={`pointer-events-none absolute z-30 w-52 rounded-xl border border-accent/60 bg-ink-inverse-alt p-3 text-left shadow-2xl transition-all duration-200 ${
                     vSide === "bottom" ? "top-full mt-3" : "bottom-full mb-3"
                   } ${
                     hSide === "center"
@@ -172,8 +172,8 @@ export default function EcosystemOrbit() {
                         : "left-0"
                   } ${isActive ? "visible translate-y-0 opacity-100" : "invisible opacity-0"}`}
                 >
-                  <div className="mb-1 text-[11px] font-bold text-accent">{node.label}</div>
-                  <div className="text-[11px] leading-relaxed text-on-inverse-muted">{node.desc}</div>
+                  <div className="mb-1 text-[13px] font-bold text-accent">{node.label}</div>
+                  <div className="text-[13px] leading-relaxed text-on-inverse-muted">{node.desc}</div>
                 </div>
               </div>
             </div>
@@ -193,7 +193,7 @@ export default function EcosystemOrbit() {
             {node.logo || node.photo ? (
               <span className="sr-only">{node.label}</span>
             ) : (
-              <span className="text-[11px] font-bold text-on-inverse">{node.label}</span>
+              <span className="text-[13px] font-bold text-on-inverse">{node.label}</span>
             )}
           </div>
         ))}
